@@ -1,0 +1,22 @@
+# Datos y rasters (archivos grandes, no se versionan)
+data/
+variables/
+outputs/
+
+# Modelos biomod2 (pueden pesar varios GB)
+*.models.out
+*.ensemble.models.out
+
+# Archivos temporales de R
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos temporales
+*.tmp
+*.bak
