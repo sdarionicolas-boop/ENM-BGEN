@@ -59,6 +59,7 @@ ENM-BGEN/
     └── {especie}/
         ├── {especie}_idoneidad_prob.tif
         └── {especie}_idoneidad_clase.tif
+
 Nota: Las carpetas data/, variables/ y outputs/ están en .gitignore porque contienen archivos pesados (rasters de varios GB).
 Metodología resumida
 Datos de presencia
@@ -140,11 +141,14 @@ Paquetes: dplyr, stringr, readr, terra, geodata, usdm, corrplot, biomod2, leafle
 
 Uso
 
-Clonar el repositorioBashgit clone https://github.com/dnicolas_97/ENM-BGEN.git
+Clonar el repositorioBash
+git clone https://github.com/dnicolas_97/ENM-BGEN.git
 cd ENM-BGEN
+
 Editar BASE_DIR y MODELS_DIR en el BLOQUE 0 de ENM_BGEN_pipeline.R
 Colocar tu CSV en data/registros_unificados_geocod.csv
-Ejecutar en RStudio (orden obligatorio):textBLOQUE 0 → BLOQUE 2 → BLOQUE 1 (thinning)
+Ejecutar en RStudio (orden obligatorio):text
+BLOQUE 0 → BLOQUE 2 → BLOQUE 1 (thinning)
          → BLOQUE 3 → BLOQUE 4
          → BLOQUE 5 → BLOQUE 6
 
