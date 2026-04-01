@@ -39,6 +39,8 @@ Combina cinco algoritmos y genera:
 - Vachellia caven
 
 ### Estructura del repositorio
+
+```bash
 ENM-BGEN/
 ├── ENM_BGEN_pipeline.R          ← Script maestro
 ├── README.md
@@ -52,64 +54,105 @@ ENM-BGEN/
 │   ├── env_stack.tif
 │   └── env_stack_vif5.tif
 └── outputs/                     ← (en .gitignore)
-├── metricas_todas_especies.csv
-├── mapa_interactivo_ENM.html
-└── {especie}/
-├── {especie}_idoneidad_prob.tif
-└── {especie}_idoneidad_clase.tif
-text> **Nota**: Las carpetas `data/`, `variables/` y `outputs/` están en `.gitignore` porque contienen archivos pesados.
+    ├── metricas_todas_especies.csv
+    ├── mapa_interactivo_ENM.html
+    └── {especie}/
+        ├── {especie}_idoneidad_prob.tif
+        └── {especie}_idoneidad_clase.tif
+Nota: Las carpetas data/, variables/ y outputs/ están en .gitignore porque contienen archivos pesados (rasters de varios GB).
+Metodología resumida
+Datos de presencia
 
-### Metodología resumida
+Fuentes: GBIF + iNaturalist
+Normalización de nombres científicos
+Thinning espacial: 1 registro por píxel por especie
 
-**Datos de presencia**  
-- Fuentes: GBIF + iNaturalist  
-- Normalización de nombres científicos  
-- Thinning espacial: 1 registro por píxel por especie
+Variables ambientales
 
-**Variables ambientales**  
-- WorldClim v2.1 (BIO01–BIO19)  
-- SRTM: elevación + pendiente + aspecto  
-- Selección por VIF ≤ 5 → 9 variables retenidas
+WorldClim v2.1 (BIO01–BIO19)
+SRTM: elevación + pendiente + aspecto
+Selección por VIF ≤ 5 → 9 variables retenidas
 
-**Modelado (biomod2)**  
-- Pseudo-ausencias: SRE (2 sets × 3.000 puntos)  
-- Algoritmos: GLM, GBM, RF, MAXNET, XGBOOST  
-- Ensemble: **EMwmeanByTSS** (ponderado por TSS)
+Modelado (biomod2)
 
-### Desempeño (validación)
+Pseudo-ausencias: SRE (2 sets × 3.000 puntos)
+Algoritmos: GLM, GBM, RF, MAXNET, XGBOOST
+Ensemble: EMwmeanByTSS (ponderado por TSS)
 
-| Métrica | Promedio | Rango       |
-|---------|----------|-------------|
-| AUCroc  | 0.96     | 0.93 – 0.98 |
-| TSS     | 0.78     | 0.70 – 0.91 |
+Desempeño (validación)
 
-### Clasificación de idoneidad
 
-| Clase                | Rango     | Color      |
-|----------------------|-----------|------------|
-| 1 – Insustentable    | 0.0 – 0.2 | ⬜ gris    |
-| 2 – Bajo             | 0.2 – 0.4 | 🟨 amarillo|
-| 3 – Moderado         | 0.4 – 0.6 | 🟧 naranja |
-| 4 – Alto             | 0.6 – 1.0 | 🟩 verde   |
 
-### Requisitos
 
-- **R ≥ 4.2**
-- Paquetes: `dplyr`, `stringr`, `readr`, `terra`, `geodata`, `usdm`, `corrplot`, `biomod2`, `leaflet`, `leaflet.extras`, `htmlwidgets`
 
-### Uso
 
-1. Clonar el repositorio
-   ```bash
-   git clone https://github.com/dnicolas_97/ENM-BGEN.git
-   cd ENM-BGEN
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+MétricaPromedioRangoAUCroc0.960.93 – 0.98TSS0.780.70 – 0.91
+Clasificación de idoneidad
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ClaseRangoColor1 – Insustentable0.0 – 0.2⬜ gris2 – Bajo0.2 – 0.4🟨 amarillo3 – Moderado0.4 – 0.6🟧 naranja4 – Alto0.6 – 1.0🟩 verde
+Requisitos
+
+R ≥ 4.2
+Paquetes: dplyr, stringr, readr, terra, geodata, usdm, corrplot, biomod2, leaflet, leaflet.extras, htmlwidgets
+
+Uso
+
+Clonar el repositorioBashgit clone https://github.com/dnicolas_97/ENM-BGEN.git
+cd ENM-BGEN
 Editar BASE_DIR y MODELS_DIR en el BLOQUE 0 de ENM_BGEN_pipeline.R
 Colocar tu CSV en data/registros_unificados_geocod.csv
 Ejecutar en RStudio (orden obligatorio):textBLOQUE 0 → BLOQUE 2 → BLOQUE 1 (thinning)
          → BLOQUE 3 → BLOQUE 4
          → BLOQUE 5 → BLOQUE 6
 
+Licencia
+Este proyecto se distribuye como código abierto bajo licencia MIT.
+La intención es que cada usuario lo adapte a sus propias especies, regiones y necesidades de conservación.
+No se incluyen archivos de datos pesados (están en .gitignore); todos los insumos se obtienen de fuentes abiertas (GBIF, iNaturalist, WorldClim) o se generan al ejecutar el pipeline.
+¡Sentite libre de explorar, modificar y compartir!
 Referencia
 Sánchez Leguizamón, D.N. (2026). Idoneidad de hábitat potencial para 19 especies de interés para un banco de germoplasma en Argentina: un enfoque de ensemble modeling. Beca BIEI 2025 – BGEN/UNAJ. Proyecto ARG/19/G24 (GEF/PNUD).
 Contacto
