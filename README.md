@@ -160,3 +160,9 @@ Si usás este pipeline en tu trabajo, podés citar:
 
 Darío Nicolás Sánchez Leguizamón  
 Banco de Germoplasma de Especies Nativas – UNAJ  
+
+---
+
+## Licencia y uso libre
+
+Este proyecto se distribuye como código abierto bajo licencia MIT. La intención es que cualquier investigador, técnico o estudiante pueda adaptarlo a sus propias especies, regiones o bancos de germoplasma. No se incluyen archivos de datos pesados — todos los insumos se obtienen de fuentes abiertas (GBIF, iNaturalist, WorldClim, SRTM) o se generan al ejecutar el pipeline. ¡Sentite libre de explorar, modificar y compartir!
