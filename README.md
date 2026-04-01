@@ -3,167 +3,115 @@
 **Banco de Germoplasma de Especies Nativas (BGEN) – UNAJ**  
 Beca BIEI 2025 | Proyecto ARG/19/G24 (GEF/PNUD) | Red ARGENA
 
----
+![R](https://img.shields.io/badge/R-4.2%2B-blue?logo=r&logoColor=white)
+![biomod2](https://img.shields.io/badge/biomod2-ensemble%20modeling-success)
 
-## ¿Qué hace este pipeline?
+### ¿Qué hace este pipeline?
 
-Estima la distribución potencial de **19 especies nativas de Argentina** de interés para un banco de germoplasma, usando ensemble modeling con cinco algoritmos de aprendizaje automático. El resultado es un mapa de idoneidad de hábitat por especie, exportado como raster GeoTIFF y como visor web interactivo.
+Estima la **distribución potencial** de 19 especies nativas de Argentina de interés para el BGEN mediante **ensemble modeling** (biomod2).  
 
-El pipeline cubre el flujo completo: desde registros de biodiversidad crudos hasta mapas listos para análisis de conservación.
+Combina cinco algoritmos y genera:
+- Mapas de idoneidad de hábitat (GeoTIFF continuo y clasificado)
+- Visor web interactivo multiespecies (HTML con Leaflet)
 
----
+**Flujo completo**: desde datos crudos de GBIF + iNaturalist hasta mapas listos para conservación.
 
-## Especies modeladas
+### Especies modeladas
 
-| Especie | Especie |
-|---------|---------|
-| *Araujia sericifera* | *Passiflora caerulea* |
-| *Austroeupatorium inulifolium* | *Phytolacca dioica* |
-| *Ceiba speciosa* | *Salpichroa origanifolia* |
-| *Celtis tala* | *Schinus molle* |
-| *Cortaderia selloana* | *Senna corymbosa* |
-| *Duranta erecta* | *Solanum pseudocapsicum* |
-| *Erythrina crista-galli* | *Syagrus romanzoffiana* |
-| *Ipomoea alba* | *Tecoma stans* |
-| *Jacaranda mimosifolia* | *Tipuana tipu* |
-| *Vachellia caven* | |
+- Araujia sericifera
+- Austroeupatorium inulifolium
+- Ceiba speciosa
+- Celtis tala
+- Cortaderia selloana
+- Duranta erecta
+- Erythrina crista-galli
+- Ipomoea alba
+- Jacaranda mimosifolia
+- Passiflora caerulea
+- Phytolacca dioica
+- Salpichroa origanifolia
+- Schinus molle
+- Senna corymbosa
+- Solanum pseudocapsicum
+- Syagrus romanzoffiana
+- Tecoma stans
+- Tipuana tipu
+- Vachellia caven
 
----
-
-## Estructura del repositorio
-
-```
+### Estructura del repositorio
 ENM-BGEN/
-├── ENM_BGEN_pipeline.R     ← script maestro (todo el pipeline)
+├── ENM_BGEN_pipeline.R          ← Script maestro
 ├── README.md
-│
-├── data/                   ← datos de presencia (no incluidos en el repo)
-│   ├── registros_unificados_geocod.csv   ← archivo de entrada
-│   ├── presencias_limpias.csv            ← generado por BLOQUE 1
-│   └── presencias_thin.csv               ← generado por BLOQUE 1
-│
-├── variables/              ← variables ambientales (generadas por BLOQUE 2)
+├── data/                        ← (en .gitignore)
+│   ├── registros_unificados_geocod.csv
+│   ├── presencias_limpias.csv
+│   └── presencias_thin.csv
+├── variables/                   ← (en .gitignore)
 │   ├── bio_AOI.tif
 │   ├── topo_AOI.tif
 │   ├── env_stack.tif
 │   └── env_stack_vif5.tif
-│
-└── outputs/                ← resultados (generados por BLOQUES 4-6)
-    ├── metricas_todas_especies.csv
-    ├── mapa_interactivo_ENM.html
-    └── {especie}/
-        ├── {especie}_idoneidad_prob.tif
-        └── {especie}_idoneidad_clase.tif
-```
+└── outputs/                     ← (en .gitignore)
+├── metricas_todas_especies.csv
+├── mapa_interactivo_ENM.html
+└── {especie}/
+├── {especie}_idoneidad_prob.tif
+└── {especie}_idoneidad_clase.tif
+text> **Nota**: Las carpetas `data/`, `variables/` y `outputs/` están en `.gitignore` porque contienen archivos pesados.
 
-> **Nota:** Las carpetas `data/`, `variables/` y `outputs/` están en `.gitignore` porque contienen archivos pesados (rasters de varios GB). Solo se versiona el script.
+### Metodología resumida
 
----
-
-## Metodología resumida
-
-### Datos de presencia
-- Fuentes: GBIF + iNaturalist
-- Normalización de nombres científicos (binomio sin autoría)
-- Limpieza de coordenadas
-- Umbral mínimo: 50 registros por especie
+**Datos de presencia**  
+- Fuentes: GBIF + iNaturalist  
+- Normalización de nombres científicos  
 - Thinning espacial: 1 registro por píxel por especie
 
-### Variables ambientales
-- WorldClim v2.1 (BIO01–BIO19, ~1 km, 1970–2000)
-- SRTM: elevación + pendiente + aspecto (~1 km)
-- Selección por VIF ≤ 5 → 9 variables retenidas: `bio02, bio03, bio08, bio09, bio13, bio14, bio15, slope, aspect`
+**Variables ambientales**  
+- WorldClim v2.1 (BIO01–BIO19)  
+- SRTM: elevación + pendiente + aspecto  
+- Selección por VIF ≤ 5 → 9 variables retenidas
 
-### Modelado (biomod2)
-- Pseudo-ausencias: estrategia SRE, 2 sets × 3.000 puntos
-- Algoritmos: GLM, GBM, RF, MAXNET, XGBOOST
-- Validación cruzada: 3 repeticiones, 80/20
-- Ensemble: EMwmeanByTSS (ponderado por TSS de validación)
-- Umbrales de calidad: TSS ≥ 0.7 y AUCroc ≥ 0.9
+**Modelado (biomod2)**  
+- Pseudo-ausencias: SRE (2 sets × 3.000 puntos)  
+- Algoritmos: GLM, GBM, RF, MAXNET, XGBOOST  
+- Ensemble: **EMwmeanByTSS** (ponderado por TSS)
 
 ### Desempeño (validación)
-| Métrica | Promedio | Rango |
-|---------|----------|-------|
-| AUCroc | 0.96 | 0.93 – 0.98 |
-| TSS | 0.78 | 0.70 – 0.91 |
+
+| Métrica | Promedio | Rango       |
+|---------|----------|-------------|
+| AUCroc  | 0.96     | 0.93 – 0.98 |
+| TSS     | 0.78     | 0.70 – 0.91 |
 
 ### Clasificación de idoneidad
-| Clase | Rango | Color |
-|-------|-------|-------|
-| 1 – Insustentable | 0.0 – 0.2 | ⬜ gris |
-| 2 – Bajo | 0.2 – 0.4 | 🟨 amarillo |
-| 3 – Moderado | 0.4 – 0.6 | 🟧 naranja |
-| 4 – Alto | 0.6 – 1.0 | 🟩 verde |
 
----
+| Clase                | Rango     | Color      |
+|----------------------|-----------|------------|
+| 1 – Insustentable    | 0.0 – 0.2 | ⬜ gris    |
+| 2 – Bajo             | 0.2 – 0.4 | 🟨 amarillo|
+| 3 – Moderado         | 0.4 – 0.6 | 🟧 naranja |
+| 4 – Alto             | 0.6 – 1.0 | 🟩 verde   |
 
-## Requisitos
+### Requisitos
 
-```
-R >= 4.2
-```
+- **R ≥ 4.2**
+- Paquetes: `dplyr`, `stringr`, `readr`, `terra`, `geodata`, `usdm`, `corrplot`, `biomod2`, `leaflet`, `leaflet.extras`, `htmlwidgets`
 
-Paquetes (ver BLOQUE 0 del script para el comando de instalación):
+### Uso
 
-```r
-dplyr, stringr, readr      # manipulación de datos
-terra, geodata             # datos espaciales
-usdm, corrplot             # colinealidad
-biomod2                    # modelado
-leaflet, leaflet.extras, htmlwidgets  # visualización
-```
+1. Clonar el repositorio
+   ```bash
+   git clone https://github.com/dnicolas_97/ENM-BGEN.git
+   cd ENM-BGEN
 
----
+Editar BASE_DIR y MODELS_DIR en el BLOQUE 0 de ENM_BGEN_pipeline.R
+Colocar tu CSV en data/registros_unificados_geocod.csv
+Ejecutar en RStudio (orden obligatorio):textBLOQUE 0 → BLOQUE 2 → BLOQUE 1 (thinning)
+         → BLOQUE 3 → BLOQUE 4
+         → BLOQUE 5 → BLOQUE 6
 
-## Uso
-
-### 1. Clonar el repositorio
-
-```bash
-git clone https://github.com/tu-usuario/ENM-BGEN.git
-cd ENM-BGEN
-```
-
-### 2. Configurar rutas
-
-Editá las primeras líneas del BLOQUE 0 en `ENM_BGEN_pipeline.R`:
-
-```r
-BASE_DIR   <- "ruta/a/tu/carpeta/proyecto"
-MODELS_DIR <- "ruta/donde/biomd2/guardara/modelos"
-```
-
-### 3. Colocar el archivo de presencias
-
-Copiá tu CSV a `data/registros_unificados_geocod.csv`.  
-Columnas requeridas: `especie`, `lat`, `lon`
-
-### 4. Correr el pipeline
-
-Ejecutá el script bloque por bloque en RStudio en este orden:
-
-```
-BLOQUE 0  →  BLOQUE 2  →  BLOQUE 1 (thinning)
-         →  BLOQUE 3  →  BLOQUE 4
-         →  BLOQUE 5  →  BLOQUE 6
-```
-
-> **¿Por qué BLOQUE 2 antes que BLOQUE 1 (thinning)?**  
-> El thinning necesita el stack ambiental para asignar píxeles.  
-> El stack se genera en BLOQUE 2.
-
----
-
-## Referencia
-
-Si usás este pipeline en tu trabajo, podés citar:
-
-> Sánchez Leguizamón, D.N. (2026). *Idoneidad de hábitat potencial para 19 especies de interés para un banco de germoplasma en Argentina: un enfoque de ensemble modeling.* Beca BIEI 2025 – BGEN/UNAJ. Proyecto ARG/19/G24 (GEF/PNUD).
-
----
-
-## Contacto
-
-Darío Nicolás Sánchez Leguizamón  
-Banco de Germoplasma de Especies Nativas – UNAJ  
-Proyecto ARG/19/G24 – GEF/PNUD – Red ARGENA
+Referencia
+Sánchez Leguizamón, D.N. (2026). Idoneidad de hábitat potencial para 19 especies de interés para un banco de germoplasma en Argentina: un enfoque de ensemble modeling. Beca BIEI 2025 – BGEN/UNAJ. Proyecto ARG/19/G24 (GEF/PNUD).
+Contacto
+Darío Nicolás Sánchez Leguizamón
+Becario BIEI 2025 – Banco de Germoplasma de Especies Nativas (BGEN) – UNAJ
