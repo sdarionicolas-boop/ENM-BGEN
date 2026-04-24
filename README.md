@@ -140,6 +140,30 @@ Ejecutá el script bloque por bloque en RStudio en este orden:
 BLOQUE 0  →  BLOQUE 2  →  BLOQUE 1 (thinning)
           →  BLOQUE 3  →  BLOQUE 4
           →  BLOQUE 5  →  BLOQUE 6
+
+## BLOQUE 7: Cruce con MapBiomas Argentina 2024
+
+Cruza los rasters de idoneidad de hábitat con la Colección 2 de MapBiomas Argentina (2024, 30m) para cuantificar cuánto hábitat climáticamente apto está disponible, bajo uso restaurable, o ya fue convertido.
+
+### Clasificación de uso del suelo
+
+| Categoría | Clases MapBiomas | Códigos |
+|-----------|-----------------|---------|
+| Compatible | Bosques, pastizales, arbustales, turberas | 3,4,6,11,12,63,66,73,77 |
+| Restaurable | Silvicultura, pasturas, mosaico de usos | 9,15,21 |
+| Incompatible | Cultivos, urbano, áreas degradadas | 19,24,25,36 |
+
+### Resultados para 19 especies nativas
+
+| Categoría | Superficie acumulada |
+|-----------|---------------------|
+| Hábitat disponible (conservación) | 171 millones de ha |
+| Hábitat perdido (conversión) | 119 millones de ha |
+| Uso restaurable (restauración) | 31 millones de ha |
+
+### Archivos adicionales requeridos
+- `argentina_coverage_2024.tif` – MapBiomas Argentina Colección 2, año 2024
+  Descarga: [plataforma.argentina.mapbiomas.org](https://plataforma.argentina.mapbiomas.org)
 ```
 
 > **¿Por qué BLOQUE 2 antes que BLOQUE 1 (thinning)?**  
