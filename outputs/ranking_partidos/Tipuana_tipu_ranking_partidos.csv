@@ -1,0 +1,129 @@
+partido,provincia,idoneidad_media,idoneidad_maxima,area_alta_idoneidad_km2,species,rango
+Quilmes,Buenos Aires,0.8878,0.922,95.95,Tipuana tipu,1
+General San Martín,Buenos Aires,0.8855,0.914,57.27,Tipuana tipu,2
+San Isidro,Buenos Aires,0.8851,0.915,53.07,Tipuana tipu,3
+Vicente López,Buenos Aires,0.885,0.917,36.78,Tipuana tipu,4
+San Fernando (2),Buenos Aires,0.875,0.907,26.19,Tipuana tipu,5
+Lanús,Buenos Aires,0.8654,0.899,47.99,Tipuana tipu,6
+Tres de Febrero,Buenos Aires,0.8648,0.896,43.81,Tipuana tipu,7
+Lomas de Zamora,Buenos Aires,0.8532,0.9,88.17,Tipuana tipu,8
+Avellaneda,Buenos Aires,0.8477,0.899,60.01,Tipuana tipu,9
+Berazategui,Buenos Aires,0.8335,0.921,224.13,Tipuana tipu,10
+Morón,Buenos Aires,0.8276,0.898,130.68,Tipuana tipu,11
+Almirante Brown,Buenos Aires,0.8166,0.907,127.54,Tipuana tipu,12
+Ensenada,Buenos Aires,0.8086,0.896,109.22,Tipuana tipu,13
+Berisso,Buenos Aires,0.7889,0.901,150.67,Tipuana tipu,14
+Florencio Varela,Buenos Aires,0.7805,0.902,203.54,Tipuana tipu,15
+General Sarmiento,Buenos Aires,0.754,0.897,196.63,Tipuana tipu,16
+Tigre,Buenos Aires,0.7507,0.906,380.42,Tipuana tipu,17
+La Plata,Buenos Aires,0.7389,0.909,838.34,Tipuana tipu,18
+La Matanza,Buenos Aires,0.7006,0.895,239.84,Tipuana tipu,19
+Esteban Echeverría,Buenos Aires,0.6941,0.854,362.79,Tipuana tipu,20
+San Fernando (1),Buenos Aires,0.6813,0.877,815.51,Tipuana tipu,21
+Escobar,Buenos Aires,0.6532,0.765,247.38,Tipuana tipu,22
+Merlo,Buenos Aires,0.6478,0.832,98.8,Tipuana tipu,23
+San Vicente,Buenos Aires,0.6264,0.766,478.04,Tipuana tipu,24
+Moreno,Buenos Aires,0.6116,0.827,86.9,Tipuana tipu,25
+Pilar,Buenos Aires,0.5914,0.724,189.75,Tipuana tipu,26
+Brandsen,Buenos Aires,0.5684,0.77,480.89,Tipuana tipu,27
+Campana,Buenos Aires,0.553,0.74,282.67,Tipuana tipu,28
+Magdalena,Buenos Aires,0.5354,0.818,905.23,Tipuana tipu,29
+Zárate,Buenos Aires,0.5075,0.739,276.32,Tipuana tipu,30
+Baradero,Buenos Aires,0.4579,0.761,231.82,Tipuana tipu,31
+Cañuelas,Buenos Aires,0.4481,0.691,111.84,Tipuana tipu,32
+Marcos Paz,Buenos Aires,0.4297,0.665,14.8,Tipuana tipu,33
+Pinamar,Buenos Aires,0.4062,0.493,23.97,Tipuana tipu,34
+General Rodríguez,Buenos Aires,0.3854,0.526,0,Tipuana tipu,35
+San Pedro,Buenos Aires,0.3851,0.811,151.45,Tipuana tipu,36
+Exaltación de la Cruz,Buenos Aires,0.3818,0.646,12.75,Tipuana tipu,37
+Chascomús,Buenos Aires,0.36870000000000003,0.632,7.68,Tipuana tipu,38
+Ramallo,Buenos Aires,0.3452,0.758,119.53,Tipuana tipu,39
+General Paz,Buenos Aires,0.3442,0.564,0,Tipuana tipu,40
+San Antonio de Areco,Buenos Aires,0.3227,0.62,1.42,Tipuana tipu,41
+Luján,Buenos Aires,0.3182,0.584,0,Tipuana tipu,42
+Villa Gesell,Buenos Aires,0.2838,0.478,51.2,Tipuana tipu,43
+Nueve de Julio,Buenos Aires,0.2817,0.545,0,Tipuana tipu,44
+Castelli,Buenos Aires,0.2813,0.453,77.82,Tipuana tipu,45
+General Viamonte,Buenos Aires,0.2689,0.479,0,Tipuana tipu,46
+Monte,Buenos Aires,0.262,0.552,0,Tipuana tipu,47
+General Las Heras,Buenos Aires,0.2603,0.617,2.11,Tipuana tipu,48
+San Nicolás,Buenos Aires,0.2564,0.589,0,Tipuana tipu,49
+Arrecifes,Buenos Aires,0.2463,0.446,0,Tipuana tipu,50
+Junín,Buenos Aires,0.2458,0.685,43.18,Tipuana tipu,51
+Bragado,Buenos Aires,0.2443,0.513,0,Tipuana tipu,52
+Capitán Sarmiento,Buenos Aires,0.2394,0.346,0,Tipuana tipu,53
+Pergamino,Buenos Aires,0.225,0.39,0,Tipuana tipu,54
+General Pinto,Buenos Aires,0.2236,0.654,20.46,Tipuana tipu,55
+La Costa,Buenos Aires,0.2234,0.493,97.84,Tipuana tipu,56
+General Juan Madariaga,Buenos Aires,0.2217,0.481,0,Tipuana tipu,57
+Carlos Casares,Buenos Aires,0.2204,0.521,0,Tipuana tipu,58
+Ameghino,Buenos Aires,0.2181,0.495,0,Tipuana tipu,59
+Tordillo,Buenos Aires,0.2168,0.375,24.23,Tipuana tipu,60
+Lincoln,Buenos Aires,0.2106,0.504,0,Tipuana tipu,61
+Colón,Buenos Aires,0.2012,0.376,0,Tipuana tipu,62
+Leandro N. Alem,Buenos Aires,0.198,0.347,0,Tipuana tipu,63
+General Arenales,Buenos Aires,0.1951,0.619,0.71,Tipuana tipu,64
+Dolores,Buenos Aires,0.1914,0.299,0,Tipuana tipu,65
+General Villegas,Buenos Aires,0.1886,0.637,4.96,Tipuana tipu,66
+Pila,Buenos Aires,0.1874,0.433,0,Tipuana tipu,67
+Salto,Buenos Aires,0.1844,0.333,0,Tipuana tipu,68
+General Belgrano,Buenos Aires,0.1773,0.403,0,Tipuana tipu,69
+Rojas,Buenos Aires,0.1696,0.327,0,Tipuana tipu,70
+Maipú,Buenos Aires,0.1694,0.346,0,Tipuana tipu,71
+General Lavalle,Buenos Aires,0.167,0.433,35.97,Tipuana tipu,72
+Carmen de Areco,Buenos Aires,0.1648,0.293,0,Tipuana tipu,73
+Lobos,Buenos Aires,0.1621,0.43,0,Tipuana tipu,74
+Veinticinco de Mayo,Buenos Aires,0.1614,0.35,0,Tipuana tipu,75
+San Andrés de Giles,Buenos Aires,0.1569,0.37,0,Tipuana tipu,76
+General Alvear,Buenos Aires,0.1509,0.242,0,Tipuana tipu,77
+Carlos Tejedor,Buenos Aires,0.1484,0.337,0,Tipuana tipu,78
+Mercedes,Buenos Aires,0.1459,0.351,0,Tipuana tipu,79
+Tapalqué,Buenos Aires,0.1342,0.242,0,Tipuana tipu,80
+Bolívar,Buenos Aires,0.1318,0.286,0,Tipuana tipu,81
+Chacabuco,Buenos Aires,0.1318,0.271,0,Tipuana tipu,82
+General Guido,Buenos Aires,0.1314,0.306,0,Tipuana tipu,83
+Alberti,Buenos Aires,0.1301,0.324,0,Tipuana tipu,84
+Las Flores,Buenos Aires,0.1232,0.267,0,Tipuana tipu,85
+Saladillo,Buenos Aires,0.1207,0.361,0,Tipuana tipu,86
+Navarro,Buenos Aires,0.1204,0.25,0,Tipuana tipu,87
+Rauch,Buenos Aires,0.1145,0.218,0,Tipuana tipu,88
+Olavarría,Buenos Aires,0.1126,0.264,0,Tipuana tipu,89
+Pehuajó,Buenos Aires,0.1101,0.374,0,Tipuana tipu,90
+General Pueyrredón,Buenos Aires,0.1086,0.325,65.61,Tipuana tipu,91
+Mar Chiquita,Buenos Aires,0.106,0.326,107.43,Tipuana tipu,92
+Lobería,Buenos Aires,0.1054,0.286,40.34,Tipuana tipu,93
+Necochea,Buenos Aires,0.1044,0.278,98.63,Tipuana tipu,94
+Rivadavia,Buenos Aires,0.0992,0.228,0,Tipuana tipu,95
+General Alvarado,Buenos Aires,0.0966,0.172,55.93,Tipuana tipu,96
+Roque Pérez,Buenos Aires,0.0942,0.327,0,Tipuana tipu,97
+Azul,Buenos Aires,0.0882,0.171,0,Tipuana tipu,98
+Ayacucho,Buenos Aires,0.0834,0.185,0,Tipuana tipu,99
+San Cayetano,Buenos Aires,0.0829,0.153,42.22,Tipuana tipu,100
+Suipacha,Buenos Aires,0.0823,0.153,0,Tipuana tipu,101
+Balcarce,Buenos Aires,0.0813,0.282,0,Tipuana tipu,102
+Hipólito Yrigoyen,Buenos Aires,0.0812,0.184,0,Tipuana tipu,103
+Chivilcoy,Buenos Aires,0.0777,0.199,0,Tipuana tipu,104
+Laprida,Buenos Aires,0.0753,0.125,0,Tipuana tipu,105
+Adolfo Gonzales Chaves,Buenos Aires,0.0727,0.158,0,Tipuana tipu,106
+Tandil,Buenos Aires,0.0678,0.324,0,Tipuana tipu,107
+Tres Arroyos,Buenos Aires,0.0645,0.183,103.72,Tipuana tipu,108
+Trenque Lauquen,Buenos Aires,0.0638,0.525,0,Tipuana tipu,109
+General La Madrid,Buenos Aires,0.0597,0.121,0,Tipuana tipu,110
+Daireaux,Buenos Aires,0.0587,0.16,0,Tipuana tipu,111
+Benito Juárez,Buenos Aires,0.0551,0.163,0,Tipuana tipu,112
+Coronel Pringles,Buenos Aires,0.0486,0.201,0,Tipuana tipu,113
+Coronel Dorrego,Buenos Aires,0.0455,0.113,70.83,Tipuana tipu,114
+Tornquist,Buenos Aires,0.0446,0.207,0,Tipuana tipu,115
+Coronel Suárez,Buenos Aires,0.0421,0.208,0,Tipuana tipu,116
+Coronel de Marina Leonardo Rosal,Buenos Aires,0.0403,0.179,82.88,Tipuana tipu,117
+Bahía Blanca,Buenos Aires,0.0401,0.086,42.88,Tipuana tipu,118
+Monte Hermoso,Buenos Aires,0.038,0.094,32.73,Tipuana tipu,119
+Saavedra,Buenos Aires,0.0367,0.182,0,Tipuana tipu,120
+Pellegrini,Buenos Aires,0.0352,0.07,0,Tipuana tipu,121
+Puán,Buenos Aires,0.0341,0.069,0,Tipuana tipu,122
+Adolfo Alsina,Buenos Aires,0.0333,0.162,0,Tipuana tipu,123
+Guaminí,Buenos Aires,0.0333,0.175,0,Tipuana tipu,124
+Tres Lomas,Buenos Aires,0.0315,0.044,0,Tipuana tipu,125
+Salliqueló,Buenos Aires,0.0303,0.039,0,Tipuana tipu,126
+Patagones,Buenos Aires,0.0292,0.135,662.44,Tipuana tipu,127
+Villarino,Buenos Aires,0.0274,0.102,727.24,Tipuana tipu,128

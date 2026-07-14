@@ -1,7 +1,8 @@
 # Datos y rasters (archivos grandes, no se versionan)
 data/
 variables/
-outputs/
+outputs/*
+!outputs/ranking_partidos/
 
 # Modelos biomod2 (pueden pesar varios GB)
 *.models.out

@@ -1,0 +1,129 @@
+partido,provincia,idoneidad_media,idoneidad_maxima,area_alta_idoneidad_km2,species,rango
+Vicente López,Buenos Aires,0.8942,0.914,36.78,Phytolacca dioica,1
+San Isidro,Buenos Aires,0.8933,0.911,53.07,Phytolacca dioica,2
+Quilmes,Buenos Aires,0.8928,0.92,95.95,Phytolacca dioica,3
+General San Martín,Buenos Aires,0.8903,0.909,57.27,Phytolacca dioica,4
+San Fernando (2),Buenos Aires,0.8836,0.91,26.19,Phytolacca dioica,5
+Tres de Febrero,Buenos Aires,0.8781,0.903,43.81,Phytolacca dioica,6
+Lanús,Buenos Aires,0.8778,0.895,47.99,Phytolacca dioica,7
+Avellaneda,Buenos Aires,0.876,0.901,60.01,Phytolacca dioica,8
+Lomas de Zamora,Buenos Aires,0.8732,0.896,88.17,Phytolacca dioica,9
+Morón,Buenos Aires,0.8666,0.904,130.68,Phytolacca dioica,10
+Berazategui,Buenos Aires,0.8606,0.914,224.13,Phytolacca dioica,11
+Tigre,Buenos Aires,0.8573,0.909,403.1,Phytolacca dioica,12
+General Sarmiento,Buenos Aires,0.8545,0.906,203.71,Phytolacca dioica,13
+Almirante Brown,Buenos Aires,0.8498,0.904,127.54,Phytolacca dioica,14
+Ensenada,Buenos Aires,0.8479,0.892,109.22,Phytolacca dioica,15
+Berisso,Buenos Aires,0.8311,0.895,150.67,Phytolacca dioica,16
+San Fernando (1),Buenos Aires,0.8304,0.891,1020.83,Phytolacca dioica,17
+Escobar,Buenos Aires,0.8287,0.884,294.89,Phytolacca dioica,18
+Florencio Varela,Buenos Aires,0.8268,0.899,203.54,Phytolacca dioica,19
+Moreno,Buenos Aires,0.826,0.873,186.52,Phytolacca dioica,20
+La Matanza,Buenos Aires,0.8185,0.898,321.57,Phytolacca dioica,21
+La Plata,Buenos Aires,0.8142,0.9,871.35,Phytolacca dioica,22
+Merlo,Buenos Aires,0.8131,0.87,170.78,Phytolacca dioica,23
+Pilar,Buenos Aires,0.8039,0.869,378.01,Phytolacca dioica,24
+Esteban Echeverría,Buenos Aires,0.7911,0.884,390.24,Phytolacca dioica,25
+Campana,Buenos Aires,0.7858,0.871,995.35,Phytolacca dioica,26
+Magdalena,Buenos Aires,0.749,0.86,3504.62,Phytolacca dioica,27
+Brandsen,Buenos Aires,0.7411,0.825,1136.29,Phytolacca dioica,28
+San Vicente,Buenos Aires,0.7375,0.824,738.63,Phytolacca dioica,29
+Zárate,Buenos Aires,0.713,0.862,1170,Phytolacca dioica,30
+Pinamar,Buenos Aires,0.704,0.756,70.56,Phytolacca dioica,31
+Exaltación de la Cruz,Buenos Aires,0.6959,0.837,592.85,Phytolacca dioica,32
+Marcos Paz,Buenos Aires,0.6895,0.793,406.69,Phytolacca dioica,33
+General Rodríguez,Buenos Aires,0.6753,0.801,320.64,Phytolacca dioica,34
+Baradero,Buenos Aires,0.6565,0.827,1240.71,Phytolacca dioica,35
+Cañuelas,Buenos Aires,0.6563,0.791,987.21,Phytolacca dioica,36
+Luján,Buenos Aires,0.6529,0.817,538.85,Phytolacca dioica,37
+Chascomús,Buenos Aires,0.6464,0.811,3446.61,Phytolacca dioica,38
+General Paz,Buenos Aires,0.6302,0.742,898.15,Phytolacca dioica,39
+San Pedro,Buenos Aires,0.6226,0.834,855.46,Phytolacca dioica,40
+San Antonio de Areco,Buenos Aires,0.6075,0.767,526.91,Phytolacca dioica,41
+Ramallo,Buenos Aires,0.6068,0.844,467.9,Phytolacca dioica,42
+La Costa,Buenos Aires,0.6043,0.781,222.95,Phytolacca dioica,43
+General Las Heras,Buenos Aires,0.5807,0.76,271.03,Phytolacca dioica,44
+San Nicolás,Buenos Aires,0.5766,0.825,257.72,Phytolacca dioica,45
+Castelli,Buenos Aires,0.5694,0.729,615.65,Phytolacca dioica,46
+General Lavalle,Buenos Aires,0.5684,0.77,1218.5,Phytolacca dioica,47
+Junín,Buenos Aires,0.564,0.798,663.9,Phytolacca dioica,48
+General Viamonte,Buenos Aires,0.5608,0.692,466.74,Phytolacca dioica,49
+Pergamino,Buenos Aires,0.5576,0.701,614.63,Phytolacca dioica,50
+Nueve de Julio,Buenos Aires,0.5535,0.703,598.71,Phytolacca dioica,51
+Monte,Buenos Aires,0.5467,0.744,344.72,Phytolacca dioica,52
+Arrecifes,Buenos Aires,0.5465,0.645,86.09,Phytolacca dioica,53
+Colón,Buenos Aires,0.5436,0.674,176.88,Phytolacca dioica,54
+General Arenales,Buenos Aires,0.5423,0.764,271.59,Phytolacca dioica,55
+Capitán Sarmiento,Buenos Aires,0.5422,0.661,103.78,Phytolacca dioica,56
+Bragado,Buenos Aires,0.5408,0.701,268.43,Phytolacca dioica,57
+Leandro N. Alem,Buenos Aires,0.5319,0.67,213.73,Phytolacca dioica,58
+San Andrés de Giles,Buenos Aires,0.531,0.731,311.71,Phytolacca dioica,59
+Villa Gesell,Buenos Aires,0.5215,0.784,82.64,Phytolacca dioica,60
+Rojas,Buenos Aires,0.5192,0.658,99.49,Phytolacca dioica,61
+Carlos Casares,Buenos Aires,0.5131,0.676,192.59,Phytolacca dioica,62
+Mercedes,Buenos Aires,0.506,0.696,178.02,Phytolacca dioica,63
+Salto,Buenos Aires,0.5011,0.596,0,Phytolacca dioica,64
+Tordillo,Buenos Aires,0.4969,0.696,125.3,Phytolacca dioica,65
+Lincoln,Buenos Aires,0.4908,0.702,304.56,Phytolacca dioica,66
+Lobos,Buenos Aires,0.4856,0.651,46.3,Phytolacca dioica,67
+Carmen de Areco,Buenos Aires,0.4755,0.608,2.84,Phytolacca dioica,68
+Veinticinco de Mayo,Buenos Aires,0.4662,0.638,29.26,Phytolacca dioica,69
+General Belgrano,Buenos Aires,0.4597,0.652,53.65,Phytolacca dioica,70
+General Alvear,Buenos Aires,0.4567,0.579,0,Phytolacca dioica,71
+Dolores,Buenos Aires,0.4557,0.652,28.39,Phytolacca dioica,72
+Navarro,Buenos Aires,0.4546,0.57,0,Phytolacca dioica,73
+Chacabuco,Buenos Aires,0.4492,0.599,0,Phytolacca dioica,74
+Pila,Buenos Aires,0.445,0.689,94.52,Phytolacca dioica,75
+Alberti,Buenos Aires,0.4441,0.614,7.73,Phytolacca dioica,76
+General Pinto,Buenos Aires,0.4437,0.705,58.58,Phytolacca dioica,77
+General Juan Madariaga,Buenos Aires,0.4348,0.753,292.56,Phytolacca dioica,78
+Saladillo,Buenos Aires,0.429,0.599,0,Phytolacca dioica,79
+Suipacha,Buenos Aires,0.4186,0.571,0,Phytolacca dioica,80
+Chivilcoy,Buenos Aires,0.4095,0.507,0,Phytolacca dioica,81
+Las Flores,Buenos Aires,0.4051,0.533,0,Phytolacca dioica,82
+Bolívar,Buenos Aires,0.4034,0.572,0,Phytolacca dioica,83
+Tapalqué,Buenos Aires,0.3983,0.59,0,Phytolacca dioica,84
+Roque Pérez,Buenos Aires,0.3968,0.558,0,Phytolacca dioica,85
+General Alvarado,Buenos Aires,0.3498,0.559,55.93,Phytolacca dioica,86
+Carlos Tejedor,Buenos Aires,0.3403,0.554,0,Phytolacca dioica,87
+Ameghino,Buenos Aires,0.3401,0.617,2.12,Phytolacca dioica,88
+Maipú,Buenos Aires,0.3376,0.541,0,Phytolacca dioica,89
+Olavarría,Buenos Aires,0.3162,0.546,0,Phytolacca dioica,90
+General Pueyrredón,Buenos Aires,0.3153,0.657,77.79,Phytolacca dioica,91
+General Guido,Buenos Aires,0.3072,0.614,0.69,Phytolacca dioica,92
+Necochea,Buenos Aires,0.2939,0.63,101.99,Phytolacca dioica,93
+Lobería,Buenos Aires,0.2934,0.57,40.34,Phytolacca dioica,94
+Rauch,Buenos Aires,0.287,0.466,0,Phytolacca dioica,95
+Pehuajó,Buenos Aires,0.2868,0.604,0.7,Phytolacca dioica,96
+General Villegas,Buenos Aires,0.2642,0.668,24.79,Phytolacca dioica,97
+Rivadavia,Buenos Aires,0.2619,0.509,0,Phytolacca dioica,98
+Hipólito Yrigoyen,Buenos Aires,0.2609,0.546,0,Phytolacca dioica,99
+Mar Chiquita,Buenos Aires,0.2573,0.673,112.88,Phytolacca dioica,100
+Azul,Buenos Aires,0.2492,0.453,0,Phytolacca dioica,101
+Laprida,Buenos Aires,0.2241,0.322,0,Phytolacca dioica,102
+San Cayetano,Buenos Aires,0.2232,0.346,42.22,Phytolacca dioica,103
+Tres Arroyos,Buenos Aires,0.2229,0.373,103.72,Phytolacca dioica,104
+General La Madrid,Buenos Aires,0.2213,0.341,0,Phytolacca dioica,105
+Adolfo Gonzales Chaves,Buenos Aires,0.2151,0.328,0,Phytolacca dioica,106
+Trenque Lauquen,Buenos Aires,0.1987,0.683,24.32,Phytolacca dioica,107
+Coronel de Marina Leonardo Rosal,Buenos Aires,0.1934,0.319,82.88,Phytolacca dioica,108
+Ayacucho,Buenos Aires,0.1933,0.353,0,Phytolacca dioica,109
+Daireaux,Buenos Aires,0.1911,0.404,0,Phytolacca dioica,110
+Balcarce,Buenos Aires,0.1839,0.392,0,Phytolacca dioica,111
+Coronel Pringles,Buenos Aires,0.1785,0.388,0,Phytolacca dioica,112
+Bahía Blanca,Buenos Aires,0.1702,0.443,42.88,Phytolacca dioica,113
+Benito Juárez,Buenos Aires,0.17,0.276,0,Phytolacca dioica,114
+Coronel Dorrego,Buenos Aires,0.1689,0.29,70.83,Phytolacca dioica,115
+Tandil,Buenos Aires,0.1624,0.326,0,Phytolacca dioica,116
+Monte Hermoso,Buenos Aires,0.1424,0.263,32.73,Phytolacca dioica,117
+Coronel Suárez,Buenos Aires,0.142,0.289,0,Phytolacca dioica,118
+Guaminí,Buenos Aires,0.1317,0.388,0,Phytolacca dioica,119
+Tornquist,Buenos Aires,0.1273,0.337,0,Phytolacca dioica,120
+Saavedra,Buenos Aires,0.0948,0.254,0,Phytolacca dioica,121
+Adolfo Alsina,Buenos Aires,0.0775,0.342,0,Phytolacca dioica,122
+Tres Lomas,Buenos Aires,0.0709,0.131,0,Phytolacca dioica,123
+Puán,Buenos Aires,0.069,0.346,0,Phytolacca dioica,124
+Pellegrini,Buenos Aires,0.0627,0.134,0,Phytolacca dioica,125
+Salliqueló,Buenos Aires,0.0513,0.082,0,Phytolacca dioica,126
+Villarino,Buenos Aires,0.0474,0.31,727.24,Phytolacca dioica,127
+Patagones,Buenos Aires,0.0378,0.166,662.44,Phytolacca dioica,128

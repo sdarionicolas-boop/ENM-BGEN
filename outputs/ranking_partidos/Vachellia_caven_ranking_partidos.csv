@@ -1,0 +1,129 @@
+partido,provincia,idoneidad_media,idoneidad_maxima,area_alta_idoneidad_km2,species,rango
+Quilmes,Buenos Aires,0.8833,0.914,95.95,Vachellia caven,1
+Vicente López,Buenos Aires,0.8779,0.911,36.78,Vachellia caven,2
+San Isidro,Buenos Aires,0.8732,0.906,53.07,Vachellia caven,3
+General San Martín,Buenos Aires,0.8725,0.906,57.27,Vachellia caven,4
+San Fernando (2),Buenos Aires,0.8639,0.896,26.19,Vachellia caven,5
+Berazategui,Buenos Aires,0.8615,0.91,224.13,Vachellia caven,6
+Lomas de Zamora,Buenos Aires,0.8605,0.893,88.17,Vachellia caven,7
+Tres de Febrero,Buenos Aires,0.8604,0.897,43.81,Vachellia caven,8
+Avellaneda,Buenos Aires,0.8558,0.896,60.01,Vachellia caven,9
+Lanús,Buenos Aires,0.8528,0.881,47.99,Vachellia caven,10
+Almirante Brown,Buenos Aires,0.8526,0.899,127.54,Vachellia caven,11
+Ensenada,Buenos Aires,0.847,0.899,109.22,Vachellia caven,12
+Florencio Varela,Buenos Aires,0.8452,0.907,203.54,Vachellia caven,13
+Morón,Buenos Aires,0.8451,0.896,130.68,Vachellia caven,14
+La Plata,Buenos Aires,0.8397,0.904,871.35,Vachellia caven,15
+Tigre,Buenos Aires,0.8323,0.905,403.1,Vachellia caven,16
+Berisso,Buenos Aires,0.8268,0.887,150.67,Vachellia caven,17
+La Matanza,Buenos Aires,0.8251,0.901,320.87,Vachellia caven,18
+General Sarmiento,Buenos Aires,0.8226,0.905,203.71,Vachellia caven,19
+San Fernando (1),Buenos Aires,0.8129,0.897,1020.83,Vachellia caven,20
+Esteban Echeverría,Buenos Aires,0.8078,0.897,389.54,Vachellia caven,21
+Brandsen,Buenos Aires,0.7909,0.866,1136.29,Vachellia caven,22
+Merlo,Buenos Aires,0.7868,0.866,170.78,Vachellia caven,23
+Moreno,Buenos Aires,0.7804,0.877,185.82,Vachellia caven,24
+San Vicente,Buenos Aires,0.7797,0.862,732.31,Vachellia caven,25
+Escobar,Buenos Aires,0.7762,0.855,292.05,Vachellia caven,26
+Campana,Buenos Aires,0.7364,0.847,970.5,Vachellia caven,27
+Pilar,Buenos Aires,0.7221,0.827,372.35,Vachellia caven,28
+General Paz,Buenos Aires,0.6916,0.8,1050.46,Vachellia caven,29
+Cañuelas,Buenos Aires,0.6789,0.814,953.51,Vachellia caven,30
+Magdalena,Buenos Aires,0.6785,0.864,2293.47,Vachellia caven,31
+Marcos Paz,Buenos Aires,0.6721,0.822,350.98,Vachellia caven,32
+Zárate,Buenos Aires,0.6698,0.835,1006.49,Vachellia caven,33
+Pergamino,Buenos Aires,0.6562,0.765,2532.01,Vachellia caven,34
+Ramallo,Buenos Aires,0.6486,0.846,829.47,Vachellia caven,35
+Baradero,Buenos Aires,0.6455,0.822,1179.31,Vachellia caven,36
+San Pedro,Buenos Aires,0.6441,0.819,1045.86,Vachellia caven,37
+Colón,Buenos Aires,0.6414,0.755,788.1,Vachellia caven,38
+Arrecifes,Buenos Aires,0.6379,0.729,983.37,Vachellia caven,39
+Chascomús,Buenos Aires,0.6366,0.848,2863.02,Vachellia caven,40
+General Arenales,Buenos Aires,0.636,0.792,1102.15,Vachellia caven,41
+Monte,Buenos Aires,0.6262,0.824,1250.44,Vachellia caven,42
+Rojas,Buenos Aires,0.6258,0.744,1401.71,Vachellia caven,43
+Junín,Buenos Aires,0.6256,0.823,1509.71,Vachellia caven,44
+General Rodríguez,Buenos Aires,0.6243,0.771,252.15,Vachellia caven,45
+Salto,Buenos Aires,0.6235,0.726,1145.92,Vachellia caven,46
+San Nicolás,Buenos Aires,0.6235,0.747,432.98,Vachellia caven,47
+General Viamonte,Buenos Aires,0.6117,0.77,1413,Vachellia caven,48
+Bragado,Buenos Aires,0.6064,0.757,1418.47,Vachellia caven,49
+San Antonio de Areco,Buenos Aires,0.6051,0.732,507.66,Vachellia caven,50
+Pinamar,Buenos Aires,0.5985,0.734,43.84,Vachellia caven,51
+Nueve de Julio,Buenos Aires,0.596,0.782,2394.94,Vachellia caven,52
+Leandro N. Alem,Buenos Aires,0.5901,0.737,844.85,Vachellia caven,53
+Exaltación de la Cruz,Buenos Aires,0.5895,0.778,272.25,Vachellia caven,54
+Capitán Sarmiento,Buenos Aires,0.5861,0.692,305.54,Vachellia caven,55
+General Pinto,Buenos Aires,0.5854,0.769,1303.97,Vachellia caven,56
+Lincoln,Buenos Aires,0.5738,0.745,2754.26,Vachellia caven,57
+Ameghino,Buenos Aires,0.5593,0.721,733.71,Vachellia caven,58
+Carlos Casares,Buenos Aires,0.5522,0.754,883.18,Vachellia caven,59
+Luján,Buenos Aires,0.5468,0.734,231.97,Vachellia caven,60
+General Las Heras,Buenos Aires,0.5432,0.774,247.74,Vachellia caven,61
+Chacabuco,Buenos Aires,0.536,0.703,726.02,Vachellia caven,62
+Pila,Buenos Aires,0.5358,0.744,802.49,Vachellia caven,63
+General Belgrano,Buenos Aires,0.5291,0.732,530.52,Vachellia caven,64
+Carmen de Areco,Buenos Aires,0.5289,0.686,335.24,Vachellia caven,65
+Alberti,Buenos Aires,0.5238,0.709,203.19,Vachellia caven,66
+Veinticinco de Mayo,Buenos Aires,0.5216,0.712,1143.98,Vachellia caven,67
+Castelli,Buenos Aires,0.5138,0.752,660.18,Vachellia caven,68
+Lobos,Buenos Aires,0.5075,0.724,201.25,Vachellia caven,69
+General Villegas,Buenos Aires,0.4996,0.78,1114.52,Vachellia caven,70
+General Alvear,Buenos Aires,0.4977,0.659,193.93,Vachellia caven,71
+Carlos Tejedor,Buenos Aires,0.4819,0.69,416.71,Vachellia caven,72
+San Andrés de Giles,Buenos Aires,0.4781,0.657,8.5,Vachellia caven,73
+Saladillo,Buenos Aires,0.4758,0.678,237.75,Vachellia caven,74
+Las Flores,Buenos Aires,0.4749,0.647,47.94,Vachellia caven,75
+Chivilcoy,Buenos Aires,0.4635,0.597,0,Vachellia caven,76
+Tapalqué,Buenos Aires,0.4576,0.645,12.47,Vachellia caven,77
+Navarro,Buenos Aires,0.4534,0.596,0,Vachellia caven,78
+Villa Gesell,Buenos Aires,0.4444,0.656,53.93,Vachellia caven,79
+Bolívar,Buenos Aires,0.4386,0.674,136.8,Vachellia caven,80
+Dolores,Buenos Aires,0.4367,0.652,71.31,Vachellia caven,81
+Pehuajó,Buenos Aires,0.4339,0.71,360.62,Vachellia caven,82
+Roque Pérez,Buenos Aires,0.4329,0.694,13.98,Vachellia caven,83
+Mercedes,Buenos Aires,0.4238,0.588,0,Vachellia caven,84
+Rauch,Buenos Aires,0.4228,0.6,0.69,Vachellia caven,85
+Suipacha,Buenos Aires,0.4173,0.527,0,Vachellia caven,86
+General Guido,Buenos Aires,0.4109,0.665,31.12,Vachellia caven,87
+Azul,Buenos Aires,0.3963,0.596,0,Vachellia caven,88
+General Juan Madariaga,Buenos Aires,0.3946,0.728,24.66,Vachellia caven,89
+Rivadavia,Buenos Aires,0.3916,0.643,57.39,Vachellia caven,90
+Olavarría,Buenos Aires,0.3773,0.629,35.08,Vachellia caven,91
+Hipólito Yrigoyen,Buenos Aires,0.3755,0.632,4.86,Vachellia caven,92
+General Pueyrredón,Buenos Aires,0.3548,0.716,224.08,Vachellia caven,93
+Tandil,Buenos Aires,0.3535,0.616,1.37,Vachellia caven,94
+Maipú,Buenos Aires,0.3427,0.475,0,Vachellia caven,95
+Ayacucho,Buenos Aires,0.3369,0.528,0,Vachellia caven,96
+Mar Chiquita,Buenos Aires,0.3329,0.634,115.57,Vachellia caven,97
+Laprida,Buenos Aires,0.3272,0.433,0,Vachellia caven,98
+Necochea,Buenos Aires,0.3267,0.51,98.63,Vachellia caven,99
+Coronel Pringles,Buenos Aires,0.3238,0.534,0,Vachellia caven,100
+Benito Juárez,Buenos Aires,0.3106,0.498,0,Vachellia caven,101
+San Cayetano,Buenos Aires,0.297,0.395,42.22,Vachellia caven,102
+Trenque Lauquen,Buenos Aires,0.294,0.662,52.2,Vachellia caven,103
+Tordillo,Buenos Aires,0.2924,0.453,24.23,Vachellia caven,104
+General La Madrid,Buenos Aires,0.2924,0.416,0,Vachellia caven,105
+Lobería,Buenos Aires,0.2906,0.478,40.34,Vachellia caven,106
+Coronel de Marina Leonardo Rosal,Buenos Aires,0.2875,0.443,82.88,Vachellia caven,107
+Adolfo Gonzales Chaves,Buenos Aires,0.284,0.368,0,Vachellia caven,108
+Coronel Dorrego,Buenos Aires,0.2781,0.5,70.83,Vachellia caven,109
+Daireaux,Buenos Aires,0.2599,0.498,0,Vachellia caven,110
+Coronel Suárez,Buenos Aires,0.2455,0.594,0,Vachellia caven,111
+Bahía Blanca,Buenos Aires,0.245,0.47,42.88,Vachellia caven,112
+General Alvarado,Buenos Aires,0.2438,0.37,55.93,Vachellia caven,113
+Tornquist,Buenos Aires,0.2431,0.559,0,Vachellia caven,114
+Balcarce,Buenos Aires,0.2259,0.491,0,Vachellia caven,115
+Monte Hermoso,Buenos Aires,0.2245,0.316,32.73,Vachellia caven,116
+Tres Arroyos,Buenos Aires,0.2087,0.369,103.72,Vachellia caven,117
+Saavedra,Buenos Aires,0.1866,0.545,0,Vachellia caven,118
+General Lavalle,Buenos Aires,0.1761,0.511,35.97,Vachellia caven,119
+Pellegrini,Buenos Aires,0.1717,0.371,0,Vachellia caven,120
+La Costa,Buenos Aires,0.1663,0.57,97.84,Vachellia caven,121
+Guaminí,Buenos Aires,0.1314,0.38,0,Vachellia caven,122
+Tres Lomas,Buenos Aires,0.1208,0.219,0,Vachellia caven,123
+Puán,Buenos Aires,0.1127,0.213,0,Vachellia caven,124
+Salliqueló,Buenos Aires,0.1059,0.148,0,Vachellia caven,125
+Adolfo Alsina,Buenos Aires,0.1003,0.343,0,Vachellia caven,126
+Villarino,Buenos Aires,0.0864,0.289,727.24,Vachellia caven,127
+Patagones,Buenos Aires,0.0753,0.184,662.44,Vachellia caven,128

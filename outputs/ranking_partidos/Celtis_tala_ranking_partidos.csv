@@ -1,0 +1,129 @@
+partido,provincia,idoneidad_media,idoneidad_maxima,area_alta_idoneidad_km2,species,rango
+Quilmes,Buenos Aires,0.9009,0.915,95.95,Celtis tala,1
+Ensenada,Buenos Aires,0.8993,0.921,109.22,Celtis tala,2
+Berazategui,Buenos Aires,0.8961,0.917,224.13,Celtis tala,3
+La Plata,Buenos Aires,0.8957,0.919,871.35,Celtis tala,4
+Berisso,Buenos Aires,0.8904,0.917,150.67,Celtis tala,5
+Almirante Brown,Buenos Aires,0.8878,0.907,127.54,Celtis tala,6
+General Sarmiento,Buenos Aires,0.8863,0.918,203.71,Celtis tala,7
+Avellaneda,Buenos Aires,0.8854,0.914,60.01,Celtis tala,8
+Lomas de Zamora,Buenos Aires,0.8837,0.909,88.17,Celtis tala,9
+San Isidro,Buenos Aires,0.8829,0.908,53.07,Celtis tala,10
+Vicente López,Buenos Aires,0.882,0.908,36.78,Celtis tala,11
+Florencio Varela,Buenos Aires,0.8817,0.911,203.54,Celtis tala,12
+Tigre,Buenos Aires,0.8783,0.914,403.1,Celtis tala,13
+Escobar,Buenos Aires,0.873,0.912,294.89,Celtis tala,14
+Moreno,Buenos Aires,0.8668,0.91,186.52,Celtis tala,15
+Lanús,Buenos Aires,0.8635,0.904,47.99,Celtis tala,16
+Morón,Buenos Aires,0.8619,0.909,130.68,Celtis tala,17
+Brandsen,Buenos Aires,0.8584,0.91,1136.29,Celtis tala,18
+San Fernando (2),Buenos Aires,0.8581,0.902,26.19,Celtis tala,19
+Magdalena,Buenos Aires,0.8484,0.915,3537.43,Celtis tala,20
+General San Martín,Buenos Aires,0.8474,0.899,57.27,Celtis tala,21
+Merlo,Buenos Aires,0.8462,0.905,170.78,Celtis tala,22
+Tres de Febrero,Buenos Aires,0.8401,0.893,43.81,Celtis tala,23
+Pilar,Buenos Aires,0.8255,0.907,378.01,Celtis tala,24
+Campana,Buenos Aires,0.8165,0.897,996.06,Celtis tala,25
+Pinamar,Buenos Aires,0.8156,0.841,70.56,Celtis tala,26
+La Matanza,Buenos Aires,0.8116,0.902,318.05,Celtis tala,27
+San Fernando (1),Buenos Aires,0.8063,0.899,1020.83,Celtis tala,28
+Chascomús,Buenos Aires,0.7958,0.916,4039.42,Celtis tala,29
+Esteban Echeverría,Buenos Aires,0.7899,0.897,387.42,Celtis tala,30
+San Vicente,Buenos Aires,0.7746,0.883,734.41,Celtis tala,31
+La Costa,Buenos Aires,0.7674,0.837,283,Celtis tala,32
+Castelli,Buenos Aires,0.7427,0.861,2110.24,Celtis tala,33
+General Rodríguez,Buenos Aires,0.7425,0.85,371.46,Celtis tala,34
+Marcos Paz,Buenos Aires,0.7225,0.849,404.61,Celtis tala,35
+Exaltación de la Cruz,Buenos Aires,0.7141,0.826,631.86,Celtis tala,36
+General Paz,Buenos Aires,0.6914,0.858,1003.05,Celtis tala,37
+Zárate,Buenos Aires,0.6899,0.866,979.14,Celtis tala,38
+Dolores,Buenos Aires,0.68,0.851,1642.16,Celtis tala,39
+General Lavalle,Buenos Aires,0.6759,0.805,2390.11,Celtis tala,40
+Villa Gesell,Buenos Aires,0.6702,0.813,120.85,Celtis tala,41
+Luján,Buenos Aires,0.6649,0.794,628.5,Celtis tala,42
+General Las Heras,Buenos Aires,0.6148,0.767,463.39,Celtis tala,43
+Tordillo,Buenos Aires,0.6088,0.732,815.71,Celtis tala,44
+Cañuelas,Buenos Aires,0.6027,0.77,628.53,Celtis tala,45
+General Pueyrredón,Buenos Aires,0.5926,0.768,827.88,Celtis tala,46
+General Juan Madariaga,Buenos Aires,0.5782,0.841,1087.45,Celtis tala,47
+General Alvarado,Buenos Aires,0.5676,0.69,504.86,Celtis tala,48
+Maipú,Buenos Aires,0.5102,0.731,350.22,Celtis tala,49
+General Guido,Buenos Aires,0.49,0.761,218.21,Celtis tala,50
+San Andrés de Giles,Buenos Aires,0.471,0.717,269.24,Celtis tala,51
+Pila,Buenos Aires,0.4657,0.861,564.99,Celtis tala,52
+Mar Chiquita,Buenos Aires,0.4583,0.755,279.33,Celtis tala,53
+Monte,Buenos Aires,0.4479,0.773,108.29,Celtis tala,54
+Lobos,Buenos Aires,0.4411,0.717,2.1,Celtis tala,55
+Balcarce,Buenos Aires,0.4147,0.735,87.51,Celtis tala,56
+Baradero,Buenos Aires,0.4096,0.762,95.47,Celtis tala,57
+Lobería,Buenos Aires,0.3951,0.666,225.23,Celtis tala,58
+San Antonio de Areco,Buenos Aires,0.3828,0.734,46.17,Celtis tala,59
+Navarro,Buenos Aires,0.3803,0.643,4.23,Celtis tala,60
+Mercedes,Buenos Aires,0.3779,0.618,5.65,Celtis tala,61
+General Belgrano,Buenos Aires,0.3718,0.73,23.01,Celtis tala,62
+Roque Pérez,Buenos Aires,0.3646,0.639,1.4,Celtis tala,63
+San Pedro,Buenos Aires,0.3289,0.577,0,Celtis tala,64
+Necochea,Buenos Aires,0.3267,0.693,157.78,Celtis tala,65
+Chivilcoy,Buenos Aires,0.3011,0.483,0,Celtis tala,66
+San Nicolás,Buenos Aires,0.2994,0.541,0,Celtis tala,67
+Suipacha,Buenos Aires,0.2977,0.427,0,Celtis tala,68
+Ramallo,Buenos Aires,0.2965,0.598,0,Celtis tala,69
+Alberti,Buenos Aires,0.2931,0.517,0,Celtis tala,70
+Ayacucho,Buenos Aires,0.2782,0.53,0,Celtis tala,71
+Veinticinco de Mayo,Buenos Aires,0.2681,0.526,0,Celtis tala,72
+Rauch,Buenos Aires,0.2675,0.422,0,Celtis tala,73
+Las Flores,Buenos Aires,0.2583,0.439,0,Celtis tala,74
+Saladillo,Buenos Aires,0.2568,0.634,0.7,Celtis tala,75
+San Cayetano,Buenos Aires,0.2447,0.446,42.22,Celtis tala,76
+Bragado,Buenos Aires,0.2329,0.467,0,Celtis tala,77
+Tapalqué,Buenos Aires,0.2308,0.367,0,Celtis tala,78
+Carmen de Areco,Buenos Aires,0.2283,0.404,0,Celtis tala,79
+General Alvear,Buenos Aires,0.2253,0.376,0,Celtis tala,80
+Capitán Sarmiento,Buenos Aires,0.2224,0.39,0,Celtis tala,81
+Arrecifes,Buenos Aires,0.2134,0.352,0,Celtis tala,82
+Tres Arroyos,Buenos Aires,0.2055,0.511,103.72,Celtis tala,83
+Nueve de Julio,Buenos Aires,0.2032,0.437,0,Celtis tala,84
+Azul,Buenos Aires,0.2025,0.35,0,Celtis tala,85
+Olavarría,Buenos Aires,0.195,0.364,0,Celtis tala,86
+Salto,Buenos Aires,0.189,0.341,0,Celtis tala,87
+Pergamino,Buenos Aires,0.1831,0.435,0,Celtis tala,88
+Laprida,Buenos Aires,0.1808,0.379,0,Celtis tala,89
+Chacabuco,Buenos Aires,0.1757,0.409,0,Celtis tala,90
+Tandil,Buenos Aires,0.1749,0.352,0,Celtis tala,91
+Adolfo Gonzales Chaves,Buenos Aires,0.1727,0.283,0,Celtis tala,92
+General Viamonte,Buenos Aires,0.1552,0.423,0,Celtis tala,93
+Benito Juárez,Buenos Aires,0.1475,0.318,0,Celtis tala,94
+Junín,Buenos Aires,0.1423,0.41,0,Celtis tala,95
+Bolívar,Buenos Aires,0.1387,0.402,0,Celtis tala,96
+Rojas,Buenos Aires,0.1386,0.325,0,Celtis tala,97
+Coronel Dorrego,Buenos Aires,0.1207,0.296,70.83,Celtis tala,98
+Carlos Casares,Buenos Aires,0.1177,0.453,0,Celtis tala,99
+Colón,Buenos Aires,0.1172,0.33,0,Celtis tala,100
+Coronel Pringles,Buenos Aires,0.1133,0.454,0,Celtis tala,101
+General La Madrid,Buenos Aires,0.0978,0.285,0,Celtis tala,102
+Monte Hermoso,Buenos Aires,0.0908,0.147,32.73,Celtis tala,103
+Guaminí,Buenos Aires,0.0824,0.325,0,Celtis tala,104
+General Arenales,Buenos Aires,0.0797,0.334,0,Celtis tala,105
+Coronel Suárez,Buenos Aires,0.0717,0.176,0,Celtis tala,106
+Coronel de Marina Leonardo Rosal,Buenos Aires,0.0647,0.161,82.88,Celtis tala,107
+Tornquist,Buenos Aires,0.0602,0.289,0,Celtis tala,108
+Daireaux,Buenos Aires,0.0576,0.295,0,Celtis tala,109
+Saavedra,Buenos Aires,0.0557,0.134,0,Celtis tala,110
+Bahía Blanca,Buenos Aires,0.0532,0.113,42.88,Celtis tala,111
+Trenque Lauquen,Buenos Aires,0.0529,0.634,4.17,Celtis tala,112
+Lincoln,Buenos Aires,0.0519,0.256,0,Celtis tala,113
+Leandro N. Alem,Buenos Aires,0.0489,0.229,0,Celtis tala,114
+Hipólito Yrigoyen,Buenos Aires,0.0459,0.21,0,Celtis tala,115
+General Pinto,Buenos Aires,0.045,0.392,0,Celtis tala,116
+Ameghino,Buenos Aires,0.0351,0.335,0,Celtis tala,117
+Pehuajó,Buenos Aires,0.0343,0.256,0,Celtis tala,118
+Tres Lomas,Buenos Aires,0.0334,0.066,0,Celtis tala,119
+Carlos Tejedor,Buenos Aires,0.0333,0.119,0,Celtis tala,120
+Adolfo Alsina,Buenos Aires,0.0327,0.174,0,Celtis tala,121
+Rivadavia,Buenos Aires,0.032,0.096,0,Celtis tala,122
+General Villegas,Buenos Aires,0.0302,0.41,0,Celtis tala,123
+Salliqueló,Buenos Aires,0.0279,0.062,0,Celtis tala,124
+Pellegrini,Buenos Aires,0.0275,0.032,0,Celtis tala,125
+Puán,Buenos Aires,0.0274,0.074,0,Celtis tala,126
+Villarino,Buenos Aires,0.0268,0.074,727.24,Celtis tala,127
+Patagones,Buenos Aires,0.0267,0.068,662.44,Celtis tala,128

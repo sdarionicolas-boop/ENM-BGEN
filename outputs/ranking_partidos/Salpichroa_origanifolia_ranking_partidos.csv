@@ -1,0 +1,129 @@
+partido,provincia,idoneidad_media,idoneidad_maxima,area_alta_idoneidad_km2,species,rango
+Quilmes,Buenos Aires,0.8909,0.929,95.95,Salpichroa origanifolia,1
+General San Martín,Buenos Aires,0.8822,0.914,57.27,Salpichroa origanifolia,2
+Vicente López,Buenos Aires,0.8769,0.911,36.78,Salpichroa origanifolia,3
+San Isidro,Buenos Aires,0.8768,0.913,53.07,Salpichroa origanifolia,4
+Tres de Febrero,Buenos Aires,0.8735,0.907,43.81,Salpichroa origanifolia,5
+Lomas de Zamora,Buenos Aires,0.8724,0.906,88.17,Salpichroa origanifolia,6
+Lanús,Buenos Aires,0.8667,0.9,47.99,Salpichroa origanifolia,7
+San Fernando (2),Buenos Aires,0.8661,0.907,26.19,Salpichroa origanifolia,8
+Berazategui,Buenos Aires,0.8601,0.923,223.43,Salpichroa origanifolia,9
+Avellaneda,Buenos Aires,0.8601,0.896,60.01,Salpichroa origanifolia,10
+Almirante Brown,Buenos Aires,0.858,0.913,127.54,Salpichroa origanifolia,11
+Morón,Buenos Aires,0.8566,0.907,130.68,Salpichroa origanifolia,12
+Florencio Varela,Buenos Aires,0.8496,0.914,203.54,Salpichroa origanifolia,13
+Tigre,Buenos Aires,0.8457,0.918,402.39,Salpichroa origanifolia,14
+General Sarmiento,Buenos Aires,0.8443,0.912,203,Salpichroa origanifolia,15
+La Plata,Buenos Aires,0.8411,0.917,867.83,Salpichroa origanifolia,16
+Ensenada,Buenos Aires,0.8373,0.897,109.22,Salpichroa origanifolia,17
+La Matanza,Buenos Aires,0.826,0.906,317.34,Salpichroa origanifolia,18
+San Fernando (1),Buenos Aires,0.8221,0.898,1016.57,Salpichroa origanifolia,19
+Moreno,Buenos Aires,0.812,0.878,185.11,Salpichroa origanifolia,20
+Escobar,Buenos Aires,0.8087,0.885,290.64,Salpichroa origanifolia,21
+Esteban Echeverría,Buenos Aires,0.8067,0.906,386.02,Salpichroa origanifolia,22
+Merlo,Buenos Aires,0.8039,0.874,168.66,Salpichroa origanifolia,23
+Brandsen,Buenos Aires,0.8034,0.874,1120.86,Salpichroa origanifolia,24
+Berisso,Buenos Aires,0.7912,0.893,147.86,Salpichroa origanifolia,25
+San Vicente,Buenos Aires,0.7841,0.855,723.88,Salpichroa origanifolia,26
+Pilar,Buenos Aires,0.776,0.862,375.89,Salpichroa origanifolia,27
+Campana,Buenos Aires,0.772,0.871,978.3,Salpichroa origanifolia,28
+Nueve de Julio,Buenos Aires,0.7337,0.831,4163.02,Salpichroa origanifolia,29
+General Viamonte,Buenos Aires,0.73,0.83,2108.58,Salpichroa origanifolia,30
+General Paz,Buenos Aires,0.7288,0.801,1169.27,Salpichroa origanifolia,31
+Marcos Paz,Buenos Aires,0.7246,0.813,421.49,Salpichroa origanifolia,32
+Cañuelas,Buenos Aires,0.7195,0.827,1161.88,Salpichroa origanifolia,33
+Chascomús,Buenos Aires,0.7175,0.865,3732.39,Salpichroa origanifolia,34
+Magdalena,Buenos Aires,0.7109,0.871,3102.55,Salpichroa origanifolia,35
+Junín,Buenos Aires,0.71,0.882,2112.82,Salpichroa origanifolia,36
+Zárate,Buenos Aires,0.7084,0.859,1153.63,Salpichroa origanifolia,37
+Lincoln,Buenos Aires,0.7082,0.809,5598.36,Salpichroa origanifolia,38
+Leandro N. Alem,Buenos Aires,0.708,0.812,1555.08,Salpichroa origanifolia,39
+General Pinto,Buenos Aires,0.7064,0.862,2455.87,Salpichroa origanifolia,40
+Bragado,Buenos Aires,0.7031,0.817,2066.13,Salpichroa origanifolia,41
+Carlos Casares,Buenos Aires,0.7027,0.819,2362.04,Salpichroa origanifolia,42
+General Rodríguez,Buenos Aires,0.6954,0.796,336.17,Salpichroa origanifolia,43
+Colón,Buenos Aires,0.6897,0.802,930.64,Salpichroa origanifolia,44
+General Arenales,Buenos Aires,0.686,0.843,1376.03,Salpichroa origanifolia,45
+Ameghino,Buenos Aires,0.6815,0.813,1750.27,Salpichroa origanifolia,46
+Monte,Buenos Aires,0.6776,0.805,1714.46,Salpichroa origanifolia,47
+Pergamino,Buenos Aires,0.6701,0.82,2710.23,Salpichroa origanifolia,48
+Ramallo,Buenos Aires,0.668,0.865,886.68,Salpichroa origanifolia,49
+San Nicolás,Buenos Aires,0.665,0.851,569.12,Salpichroa origanifolia,50
+Rojas,Buenos Aires,0.6565,0.791,1729.72,Salpichroa origanifolia,51
+Exaltación de la Cruz,Buenos Aires,0.6558,0.83,515.53,Salpichroa origanifolia,52
+Carlos Tejedor,Buenos Aires,0.6547,0.785,3495.79,Salpichroa origanifolia,53
+Pila,Buenos Aires,0.6538,0.797,3090.45,Salpichroa origanifolia,54
+San Pedro,Buenos Aires,0.6505,0.838,1075.89,Salpichroa origanifolia,55
+General Las Heras,Buenos Aires,0.6457,0.778,595.55,Salpichroa origanifolia,56
+General Belgrano,Buenos Aires,0.6427,0.773,1462.25,Salpichroa origanifolia,57
+Baradero,Buenos Aires,0.642,0.813,1090.03,Salpichroa origanifolia,58
+Bolívar,Buenos Aires,0.636,0.773,3581.94,Salpichroa origanifolia,59
+General Villegas,Buenos Aires,0.6356,0.855,5858.02,Salpichroa origanifolia,60
+Veinticinco de Mayo,Buenos Aires,0.6336,0.801,3105.23,Salpichroa origanifolia,61
+General Alvear,Buenos Aires,0.6329,0.757,2503.48,Salpichroa origanifolia,62
+Arrecifes,Buenos Aires,0.6321,0.734,932.9,Salpichroa origanifolia,63
+Pinamar,Buenos Aires,0.6252,0.739,52.74,Salpichroa origanifolia,64
+Salto,Buenos Aires,0.6228,0.727,1111.88,Salpichroa origanifolia,65
+Luján,Buenos Aires,0.6167,0.792,439.03,Salpichroa origanifolia,66
+Castelli,Buenos Aires,0.6146,0.805,1289.88,Salpichroa origanifolia,67
+Pehuajó,Buenos Aires,0.5919,0.774,2258.29,Salpichroa origanifolia,68
+Las Flores,Buenos Aires,0.5894,0.724,1741.45,Salpichroa origanifolia,69
+Chacabuco,Buenos Aires,0.5888,0.739,1128.72,Salpichroa origanifolia,70
+Lobos,Buenos Aires,0.5851,0.727,780.8,Salpichroa origanifolia,71
+Alberti,Buenos Aires,0.5847,0.747,434.36,Salpichroa origanifolia,72
+Tapalqué,Buenos Aires,0.5829,0.766,1626.16,Salpichroa origanifolia,73
+Rauch,Buenos Aires,0.5782,0.704,1993.49,Salpichroa origanifolia,74
+General Guido,Buenos Aires,0.5767,0.698,908.69,Salpichroa origanifolia,75
+Rivadavia,Buenos Aires,0.5756,0.744,1819.6,Salpichroa origanifolia,76
+Saladillo,Buenos Aires,0.5727,0.765,1100.64,Salpichroa origanifolia,77
+San Antonio de Areco,Buenos Aires,0.5721,0.743,355.05,Salpichroa origanifolia,78
+Capitán Sarmiento,Buenos Aires,0.5717,0.697,189,Salpichroa origanifolia,79
+Olavarría,Buenos Aires,0.5683,0.764,1782.31,Salpichroa origanifolia,80
+Dolores,Buenos Aires,0.5612,0.678,644.67,Salpichroa origanifolia,81
+Hipólito Yrigoyen,Buenos Aires,0.5596,0.736,493.34,Salpichroa origanifolia,82
+Laprida,Buenos Aires,0.5525,0.682,104.13,Salpichroa origanifolia,83
+Carmen de Areco,Buenos Aires,0.5489,0.701,279.22,Salpichroa origanifolia,84
+Villa Gesell,Buenos Aires,0.5476,0.664,73.06,Salpichroa origanifolia,85
+Azul,Buenos Aires,0.5447,0.7,1533.87,Salpichroa origanifolia,86
+San Andrés de Giles,Buenos Aires,0.5285,0.655,43.94,Salpichroa origanifolia,87
+Navarro,Buenos Aires,0.5269,0.682,105.53,Salpichroa origanifolia,88
+Chivilcoy,Buenos Aires,0.5269,0.66,94.94,Salpichroa origanifolia,89
+Roque Pérez,Buenos Aires,0.5242,0.709,207.7,Salpichroa origanifolia,90
+General La Madrid,Buenos Aires,0.5238,0.685,222.2,Salpichroa origanifolia,91
+Coronel Pringles,Buenos Aires,0.5228,0.713,481.33,Salpichroa origanifolia,92
+Ayacucho,Buenos Aires,0.5083,0.652,565.08,Salpichroa origanifolia,93
+Benito Juárez,Buenos Aires,0.4999,0.638,57.18,Salpichroa origanifolia,94
+Suipacha,Buenos Aires,0.4969,0.581,0,Salpichroa origanifolia,95
+General Juan Madariaga,Buenos Aires,0.4902,0.744,179.47,Salpichroa origanifolia,96
+Adolfo Gonzales Chaves,Buenos Aires,0.4868,0.597,0,Salpichroa origanifolia,97
+Mercedes,Buenos Aires,0.4831,0.611,2.82,Salpichroa origanifolia,98
+Tandil,Buenos Aires,0.4778,0.709,136.56,Salpichroa origanifolia,99
+Daireaux,Buenos Aires,0.4653,0.682,239.63,Salpichroa origanifolia,100
+Trenque Lauquen,Buenos Aires,0.4645,0.772,861.38,Salpichroa origanifolia,101
+Mar Chiquita,Buenos Aires,0.4543,0.697,216.05,Salpichroa origanifolia,102
+Maipú,Buenos Aires,0.4526,0.668,20.63,Salpichroa origanifolia,103
+Coronel Suárez,Buenos Aires,0.443,0.702,363.17,Salpichroa origanifolia,104
+General Pueyrredón,Buenos Aires,0.4365,0.757,295.89,Salpichroa origanifolia,105
+Necochea,Buenos Aires,0.4055,0.601,99.31,Salpichroa origanifolia,106
+San Cayetano,Buenos Aires,0.3968,0.535,42.22,Salpichroa origanifolia,107
+Tordillo,Buenos Aires,0.3906,0.551,24.23,Salpichroa origanifolia,108
+Tornquist,Buenos Aires,0.389,0.707,488.27,Salpichroa origanifolia,109
+Bahía Blanca,Buenos Aires,0.3733,0.625,50.93,Salpichroa origanifolia,110
+Coronel de Marina Leonardo Rosal,Buenos Aires,0.3721,0.57,82.88,Salpichroa origanifolia,111
+Lobería,Buenos Aires,0.3652,0.598,40.34,Salpichroa origanifolia,112
+Balcarce,Buenos Aires,0.3533,0.589,0,Salpichroa origanifolia,113
+Coronel Dorrego,Buenos Aires,0.3362,0.591,70.83,Salpichroa origanifolia,114
+General Alvarado,Buenos Aires,0.3265,0.463,55.93,Salpichroa origanifolia,115
+Guaminí,Buenos Aires,0.3241,0.653,37.09,Salpichroa origanifolia,116
+Tres Arroyos,Buenos Aires,0.3182,0.578,103.72,Salpichroa origanifolia,117
+Saavedra,Buenos Aires,0.3176,0.689,110.6,Salpichroa origanifolia,118
+Pellegrini,Buenos Aires,0.3014,0.487,0,Salpichroa origanifolia,119
+Tres Lomas,Buenos Aires,0.2855,0.456,0,Salpichroa origanifolia,120
+General Lavalle,Buenos Aires,0.2357,0.64,67.54,Salpichroa origanifolia,121
+Monte Hermoso,Buenos Aires,0.2288,0.377,32.73,Salpichroa origanifolia,122
+Adolfo Alsina,Buenos Aires,0.2035,0.593,0,Salpichroa origanifolia,123
+Puán,Buenos Aires,0.1961,0.445,0,Salpichroa origanifolia,124
+La Costa,Buenos Aires,0.1947,0.536,97.84,Salpichroa origanifolia,125
+Salliqueló,Buenos Aires,0.1904,0.341,0,Salpichroa origanifolia,126
+Villarino,Buenos Aires,0.0992,0.473,727.24,Salpichroa origanifolia,127
+Patagones,Buenos Aires,0.07,0.258,662.44,Salpichroa origanifolia,128

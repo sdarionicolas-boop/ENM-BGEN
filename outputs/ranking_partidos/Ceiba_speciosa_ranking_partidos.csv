@@ -1,0 +1,129 @@
+partido,provincia,idoneidad_media,idoneidad_maxima,area_alta_idoneidad_km2,species,rango
+Quilmes,Buenos Aires,0.8989,0.934,95.95,Ceiba speciosa,1
+General San Martín,Buenos Aires,0.8951,0.93,57.27,Ceiba speciosa,2
+San Isidro,Buenos Aires,0.8903,0.928,53.07,Ceiba speciosa,3
+Vicente López,Buenos Aires,0.8859,0.921,36.78,Ceiba speciosa,4
+Tres de Febrero,Buenos Aires,0.8805,0.921,43.81,Ceiba speciosa,5
+San Fernando (2),Buenos Aires,0.8799,0.92,26.19,Ceiba speciosa,6
+Lomas de Zamora,Buenos Aires,0.8783,0.922,88.17,Ceiba speciosa,7
+Lanús,Buenos Aires,0.8719,0.906,47.99,Ceiba speciosa,8
+Morón,Buenos Aires,0.8713,0.923,130.68,Ceiba speciosa,9
+Almirante Brown,Buenos Aires,0.8674,0.924,127.54,Ceiba speciosa,10
+General Sarmiento,Buenos Aires,0.8586,0.928,203.71,Ceiba speciosa,11
+Avellaneda,Buenos Aires,0.8553,0.905,60.01,Ceiba speciosa,12
+Berazategui,Buenos Aires,0.8518,0.934,224.13,Ceiba speciosa,13
+Florencio Varela,Buenos Aires,0.8368,0.925,203.54,Ceiba speciosa,14
+Tigre,Buenos Aires,0.8276,0.93,403.1,Ceiba speciosa,15
+La Plata,Buenos Aires,0.8199,0.927,870.65,Ceiba speciosa,16
+Escobar,Buenos Aires,0.8028,0.912,281.42,Ceiba speciosa,17
+Ensenada,Buenos Aires,0.7979,0.913,109.22,Ceiba speciosa,18
+La Matanza,Buenos Aires,0.7959,0.914,302.55,Ceiba speciosa,19
+Moreno,Buenos Aires,0.7852,0.895,175.22,Ceiba speciosa,20
+San Fernando (1),Buenos Aires,0.7842,0.888,949.77,Ceiba speciosa,21
+Berisso,Buenos Aires,0.7805,0.92,150.67,Ceiba speciosa,22
+Merlo,Buenos Aires,0.7709,0.895,157.38,Ceiba speciosa,23
+Pilar,Buenos Aires,0.7506,0.891,339.08,Ceiba speciosa,24
+Esteban Echeverría,Buenos Aires,0.7468,0.909,329.71,Ceiba speciosa,25
+Brandsen,Buenos Aires,0.7251,0.876,1019.22,Ceiba speciosa,26
+Campana,Buenos Aires,0.6967,0.898,735.24,Ceiba speciosa,27
+Magdalena,Buenos Aires,0.6835,0.869,2869.9,Ceiba speciosa,28
+San Vicente,Buenos Aires,0.6474,0.868,437.97,Ceiba speciosa,29
+Exaltación de la Cruz,Buenos Aires,0.6284,0.858,397.85,Ceiba speciosa,30
+Baradero,Buenos Aires,0.6077,0.846,853.55,Ceiba speciosa,31
+San Antonio de Areco,Buenos Aires,0.5924,0.791,490.62,Ceiba speciosa,32
+Zárate,Buenos Aires,0.5924,0.881,470.25,Ceiba speciosa,33
+San Pedro,Buenos Aires,0.5899,0.86,736.79,Ceiba speciosa,34
+Pinamar,Buenos Aires,0.5869,0.725,45.22,Ceiba speciosa,35
+Marcos Paz,Buenos Aires,0.5712,0.804,152.92,Ceiba speciosa,36
+Chascomús,Buenos Aires,0.5682,0.848,1576.08,Ceiba speciosa,37
+Luján,Buenos Aires,0.5608,0.838,321.06,Ceiba speciosa,38
+General Rodríguez,Buenos Aires,0.5568,0.797,123.6,Ceiba speciosa,39
+Ramallo,Buenos Aires,0.5489,0.84,413.46,Ceiba speciosa,40
+Arrecifes,Buenos Aires,0.5337,0.705,478.76,Ceiba speciosa,41
+Capitán Sarmiento,Buenos Aires,0.5254,0.701,216.05,Ceiba speciosa,42
+Cañuelas,Buenos Aires,0.5233,0.816,209.53,Ceiba speciosa,43
+General Paz,Buenos Aires,0.5072,0.751,159.45,Ceiba speciosa,44
+San Nicolás,Buenos Aires,0.5008,0.836,200.39,Ceiba speciosa,45
+Salto,Buenos Aires,0.4598,0.677,168.26,Ceiba speciosa,46
+Pergamino,Buenos Aires,0.4516,0.675,284.69,Ceiba speciosa,47
+La Costa,Buenos Aires,0.4462,0.726,117.05,Ceiba speciosa,48
+Castelli,Buenos Aires,0.4435,0.74,199.42,Ceiba speciosa,49
+Villa Gesell,Buenos Aires,0.4394,0.742,55.98,Ceiba speciosa,50
+General Las Heras,Buenos Aires,0.4369,0.763,51.39,Ceiba speciosa,51
+San Andrés de Giles,Buenos Aires,0.4289,0.742,168.62,Ceiba speciosa,52
+Monte,Buenos Aires,0.4255,0.788,76.85,Ceiba speciosa,53
+Junín,Buenos Aires,0.4136,0.822,238.37,Ceiba speciosa,54
+Nueve de Julio,Buenos Aires,0.4111,0.768,95.09,Ceiba speciosa,55
+Carmen de Areco,Buenos Aires,0.4086,0.682,80.11,Ceiba speciosa,56
+General Viamonte,Buenos Aires,0.4008,0.74,72.36,Ceiba speciosa,57
+Mercedes,Buenos Aires,0.3942,0.71,96.8,Ceiba speciosa,58
+Pila,Buenos Aires,0.3935,0.739,73.55,Ceiba speciosa,59
+Rojas,Buenos Aires,0.3877,0.616,2.13,Ceiba speciosa,60
+Bragado,Buenos Aires,0.3835,0.755,54.13,Ceiba speciosa,61
+General Arenales,Buenos Aires,0.3822,0.75,68.06,Ceiba speciosa,62
+General Pueyrredón,Buenos Aires,0.3791,0.682,99.44,Ceiba speciosa,63
+Olavarría,Buenos Aires,0.3743,0.708,117.03,Ceiba speciosa,64
+Carlos Casares,Buenos Aires,0.3658,0.728,20.95,Ceiba speciosa,65
+Colón,Buenos Aires,0.3637,0.645,7.84,Ceiba speciosa,66
+Tapalqué,Buenos Aires,0.3574,0.666,2.08,Ceiba speciosa,67
+Dolores,Buenos Aires,0.3551,0.606,0.69,Ceiba speciosa,68
+General Belgrano,Buenos Aires,0.3543,0.741,35.53,Ceiba speciosa,69
+Lobos,Buenos Aires,0.3504,0.64,7.71,Ceiba speciosa,70
+Leandro N. Alem,Buenos Aires,0.3495,0.667,14.16,Ceiba speciosa,71
+Lincoln,Buenos Aires,0.3399,0.707,33.72,Ceiba speciosa,72
+General Juan Madariaga,Buenos Aires,0.3389,0.712,8.22,Ceiba speciosa,73
+General Guido,Buenos Aires,0.3283,0.699,2.07,Ceiba speciosa,74
+Necochea,Buenos Aires,0.3276,0.606,99.97,Ceiba speciosa,75
+General Alvear,Buenos Aires,0.3274,0.626,2.08,Ceiba speciosa,76
+San Cayetano,Buenos Aires,0.3249,0.498,42.22,Ceiba speciosa,77
+Navarro,Buenos Aires,0.324,0.585,0,Ceiba speciosa,78
+Adolfo Gonzales Chaves,Buenos Aires,0.3226,0.474,0,Ceiba speciosa,79
+Bolívar,Buenos Aires,0.3206,0.646,14.48,Ceiba speciosa,80
+Maipú,Buenos Aires,0.3187,0.596,0,Ceiba speciosa,81
+Azul,Buenos Aires,0.3181,0.612,0.69,Ceiba speciosa,82
+Alberti,Buenos Aires,0.3174,0.634,7.73,Ceiba speciosa,83
+Veinticinco de Mayo,Buenos Aires,0.3148,0.725,20.9,Ceiba speciosa,84
+Tordillo,Buenos Aires,0.3119,0.602,24.93,Ceiba speciosa,85
+Chacabuco,Buenos Aires,0.3099,0.586,0,Ceiba speciosa,86
+Rauch,Buenos Aires,0.3089,0.548,0,Ceiba speciosa,87
+Lobería,Buenos Aires,0.3047,0.544,40.34,Ceiba speciosa,88
+General Alvarado,Buenos Aires,0.3008,0.487,55.93,Ceiba speciosa,89
+General Pinto,Buenos Aires,0.3004,0.784,47.28,Ceiba speciosa,90
+Suipacha,Buenos Aires,0.297,0.575,0,Ceiba speciosa,91
+Chivilcoy,Buenos Aires,0.2935,0.542,0,Ceiba speciosa,92
+Mar Chiquita,Buenos Aires,0.293,0.563,107.43,Ceiba speciosa,93
+General Lavalle,Buenos Aires,0.2925,0.619,36.66,Ceiba speciosa,94
+Laprida,Buenos Aires,0.2912,0.48,0,Ceiba speciosa,95
+Tandil,Buenos Aires,0.2864,0.591,0,Ceiba speciosa,96
+Las Flores,Buenos Aires,0.2766,0.519,0,Ceiba speciosa,97
+Benito Juárez,Buenos Aires,0.2747,0.503,0,Ceiba speciosa,98
+Balcarce,Buenos Aires,0.2661,0.578,0,Ceiba speciosa,99
+Coronel Pringles,Buenos Aires,0.2654,0.492,0,Ceiba speciosa,100
+Ayacucho,Buenos Aires,0.2605,0.524,0,Ceiba speciosa,101
+Saladillo,Buenos Aires,0.2586,0.621,2.09,Ceiba speciosa,102
+Tres Arroyos,Buenos Aires,0.2549,0.476,103.72,Ceiba speciosa,103
+Ameghino,Buenos Aires,0.2535,0.674,3.53,Ceiba speciosa,104
+Coronel de Marina Leonardo Rosal,Buenos Aires,0.2481,0.555,82.88,Ceiba speciosa,105
+Roque Pérez,Buenos Aires,0.2438,0.558,0,Ceiba speciosa,106
+General La Madrid,Buenos Aires,0.2375,0.433,0,Ceiba speciosa,107
+Coronel Dorrego,Buenos Aires,0.2178,0.435,70.83,Ceiba speciosa,108
+Carlos Tejedor,Buenos Aires,0.2101,0.433,0,Ceiba speciosa,109
+General Villegas,Buenos Aires,0.2007,0.778,19.83,Ceiba speciosa,110
+Bahía Blanca,Buenos Aires,0.1947,0.629,44.22,Ceiba speciosa,111
+Pehuajó,Buenos Aires,0.1781,0.585,0,Ceiba speciosa,112
+Hipólito Yrigoyen,Buenos Aires,0.1733,0.448,0,Ceiba speciosa,113
+Coronel Suárez,Buenos Aires,0.1601,0.443,0,Ceiba speciosa,114
+Tornquist,Buenos Aires,0.1566,0.481,0,Ceiba speciosa,115
+Daireaux,Buenos Aires,0.1506,0.569,0,Ceiba speciosa,116
+Rivadavia,Buenos Aires,0.1388,0.515,0,Ceiba speciosa,117
+Trenque Lauquen,Buenos Aires,0.1238,0.706,32.66,Ceiba speciosa,118
+Monte Hermoso,Buenos Aires,0.1188,0.207,32.73,Ceiba speciosa,119
+Saavedra,Buenos Aires,0.1086,0.391,0,Ceiba speciosa,120
+Guaminí,Buenos Aires,0.101,0.416,0,Ceiba speciosa,121
+Adolfo Alsina,Buenos Aires,0.0949,0.425,0,Ceiba speciosa,122
+Puán,Buenos Aires,0.0888,0.311,0,Ceiba speciosa,123
+Villarino,Buenos Aires,0.0617,0.332,727.24,Ceiba speciosa,124
+Patagones,Buenos Aires,0.061,0.299,662.44,Ceiba speciosa,125
+Pellegrini,Buenos Aires,0.0602,0.105,0,Ceiba speciosa,126
+Tres Lomas,Buenos Aires,0.0569,0.097,0,Ceiba speciosa,127
+Salliqueló,Buenos Aires,0.0522,0.087,0,Ceiba speciosa,128

@@ -1,0 +1,129 @@
+partido,provincia,idoneidad_media,idoneidad_maxima,area_alta_idoneidad_km2,species,rango
+Quilmes,Buenos Aires,0.8836,0.907,95.95,Cortaderia selloana,1
+Vicente López,Buenos Aires,0.8774,0.904,36.78,Cortaderia selloana,2
+General San Martín,Buenos Aires,0.8707,0.907,57.27,Cortaderia selloana,3
+Avellaneda,Buenos Aires,0.8669,0.898,60.01,Cortaderia selloana,4
+La Plata,Buenos Aires,0.8668,0.904,871.35,Cortaderia selloana,5
+Tres de Febrero,Buenos Aires,0.8662,0.894,43.81,Cortaderia selloana,6
+Berazategui,Buenos Aires,0.8648,0.906,224.13,Cortaderia selloana,7
+Moreno,Buenos Aires,0.8636,0.899,186.52,Cortaderia selloana,8
+Lomas de Zamora,Buenos Aires,0.8627,0.894,88.17,Cortaderia selloana,9
+Ensenada,Buenos Aires,0.8622,0.904,109.22,Cortaderia selloana,10
+San Isidro,Buenos Aires,0.8622,0.897,53.07,Cortaderia selloana,11
+Lanús,Buenos Aires,0.8603,0.891,47.99,Cortaderia selloana,12
+General Sarmiento,Buenos Aires,0.8577,0.904,203.71,Cortaderia selloana,13
+Tigre,Buenos Aires,0.8573,0.904,403.1,Cortaderia selloana,14
+Almirante Brown,Buenos Aires,0.8572,0.898,127.54,Cortaderia selloana,15
+Magdalena,Buenos Aires,0.8567,0.897,3537.43,Cortaderia selloana,16
+Florencio Varela,Buenos Aires,0.855,0.903,203.54,Cortaderia selloana,17
+Escobar,Buenos Aires,0.8537,0.905,294.89,Cortaderia selloana,18
+San Fernando (2),Buenos Aires,0.85,0.88,26.19,Cortaderia selloana,19
+Morón,Buenos Aires,0.8492,0.893,130.68,Cortaderia selloana,20
+Brandsen,Buenos Aires,0.8474,0.889,1136.29,Cortaderia selloana,21
+Berisso,Buenos Aires,0.8462,0.898,150.67,Cortaderia selloana,22
+San Fernando (1),Buenos Aires,0.8457,0.892,1020.83,Cortaderia selloana,23
+La Matanza,Buenos Aires,0.8408,0.901,321.57,Cortaderia selloana,24
+Merlo,Buenos Aires,0.8404,0.883,170.78,Cortaderia selloana,25
+Pilar,Buenos Aires,0.8396,0.89,378.01,Cortaderia selloana,26
+Campana,Buenos Aires,0.834,0.893,996.06,Cortaderia selloana,27
+Chascomús,Buenos Aires,0.8281,0.912,4196.17,Cortaderia selloana,28
+San Vicente,Buenos Aires,0.826,0.873,738.63,Cortaderia selloana,29
+Esteban Echeverría,Buenos Aires,0.825,0.891,390.24,Cortaderia selloana,30
+General Paz,Buenos Aires,0.8179,0.871,1189.55,Cortaderia selloana,31
+Tres Arroyos,Buenos Aires,0.8095,0.862,5952.26,Cortaderia selloana,32
+Marcos Paz,Buenos Aires,0.8069,0.87,429.95,Cortaderia selloana,33
+Adolfo Gonzales Chaves,Buenos Aires,0.8051,0.854,3796.52,Cortaderia selloana,34
+General Rodríguez,Buenos Aires,0.7996,0.871,372.88,Cortaderia selloana,35
+Coronel Pringles,Buenos Aires,0.7983,0.89,5225.6,Cortaderia selloana,36
+Laprida,Buenos Aires,0.7951,0.845,3406.88,Cortaderia selloana,37
+San Cayetano,Buenos Aires,0.7943,0.844,2990.15,Cortaderia selloana,38
+Monte,Buenos Aires,0.7936,0.87,1865.49,Cortaderia selloana,39
+Castelli,Buenos Aires,0.7879,0.876,2139.36,Cortaderia selloana,40
+Villa Gesell,Buenos Aires,0.7877,0.863,143.32,Cortaderia selloana,41
+Coronel Dorrego,Buenos Aires,0.7871,0.853,5825.98,Cortaderia selloana,42
+Cañuelas,Buenos Aires,0.7864,0.85,1194.88,Cortaderia selloana,43
+General Pueyrredón,Buenos Aires,0.7842,0.886,1444.69,Cortaderia selloana,44
+Benito Juárez,Buenos Aires,0.7811,0.874,5290.53,Cortaderia selloana,45
+Lobos,Buenos Aires,0.781,0.856,1725.49,Cortaderia selloana,46
+Necochea,Buenos Aires,0.7798,0.86,4520.93,Cortaderia selloana,47
+General Las Heras,Buenos Aires,0.7776,0.85,747.69,Cortaderia selloana,48
+Pila,Buenos Aires,0.7769,0.87,3417.08,Cortaderia selloana,49
+Nueve de Julio,Buenos Aires,0.7761,0.864,4219.63,Cortaderia selloana,50
+General Juan Madariaga,Buenos Aires,0.7738,0.885,2966.99,Cortaderia selloana,51
+Exaltación de la Cruz,Buenos Aires,0.77,0.871,636.83,Cortaderia selloana,52
+Junín,Buenos Aires,0.7673,0.885,2238.73,Cortaderia selloana,53
+Alberti,Buenos Aires,0.7668,0.837,1097.35,Cortaderia selloana,54
+Veinticinco de Mayo,Buenos Aires,0.7651,0.851,4656.91,Cortaderia selloana,55
+General Alvarado,Buenos Aires,0.7649,0.844,1621.05,Cortaderia selloana,56
+Carlos Casares,Buenos Aires,0.764,0.86,2450.42,Cortaderia selloana,57
+General Guido,Buenos Aires,0.764,0.844,2313.33,Cortaderia selloana,58
+Chivilcoy,Buenos Aires,0.7638,0.817,2062.71,Cortaderia selloana,59
+Dolores,Buenos Aires,0.7638,0.851,1944.57,Cortaderia selloana,60
+Lobería,Buenos Aires,0.7621,0.866,4697.94,Cortaderia selloana,61
+Bragado,Buenos Aires,0.7621,0.848,2160.37,Cortaderia selloana,62
+Roque Pérez,Buenos Aires,0.7621,0.841,1520.02,Cortaderia selloana,63
+Zárate,Buenos Aires,0.762,0.89,1202.71,Cortaderia selloana,64
+Mar Chiquita,Buenos Aires,0.7604,0.849,3033.45,Cortaderia selloana,65
+General Viamonte,Buenos Aires,0.7601,0.851,2108.57,Cortaderia selloana,66
+Luján,Buenos Aires,0.7589,0.854,768.38,Cortaderia selloana,67
+Navarro,Buenos Aires,0.7583,0.814,1591.62,Cortaderia selloana,68
+General Arenales,Buenos Aires,0.7572,0.867,1461.95,Cortaderia selloana,69
+Colón,Buenos Aires,0.7566,0.825,994.03,Cortaderia selloana,70
+Coronel de Marina Leonardo Rosal,Buenos Aires,0.7557,0.845,1301.08,Cortaderia selloana,71
+General Belgrano,Buenos Aires,0.7545,0.855,1776.56,Cortaderia selloana,72
+Bahía Blanca,Buenos Aires,0.7531,0.851,2255.63,Cortaderia selloana,73
+Ayacucho,Buenos Aires,0.7492,0.815,6713.91,Cortaderia selloana,74
+Monte Hermoso,Buenos Aires,0.7472,0.834,197.11,Cortaderia selloana,75
+Tandil,Buenos Aires,0.7464,0.888,4715.8,Cortaderia selloana,76
+San Nicolás,Buenos Aires,0.7454,0.867,644.29,Cortaderia selloana,77
+Pinamar,Buenos Aires,0.7449,0.886,54.11,Cortaderia selloana,78
+Saladillo,Buenos Aires,0.7448,0.834,2612.19,Cortaderia selloana,79
+Tornquist,Buenos Aires,0.7443,0.892,3914.21,Cortaderia selloana,80
+Rojas,Buenos Aires,0.7441,0.812,1937.67,Cortaderia selloana,81
+Pergamino,Buenos Aires,0.7413,0.82,2980.33,Cortaderia selloana,82
+Olavarría,Buenos Aires,0.7406,0.881,7715.1,Cortaderia selloana,83
+Carlos Tejedor,Buenos Aires,0.7404,0.819,3739.39,Cortaderia selloana,84
+Rauch,Buenos Aires,0.74,0.816,4140.35,Cortaderia selloana,85
+Maipú,Buenos Aires,0.7395,0.838,2539.71,Cortaderia selloana,86
+Chacabuco,Buenos Aires,0.739,0.807,2194.32,Cortaderia selloana,87
+San Andrés de Giles,Buenos Aires,0.7379,0.796,1100.2,Cortaderia selloana,88
+Bolívar,Buenos Aires,0.7375,0.839,4713.77,Cortaderia selloana,89
+Azul,Buenos Aires,0.7349,0.872,6421.56,Cortaderia selloana,90
+Balcarce,Buenos Aires,0.7336,0.866,4002.59,Cortaderia selloana,91
+General Alvear,Buenos Aires,0.7327,0.827,3238.14,Cortaderia selloana,92
+Suipacha,Buenos Aires,0.7305,0.783,904.29,Cortaderia selloana,93
+Ramallo,Buenos Aires,0.7285,0.881,1023.2,Cortaderia selloana,94
+Salto,Buenos Aires,0.7272,0.798,1538.73,Cortaderia selloana,95
+Saavedra,Buenos Aires,0.7258,0.894,3265.25,Cortaderia selloana,96
+Guaminí,Buenos Aires,0.7253,0.876,4484.09,Cortaderia selloana,97
+Arrecifes,Buenos Aires,0.7235,0.789,1159.1,Cortaderia selloana,98
+Rivadavia,Buenos Aires,0.7226,0.824,3491.25,Cortaderia selloana,99
+Las Flores,Buenos Aires,0.7189,0.818,3101.84,Cortaderia selloana,100
+Mercedes,Buenos Aires,0.7185,0.793,976.18,Cortaderia selloana,101
+San Pedro,Buenos Aires,0.7151,0.832,1277.04,Cortaderia selloana,102
+General La Madrid,Buenos Aires,0.7147,0.828,4549.89,Cortaderia selloana,103
+Tordillo,Buenos Aires,0.7135,0.833,1275.52,Cortaderia selloana,104
+Coronel Suárez,Buenos Aires,0.711,0.894,5382.44,Cortaderia selloana,105
+Tapalqué,Buenos Aires,0.7079,0.827,3973.84,Cortaderia selloana,106
+Pehuajó,Buenos Aires,0.702,0.821,3956.08,Cortaderia selloana,107
+Carmen de Areco,Buenos Aires,0.7018,0.802,949.02,Cortaderia selloana,108
+Baradero,Buenos Aires,0.6989,0.82,1410.84,Cortaderia selloana,109
+Hipólito Yrigoyen,Buenos Aires,0.6938,0.807,1441.17,Cortaderia selloana,110
+Daireaux,Buenos Aires,0.6857,0.86,3188.6,Cortaderia selloana,111
+Trenque Lauquen,Buenos Aires,0.6799,0.87,4278.06,Cortaderia selloana,112
+San Antonio de Areco,Buenos Aires,0.6728,0.803,735.33,Cortaderia selloana,113
+Capitán Sarmiento,Buenos Aires,0.671,0.754,452.52,Cortaderia selloana,114
+Leandro N. Alem,Buenos Aires,0.6641,0.83,1383.16,Cortaderia selloana,115
+Lincoln,Buenos Aires,0.6612,0.84,5193.22,Cortaderia selloana,116
+General Pinto,Buenos Aires,0.6193,0.833,1905.83,Cortaderia selloana,117
+Ameghino,Buenos Aires,0.6022,0.792,1161.91,Cortaderia selloana,118
+General Lavalle,Buenos Aires,0.5694,0.868,1539.91,Cortaderia selloana,119
+General Villegas,Buenos Aires,0.5672,0.84,1691.71,Cortaderia selloana,120
+Tres Lomas,Buenos Aires,0.5371,0.759,494.9,Cortaderia selloana,121
+Puán,Buenos Aires,0.5147,0.81,2426.12,Cortaderia selloana,122
+Adolfo Alsina,Buenos Aires,0.485,0.833,1945.91,Cortaderia selloana,123
+La Costa,Buenos Aires,0.4013,0.551,97.84,Cortaderia selloana,124
+Pellegrini,Buenos Aires,0.3875,0.686,4.16,Cortaderia selloana,125
+Salliqueló,Buenos Aires,0.3801,0.722,56.47,Cortaderia selloana,126
+Villarino,Buenos Aires,0.372,0.843,1227.41,Cortaderia selloana,127
+Patagones,Buenos Aires,0.3253,0.771,728.88,Cortaderia selloana,128

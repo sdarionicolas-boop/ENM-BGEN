@@ -1,0 +1,129 @@
+partido,provincia,idoneidad_media,idoneidad_maxima,area_alta_idoneidad_km2,species,rango
+San Isidro,Buenos Aires,0.9196,0.935,53.07,Ipomoea alba,1
+Vicente López,Buenos Aires,0.9159,0.932,36.78,Ipomoea alba,2
+Quilmes,Buenos Aires,0.914,0.929,95.95,Ipomoea alba,3
+San Fernando (2),Buenos Aires,0.912,0.928,26.19,Ipomoea alba,4
+General San Martín,Buenos Aires,0.9115,0.931,57.27,Ipomoea alba,5
+Tres de Febrero,Buenos Aires,0.8995,0.917,43.81,Ipomoea alba,6
+Avellaneda,Buenos Aires,0.8975,0.928,60.01,Ipomoea alba,7
+Lanús,Buenos Aires,0.8961,0.919,47.99,Ipomoea alba,8
+Lomas de Zamora,Buenos Aires,0.8913,0.912,88.17,Ipomoea alba,9
+Morón,Buenos Aires,0.8848,0.921,130.68,Ipomoea alba,10
+Berazategui,Buenos Aires,0.8822,0.927,224.13,Ipomoea alba,11
+Tigre,Buenos Aires,0.874,0.932,403.1,Ipomoea alba,12
+Ensenada,Buenos Aires,0.8714,0.904,109.22,Ipomoea alba,13
+Almirante Brown,Buenos Aires,0.8698,0.924,127.54,Ipomoea alba,14
+General Sarmiento,Buenos Aires,0.8663,0.925,203.71,Ipomoea alba,15
+Florencio Varela,Buenos Aires,0.8523,0.921,203.54,Ipomoea alba,16
+Berisso,Buenos Aires,0.8496,0.904,150.67,Ipomoea alba,17
+San Fernando (1),Buenos Aires,0.8283,0.917,1016.57,Ipomoea alba,18
+Escobar,Buenos Aires,0.8173,0.881,294.89,Ipomoea alba,19
+La Plata,Buenos Aires,0.8121,0.91,871.35,Ipomoea alba,20
+La Matanza,Buenos Aires,0.7722,0.918,289.87,Ipomoea alba,21
+Esteban Echeverría,Buenos Aires,0.7494,0.899,375.46,Ipomoea alba,22
+Moreno,Buenos Aires,0.747,0.903,183.7,Ipomoea alba,23
+Merlo,Buenos Aires,0.7223,0.892,134.8,Ipomoea alba,24
+Campana,Buenos Aires,0.7098,0.865,888.87,Ipomoea alba,25
+San Vicente,Buenos Aires,0.6789,0.839,538.52,Ipomoea alba,26
+Pilar,Buenos Aires,0.6781,0.864,263.37,Ipomoea alba,27
+Brandsen,Buenos Aires,0.663,0.849,813.32,Ipomoea alba,28
+Magdalena,Buenos Aires,0.6359,0.87,2172.82,Ipomoea alba,29
+Zárate,Buenos Aires,0.597,0.855,689.34,Ipomoea alba,30
+Cañuelas,Buenos Aires,0.4868,0.655,60.51,Ipomoea alba,31
+Chascomús,Buenos Aires,0.462,0.771,47.5,Ipomoea alba,32
+Pinamar,Buenos Aires,0.4548,0.597,23.97,Ipomoea alba,33
+Baradero,Buenos Aires,0.4516,0.835,255.37,Ipomoea alba,34
+General Paz,Buenos Aires,0.4421,0.606,2.8,Ipomoea alba,35
+Exaltación de la Cruz,Buenos Aires,0.3977,0.729,18.42,Ipomoea alba,36
+Marcos Paz,Buenos Aires,0.39,0.669,31.01,Ipomoea alba,37
+General Rodríguez,Buenos Aires,0.3821,0.668,16.25,Ipomoea alba,38
+San Pedro,Buenos Aires,0.3663,0.82,155.03,Ipomoea alba,39
+Ramallo,Buenos Aires,0.3595,0.819,171.08,Ipomoea alba,40
+Castelli,Buenos Aires,0.3569,0.555,77.82,Ipomoea alba,41
+La Costa,Buenos Aires,0.3506,0.568,97.84,Ipomoea alba,42
+Monte,Buenos Aires,0.3291,0.644,4.2,Ipomoea alba,43
+Luján,Buenos Aires,0.3279,0.559,0,Ipomoea alba,44
+San Antonio de Areco,Buenos Aires,0.3047,0.6,0.71,Ipomoea alba,45
+Villa Gesell,Buenos Aires,0.2871,0.579,51.2,Ipomoea alba,46
+Nueve de Julio,Buenos Aires,0.267,0.477,0,Ipomoea alba,47
+Bragado,Buenos Aires,0.2582,0.552,0,Ipomoea alba,48
+General Viamonte,Buenos Aires,0.2525,0.447,0,Ipomoea alba,49
+San Nicolás,Buenos Aires,0.2404,0.695,5.74,Ipomoea alba,50
+General Juan Madariaga,Buenos Aires,0.235,0.602,0.69,Ipomoea alba,51
+Dolores,Buenos Aires,0.2311,0.438,0,Ipomoea alba,52
+Pila,Buenos Aires,0.2281,0.555,0,Ipomoea alba,53
+Tordillo,Buenos Aires,0.224,0.406,24.23,Ipomoea alba,54
+General Las Heras,Buenos Aires,0.2238,0.528,0,Ipomoea alba,55
+Carlos Casares,Buenos Aires,0.2199,0.433,0,Ipomoea alba,56
+Junín,Buenos Aires,0.2125,0.64,23.36,Ipomoea alba,57
+General Lavalle,Buenos Aires,0.2015,0.494,35.97,Ipomoea alba,58
+General Belgrano,Buenos Aires,0.1961,0.402,0,Ipomoea alba,59
+Capitán Sarmiento,Buenos Aires,0.1887,0.297,0,Ipomoea alba,60
+Pergamino,Buenos Aires,0.1873,0.473,0,Ipomoea alba,61
+Maipú,Buenos Aires,0.1824,0.331,0,Ipomoea alba,62
+Arrecifes,Buenos Aires,0.1821,0.297,0,Ipomoea alba,63
+Lincoln,Buenos Aires,0.1769,0.48,0,Ipomoea alba,64
+General Pinto,Buenos Aires,0.1652,0.571,0,Ipomoea alba,65
+Ameghino,Buenos Aires,0.1607,0.494,0,Ipomoea alba,66
+Colón,Buenos Aires,0.1545,0.288,0,Ipomoea alba,67
+Salto,Buenos Aires,0.1524,0.22,0,Ipomoea alba,68
+Lobos,Buenos Aires,0.1469,0.474,0,Ipomoea alba,69
+General Arenales,Buenos Aires,0.1465,0.609,0.71,Ipomoea alba,70
+San Andrés de Giles,Buenos Aires,0.1459,0.426,0,Ipomoea alba,71
+Veinticinco de Mayo,Buenos Aires,0.1434,0.395,0,Ipomoea alba,72
+Leandro N. Alem,Buenos Aires,0.1433,0.402,0,Ipomoea alba,73
+General Guido,Buenos Aires,0.1413,0.424,0,Ipomoea alba,74
+Necochea,Buenos Aires,0.1374,0.389,98.63,Ipomoea alba,75
+Carmen de Areco,Buenos Aires,0.1341,0.247,0,Ipomoea alba,76
+Rojas,Buenos Aires,0.1338,0.241,0,Ipomoea alba,77
+Bolívar,Buenos Aires,0.1231,0.348,0,Ipomoea alba,78
+Chacabuco,Buenos Aires,0.1205,0.274,0,Ipomoea alba,79
+Carlos Tejedor,Buenos Aires,0.1202,0.275,0,Ipomoea alba,80
+Rauch,Buenos Aires,0.1192,0.193,0,Ipomoea alba,81
+General Villegas,Buenos Aires,0.1178,0.546,0,Ipomoea alba,82
+Lobería,Buenos Aires,0.1164,0.322,40.34,Ipomoea alba,83
+Mar Chiquita,Buenos Aires,0.1155,0.403,107.43,Ipomoea alba,84
+General Alvarado,Buenos Aires,0.1146,0.19,55.93,Ipomoea alba,85
+Mercedes,Buenos Aires,0.1141,0.304,0,Ipomoea alba,86
+General Alvear,Buenos Aires,0.112,0.201,0,Ipomoea alba,87
+Las Flores,Buenos Aires,0.1107,0.237,0,Ipomoea alba,88
+Olavarría,Buenos Aires,0.1092,0.304,0,Ipomoea alba,89
+Saladillo,Buenos Aires,0.1087,0.368,0,Ipomoea alba,90
+General Pueyrredón,Buenos Aires,0.1085,0.388,65.61,Ipomoea alba,91
+Alberti,Buenos Aires,0.1014,0.385,0,Ipomoea alba,92
+Tapalqué,Buenos Aires,0.0997,0.217,0,Ipomoea alba,93
+Pehuajó,Buenos Aires,0.0992,0.404,0,Ipomoea alba,94
+San Cayetano,Buenos Aires,0.0915,0.173,42.22,Ipomoea alba,95
+Navarro,Buenos Aires,0.0868,0.198,0,Ipomoea alba,96
+Roque Pérez,Buenos Aires,0.0866,0.398,0,Ipomoea alba,97
+Adolfo Gonzales Chaves,Buenos Aires,0.0783,0.134,0,Ipomoea alba,98
+General La Madrid,Buenos Aires,0.0782,0.14,0,Ipomoea alba,99
+Rivadavia,Buenos Aires,0.0739,0.188,0,Ipomoea alba,100
+Laprida,Buenos Aires,0.0737,0.134,0,Ipomoea alba,101
+Hipólito Yrigoyen,Buenos Aires,0.0716,0.157,0,Ipomoea alba,102
+Ayacucho,Buenos Aires,0.069,0.19,0,Ipomoea alba,103
+Trenque Lauquen,Buenos Aires,0.0687,0.54,0,Ipomoea alba,104
+Daireaux,Buenos Aires,0.0686,0.19,0,Ipomoea alba,105
+Azul,Buenos Aires,0.0677,0.148,0,Ipomoea alba,106
+Tres Arroyos,Buenos Aires,0.0671,0.143,103.72,Ipomoea alba,107
+Suipacha,Buenos Aires,0.0668,0.102,0,Ipomoea alba,108
+Balcarce,Buenos Aires,0.0619,0.179,0,Ipomoea alba,109
+Chivilcoy,Buenos Aires,0.0598,0.136,0,Ipomoea alba,110
+Benito Juárez,Buenos Aires,0.0587,0.099,0,Ipomoea alba,111
+Coronel de Marina Leonardo Rosal,Buenos Aires,0.0571,0.248,82.88,Ipomoea alba,112
+Tandil,Buenos Aires,0.0499,0.105,0,Ipomoea alba,113
+Bahía Blanca,Buenos Aires,0.0494,0.175,42.88,Ipomoea alba,114
+Coronel Suárez,Buenos Aires,0.0458,0.112,0,Ipomoea alba,115
+Coronel Dorrego,Buenos Aires,0.0445,0.095,70.83,Ipomoea alba,116
+Coronel Pringles,Buenos Aires,0.0434,0.196,0,Ipomoea alba,117
+Monte Hermoso,Buenos Aires,0.0413,0.082,32.73,Ipomoea alba,118
+Pellegrini,Buenos Aires,0.037,0.076,0,Ipomoea alba,119
+Guaminí,Buenos Aires,0.0358,0.225,0,Ipomoea alba,120
+Tornquist,Buenos Aires,0.0356,0.123,0,Ipomoea alba,121
+Puán,Buenos Aires,0.0342,0.126,0,Ipomoea alba,122
+Adolfo Alsina,Buenos Aires,0.0339,0.311,0,Ipomoea alba,123
+Tres Lomas,Buenos Aires,0.0315,0.04,0,Ipomoea alba,124
+Salliqueló,Buenos Aires,0.0307,0.037,0,Ipomoea alba,125
+Saavedra,Buenos Aires,0.0299,0.07,0,Ipomoea alba,126
+Villarino,Buenos Aires,0.0285,0.187,727.24,Ipomoea alba,127
+Patagones,Buenos Aires,0.0279,0.181,662.44,Ipomoea alba,128

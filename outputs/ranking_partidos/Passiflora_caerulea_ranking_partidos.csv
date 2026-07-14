@@ -1,0 +1,129 @@
+partido,provincia,idoneidad_media,idoneidad_maxima,area_alta_idoneidad_km2,species,rango
+Quilmes,Buenos Aires,0.8914,0.913,95.95,Passiflora caerulea,1
+Vicente López,Buenos Aires,0.8899,0.907,36.78,Passiflora caerulea,2
+San Isidro,Buenos Aires,0.8845,0.904,53.07,Passiflora caerulea,3
+General San Martín,Buenos Aires,0.8828,0.904,57.27,Passiflora caerulea,4
+San Fernando (2),Buenos Aires,0.8807,0.898,26.19,Passiflora caerulea,5
+Avellaneda,Buenos Aires,0.8781,0.897,60.01,Passiflora caerulea,6
+Tres de Febrero,Buenos Aires,0.8756,0.894,43.81,Passiflora caerulea,7
+Lanús,Buenos Aires,0.8747,0.893,47.99,Passiflora caerulea,8
+Berazategui,Buenos Aires,0.8742,0.91,224.13,Passiflora caerulea,9
+Lomas de Zamora,Buenos Aires,0.8738,0.896,88.17,Passiflora caerulea,10
+Tigre,Buenos Aires,0.8705,0.903,403.1,Passiflora caerulea,11
+Almirante Brown,Buenos Aires,0.868,0.899,127.54,Passiflora caerulea,12
+San Fernando (1),Buenos Aires,0.8652,0.901,1020.83,Passiflora caerulea,13
+General Sarmiento,Buenos Aires,0.8646,0.9,203.71,Passiflora caerulea,14
+Morón,Buenos Aires,0.8641,0.893,130.68,Passiflora caerulea,15
+Ensenada,Buenos Aires,0.8625,0.899,109.22,Passiflora caerulea,16
+Florencio Varela,Buenos Aires,0.8583,0.902,203.54,Passiflora caerulea,17
+Escobar,Buenos Aires,0.8512,0.897,294.89,Passiflora caerulea,18
+Berisso,Buenos Aires,0.8497,0.896,150.67,Passiflora caerulea,19
+La Plata,Buenos Aires,0.8486,0.903,871.35,Passiflora caerulea,20
+Moreno,Buenos Aires,0.8485,0.884,186.52,Passiflora caerulea,21
+La Matanza,Buenos Aires,0.8421,0.897,321.57,Passiflora caerulea,22
+Merlo,Buenos Aires,0.8356,0.874,170.78,Passiflora caerulea,23
+Campana,Buenos Aires,0.8242,0.887,996.06,Passiflora caerulea,24
+Esteban Echeverría,Buenos Aires,0.8207,0.897,390.24,Passiflora caerulea,25
+Pilar,Buenos Aires,0.8177,0.878,378.01,Passiflora caerulea,26
+Brandsen,Buenos Aires,0.8047,0.865,1136.29,Passiflora caerulea,27
+San Vicente,Buenos Aires,0.8041,0.866,737.22,Passiflora caerulea,28
+Magdalena,Buenos Aires,0.773,0.874,3530.45,Passiflora caerulea,29
+Marcos Paz,Buenos Aires,0.7551,0.831,427.13,Passiflora caerulea,30
+Zárate,Buenos Aires,0.7525,0.888,1212.67,Passiflora caerulea,31
+General Rodríguez,Buenos Aires,0.7417,0.843,362.99,Passiflora caerulea,32
+Cañuelas,Buenos Aires,0.7328,0.829,1162.59,Passiflora caerulea,33
+General Paz,Buenos Aires,0.7238,0.809,1142.73,Passiflora caerulea,34
+Chascomús,Buenos Aires,0.7222,0.834,4106.96,Passiflora caerulea,35
+General Viamonte,Buenos Aires,0.7136,0.81,2009.31,Passiflora caerulea,36
+Lincoln,Buenos Aires,0.7107,0.805,5380.38,Passiflora caerulea,37
+Carlos Casares,Buenos Aires,0.7097,0.801,2379.42,Passiflora caerulea,38
+Nueve de Julio,Buenos Aires,0.7089,0.818,4034.41,Passiflora caerulea,39
+Junín,Buenos Aires,0.7052,0.853,2103.64,Passiflora caerulea,40
+Exaltación de la Cruz,Buenos Aires,0.7032,0.849,623.35,Passiflora caerulea,41
+Bragado,Buenos Aires,0.6879,0.805,2008.65,Passiflora caerulea,42
+General Pinto,Buenos Aires,0.6868,0.807,2340.02,Passiflora caerulea,43
+Leandro N. Alem,Buenos Aires,0.6859,0.791,1462.43,Passiflora caerulea,44
+Colón,Buenos Aires,0.683,0.782,880.84,Passiflora caerulea,45
+Pinamar,Buenos Aires,0.6806,0.779,54.79,Passiflora caerulea,46
+General Arenales,Buenos Aires,0.6776,0.836,1364.7,Passiflora caerulea,47
+Monte,Buenos Aires,0.6768,0.828,1621.56,Passiflora caerulea,48
+San Nicolás,Buenos Aires,0.6768,0.832,626.4,Passiflora caerulea,49
+Ramallo,Buenos Aires,0.6706,0.85,937.46,Passiflora caerulea,50
+General Las Heras,Buenos Aires,0.6696,0.771,664.6,Passiflora caerulea,51
+Castelli,Buenos Aires,0.6693,0.778,1860.36,Passiflora caerulea,52
+Luján,Buenos Aires,0.6632,0.804,625.62,Passiflora caerulea,53
+Pergamino,Buenos Aires,0.6596,0.801,2526.68,Passiflora caerulea,54
+San Pedro,Buenos Aires,0.6563,0.855,1074.54,Passiflora caerulea,55
+Baradero,Buenos Aires,0.6521,0.854,986.35,Passiflora caerulea,56
+Rojas,Buenos Aires,0.6404,0.767,1546.6,Passiflora caerulea,57
+Ameghino,Buenos Aires,0.6397,0.799,1268.71,Passiflora caerulea,58
+Lobos,Buenos Aires,0.6213,0.755,1191.77,Passiflora caerulea,59
+Villa Gesell,Buenos Aires,0.6212,0.804,108.56,Passiflora caerulea,60
+Veinticinco de Mayo,Buenos Aires,0.6209,0.772,3085.17,Passiflora caerulea,61
+Pila,Buenos Aires,0.6209,0.768,1968.47,Passiflora caerulea,62
+General Belgrano,Buenos Aires,0.6149,0.769,1133.15,Passiflora caerulea,63
+Carlos Tejedor,Buenos Aires,0.6104,0.792,1993.48,Passiflora caerulea,64
+Alberti,Buenos Aires,0.6027,0.73,593.86,Passiflora caerulea,65
+Dolores,Buenos Aires,0.602,0.746,1063.75,Passiflora caerulea,66
+General Alvear,Buenos Aires,0.6016,0.725,1790.7,Passiflora caerulea,67
+Bolívar,Buenos Aires,0.5908,0.76,2200.26,Passiflora caerulea,68
+Arrecifes,Buenos Aires,0.5825,0.716,494.12,Passiflora caerulea,69
+Saladillo,Buenos Aires,0.5804,0.748,1137.12,Passiflora caerulea,70
+Chacabuco,Buenos Aires,0.5736,0.725,682.73,Passiflora caerulea,71
+General Juan Madariaga,Buenos Aires,0.5714,0.783,945.18,Passiflora caerulea,72
+Navarro,Buenos Aires,0.5699,0.714,499.3,Passiflora caerulea,73
+San Antonio de Areco,Buenos Aires,0.5651,0.75,186.81,Passiflora caerulea,74
+Roque Pérez,Buenos Aires,0.5598,0.702,473.46,Passiflora caerulea,75
+Salto,Buenos Aires,0.5591,0.723,200.09,Passiflora caerulea,76
+General Villegas,Buenos Aires,0.5546,0.803,1246.4,Passiflora caerulea,77
+Las Flores,Buenos Aires,0.5538,0.675,688.54,Passiflora caerulea,78
+Pehuajó,Buenos Aires,0.5497,0.801,1735.62,Passiflora caerulea,79
+San Andrés de Giles,Buenos Aires,0.5494,0.725,91.4,Passiflora caerulea,80
+Capitán Sarmiento,Buenos Aires,0.547,0.659,84.58,Passiflora caerulea,81
+Chivilcoy,Buenos Aires,0.5385,0.693,150.46,Passiflora caerulea,82
+Carmen de Areco,Buenos Aires,0.5374,0.67,30.48,Passiflora caerulea,83
+Tapalqué,Buenos Aires,0.5365,0.737,637.78,Passiflora caerulea,84
+General Guido,Buenos Aires,0.5324,0.718,185.81,Passiflora caerulea,85
+Mercedes,Buenos Aires,0.5252,0.684,69.85,Passiflora caerulea,86
+Maipú,Buenos Aires,0.5152,0.655,41.96,Passiflora caerulea,87
+Tordillo,Buenos Aires,0.5148,0.726,230.61,Passiflora caerulea,88
+Suipacha,Buenos Aires,0.5147,0.635,15.54,Passiflora caerulea,89
+General Pueyrredón,Buenos Aires,0.4948,0.781,344.66,Passiflora caerulea,90
+Mar Chiquita,Buenos Aires,0.4692,0.701,238.5,Passiflora caerulea,91
+Hipólito Yrigoyen,Buenos Aires,0.4599,0.739,154.06,Passiflora caerulea,92
+General Alvarado,Buenos Aires,0.4565,0.628,63.35,Passiflora caerulea,93
+Rauch,Buenos Aires,0.4543,0.636,93.53,Passiflora caerulea,94
+Necochea,Buenos Aires,0.4538,0.726,1095.22,Passiflora caerulea,95
+Rivadavia,Buenos Aires,0.4496,0.621,56.68,Passiflora caerulea,96
+Olavarría,Buenos Aires,0.4387,0.692,45.47,Passiflora caerulea,97
+Lobería,Buenos Aires,0.4338,0.673,575.24,Passiflora caerulea,98
+Laprida,Buenos Aires,0.419,0.499,0,Passiflora caerulea,99
+General Lavalle,Buenos Aires,0.4172,0.763,272.35,Passiflora caerulea,100
+Azul,Buenos Aires,0.4147,0.612,0.68,Passiflora caerulea,101
+Benito Juárez,Buenos Aires,0.4041,0.568,0,Passiflora caerulea,102
+Adolfo Gonzales Chaves,Buenos Aires,0.3961,0.46,0,Passiflora caerulea,103
+La Costa,Buenos Aires,0.396,0.606,99.89,Passiflora caerulea,104
+Ayacucho,Buenos Aires,0.3903,0.549,0,Passiflora caerulea,105
+San Cayetano,Buenos Aires,0.3902,0.482,42.22,Passiflora caerulea,106
+Coronel Pringles,Buenos Aires,0.3878,0.609,3.38,Passiflora caerulea,107
+General La Madrid,Buenos Aires,0.3858,0.474,0,Passiflora caerulea,108
+Tandil,Buenos Aires,0.3764,0.62,2.73,Passiflora caerulea,109
+Daireaux,Buenos Aires,0.3685,0.552,0,Passiflora caerulea,110
+Trenque Lauquen,Buenos Aires,0.3598,0.688,148.86,Passiflora caerulea,111
+Coronel de Marina Leonardo Rosal,Buenos Aires,0.3521,0.603,83.55,Passiflora caerulea,112
+Balcarce,Buenos Aires,0.3363,0.67,27.13,Passiflora caerulea,113
+Bahía Blanca,Buenos Aires,0.3235,0.651,56.96,Passiflora caerulea,114
+Tres Arroyos,Buenos Aires,0.3219,0.485,103.72,Passiflora caerulea,115
+Coronel Suárez,Buenos Aires,0.3114,0.614,2.71,Passiflora caerulea,116
+Coronel Dorrego,Buenos Aires,0.3076,0.49,70.83,Passiflora caerulea,117
+Tornquist,Buenos Aires,0.295,0.601,0.68,Passiflora caerulea,118
+Guaminí,Buenos Aires,0.2891,0.574,0,Passiflora caerulea,119
+Monte Hermoso,Buenos Aires,0.2432,0.405,32.73,Passiflora caerulea,120
+Pellegrini,Buenos Aires,0.2384,0.341,0,Passiflora caerulea,121
+Saavedra,Buenos Aires,0.2192,0.589,0,Passiflora caerulea,122
+Tres Lomas,Buenos Aires,0.2185,0.309,0,Passiflora caerulea,123
+Adolfo Alsina,Buenos Aires,0.1981,0.506,0,Passiflora caerulea,124
+Puán,Buenos Aires,0.1924,0.388,0,Passiflora caerulea,125
+Salliqueló,Buenos Aires,0.1794,0.253,0,Passiflora caerulea,126
+Villarino,Buenos Aires,0.168,0.539,727.24,Passiflora caerulea,127
+Patagones,Buenos Aires,0.1281,0.324,662.44,Passiflora caerulea,128

@@ -1,0 +1,129 @@
+partido,provincia,idoneidad_media,idoneidad_maxima,area_alta_idoneidad_km2,species,rango
+Quilmes,Buenos Aires,0.897,0.915,95.95,Solanum pseudocapsicum,1
+General San Martín,Buenos Aires,0.897,0.913,57.27,Solanum pseudocapsicum,2
+San Isidro,Buenos Aires,0.8962,0.915,53.07,Solanum pseudocapsicum,3
+Vicente López,Buenos Aires,0.8948,0.917,36.78,Solanum pseudocapsicum,4
+San Fernando (2),Buenos Aires,0.8931,0.909,26.19,Solanum pseudocapsicum,5
+Tres de Febrero,Buenos Aires,0.8894,0.908,43.81,Solanum pseudocapsicum,6
+Lanús,Buenos Aires,0.8876,0.903,47.99,Solanum pseudocapsicum,7
+Lomas de Zamora,Buenos Aires,0.8865,0.908,88.17,Solanum pseudocapsicum,8
+Avellaneda,Buenos Aires,0.8821,0.902,60.01,Solanum pseudocapsicum,9
+Berazategui,Buenos Aires,0.8809,0.92,224.13,Solanum pseudocapsicum,10
+Morón,Buenos Aires,0.8808,0.909,130.68,Solanum pseudocapsicum,11
+Ensenada,Buenos Aires,0.8744,0.916,109.22,Solanum pseudocapsicum,12
+Almirante Brown,Buenos Aires,0.8741,0.901,127.54,Solanum pseudocapsicum,13
+Tigre,Buenos Aires,0.8732,0.904,403.1,Solanum pseudocapsicum,14
+General Sarmiento,Buenos Aires,0.8726,0.904,203.71,Solanum pseudocapsicum,15
+Florencio Varela,Buenos Aires,0.8705,0.91,203.54,Solanum pseudocapsicum,16
+La Plata,Buenos Aires,0.8701,0.912,871.35,Solanum pseudocapsicum,17
+San Fernando (1),Buenos Aires,0.8653,0.904,1020.83,Solanum pseudocapsicum,18
+Escobar,Buenos Aires,0.862,0.901,294.89,Solanum pseudocapsicum,19
+Moreno,Buenos Aires,0.8598,0.886,186.52,Solanum pseudocapsicum,20
+Merlo,Buenos Aires,0.8575,0.895,170.78,Solanum pseudocapsicum,21
+La Matanza,Buenos Aires,0.8564,0.901,321.57,Solanum pseudocapsicum,22
+Berisso,Buenos Aires,0.8555,0.898,150.67,Solanum pseudocapsicum,23
+Esteban Echeverría,Buenos Aires,0.8543,0.912,390.24,Solanum pseudocapsicum,24
+Pilar,Buenos Aires,0.8515,0.896,378.01,Solanum pseudocapsicum,25
+Campana,Buenos Aires,0.8429,0.893,996.06,Solanum pseudocapsicum,26
+Brandsen,Buenos Aires,0.8385,0.883,1136.29,Solanum pseudocapsicum,27
+San Vicente,Buenos Aires,0.8273,0.872,738.63,Solanum pseudocapsicum,28
+Marcos Paz,Buenos Aires,0.8085,0.859,429.95,Solanum pseudocapsicum,29
+General Rodríguez,Buenos Aires,0.8064,0.856,372.88,Solanum pseudocapsicum,30
+Zárate,Buenos Aires,0.7948,0.888,1225.47,Solanum pseudocapsicum,31
+General Paz,Buenos Aires,0.79,0.846,1189.55,Solanum pseudocapsicum,32
+Exaltación de la Cruz,Buenos Aires,0.7893,0.864,641.79,Solanum pseudocapsicum,33
+Cañuelas,Buenos Aires,0.7831,0.857,1195.58,Solanum pseudocapsicum,34
+Luján,Buenos Aires,0.7735,0.852,771.92,Solanum pseudocapsicum,35
+General Las Heras,Buenos Aires,0.7721,0.83,751.21,Solanum pseudocapsicum,36
+Nueve de Julio,Buenos Aires,0.7645,0.838,4284.68,Solanum pseudocapsicum,37
+Pinamar,Buenos Aires,0.76,0.869,70.56,Solanum pseudocapsicum,38
+Magdalena,Buenos Aires,0.7584,0.888,3380.21,Solanum pseudocapsicum,39
+Monte,Buenos Aires,0.7574,0.847,1878.06,Solanum pseudocapsicum,40
+General Viamonte,Buenos Aires,0.7557,0.826,2156.38,Solanum pseudocapsicum,41
+Chascomús,Buenos Aires,0.7473,0.872,3793.17,Solanum pseudocapsicum,42
+Lobos,Buenos Aires,0.7324,0.818,1736.02,Solanum pseudocapsicum,43
+Bragado,Buenos Aires,0.7293,0.829,2153.96,Solanum pseudocapsicum,44
+San Nicolás,Buenos Aires,0.7282,0.855,661.47,Solanum pseudocapsicum,45
+Baradero,Buenos Aires,0.722,0.86,1521.22,Solanum pseudocapsicum,46
+Carlos Casares,Buenos Aires,0.7211,0.831,2445.67,Solanum pseudocapsicum,47
+Ramallo,Buenos Aires,0.7205,0.872,1086.09,Solanum pseudocapsicum,48
+San Pedro,Buenos Aires,0.7091,0.877,1356.93,Solanum pseudocapsicum,49
+Junín,Buenos Aires,0.7081,0.867,2045.55,Solanum pseudocapsicum,50
+General Belgrano,Buenos Aires,0.6958,0.807,1784.23,Solanum pseudocapsicum,51
+Veinticinco de Mayo,Buenos Aires,0.6825,0.792,4365.84,Solanum pseudocapsicum,52
+Pila,Buenos Aires,0.6823,0.826,3325.86,Solanum pseudocapsicum,53
+Pergamino,Buenos Aires,0.6768,0.795,2808.1,Solanum pseudocapsicum,54
+Colón,Buenos Aires,0.6753,0.785,909.31,Solanum pseudocapsicum,55
+Roque Pérez,Buenos Aires,0.6731,0.776,1487.2,Solanum pseudocapsicum,56
+Navarro,Buenos Aires,0.6685,0.775,1365.89,Solanum pseudocapsicum,57
+General Arenales,Buenos Aires,0.6619,0.85,1285.18,Solanum pseudocapsicum,58
+Leandro N. Alem,Buenos Aires,0.66,0.797,1352.73,Solanum pseudocapsicum,59
+Lincoln,Buenos Aires,0.6599,0.831,4401.85,Solanum pseudocapsicum,60
+San Andrés de Giles,Buenos Aires,0.6586,0.788,883.68,Solanum pseudocapsicum,61
+San Antonio de Areco,Buenos Aires,0.6484,0.785,729.1,Solanum pseudocapsicum,62
+Alberti,Buenos Aires,0.6478,0.764,835.71,Solanum pseudocapsicum,63
+Mercedes,Buenos Aires,0.6427,0.763,756.68,Solanum pseudocapsicum,64
+Castelli,Buenos Aires,0.642,0.835,1197.21,Solanum pseudocapsicum,65
+Rojas,Buenos Aires,0.6338,0.768,1532.4,Solanum pseudocapsicum,66
+General Alvear,Buenos Aires,0.6298,0.737,2513.22,Solanum pseudocapsicum,67
+Saladillo,Buenos Aires,0.629,0.788,2013.42,Solanum pseudocapsicum,68
+Arrecifes,Buenos Aires,0.6255,0.733,916.69,Solanum pseudocapsicum,69
+Las Flores,Buenos Aires,0.6246,0.743,2599.11,Solanum pseudocapsicum,70
+General Pinto,Buenos Aires,0.609,0.839,1357.45,Solanum pseudocapsicum,71
+Chivilcoy,Buenos Aires,0.6051,0.759,1165.04,Solanum pseudocapsicum,72
+Salto,Buenos Aires,0.6014,0.686,944.42,Solanum pseudocapsicum,73
+Chacabuco,Buenos Aires,0.6005,0.753,1188.59,Solanum pseudocapsicum,74
+Capitán Sarmiento,Buenos Aires,0.5978,0.704,324.73,Solanum pseudocapsicum,75
+Carmen de Areco,Buenos Aires,0.5863,0.678,468.08,Solanum pseudocapsicum,76
+La Costa,Buenos Aires,0.5856,0.757,192.72,Solanum pseudocapsicum,77
+Dolores,Buenos Aires,0.5749,0.758,878.18,Solanum pseudocapsicum,78
+Tapalqué,Buenos Aires,0.5703,0.717,1539.43,Solanum pseudocapsicum,79
+Rauch,Buenos Aires,0.5703,0.689,1191.33,Solanum pseudocapsicum,80
+Suipacha,Buenos Aires,0.5703,0.658,301.96,Solanum pseudocapsicum,81
+Bolívar,Buenos Aires,0.5621,0.771,1950.45,Solanum pseudocapsicum,82
+General Pueyrredón,Buenos Aires,0.5558,0.822,576.23,Solanum pseudocapsicum,83
+Villa Gesell,Buenos Aires,0.5555,0.759,66.92,Solanum pseudocapsicum,84
+General Guido,Buenos Aires,0.5535,0.753,1181.32,Solanum pseudocapsicum,85
+Ameghino,Buenos Aires,0.5119,0.808,371.59,Solanum pseudocapsicum,86
+General Lavalle,Buenos Aires,0.51,0.784,413.56,Solanum pseudocapsicum,87
+General Juan Madariaga,Buenos Aires,0.5008,0.867,169.92,Solanum pseudocapsicum,88
+Tordillo,Buenos Aires,0.4693,0.675,54.01,Solanum pseudocapsicum,89
+Maipú,Buenos Aires,0.4514,0.595,0,Solanum pseudocapsicum,90
+Pehuajó,Buenos Aires,0.4511,0.774,991,Solanum pseudocapsicum,91
+Olavarría,Buenos Aires,0.4379,0.725,283,Solanum pseudocapsicum,92
+Azul,Buenos Aires,0.4353,0.646,111.94,Solanum pseudocapsicum,93
+Carlos Tejedor,Buenos Aires,0.4234,0.722,117.63,Solanum pseudocapsicum,94
+Ayacucho,Buenos Aires,0.4155,0.648,417.06,Solanum pseudocapsicum,95
+General Villegas,Buenos Aires,0.4037,0.851,130.24,Solanum pseudocapsicum,96
+Mar Chiquita,Buenos Aires,0.3997,0.737,131.88,Solanum pseudocapsicum,97
+Laprida,Buenos Aires,0.3996,0.502,0,Solanum pseudocapsicum,98
+General Alvarado,Buenos Aires,0.3908,0.657,62.01,Solanum pseudocapsicum,99
+Necochea,Buenos Aires,0.3752,0.634,105.35,Solanum pseudocapsicum,100
+Hipólito Yrigoyen,Buenos Aires,0.3736,0.715,81.9,Solanum pseudocapsicum,101
+Tandil,Buenos Aires,0.3557,0.659,25.27,Solanum pseudocapsicum,102
+Lobería,Buenos Aires,0.3484,0.623,42.36,Solanum pseudocapsicum,103
+Benito Juárez,Buenos Aires,0.3351,0.576,0,Solanum pseudocapsicum,104
+San Cayetano,Buenos Aires,0.3341,0.429,42.22,Solanum pseudocapsicum,105
+Adolfo Gonzales Chaves,Buenos Aires,0.3242,0.477,0,Solanum pseudocapsicum,106
+Tres Arroyos,Buenos Aires,0.3207,0.502,103.72,Solanum pseudocapsicum,107
+Balcarce,Buenos Aires,0.2994,0.735,58.33,Solanum pseudocapsicum,108
+Monte Hermoso,Buenos Aires,0.2911,0.398,32.73,Solanum pseudocapsicum,109
+Coronel Dorrego,Buenos Aires,0.2746,0.457,70.83,Solanum pseudocapsicum,110
+Rivadavia,Buenos Aires,0.2728,0.561,0,Solanum pseudocapsicum,111
+Coronel Pringles,Buenos Aires,0.2651,0.598,0,Solanum pseudocapsicum,112
+General La Madrid,Buenos Aires,0.2621,0.455,0,Solanum pseudocapsicum,113
+Coronel de Marina Leonardo Rosal,Buenos Aires,0.2456,0.486,82.88,Solanum pseudocapsicum,114
+Trenque Lauquen,Buenos Aires,0.2417,0.799,160.51,Solanum pseudocapsicum,115
+Daireaux,Buenos Aires,0.239,0.614,6.19,Solanum pseudocapsicum,116
+Bahía Blanca,Buenos Aires,0.1676,0.524,42.88,Solanum pseudocapsicum,117
+Coronel Suárez,Buenos Aires,0.1663,0.522,0,Solanum pseudocapsicum,118
+Tornquist,Buenos Aires,0.166,0.594,0,Solanum pseudocapsicum,119
+Guaminí,Buenos Aires,0.1597,0.619,6.87,Solanum pseudocapsicum,120
+Pellegrini,Buenos Aires,0.1225,0.221,0,Solanum pseudocapsicum,121
+Saavedra,Buenos Aires,0.1137,0.496,0,Solanum pseudocapsicum,122
+Patagones,Buenos Aires,0.1011,0.36,662.44,Solanum pseudocapsicum,123
+Tres Lomas,Buenos Aires,0.0997,0.187,0,Solanum pseudocapsicum,124
+Villarino,Buenos Aires,0.0954,0.442,727.24,Solanum pseudocapsicum,125
+Salliqueló,Buenos Aires,0.0782,0.14,0,Solanum pseudocapsicum,126
+Puán,Buenos Aires,0.0778,0.222,0,Solanum pseudocapsicum,127
+Adolfo Alsina,Buenos Aires,0.0776,0.44,0,Solanum pseudocapsicum,128

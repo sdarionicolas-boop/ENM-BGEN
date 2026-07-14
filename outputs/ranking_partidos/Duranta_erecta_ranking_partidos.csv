@@ -1,0 +1,129 @@
+partido,provincia,idoneidad_media,idoneidad_maxima,area_alta_idoneidad_km2,species,rango
+Quilmes,Buenos Aires,0.9073,0.922,95.95,Duranta erecta,1
+San Isidro,Buenos Aires,0.8997,0.915,53.07,Duranta erecta,2
+General San Martín,Buenos Aires,0.899,0.914,57.27,Duranta erecta,3
+Vicente López,Buenos Aires,0.8949,0.907,36.78,Duranta erecta,4
+Lomas de Zamora,Buenos Aires,0.8938,0.915,88.17,Duranta erecta,5
+Tres de Febrero,Buenos Aires,0.8926,0.911,43.81,Duranta erecta,6
+Lanús,Buenos Aires,0.8925,0.907,47.99,Duranta erecta,7
+San Fernando (2),Buenos Aires,0.8924,0.908,26.19,Duranta erecta,8
+Berazategui,Buenos Aires,0.8909,0.92,224.13,Duranta erecta,9
+Avellaneda,Buenos Aires,0.8871,0.908,60.01,Duranta erecta,10
+Almirante Brown,Buenos Aires,0.8867,0.91,127.54,Duranta erecta,11
+Morón,Buenos Aires,0.8861,0.91,130.68,Duranta erecta,12
+Ensenada,Buenos Aires,0.88,0.906,109.22,Duranta erecta,13
+Tigre,Buenos Aires,0.8736,0.909,403.1,Duranta erecta,14
+General Sarmiento,Buenos Aires,0.8719,0.908,203.71,Duranta erecta,15
+Florencio Varela,Buenos Aires,0.8719,0.919,203.54,Duranta erecta,16
+Berisso,Buenos Aires,0.8572,0.903,150.67,Duranta erecta,17
+La Plata,Buenos Aires,0.8542,0.914,871.35,Duranta erecta,18
+San Fernando (1),Buenos Aires,0.8522,0.911,1020.83,Duranta erecta,19
+Escobar,Buenos Aires,0.8433,0.892,294.89,Duranta erecta,20
+Moreno,Buenos Aires,0.8252,0.886,186.52,Duranta erecta,21
+Esteban Echeverría,Buenos Aires,0.8208,0.907,388.13,Duranta erecta,22
+Merlo,Buenos Aires,0.8159,0.896,170.78,Duranta erecta,23
+La Matanza,Buenos Aires,0.81,0.901,318.76,Duranta erecta,24
+Pilar,Buenos Aires,0.7948,0.891,376.6,Duranta erecta,25
+Campana,Buenos Aires,0.7764,0.877,986.82,Duranta erecta,26
+Brandsen,Buenos Aires,0.7594,0.871,1127.88,Duranta erecta,27
+San Vicente,Buenos Aires,0.7521,0.87,705.63,Duranta erecta,28
+Pinamar,Buenos Aires,0.721,0.759,69.87,Duranta erecta,29
+Magdalena,Buenos Aires,0.7175,0.873,3237.77,Duranta erecta,30
+Zárate,Buenos Aires,0.6745,0.859,969.97,Duranta erecta,31
+Exaltación de la Cruz,Buenos Aires,0.6633,0.816,562.35,Duranta erecta,32
+General Rodríguez,Buenos Aires,0.643,0.779,268.39,Duranta erecta,33
+Marcos Paz,Buenos Aires,0.6397,0.792,350.31,Duranta erecta,34
+Baradero,Buenos Aires,0.6336,0.837,1063.28,Duranta erecta,35
+San Pedro,Buenos Aires,0.6144,0.838,853.33,Duranta erecta,36
+Luján,Buenos Aires,0.6098,0.777,475.95,Duranta erecta,37
+Ramallo,Buenos Aires,0.6089,0.795,623.74,Duranta erecta,38
+San Nicolás,Buenos Aires,0.5835,0.754,287.79,Duranta erecta,39
+Cañuelas,Buenos Aires,0.5806,0.799,557.22,Duranta erecta,40
+San Antonio de Areco,Buenos Aires,0.5794,0.742,399.16,Duranta erecta,41
+La Costa,Buenos Aires,0.5611,0.754,169.3,Duranta erecta,42
+Chascomús,Buenos Aires,0.5471,0.797,1193.01,Duranta erecta,43
+General Paz,Buenos Aires,0.5348,0.747,261.15,Duranta erecta,44
+General Las Heras,Buenos Aires,0.5141,0.727,119.66,Duranta erecta,45
+Villa Gesell,Buenos Aires,0.5102,0.743,75.12,Duranta erecta,46
+Capitán Sarmiento,Buenos Aires,0.4964,0.657,61.85,Duranta erecta,47
+Arrecifes,Buenos Aires,0.4956,0.671,47.68,Duranta erecta,48
+Pergamino,Buenos Aires,0.4873,0.65,152.08,Duranta erecta,49
+Bragado,Buenos Aires,0.4703,0.65,35.1,Duranta erecta,50
+San Andrés de Giles,Buenos Aires,0.445,0.696,92.14,Duranta erecta,51
+Nueve de Julio,Buenos Aires,0.4407,0.647,34.26,Duranta erecta,52
+General Viamonte,Buenos Aires,0.4398,0.614,4.91,Duranta erecta,53
+Monte,Buenos Aires,0.4378,0.707,35.67,Duranta erecta,54
+Castelli,Buenos Aires,0.4353,0.655,107.7,Duranta erecta,55
+Junín,Buenos Aires,0.4252,0.714,124.51,Duranta erecta,56
+Lobos,Buenos Aires,0.415,0.623,7.72,Duranta erecta,57
+Colón,Buenos Aires,0.4007,0.618,5,Duranta erecta,58
+Carmen de Areco,Buenos Aires,0.3984,0.589,0,Duranta erecta,59
+Navarro,Buenos Aires,0.3948,0.603,0.7,Duranta erecta,60
+Salto,Buenos Aires,0.3893,0.539,0,Duranta erecta,61
+General Lavalle,Buenos Aires,0.3841,0.731,124.57,Duranta erecta,62
+General Juan Madariaga,Buenos Aires,0.3804,0.767,115.05,Duranta erecta,63
+Rojas,Buenos Aires,0.3799,0.561,0,Duranta erecta,64
+Mercedes,Buenos Aires,0.3746,0.643,15.54,Duranta erecta,65
+Veinticinco de Mayo,Buenos Aires,0.3724,0.581,0,Duranta erecta,66
+Alberti,Buenos Aires,0.3675,0.607,2.11,Duranta erecta,67
+General Arenales,Buenos Aires,0.3578,0.647,4.96,Duranta erecta,68
+Carlos Casares,Buenos Aires,0.3569,0.618,12.55,Duranta erecta,69
+Chacabuco,Buenos Aires,0.3476,0.566,0,Duranta erecta,70
+Leandro N. Alem,Buenos Aires,0.3338,0.541,0,Duranta erecta,71
+Saladillo,Buenos Aires,0.3231,0.587,0,Duranta erecta,72
+General Alvear,Buenos Aires,0.3213,0.494,0,Duranta erecta,73
+Tordillo,Buenos Aires,0.3199,0.501,24.23,Duranta erecta,74
+Lincoln,Buenos Aires,0.3199,0.622,1.41,Duranta erecta,75
+General Belgrano,Buenos Aires,0.3189,0.555,0,Duranta erecta,76
+Dolores,Buenos Aires,0.3154,0.636,1.39,Duranta erecta,77
+Chivilcoy,Buenos Aires,0.3053,0.537,0,Duranta erecta,78
+Las Flores,Buenos Aires,0.2943,0.52,0,Duranta erecta,79
+Suipacha,Buenos Aires,0.287,0.421,0,Duranta erecta,80
+Roque Pérez,Buenos Aires,0.286,0.504,0,Duranta erecta,81
+Tapalqué,Buenos Aires,0.2836,0.433,0,Duranta erecta,82
+General Pinto,Buenos Aires,0.2827,0.641,31.75,Duranta erecta,83
+Pila,Buenos Aires,0.281,0.62,6.94,Duranta erecta,84
+General Alvarado,Buenos Aires,0.274,0.424,55.93,Duranta erecta,85
+Maipú,Buenos Aires,0.2639,0.448,0,Duranta erecta,86
+General Pueyrredón,Buenos Aires,0.2606,0.554,65.61,Duranta erecta,87
+Ameghino,Buenos Aires,0.2464,0.596,0,Duranta erecta,88
+Lobería,Buenos Aires,0.2425,0.549,40.34,Duranta erecta,89
+Necochea,Buenos Aires,0.2406,0.602,99.97,Duranta erecta,90
+Rauch,Buenos Aires,0.2398,0.362,0,Duranta erecta,91
+Bolívar,Buenos Aires,0.235,0.515,0,Duranta erecta,92
+Olavarría,Buenos Aires,0.2325,0.431,0,Duranta erecta,93
+General Guido,Buenos Aires,0.2132,0.514,0,Duranta erecta,94
+Azul,Buenos Aires,0.2119,0.468,0,Duranta erecta,95
+Mar Chiquita,Buenos Aires,0.2053,0.655,111.52,Duranta erecta,96
+Pehuajó,Buenos Aires,0.1908,0.448,0,Duranta erecta,97
+Carlos Tejedor,Buenos Aires,0.1723,0.477,0,Duranta erecta,98
+Laprida,Buenos Aires,0.1698,0.28,0,Duranta erecta,99
+Ayacucho,Buenos Aires,0.1659,0.276,0,Duranta erecta,100
+Tandil,Buenos Aires,0.1586,0.274,0,Duranta erecta,101
+General Villegas,Buenos Aires,0.1584,0.642,12.04,Duranta erecta,102
+San Cayetano,Buenos Aires,0.1553,0.243,42.22,Duranta erecta,103
+Balcarce,Buenos Aires,0.1511,0.363,0,Duranta erecta,104
+Adolfo Gonzales Chaves,Buenos Aires,0.1431,0.255,0,Duranta erecta,105
+Coronel Pringles,Buenos Aires,0.1395,0.359,0,Duranta erecta,106
+Hipólito Yrigoyen,Buenos Aires,0.1371,0.373,0,Duranta erecta,107
+Benito Juárez,Buenos Aires,0.1317,0.24,0,Duranta erecta,108
+Tres Arroyos,Buenos Aires,0.1278,0.272,103.72,Duranta erecta,109
+Monte Hermoso,Buenos Aires,0.1245,0.209,32.73,Duranta erecta,110
+Coronel Dorrego,Buenos Aires,0.1234,0.266,70.83,Duranta erecta,111
+General La Madrid,Buenos Aires,0.1206,0.26,0,Duranta erecta,112
+Coronel de Marina Leonardo Rosal,Buenos Aires,0.1023,0.329,82.88,Duranta erecta,113
+Rivadavia,Buenos Aires,0.1011,0.229,0,Duranta erecta,114
+Daireaux,Buenos Aires,0.0911,0.276,0,Duranta erecta,115
+Trenque Lauquen,Buenos Aires,0.0896,0.563,0,Duranta erecta,116
+Tornquist,Buenos Aires,0.0765,0.305,0,Duranta erecta,117
+Coronel Suárez,Buenos Aires,0.0755,0.226,0,Duranta erecta,118
+Bahía Blanca,Buenos Aires,0.0711,0.226,42.88,Duranta erecta,119
+Guaminí,Buenos Aires,0.064,0.281,0,Duranta erecta,120
+Saavedra,Buenos Aires,0.0538,0.228,0,Duranta erecta,121
+Pellegrini,Buenos Aires,0.0522,0.09,0,Duranta erecta,122
+Tres Lomas,Buenos Aires,0.0472,0.082,0,Duranta erecta,123
+Adolfo Alsina,Buenos Aires,0.0416,0.256,0,Duranta erecta,124
+Puán,Buenos Aires,0.0405,0.093,0,Duranta erecta,125
+Salliqueló,Buenos Aires,0.0402,0.057,0,Duranta erecta,126
+Patagones,Buenos Aires,0.0401,0.122,662.44,Duranta erecta,127
+Villarino,Buenos Aires,0.0388,0.187,727.24,Duranta erecta,128

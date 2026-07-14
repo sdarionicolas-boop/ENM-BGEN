@@ -1,0 +1,129 @@
+partido,provincia,idoneidad_media,idoneidad_maxima,area_alta_idoneidad_km2,species,rango
+San Fernando (2),Buenos Aires,0.801,0.831,26.19,Erythrina crista-galli,1
+General San Martín,Buenos Aires,0.7987,0.83,57.27,Erythrina crista-galli,2
+San Isidro,Buenos Aires,0.7987,0.833,53.07,Erythrina crista-galli,3
+Vicente López,Buenos Aires,0.7945,0.828,36.78,Erythrina crista-galli,4
+Tres de Febrero,Buenos Aires,0.7925,0.818,43.81,Erythrina crista-galli,5
+Quilmes,Buenos Aires,0.7913,0.817,95.95,Erythrina crista-galli,6
+Tigre,Buenos Aires,0.7876,0.84,403.1,Erythrina crista-galli,7
+Lanús,Buenos Aires,0.7806,0.812,47.99,Erythrina crista-galli,8
+General Sarmiento,Buenos Aires,0.7802,0.83,203,Erythrina crista-galli,9
+Avellaneda,Buenos Aires,0.7797,0.812,60.01,Erythrina crista-galli,10
+Lomas de Zamora,Buenos Aires,0.7796,0.807,88.17,Erythrina crista-galli,11
+San Fernando (1),Buenos Aires,0.7777,0.83,1017.28,Erythrina crista-galli,12
+Morón,Buenos Aires,0.7773,0.82,130.68,Erythrina crista-galli,13
+Almirante Brown,Buenos Aires,0.7609,0.813,124.02,Erythrina crista-galli,14
+Berazategui,Buenos Aires,0.7588,0.823,219.91,Erythrina crista-galli,15
+Florencio Varela,Buenos Aires,0.7581,0.806,202.84,Erythrina crista-galli,16
+Escobar,Buenos Aires,0.758,0.822,288.51,Erythrina crista-galli,17
+Ensenada,Buenos Aires,0.756,0.794,109.22,Erythrina crista-galli,18
+Moreno,Buenos Aires,0.7397,0.811,184.41,Erythrina crista-galli,19
+Berisso,Buenos Aires,0.7253,0.795,145.04,Erythrina crista-galli,20
+Merlo,Buenos Aires,0.7252,0.802,162.31,Erythrina crista-galli,21
+La Plata,Buenos Aires,0.7199,0.8,853.06,Erythrina crista-galli,22
+La Matanza,Buenos Aires,0.7158,0.815,302.55,Erythrina crista-galli,23
+Esteban Echeverría,Buenos Aires,0.7129,0.8,379.67,Erythrina crista-galli,24
+Campana,Buenos Aires,0.7076,0.791,925.76,Erythrina crista-galli,25
+Pilar,Buenos Aires,0.7071,0.796,361.03,Erythrina crista-galli,26
+San Vicente,Buenos Aires,0.6835,0.765,689.48,Erythrina crista-galli,27
+Brandsen,Buenos Aires,0.6211,0.74,878.49,Erythrina crista-galli,28
+Zárate,Buenos Aires,0.6119,0.79,769.72,Erythrina crista-galli,29
+Marcos Paz,Buenos Aires,0.5517,0.703,191.04,Erythrina crista-galli,30
+General Rodríguez,Buenos Aires,0.5345,0.729,156.84,Erythrina crista-galli,31
+Cañuelas,Buenos Aires,0.5069,0.696,328.94,Erythrina crista-galli,32
+Exaltación de la Cruz,Buenos Aires,0.4974,0.748,113.41,Erythrina crista-galli,33
+Baradero,Buenos Aires,0.4877,0.81,325.96,Erythrina crista-galli,34
+Carlos Casares,Buenos Aires,0.4787,0.628,23.69,Erythrina crista-galli,35
+Lincoln,Buenos Aires,0.4494,0.613,4.23,Erythrina crista-galli,36
+San Pedro,Buenos Aires,0.4434,0.791,193.57,Erythrina crista-galli,37
+Luján,Buenos Aires,0.4346,0.687,56.59,Erythrina crista-galli,38
+Magdalena,Buenos Aires,0.4151,0.733,628.36,Erythrina crista-galli,39
+Nueve de Julio,Buenos Aires,0.4069,0.627,29.33,Erythrina crista-galli,40
+Ramallo,Buenos Aires,0.3944,0.775,161.78,Erythrina crista-galli,41
+San Antonio de Areco,Buenos Aires,0.3905,0.608,3.56,Erythrina crista-galli,42
+General Pinto,Buenos Aires,0.3857,0.617,0.71,Erythrina crista-galli,43
+General Viamonte,Buenos Aires,0.3769,0.6,0.7,Erythrina crista-galli,44
+General Las Heras,Buenos Aires,0.3582,0.604,0.7,Erythrina crista-galli,45
+General Paz,Buenos Aires,0.3473,0.636,23.14,Erythrina crista-galli,46
+Ameghino,Buenos Aires,0.3447,0.604,0.7,Erythrina crista-galli,47
+Junín,Buenos Aires,0.3424,0.705,139.37,Erythrina crista-galli,48
+Bolívar,Buenos Aires,0.3358,0.58,0,Erythrina crista-galli,49
+San Nicolás,Buenos Aires,0.3318,0.716,26.54,Erythrina crista-galli,50
+San Andrés de Giles,Buenos Aires,0.3232,0.511,0,Erythrina crista-galli,51
+Capitán Sarmiento,Buenos Aires,0.3176,0.448,0,Erythrina crista-galli,52
+Chascomús,Buenos Aires,0.3149,0.529,4.18,Erythrina crista-galli,53
+Carlos Tejedor,Buenos Aires,0.3119,0.594,0,Erythrina crista-galli,54
+Arrecifes,Buenos Aires,0.3016,0.432,0,Erythrina crista-galli,55
+Carmen de Areco,Buenos Aires,0.2972,0.456,0,Erythrina crista-galli,56
+Mercedes,Buenos Aires,0.296,0.507,0,Erythrina crista-galli,57
+Leandro N. Alem,Buenos Aires,0.2946,0.57,0,Erythrina crista-galli,58
+Pinamar,Buenos Aires,0.2928,0.368,23.97,Erythrina crista-galli,59
+General Arenales,Buenos Aires,0.2864,0.666,14.88,Erythrina crista-galli,60
+Castelli,Buenos Aires,0.2748,0.372,77.82,Erythrina crista-galli,61
+General Alvear,Buenos Aires,0.2734,0.573,0,Erythrina crista-galli,62
+Monte,Buenos Aires,0.273,0.565,0,Erythrina crista-galli,63
+Bragado,Buenos Aires,0.2723,0.643,11.93,Erythrina crista-galli,64
+Pergamino,Buenos Aires,0.2685,0.492,0,Erythrina crista-galli,65
+Lobos,Buenos Aires,0.2642,0.531,0,Erythrina crista-galli,66
+Navarro,Buenos Aires,0.2636,0.548,0,Erythrina crista-galli,67
+Pehuajó,Buenos Aires,0.2611,0.584,0,Erythrina crista-galli,68
+Colón,Buenos Aires,0.2599,0.453,0,Erythrina crista-galli,69
+Suipacha,Buenos Aires,0.2548,0.438,0,Erythrina crista-galli,70
+Rojas,Buenos Aires,0.2524,0.385,0,Erythrina crista-galli,71
+General Belgrano,Buenos Aires,0.2472,0.529,0,Erythrina crista-galli,72
+La Costa,Buenos Aires,0.2438,0.4,97.84,Erythrina crista-galli,73
+Pila,Buenos Aires,0.2417,0.534,0,Erythrina crista-galli,74
+Chivilcoy,Buenos Aires,0.2339,0.44,0,Erythrina crista-galli,75
+Veinticinco de Mayo,Buenos Aires,0.2325,0.586,0,Erythrina crista-galli,76
+Salto,Buenos Aires,0.2318,0.399,0,Erythrina crista-galli,77
+Tapalqué,Buenos Aires,0.2318,0.587,0,Erythrina crista-galli,78
+General Villegas,Buenos Aires,0.218,0.657,8.5,Erythrina crista-galli,79
+Dolores,Buenos Aires,0.2127,0.308,0,Erythrina crista-galli,80
+Chacabuco,Buenos Aires,0.2096,0.408,0,Erythrina crista-galli,81
+Rivadavia,Buenos Aires,0.2042,0.399,0,Erythrina crista-galli,82
+Alberti,Buenos Aires,0.204,0.415,0,Erythrina crista-galli,83
+Villa Gesell,Buenos Aires,0.2022,0.397,51.2,Erythrina crista-galli,84
+Tordillo,Buenos Aires,0.2003,0.369,24.23,Erythrina crista-galli,85
+Saladillo,Buenos Aires,0.1983,0.602,0.7,Erythrina crista-galli,86
+Olavarría,Buenos Aires,0.1937,0.501,0,Erythrina crista-galli,87
+Hipólito Yrigoyen,Buenos Aires,0.1907,0.55,0,Erythrina crista-galli,88
+Azul,Buenos Aires,0.1841,0.42,0,Erythrina crista-galli,89
+General Juan Madariaga,Buenos Aires,0.1807,0.346,0,Erythrina crista-galli,90
+Guaminí,Buenos Aires,0.1807,0.456,0,Erythrina crista-galli,91
+Las Flores,Buenos Aires,0.1797,0.382,0,Erythrina crista-galli,92
+General Lavalle,Buenos Aires,0.1792,0.344,35.97,Erythrina crista-galli,93
+Roque Pérez,Buenos Aires,0.1765,0.405,0,Erythrina crista-galli,94
+Rauch,Buenos Aires,0.1742,0.331,0,Erythrina crista-galli,95
+Necochea,Buenos Aires,0.1707,0.372,98.63,Erythrina crista-galli,96
+Maipú,Buenos Aires,0.1683,0.278,0,Erythrina crista-galli,97
+Trenque Lauquen,Buenos Aires,0.1681,0.396,0,Erythrina crista-galli,98
+Daireaux,Buenos Aires,0.167,0.297,0,Erythrina crista-galli,99
+General Guido,Buenos Aires,0.1668,0.29,0,Erythrina crista-galli,100
+Laprida,Buenos Aires,0.1646,0.272,0,Erythrina crista-galli,101
+Tandil,Buenos Aires,0.1645,0.355,0,Erythrina crista-galli,102
+Lobería,Buenos Aires,0.1577,0.364,40.34,Erythrina crista-galli,103
+Adolfo Alsina,Buenos Aires,0.152,0.401,0,Erythrina crista-galli,104
+Ayacucho,Buenos Aires,0.1517,0.3,0,Erythrina crista-galli,105
+General La Madrid,Buenos Aires,0.1504,0.274,0,Erythrina crista-galli,106
+General Alvarado,Buenos Aires,0.1472,0.201,55.93,Erythrina crista-galli,107
+Coronel Suárez,Buenos Aires,0.1388,0.316,0,Erythrina crista-galli,108
+General Pueyrredón,Buenos Aires,0.1365,0.24,65.61,Erythrina crista-galli,109
+Mar Chiquita,Buenos Aires,0.1361,0.275,107.43,Erythrina crista-galli,110
+Coronel de Marina Leonardo Rosal,Buenos Aires,0.1311,0.183,82.88,Erythrina crista-galli,111
+Adolfo Gonzales Chaves,Buenos Aires,0.1283,0.235,0,Erythrina crista-galli,112
+Balcarce,Buenos Aires,0.1269,0.24,0,Erythrina crista-galli,113
+Coronel Dorrego,Buenos Aires,0.1245,0.268,70.83,Erythrina crista-galli,114
+Benito Juárez,Buenos Aires,0.1242,0.294,0,Erythrina crista-galli,115
+Bahía Blanca,Buenos Aires,0.1232,0.251,42.88,Erythrina crista-galli,116
+Tornquist,Buenos Aires,0.1223,0.28,0,Erythrina crista-galli,117
+Coronel Pringles,Buenos Aires,0.122,0.225,0,Erythrina crista-galli,118
+San Cayetano,Buenos Aires,0.1214,0.2,42.22,Erythrina crista-galli,119
+Tres Lomas,Buenos Aires,0.121,0.168,0,Erythrina crista-galli,120
+Pellegrini,Buenos Aires,0.1186,0.194,0,Erythrina crista-galli,121
+Saavedra,Buenos Aires,0.1171,0.195,0,Erythrina crista-galli,122
+Puán,Buenos Aires,0.1129,0.386,0,Erythrina crista-galli,123
+Salliqueló,Buenos Aires,0.1119,0.144,0,Erythrina crista-galli,124
+Tres Arroyos,Buenos Aires,0.1066,0.206,103.72,Erythrina crista-galli,125
+Monte Hermoso,Buenos Aires,0.1041,0.134,32.73,Erythrina crista-galli,126
+Villarino,Buenos Aires,0.0798,0.263,727.24,Erythrina crista-galli,127
+Patagones,Buenos Aires,0.0752,0.234,662.44,Erythrina crista-galli,128

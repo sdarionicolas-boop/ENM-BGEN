@@ -1,0 +1,129 @@
+partido,provincia,idoneidad_media,idoneidad_maxima,area_alta_idoneidad_km2,species,rango
+Quilmes,Buenos Aires,0.8864,0.92,95.95,Schinus molle,1
+General San Martín,Buenos Aires,0.8775,0.905,57.27,Schinus molle,2
+Vicente López,Buenos Aires,0.8726,0.899,36.78,Schinus molle,3
+San Isidro,Buenos Aires,0.8724,0.903,53.07,Schinus molle,4
+Almirante Brown,Buenos Aires,0.8715,0.907,127.54,Schinus molle,5
+Lomas de Zamora,Buenos Aires,0.8704,0.902,88.17,Schinus molle,6
+Tres de Febrero,Buenos Aires,0.8656,0.9,43.81,Schinus molle,7
+San Fernando (2),Buenos Aires,0.8638,0.892,26.19,Schinus molle,8
+Morón,Buenos Aires,0.8626,0.9,130.68,Schinus molle,9
+Lanús,Buenos Aires,0.8577,0.894,47.99,Schinus molle,10
+General Sarmiento,Buenos Aires,0.8551,0.906,203.71,Schinus molle,11
+Berazategui,Buenos Aires,0.8533,0.92,223.43,Schinus molle,12
+La Plata,Buenos Aires,0.8532,0.915,870.65,Schinus molle,13
+Florencio Varela,Buenos Aires,0.8466,0.911,202.84,Schinus molle,14
+La Matanza,Buenos Aires,0.844,0.904,321.57,Schinus molle,15
+Avellaneda,Buenos Aires,0.8381,0.889,60.01,Schinus molle,16
+Tigre,Buenos Aires,0.832,0.908,403.1,Schinus molle,17
+Moreno,Buenos Aires,0.8315,0.884,186.52,Schinus molle,18
+Esteban Echeverría,Buenos Aires,0.8304,0.913,386.72,Schinus molle,19
+Escobar,Buenos Aires,0.8289,0.898,292.05,Schinus molle,20
+Merlo,Buenos Aires,0.8253,0.886,170.78,Schinus molle,21
+San Fernando (1),Buenos Aires,0.8244,0.89,1020.12,Schinus molle,22
+Brandsen,Buenos Aires,0.8083,0.887,1132.08,Schinus molle,23
+Pilar,Buenos Aires,0.8077,0.875,378.01,Schinus molle,24
+Ensenada,Buenos Aires,0.7983,0.899,108.51,Schinus molle,25
+Berisso,Buenos Aires,0.7894,0.903,149.26,Schinus molle,26
+Campana,Buenos Aires,0.7864,0.888,986.82,Schinus molle,27
+San Vicente,Buenos Aires,0.7784,0.878,727.4,Schinus molle,28
+Magdalena,Buenos Aires,0.7644,0.883,3264.75,Schinus molle,29
+Marcos Paz,Buenos Aires,0.7233,0.836,396.12,Schinus molle,30
+Cañuelas,Buenos Aires,0.7051,0.85,912.8,Schinus molle,31
+General Paz,Buenos Aires,0.6993,0.833,938.68,Schinus molle,32
+Zárate,Buenos Aires,0.6917,0.88,1065.4,Schinus molle,33
+General Rodríguez,Buenos Aires,0.6867,0.82,307.22,Schinus molle,34
+Pinamar,Buenos Aires,0.6846,0.79,58.22,Schinus molle,35
+Chascomús,Buenos Aires,0.6838,0.868,2656.52,Schinus molle,36
+General Pinto,Buenos Aires,0.6668,0.824,1953.09,Schinus molle,37
+Lincoln,Buenos Aires,0.6647,0.799,4174.44,Schinus molle,38
+Junín,Buenos Aires,0.6644,0.862,1748.67,Schinus molle,39
+Leandro N. Alem,Buenos Aires,0.6626,0.788,1241.74,Schinus molle,40
+General Viamonte,Buenos Aires,0.6623,0.805,1585.35,Schinus molle,41
+Exaltación de la Cruz,Buenos Aires,0.6596,0.851,514.82,Schinus molle,42
+Nueve de Julio,Buenos Aires,0.6556,0.815,2975.34,Schinus molle,43
+Villa Gesell,Buenos Aires,0.6539,0.747,126.27,Schinus molle,44
+Monte,Buenos Aires,0.6512,0.839,1174.87,Schinus molle,45
+General Arenales,Buenos Aires,0.6503,0.832,1200.72,Schinus molle,46
+Ameghino,Buenos Aires,0.6466,0.798,1283.81,Schinus molle,47
+Carlos Casares,Buenos Aires,0.638,0.797,1572.54,Schinus molle,48
+Bragado,Buenos Aires,0.6359,0.8,1596.91,Schinus molle,49
+Colón,Buenos Aires,0.6248,0.757,749.65,Schinus molle,50
+Ramallo,Buenos Aires,0.6229,0.848,665.81,Schinus molle,51
+Pergamino,Buenos Aires,0.619,0.78,2260.38,Schinus molle,52
+Tapalqué,Buenos Aires,0.6168,0.757,2778.13,Schinus molle,53
+Carlos Tejedor,Buenos Aires,0.6166,0.79,2222.65,Schinus molle,54
+Baradero,Buenos Aires,0.6162,0.834,812.23,Schinus molle,55
+San Pedro,Buenos Aires,0.6129,0.855,831.23,Schinus molle,56
+San Nicolás,Buenos Aires,0.6095,0.825,423.74,Schinus molle,57
+Luján,Buenos Aires,0.6072,0.807,400.23,Schinus molle,58
+Rojas,Buenos Aires,0.6014,0.74,1341.89,Schinus molle,59
+Rivadavia,Buenos Aires,0.5991,0.781,2205.61,Schinus molle,60
+Pila,Buenos Aires,0.5976,0.812,1631.48,Schinus molle,61
+San Cayetano,Buenos Aires,0.5972,0.696,1653.53,Schinus molle,62
+Olavarría,Buenos Aires,0.5953,0.763,4853.54,Schinus molle,63
+General Las Heras,Buenos Aires,0.5939,0.804,399.12,Schinus molle,64
+Castelli,Buenos Aires,0.5931,0.825,797.26,Schinus molle,65
+Bolívar,Buenos Aires,0.5913,0.769,2461.04,Schinus molle,66
+Mar Chiquita,Buenos Aires,0.5893,0.751,1683.17,Schinus molle,67
+General Alvear,Buenos Aires,0.5878,0.746,1662.72,Schinus molle,68
+Rauch,Buenos Aires,0.5872,0.699,1944.94,Schinus molle,69
+Arrecifes,Buenos Aires,0.5872,0.673,631.25,Schinus molle,70
+Hipólito Yrigoyen,Buenos Aires,0.5855,0.74,863,Schinus molle,71
+General Villegas,Buenos Aires,0.5836,0.824,3827.69,Schinus molle,72
+General Pueyrredón,Buenos Aires,0.5818,0.847,669.14,Schinus molle,73
+Salto,Buenos Aires,0.5817,0.663,806.15,Schinus molle,74
+Pehuajó,Buenos Aires,0.5772,0.783,1950.75,Schinus molle,75
+General Belgrano,Buenos Aires,0.5713,0.802,759.5,Schinus molle,76
+Ayacucho,Buenos Aires,0.5712,0.696,2018.22,Schinus molle,77
+General Guido,Buenos Aires,0.5678,0.768,961.52,Schinus molle,78
+Necochea,Buenos Aires,0.5638,0.727,2030.89,Schinus molle,79
+Azul,Buenos Aires,0.5593,0.696,2073.17,Schinus molle,80
+General Juan Madariaga,Buenos Aires,0.5586,0.789,947.14,Schinus molle,81
+Coronel de Marina Leonardo Rosal,Buenos Aires,0.5577,0.754,394.7,Schinus molle,82
+San Antonio de Areco,Buenos Aires,0.554,0.717,179.72,Schinus molle,83
+Veinticinco de Mayo,Buenos Aires,0.5527,0.78,1908.38,Schinus molle,84
+Dolores,Buenos Aires,0.5467,0.76,438.37,Schinus molle,85
+Capitán Sarmiento,Buenos Aires,0.5417,0.645,66.8,Schinus molle,86
+Bahía Blanca,Buenos Aires,0.5338,0.792,338.05,Schinus molle,87
+Maipú,Buenos Aires,0.53,0.748,641.92,Schinus molle,88
+Chacabuco,Buenos Aires,0.5254,0.686,663.74,Schinus molle,89
+Lobería,Buenos Aires,0.5253,0.698,1229.91,Schinus molle,90
+Tres Arroyos,Buenos Aires,0.5232,0.678,329.01,Schinus molle,91
+Lobos,Buenos Aires,0.5207,0.762,305.12,Schinus molle,92
+Daireaux,Buenos Aires,0.5171,0.726,936.65,Schinus molle,93
+Las Flores,Buenos Aires,0.5144,0.704,651.12,Schinus molle,94
+Alberti,Buenos Aires,0.5082,0.697,199.68,Schinus molle,95
+Trenque Lauquen,Buenos Aires,0.5073,0.797,1405.5,Schinus molle,96
+Carmen de Areco,Buenos Aires,0.5071,0.639,15.59,Schinus molle,97
+San Andrés de Giles,Buenos Aires,0.4967,0.647,38.27,Schinus molle,98
+Coronel Pringles,Buenos Aires,0.4957,0.716,533.22,Schinus molle,99
+Saladillo,Buenos Aires,0.4873,0.745,547.93,Schinus molle,100
+Balcarce,Buenos Aires,0.4825,0.722,311.89,Schinus molle,101
+General Alvarado,Buenos Aires,0.4806,0.668,70.11,Schinus molle,102
+General La Madrid,Buenos Aires,0.4759,0.655,215.35,Schinus molle,103
+Coronel Dorrego,Buenos Aires,0.4746,0.644,143.23,Schinus molle,104
+Navarro,Buenos Aires,0.4678,0.604,0.7,Schinus molle,105
+Chivilcoy,Buenos Aires,0.4661,0.593,0,Schinus molle,106
+Adolfo Gonzales Chaves,Buenos Aires,0.4622,0.622,7.43,Schinus molle,107
+Tordillo,Buenos Aires,0.4603,0.728,119.07,Schinus molle,108
+Tandil,Buenos Aires,0.458,0.679,109.17,Schinus molle,109
+Laprida,Buenos Aires,0.4578,0.565,0,Schinus molle,110
+Tornquist,Buenos Aires,0.4572,0.715,696.96,Schinus molle,111
+Benito Juárez,Buenos Aires,0.4439,0.648,97.28,Schinus molle,112
+Suipacha,Buenos Aires,0.4365,0.541,0,Schinus molle,113
+Mercedes,Buenos Aires,0.4357,0.605,2.83,Schinus molle,114
+Roque Pérez,Buenos Aires,0.4258,0.731,28.65,Schinus molle,115
+Coronel Suárez,Buenos Aires,0.4166,0.709,500.1,Schinus molle,116
+La Costa,Buenos Aires,0.4118,0.61,101.95,Schinus molle,117
+Guaminí,Buenos Aires,0.3936,0.643,61.12,Schinus molle,118
+Monte Hermoso,Buenos Aires,0.3817,0.606,34.07,Schinus molle,119
+Tres Lomas,Buenos Aires,0.3744,0.563,0,Schinus molle,120
+General Lavalle,Buenos Aires,0.3727,0.763,124.69,Schinus molle,121
+Saavedra,Buenos Aires,0.3719,0.678,128.91,Schinus molle,122
+Pellegrini,Buenos Aires,0.3552,0.604,0.7,Schinus molle,123
+Puán,Buenos Aires,0.3444,0.547,0,Schinus molle,124
+Adolfo Alsina,Buenos Aires,0.3272,0.699,49.28,Schinus molle,125
+Salliqueló,Buenos Aires,0.2993,0.512,0,Schinus molle,126
+Villarino,Buenos Aires,0.2438,0.667,750.7,Schinus molle,127
+Patagones,Buenos Aires,0.2003,0.494,662.44,Schinus molle,128

@@ -1,0 +1,129 @@
+partido,provincia,idoneidad_media,idoneidad_maxima,area_alta_idoneidad_km2,species,rango
+Quilmes,Buenos Aires,0.8884,0.904,95.95,Austroeupatorium inulifolium,1
+General San Martín,Buenos Aires,0.8845,0.9,57.27,Austroeupatorium inulifolium,2
+San Isidro,Buenos Aires,0.8833,0.899,53.07,Austroeupatorium inulifolium,3
+Vicente López,Buenos Aires,0.8831,0.897,36.78,Austroeupatorium inulifolium,4
+Tres de Febrero,Buenos Aires,0.8779,0.894,43.81,Austroeupatorium inulifolium,5
+Lanús,Buenos Aires,0.8777,0.889,47.99,Austroeupatorium inulifolium,6
+Lomas de Zamora,Buenos Aires,0.8774,0.897,88.17,Austroeupatorium inulifolium,7
+San Fernando (2),Buenos Aires,0.876,0.891,26.19,Austroeupatorium inulifolium,8
+Avellaneda,Buenos Aires,0.8729,0.891,60.01,Austroeupatorium inulifolium,9
+Morón,Buenos Aires,0.8713,0.895,130.68,Austroeupatorium inulifolium,10
+Almirante Brown,Buenos Aires,0.8702,0.893,127.54,Austroeupatorium inulifolium,11
+Berazategui,Buenos Aires,0.8687,0.902,224.13,Austroeupatorium inulifolium,12
+General Sarmiento,Buenos Aires,0.8643,0.892,203.71,Austroeupatorium inulifolium,13
+Tigre,Buenos Aires,0.8608,0.893,403.1,Austroeupatorium inulifolium,14
+Florencio Varela,Buenos Aires,0.8594,0.898,203.54,Austroeupatorium inulifolium,15
+Moreno,Buenos Aires,0.853,0.876,186.52,Austroeupatorium inulifolium,16
+La Matanza,Buenos Aires,0.8522,0.891,321.57,Austroeupatorium inulifolium,17
+Merlo,Buenos Aires,0.8522,0.881,170.78,Austroeupatorium inulifolium,18
+Escobar,Buenos Aires,0.851,0.881,294.89,Austroeupatorium inulifolium,19
+Ensenada,Buenos Aires,0.8502,0.884,109.22,Austroeupatorium inulifolium,20
+San Fernando (1),Buenos Aires,0.8497,0.885,1020.83,Austroeupatorium inulifolium,21
+Esteban Echeverría,Buenos Aires,0.8479,0.888,390.24,Austroeupatorium inulifolium,22
+Pilar,Buenos Aires,0.8426,0.874,378.01,Austroeupatorium inulifolium,23
+Berisso,Buenos Aires,0.8271,0.875,150.67,Austroeupatorium inulifolium,24
+Campana,Buenos Aires,0.8262,0.874,996.06,Austroeupatorium inulifolium,25
+La Plata,Buenos Aires,0.8254,0.888,871.35,Austroeupatorium inulifolium,26
+San Vicente,Buenos Aires,0.8131,0.863,738.63,Austroeupatorium inulifolium,27
+Marcos Paz,Buenos Aires,0.8068,0.851,429.95,Austroeupatorium inulifolium,28
+General Rodríguez,Buenos Aires,0.793,0.852,372.88,Austroeupatorium inulifolium,29
+Zárate,Buenos Aires,0.7792,0.867,1225.47,Austroeupatorium inulifolium,30
+Brandsen,Buenos Aires,0.7767,0.849,1136.29,Austroeupatorium inulifolium,31
+Cañuelas,Buenos Aires,0.7708,0.847,1195.58,Austroeupatorium inulifolium,32
+Exaltación de la Cruz,Buenos Aires,0.7561,0.854,642.5,Austroeupatorium inulifolium,33
+Luján,Buenos Aires,0.7243,0.843,767.68,Austroeupatorium inulifolium,34
+General Las Heras,Buenos Aires,0.7215,0.818,739.94,Austroeupatorium inulifolium,35
+Baradero,Buenos Aires,0.707,0.846,1497.05,Austroeupatorium inulifolium,36
+Magdalena,Buenos Aires,0.6823,0.845,3220.15,Austroeupatorium inulifolium,37
+General Paz,Buenos Aires,0.682,0.813,1091.76,Austroeupatorium inulifolium,38
+Monte,Buenos Aires,0.666,0.813,1580.49,Austroeupatorium inulifolium,39
+San Pedro,Buenos Aires,0.6614,0.834,1187.17,Austroeupatorium inulifolium,40
+Ramallo,Buenos Aires,0.6499,0.812,848.17,Austroeupatorium inulifolium,41
+San Antonio de Areco,Buenos Aires,0.6442,0.774,652.49,Austroeupatorium inulifolium,42
+San Nicolás,Buenos Aires,0.6236,0.791,468.92,Austroeupatorium inulifolium,43
+Lobos,Buenos Aires,0.6013,0.799,883.55,Austroeupatorium inulifolium,44
+San Andrés de Giles,Buenos Aires,0.5927,0.726,624.74,Austroeupatorium inulifolium,45
+Arrecifes,Buenos Aires,0.5883,0.676,579.54,Austroeupatorium inulifolium,46
+Capitán Sarmiento,Buenos Aires,0.5676,0.647,125.1,Austroeupatorium inulifolium,47
+Pergamino,Buenos Aires,0.5637,0.688,902.4,Austroeupatorium inulifolium,48
+Bragado,Buenos Aires,0.5599,0.734,334.89,Austroeupatorium inulifolium,49
+Chascomús,Buenos Aires,0.5488,0.797,1100.53,Austroeupatorium inulifolium,50
+Mercedes,Buenos Aires,0.5325,0.692,284.62,Austroeupatorium inulifolium,51
+Navarro,Buenos Aires,0.5283,0.674,317.37,Austroeupatorium inulifolium,52
+General Viamonte,Buenos Aires,0.5269,0.673,229.62,Austroeupatorium inulifolium,53
+Nueve de Julio,Buenos Aires,0.5203,0.679,171.55,Austroeupatorium inulifolium,54
+Salto,Buenos Aires,0.5167,0.607,3.55,Austroeupatorium inulifolium,55
+Colón,Buenos Aires,0.5123,0.646,41.44,Austroeupatorium inulifolium,56
+Carmen de Areco,Buenos Aires,0.4997,0.602,0.71,Austroeupatorium inulifolium,57
+Junín,Buenos Aires,0.4991,0.762,218.55,Austroeupatorium inulifolium,58
+General Belgrano,Buenos Aires,0.4891,0.694,130.38,Austroeupatorium inulifolium,59
+Veinticinco de Mayo,Buenos Aires,0.4812,0.625,48.33,Austroeupatorium inulifolium,60
+Chacabuco,Buenos Aires,0.4738,0.61,4.23,Austroeupatorium inulifolium,61
+Rojas,Buenos Aires,0.4697,0.57,0,Austroeupatorium inulifolium,62
+Alberti,Buenos Aires,0.4621,0.656,50.62,Austroeupatorium inulifolium,63
+General Arenales,Buenos Aires,0.4512,0.735,17,Austroeupatorium inulifolium,64
+Roque Pérez,Buenos Aires,0.45,0.692,13.99,Austroeupatorium inulifolium,65
+Pinamar,Buenos Aires,0.4497,0.54,23.97,Austroeupatorium inulifolium,66
+Chivilcoy,Buenos Aires,0.4399,0.589,0,Austroeupatorium inulifolium,67
+Saladillo,Buenos Aires,0.4342,0.617,3.49,Austroeupatorium inulifolium,68
+Suipacha,Buenos Aires,0.4301,0.518,0,Austroeupatorium inulifolium,69
+Castelli,Buenos Aires,0.3932,0.517,77.82,Austroeupatorium inulifolium,70
+Las Flores,Buenos Aires,0.3887,0.568,0,Austroeupatorium inulifolium,71
+Pila,Buenos Aires,0.375,0.628,0.69,Austroeupatorium inulifolium,72
+Villa Gesell,Buenos Aires,0.3623,0.699,53.92,Austroeupatorium inulifolium,73
+General Alvear,Buenos Aires,0.3566,0.538,0,Austroeupatorium inulifolium,74
+Carlos Casares,Buenos Aires,0.3473,0.578,0,Austroeupatorium inulifolium,75
+Dolores,Buenos Aires,0.3441,0.483,0,Austroeupatorium inulifolium,76
+Leandro N. Alem,Buenos Aires,0.3349,0.485,0,Austroeupatorium inulifolium,77
+General Juan Madariaga,Buenos Aires,0.326,0.51,0,Austroeupatorium inulifolium,78
+Lincoln,Buenos Aires,0.2966,0.595,0,Austroeupatorium inulifolium,79
+General Guido,Buenos Aires,0.2844,0.618,0.69,Austroeupatorium inulifolium,80
+Maipú,Buenos Aires,0.2794,0.372,0,Austroeupatorium inulifolium,81
+Tordillo,Buenos Aires,0.2687,0.366,24.23,Austroeupatorium inulifolium,82
+Necochea,Buenos Aires,0.2655,0.662,116.1,Austroeupatorium inulifolium,83
+General Pinto,Buenos Aires,0.2654,0.535,0,Austroeupatorium inulifolium,84
+Rauch,Buenos Aires,0.2515,0.371,0,Austroeupatorium inulifolium,85
+Lobería,Buenos Aires,0.2484,0.639,41.69,Austroeupatorium inulifolium,86
+General Alvarado,Buenos Aires,0.2478,0.443,55.93,Austroeupatorium inulifolium,87
+Tapalqué,Buenos Aires,0.2288,0.452,0,Austroeupatorium inulifolium,88
+Bolívar,Buenos Aires,0.2193,0.465,0,Austroeupatorium inulifolium,89
+Mar Chiquita,Buenos Aires,0.218,0.453,107.43,Austroeupatorium inulifolium,90
+General Pueyrredón,Buenos Aires,0.2102,0.442,65.61,Austroeupatorium inulifolium,91
+Ameghino,Buenos Aires,0.2006,0.443,0,Austroeupatorium inulifolium,92
+La Costa,Buenos Aires,0.1994,0.542,97.84,Austroeupatorium inulifolium,93
+General Lavalle,Buenos Aires,0.1838,0.454,35.97,Austroeupatorium inulifolium,94
+Ayacucho,Buenos Aires,0.1762,0.357,0,Austroeupatorium inulifolium,95
+Azul,Buenos Aires,0.1626,0.304,0,Austroeupatorium inulifolium,96
+Pehuajó,Buenos Aires,0.1557,0.377,0,Austroeupatorium inulifolium,97
+Olavarría,Buenos Aires,0.1451,0.295,0,Austroeupatorium inulifolium,98
+Carlos Tejedor,Buenos Aires,0.1364,0.301,0,Austroeupatorium inulifolium,99
+Laprida,Buenos Aires,0.1359,0.23,0,Austroeupatorium inulifolium,100
+San Cayetano,Buenos Aires,0.1301,0.264,42.22,Austroeupatorium inulifolium,101
+General Villegas,Buenos Aires,0.1227,0.569,0,Austroeupatorium inulifolium,102
+Tandil,Buenos Aires,0.1193,0.26,0,Austroeupatorium inulifolium,103
+Hipólito Yrigoyen,Buenos Aires,0.1147,0.302,0,Austroeupatorium inulifolium,104
+Balcarce,Buenos Aires,0.1139,0.238,0,Austroeupatorium inulifolium,105
+Monte Hermoso,Buenos Aires,0.1062,0.186,32.73,Austroeupatorium inulifolium,106
+Benito Juárez,Buenos Aires,0.1038,0.23,0,Austroeupatorium inulifolium,107
+Adolfo Gonzales Chaves,Buenos Aires,0.0957,0.204,0,Austroeupatorium inulifolium,108
+Tres Arroyos,Buenos Aires,0.0939,0.193,103.72,Austroeupatorium inulifolium,109
+General La Madrid,Buenos Aires,0.0898,0.213,0,Austroeupatorium inulifolium,110
+Coronel Dorrego,Buenos Aires,0.0861,0.191,70.83,Austroeupatorium inulifolium,111
+Rivadavia,Buenos Aires,0.0781,0.146,0,Austroeupatorium inulifolium,112
+Coronel de Marina Leonardo Rosal,Buenos Aires,0.0766,0.188,82.88,Austroeupatorium inulifolium,113
+Trenque Lauquen,Buenos Aires,0.0693,0.459,0,Austroeupatorium inulifolium,114
+Coronel Pringles,Buenos Aires,0.0683,0.183,0,Austroeupatorium inulifolium,115
+Daireaux,Buenos Aires,0.0655,0.179,0,Austroeupatorium inulifolium,116
+Coronel Suárez,Buenos Aires,0.0505,0.138,0,Austroeupatorium inulifolium,117
+Bahía Blanca,Buenos Aires,0.0459,0.124,42.88,Austroeupatorium inulifolium,118
+Tornquist,Buenos Aires,0.0448,0.142,0,Austroeupatorium inulifolium,119
+Guaminí,Buenos Aires,0.0412,0.182,0,Austroeupatorium inulifolium,120
+Pellegrini,Buenos Aires,0.0362,0.057,0,Austroeupatorium inulifolium,121
+Saavedra,Buenos Aires,0.0361,0.12,0,Austroeupatorium inulifolium,122
+Patagones,Buenos Aires,0.0323,0.067,662.44,Austroeupatorium inulifolium,123
+Tres Lomas,Buenos Aires,0.032,0.037,0,Austroeupatorium inulifolium,124
+Villarino,Buenos Aires,0.0312,0.132,727.24,Austroeupatorium inulifolium,125
+Adolfo Alsina,Buenos Aires,0.0306,0.142,0,Austroeupatorium inulifolium,126
+Puán,Buenos Aires,0.0304,0.04,0,Austroeupatorium inulifolium,127
+Salliqueló,Buenos Aires,0.0304,0.033,0,Austroeupatorium inulifolium,128

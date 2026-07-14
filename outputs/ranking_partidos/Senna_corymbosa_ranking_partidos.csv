@@ -1,0 +1,129 @@
+partido,provincia,idoneidad_media,idoneidad_maxima,area_alta_idoneidad_km2,species,rango
+Quilmes,Buenos Aires,0.9082,0.929,95.95,Senna corymbosa,1
+San Isidro,Buenos Aires,0.9067,0.923,53.07,Senna corymbosa,2
+Vicente López,Buenos Aires,0.9064,0.925,36.78,Senna corymbosa,3
+General San Martín,Buenos Aires,0.9054,0.921,57.27,Senna corymbosa,4
+San Fernando (2),Buenos Aires,0.9007,0.92,26.19,Senna corymbosa,5
+Tres de Febrero,Buenos Aires,0.895,0.913,43.81,Senna corymbosa,6
+Lomas de Zamora,Buenos Aires,0.8947,0.914,88.17,Senna corymbosa,7
+Lanús,Buenos Aires,0.8936,0.91,47.99,Senna corymbosa,8
+Avellaneda,Buenos Aires,0.8925,0.915,60.01,Senna corymbosa,9
+Berazategui,Buenos Aires,0.8866,0.926,224.13,Senna corymbosa,10
+Morón,Buenos Aires,0.8835,0.915,130.68,Senna corymbosa,11
+Ensenada,Buenos Aires,0.8826,0.909,109.22,Senna corymbosa,12
+Almirante Brown,Buenos Aires,0.8778,0.916,127.54,Senna corymbosa,13
+General Sarmiento,Buenos Aires,0.8751,0.918,203.71,Senna corymbosa,14
+Tigre,Buenos Aires,0.8748,0.92,403.1,Senna corymbosa,15
+Florencio Varela,Buenos Aires,0.867,0.917,203.54,Senna corymbosa,16
+Berisso,Buenos Aires,0.8669,0.912,150.67,Senna corymbosa,17
+La Matanza,Buenos Aires,0.8591,0.915,321.57,Senna corymbosa,18
+Escobar,Buenos Aires,0.8573,0.907,294.89,Senna corymbosa,19
+Moreno,Buenos Aires,0.857,0.901,186.52,Senna corymbosa,20
+Merlo,Buenos Aires,0.8545,0.9,170.78,Senna corymbosa,21
+La Plata,Buenos Aires,0.8458,0.918,871.35,Senna corymbosa,22
+Esteban Echeverría,Buenos Aires,0.8435,0.905,390.24,Senna corymbosa,23
+Pilar,Buenos Aires,0.8426,0.891,378.01,Senna corymbosa,24
+San Fernando (1),Buenos Aires,0.8418,0.895,1020.83,Senna corymbosa,25
+Campana,Buenos Aires,0.8259,0.893,996.06,Senna corymbosa,26
+San Vicente,Buenos Aires,0.806,0.881,738.63,Senna corymbosa,27
+Marcos Paz,Buenos Aires,0.7811,0.843,429.95,Senna corymbosa,28
+Brandsen,Buenos Aires,0.7785,0.867,1136.29,Senna corymbosa,29
+Magdalena,Buenos Aires,0.7781,0.886,3537.43,Senna corymbosa,30
+Zárate,Buenos Aires,0.7694,0.884,1208.43,Senna corymbosa,31
+General Rodríguez,Buenos Aires,0.7548,0.852,349.58,Senna corymbosa,32
+Cañuelas,Buenos Aires,0.7438,0.837,1195.58,Senna corymbosa,33
+General Paz,Buenos Aires,0.7037,0.806,1184.67,Senna corymbosa,34
+Chascomús,Buenos Aires,0.6948,0.824,4172.5,Senna corymbosa,35
+Pinamar,Buenos Aires,0.6935,0.746,69.87,Senna corymbosa,36
+Exaltación de la Cruz,Buenos Aires,0.6898,0.871,470.13,Senna corymbosa,37
+General Las Heras,Buenos Aires,0.6831,0.8,640.59,Senna corymbosa,38
+Monte,Buenos Aires,0.6393,0.799,1523.24,Senna corymbosa,39
+Luján,Buenos Aires,0.6328,0.851,346.46,Senna corymbosa,40
+Baradero,Buenos Aires,0.6211,0.871,673.03,Senna corymbosa,41
+Castelli,Buenos Aires,0.6148,0.751,1564.29,Senna corymbosa,42
+San Pedro,Buenos Aires,0.589,0.861,434.12,Senna corymbosa,43
+Ramallo,Buenos Aires,0.5713,0.818,314.83,Senna corymbosa,44
+Villa Gesell,Buenos Aires,0.5425,0.755,75.12,Senna corymbosa,45
+Lobos,Buenos Aires,0.5309,0.761,610.43,Senna corymbosa,46
+San Nicolás,Buenos Aires,0.5279,0.69,48.02,Senna corymbosa,47
+La Costa,Buenos Aires,0.5221,0.729,144.54,Senna corymbosa,48
+Tordillo,Buenos Aires,0.5198,0.72,195.96,Senna corymbosa,49
+San Antonio de Areco,Buenos Aires,0.5166,0.803,64.68,Senna corymbosa,50
+Dolores,Buenos Aires,0.5165,0.691,303.29,Senna corymbosa,51
+Arrecifes,Buenos Aires,0.5111,0.618,19.91,Senna corymbosa,52
+General Lavalle,Buenos Aires,0.5069,0.747,330.42,Senna corymbosa,53
+Capitán Sarmiento,Buenos Aires,0.4961,0.619,12.8,Senna corymbosa,54
+Pila,Buenos Aires,0.4748,0.721,431.54,Senna corymbosa,55
+General Juan Madariaga,Buenos Aires,0.4729,0.73,271.39,Senna corymbosa,56
+Pergamino,Buenos Aires,0.4716,0.638,4.28,Senna corymbosa,57
+San Andrés de Giles,Buenos Aires,0.4712,0.619,6.38,Senna corymbosa,58
+General Belgrano,Buenos Aires,0.4661,0.708,210.38,Senna corymbosa,59
+Nueve de Julio,Buenos Aires,0.4601,0.647,49.63,Senna corymbosa,60
+General Viamonte,Buenos Aires,0.4557,0.633,26.69,Senna corymbosa,61
+Mercedes,Buenos Aires,0.4513,0.58,0,Senna corymbosa,62
+Junín,Buenos Aires,0.4499,0.704,133.7,Senna corymbosa,63
+Carmen de Areco,Buenos Aires,0.442,0.61,1.42,Senna corymbosa,64
+Bragado,Buenos Aires,0.4411,0.67,14.74,Senna corymbosa,65
+Salto,Buenos Aires,0.4394,0.588,0,Senna corymbosa,66
+Carlos Casares,Buenos Aires,0.4325,0.618,4.89,Senna corymbosa,67
+Navarro,Buenos Aires,0.4273,0.699,9.14,Senna corymbosa,68
+General Alvear,Buenos Aires,0.42,0.606,0.69,Senna corymbosa,69
+General Arenales,Buenos Aires,0.4142,0.648,4.25,Senna corymbosa,70
+Lincoln,Buenos Aires,0.4095,0.616,4.22,Senna corymbosa,71
+Colón,Buenos Aires,0.4095,0.577,0,Senna corymbosa,72
+Rojas,Buenos Aires,0.4074,0.556,0,Senna corymbosa,73
+Maipú,Buenos Aires,0.4063,0.573,0,Senna corymbosa,74
+Veinticinco de Mayo,Buenos Aires,0.4039,0.621,13.92,Senna corymbosa,75
+Tapalqué,Buenos Aires,0.4038,0.611,1.39,Senna corymbosa,76
+Bolívar,Buenos Aires,0.3983,0.617,2.07,Senna corymbosa,77
+Alberti,Buenos Aires,0.3924,0.592,0,Senna corymbosa,78
+General Pinto,Buenos Aires,0.388,0.678,20.46,Senna corymbosa,79
+Leandro N. Alem,Buenos Aires,0.3852,0.598,0,Senna corymbosa,80
+General Guido,Buenos Aires,0.3743,0.663,1.38,Senna corymbosa,81
+Las Flores,Buenos Aires,0.3737,0.549,0,Senna corymbosa,82
+Olavarría,Buenos Aires,0.3734,0.611,4.13,Senna corymbosa,83
+Chacabuco,Buenos Aires,0.3658,0.561,0,Senna corymbosa,84
+Ameghino,Buenos Aires,0.3638,0.653,2.82,Senna corymbosa,85
+Saladillo,Buenos Aires,0.3628,0.656,2.8,Senna corymbosa,86
+Chivilcoy,Buenos Aires,0.3607,0.579,0,Senna corymbosa,87
+Suipacha,Buenos Aires,0.3559,0.529,0,Senna corymbosa,88
+Roque Pérez,Buenos Aires,0.3484,0.653,10.49,Senna corymbosa,89
+Rauch,Buenos Aires,0.3411,0.471,0,Senna corymbosa,90
+General Pueyrredón,Buenos Aires,0.34,0.632,73.73,Senna corymbosa,91
+Azul,Buenos Aires,0.3319,0.526,0,Senna corymbosa,92
+Carlos Tejedor,Buenos Aires,0.3248,0.581,0,Senna corymbosa,93
+Mar Chiquita,Buenos Aires,0.3227,0.677,112.88,Senna corymbosa,94
+Pehuajó,Buenos Aires,0.3017,0.571,0,Senna corymbosa,95
+General Alvarado,Buenos Aires,0.3016,0.566,55.93,Senna corymbosa,96
+General Villegas,Buenos Aires,0.2941,0.676,14.17,Senna corymbosa,97
+Hipólito Yrigoyen,Buenos Aires,0.2896,0.512,0,Senna corymbosa,98
+Lobería,Buenos Aires,0.2819,0.609,41.69,Senna corymbosa,99
+Laprida,Buenos Aires,0.2746,0.44,0,Senna corymbosa,100
+Rivadavia,Buenos Aires,0.2739,0.536,0,Senna corymbosa,101
+Necochea,Buenos Aires,0.2728,0.656,106.69,Senna corymbosa,102
+General La Madrid,Buenos Aires,0.2538,0.435,0,Senna corymbosa,103
+Ayacucho,Buenos Aires,0.244,0.425,0,Senna corymbosa,104
+Coronel Pringles,Buenos Aires,0.2363,0.437,0,Senna corymbosa,105
+Tandil,Buenos Aires,0.2357,0.495,0,Senna corymbosa,106
+Daireaux,Buenos Aires,0.2337,0.545,0,Senna corymbosa,107
+Adolfo Gonzales Chaves,Buenos Aires,0.2284,0.368,0,Senna corymbosa,108
+San Cayetano,Buenos Aires,0.2257,0.325,42.22,Senna corymbosa,109
+Trenque Lauquen,Buenos Aires,0.2241,0.661,9.73,Senna corymbosa,110
+Coronel de Marina Leonardo Rosal,Buenos Aires,0.2193,0.469,82.88,Senna corymbosa,111
+Bahía Blanca,Buenos Aires,0.2132,0.526,42.88,Senna corymbosa,112
+Benito Juárez,Buenos Aires,0.213,0.423,0,Senna corymbosa,113
+Balcarce,Buenos Aires,0.2063,0.505,0,Senna corymbosa,114
+Tres Arroyos,Buenos Aires,0.1991,0.371,103.72,Senna corymbosa,115
+Coronel Suárez,Buenos Aires,0.1969,0.459,0,Senna corymbosa,116
+Coronel Dorrego,Buenos Aires,0.1895,0.356,70.83,Senna corymbosa,117
+Tornquist,Buenos Aires,0.1803,0.47,0,Senna corymbosa,118
+Guaminí,Buenos Aires,0.1579,0.429,0,Senna corymbosa,119
+Saavedra,Buenos Aires,0.1297,0.399,0,Senna corymbosa,120
+Pellegrini,Buenos Aires,0.1199,0.251,0,Senna corymbosa,121
+Adolfo Alsina,Buenos Aires,0.1181,0.469,0,Senna corymbosa,122
+Tres Lomas,Buenos Aires,0.1152,0.263,0,Senna corymbosa,123
+Monte Hermoso,Buenos Aires,0.1135,0.201,32.73,Senna corymbosa,124
+Puán,Buenos Aires,0.1103,0.262,0,Senna corymbosa,125
+Salliqueló,Buenos Aires,0.0904,0.172,0,Senna corymbosa,126
+Villarino,Buenos Aires,0.0672,0.373,727.24,Senna corymbosa,127
+Patagones,Buenos Aires,0.0485,0.163,662.44,Senna corymbosa,128

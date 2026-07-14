@@ -1,0 +1,129 @@
+partido,provincia,idoneidad_media,idoneidad_maxima,area_alta_idoneidad_km2,species,rango
+San Isidro,Buenos Aires,0.893,0.912,53.07,Syagrus romanzoffiana,1
+San Fernando (2),Buenos Aires,0.8894,0.909,26.19,Syagrus romanzoffiana,2
+Quilmes,Buenos Aires,0.8891,0.914,95.95,Syagrus romanzoffiana,3
+Vicente López,Buenos Aires,0.8889,0.906,36.78,Syagrus romanzoffiana,4
+General San Martín,Buenos Aires,0.8853,0.906,57.27,Syagrus romanzoffiana,5
+Avellaneda,Buenos Aires,0.8704,0.895,60.01,Syagrus romanzoffiana,6
+Lanús,Buenos Aires,0.8704,0.887,47.99,Syagrus romanzoffiana,7
+Tres de Febrero,Buenos Aires,0.8691,0.89,43.81,Syagrus romanzoffiana,8
+Berazategui,Buenos Aires,0.8635,0.914,224.13,Syagrus romanzoffiana,9
+Tigre,Buenos Aires,0.8628,0.906,403.1,Syagrus romanzoffiana,10
+Ensenada,Buenos Aires,0.859,0.894,109.22,Syagrus romanzoffiana,11
+Lomas de Zamora,Buenos Aires,0.8509,0.888,88.17,Syagrus romanzoffiana,12
+San Fernando (1),Buenos Aires,0.8436,0.905,1020.83,Syagrus romanzoffiana,13
+Morón,Buenos Aires,0.839,0.887,130.68,Syagrus romanzoffiana,14
+Almirante Brown,Buenos Aires,0.8362,0.893,127.54,Syagrus romanzoffiana,15
+General Sarmiento,Buenos Aires,0.8343,0.895,203.71,Syagrus romanzoffiana,16
+Berisso,Buenos Aires,0.8308,0.896,150.67,Syagrus romanzoffiana,17
+Florencio Varela,Buenos Aires,0.8257,0.898,203.54,Syagrus romanzoffiana,18
+Escobar,Buenos Aires,0.798,0.875,289.93,Syagrus romanzoffiana,19
+La Plata,Buenos Aires,0.7812,0.903,865.74,Syagrus romanzoffiana,20
+Moreno,Buenos Aires,0.7646,0.845,185.82,Syagrus romanzoffiana,21
+Pilar,Buenos Aires,0.7435,0.849,373.76,Syagrus romanzoffiana,22
+Campana,Buenos Aires,0.7283,0.86,944.21,Syagrus romanzoffiana,23
+Merlo,Buenos Aires,0.7159,0.842,158.79,Syagrus romanzoffiana,24
+Esteban Echeverría,Buenos Aires,0.6996,0.856,360.68,Syagrus romanzoffiana,25
+La Matanza,Buenos Aires,0.6968,0.886,239.84,Syagrus romanzoffiana,26
+San Vicente,Buenos Aires,0.6629,0.815,541.3,Syagrus romanzoffiana,27
+Zárate,Buenos Aires,0.6537,0.834,897.68,Syagrus romanzoffiana,28
+La Costa,Buenos Aires,0.6132,0.738,223.86,Syagrus romanzoffiana,29
+General Rodríguez,Buenos Aires,0.601,0.731,191.45,Syagrus romanzoffiana,30
+Exaltación de la Cruz,Buenos Aires,0.5991,0.801,327.53,Syagrus romanzoffiana,31
+Brandsen,Buenos Aires,0.5958,0.817,555.99,Syagrus romanzoffiana,32
+Pinamar,Buenos Aires,0.5758,0.681,40.43,Syagrus romanzoffiana,33
+Magdalena,Buenos Aires,0.5721,0.831,1215.88,Syagrus romanzoffiana,34
+Baradero,Buenos Aires,0.5709,0.816,740.64,Syagrus romanzoffiana,35
+Luján,Buenos Aires,0.5613,0.755,239.75,Syagrus romanzoffiana,36
+Marcos Paz,Buenos Aires,0.5247,0.709,46.55,Syagrus romanzoffiana,37
+San Antonio de Areco,Buenos Aires,0.4589,0.728,161.97,Syagrus romanzoffiana,38
+Cañuelas,Buenos Aires,0.4516,0.678,87.92,Syagrus romanzoffiana,39
+General Lavalle,Buenos Aires,0.4302,0.667,137.51,Syagrus romanzoffiana,40
+General Las Heras,Buenos Aires,0.4294,0.6,0.7,Syagrus romanzoffiana,41
+San Pedro,Buenos Aires,0.4246,0.815,217.83,Syagrus romanzoffiana,42
+Villa Gesell,Buenos Aires,0.4196,0.675,56.67,Syagrus romanzoffiana,43
+Chascomús,Buenos Aires,0.4006,0.655,43.99,Syagrus romanzoffiana,44
+San Andrés de Giles,Buenos Aires,0.3728,0.641,5.67,Syagrus romanzoffiana,45
+Ramallo,Buenos Aires,0.3686,0.729,130.28,Syagrus romanzoffiana,46
+General Paz,Buenos Aires,0.3563,0.559,0,Syagrus romanzoffiana,47
+Mercedes,Buenos Aires,0.3501,0.597,0,Syagrus romanzoffiana,48
+Castelli,Buenos Aires,0.3247,0.512,77.82,Syagrus romanzoffiana,49
+General Juan Madariaga,Buenos Aires,0.3228,0.67,1.37,Syagrus romanzoffiana,50
+Capitán Sarmiento,Buenos Aires,0.3126,0.438,0,Syagrus romanzoffiana,51
+Tordillo,Buenos Aires,0.3098,0.53,24.23,Syagrus romanzoffiana,52
+San Nicolás,Buenos Aires,0.2882,0.656,5.02,Syagrus romanzoffiana,53
+Arrecifes,Buenos Aires,0.2844,0.427,0,Syagrus romanzoffiana,54
+Carmen de Areco,Buenos Aires,0.2781,0.413,0,Syagrus romanzoffiana,55
+Lobos,Buenos Aires,0.2759,0.536,0,Syagrus romanzoffiana,56
+Navarro,Buenos Aires,0.2719,0.513,0,Syagrus romanzoffiana,57
+Dolores,Buenos Aires,0.2566,0.417,0,Syagrus romanzoffiana,58
+Salto,Buenos Aires,0.2527,0.356,0,Syagrus romanzoffiana,59
+Monte,Buenos Aires,0.2469,0.527,0,Syagrus romanzoffiana,60
+Nueve de Julio,Buenos Aires,0.2456,0.396,0,Syagrus romanzoffiana,61
+General Pueyrredón,Buenos Aires,0.2435,0.524,65.61,Syagrus romanzoffiana,62
+Bragado,Buenos Aires,0.2414,0.488,0,Syagrus romanzoffiana,63
+Suipacha,Buenos Aires,0.2407,0.344,0,Syagrus romanzoffiana,64
+Maipú,Buenos Aires,0.2305,0.399,0,Syagrus romanzoffiana,65
+General Viamonte,Buenos Aires,0.2302,0.381,0,Syagrus romanzoffiana,66
+General Alvarado,Buenos Aires,0.2239,0.444,55.93,Syagrus romanzoffiana,67
+Chivilcoy,Buenos Aires,0.2147,0.324,0,Syagrus romanzoffiana,68
+Alberti,Buenos Aires,0.2106,0.343,0,Syagrus romanzoffiana,69
+Pergamino,Buenos Aires,0.2092,0.367,0,Syagrus romanzoffiana,70
+Chacabuco,Buenos Aires,0.2049,0.306,0,Syagrus romanzoffiana,71
+Carlos Casares,Buenos Aires,0.2041,0.377,0,Syagrus romanzoffiana,72
+Lobería,Buenos Aires,0.2037,0.441,40.34,Syagrus romanzoffiana,73
+Junín,Buenos Aires,0.1979,0.442,0,Syagrus romanzoffiana,74
+Veinticinco de Mayo,Buenos Aires,0.1949,0.344,0,Syagrus romanzoffiana,75
+Pila,Buenos Aires,0.1914,0.462,0,Syagrus romanzoffiana,76
+Lincoln,Buenos Aires,0.1849,0.333,0,Syagrus romanzoffiana,77
+Ameghino,Buenos Aires,0.1819,0.372,0,Syagrus romanzoffiana,78
+Balcarce,Buenos Aires,0.1707,0.504,0,Syagrus romanzoffiana,79
+Necochea,Buenos Aires,0.1702,0.422,98.63,Syagrus romanzoffiana,80
+General Pinto,Buenos Aires,0.168,0.487,0,Syagrus romanzoffiana,81
+General Guido,Buenos Aires,0.1657,0.395,0,Syagrus romanzoffiana,82
+Mar Chiquita,Buenos Aires,0.1635,0.434,107.43,Syagrus romanzoffiana,83
+Olavarría,Buenos Aires,0.1622,0.463,0,Syagrus romanzoffiana,84
+General Belgrano,Buenos Aires,0.1603,0.53,0,Syagrus romanzoffiana,85
+Roque Pérez,Buenos Aires,0.1594,0.361,0,Syagrus romanzoffiana,86
+Leandro N. Alem,Buenos Aires,0.1542,0.294,0,Syagrus romanzoffiana,87
+Rauch,Buenos Aires,0.1537,0.217,0,Syagrus romanzoffiana,88
+Rojas,Buenos Aires,0.1534,0.308,0,Syagrus romanzoffiana,89
+General Alvear,Buenos Aires,0.1525,0.236,0,Syagrus romanzoffiana,90
+Tapalqué,Buenos Aires,0.1521,0.247,0,Syagrus romanzoffiana,91
+General Villegas,Buenos Aires,0.1499,0.479,0,Syagrus romanzoffiana,92
+General Arenales,Buenos Aires,0.1461,0.389,0,Syagrus romanzoffiana,93
+Colón,Buenos Aires,0.1438,0.246,0,Syagrus romanzoffiana,94
+Azul,Buenos Aires,0.1432,0.413,0,Syagrus romanzoffiana,95
+Carlos Tejedor,Buenos Aires,0.1424,0.245,0,Syagrus romanzoffiana,96
+Tandil,Buenos Aires,0.1419,0.424,0,Syagrus romanzoffiana,97
+Saladillo,Buenos Aires,0.1387,0.506,0,Syagrus romanzoffiana,98
+Bolívar,Buenos Aires,0.1371,0.291,0,Syagrus romanzoffiana,99
+Pehuajó,Buenos Aires,0.1263,0.336,0,Syagrus romanzoffiana,100
+Las Flores,Buenos Aires,0.1244,0.222,0,Syagrus romanzoffiana,101
+San Cayetano,Buenos Aires,0.114,0.181,42.22,Syagrus romanzoffiana,102
+Ayacucho,Buenos Aires,0.1047,0.18,0,Syagrus romanzoffiana,103
+Benito Juárez,Buenos Aires,0.097,0.384,0,Syagrus romanzoffiana,104
+Hipólito Yrigoyen,Buenos Aires,0.0958,0.2,0,Syagrus romanzoffiana,105
+Adolfo Gonzales Chaves,Buenos Aires,0.0905,0.258,0,Syagrus romanzoffiana,106
+Laprida,Buenos Aires,0.0889,0.174,0,Syagrus romanzoffiana,107
+Tres Arroyos,Buenos Aires,0.086,0.26,103.72,Syagrus romanzoffiana,108
+Rivadavia,Buenos Aires,0.0814,0.22,0,Syagrus romanzoffiana,109
+General La Madrid,Buenos Aires,0.0644,0.133,0,Syagrus romanzoffiana,110
+Coronel Pringles,Buenos Aires,0.0637,0.283,0,Syagrus romanzoffiana,111
+Daireaux,Buenos Aires,0.0634,0.159,0,Syagrus romanzoffiana,112
+Trenque Lauquen,Buenos Aires,0.051,0.544,0,Syagrus romanzoffiana,113
+Coronel Dorrego,Buenos Aires,0.0505,0.189,70.83,Syagrus romanzoffiana,114
+Coronel Suárez,Buenos Aires,0.0484,0.232,0,Syagrus romanzoffiana,115
+Tornquist,Buenos Aires,0.0475,0.277,0,Syagrus romanzoffiana,116
+Monte Hermoso,Buenos Aires,0.0408,0.054,32.73,Syagrus romanzoffiana,117
+Bahía Blanca,Buenos Aires,0.0393,0.108,42.88,Syagrus romanzoffiana,118
+Saavedra,Buenos Aires,0.0381,0.154,0,Syagrus romanzoffiana,119
+Coronel de Marina Leonardo Rosal,Buenos Aires,0.0373,0.077,82.88,Syagrus romanzoffiana,120
+Guaminí,Buenos Aires,0.0364,0.133,0,Syagrus romanzoffiana,121
+Adolfo Alsina,Buenos Aires,0.0318,0.117,0,Syagrus romanzoffiana,122
+Tres Lomas,Buenos Aires,0.031,0.035,0,Syagrus romanzoffiana,123
+Pellegrini,Buenos Aires,0.0308,0.043,0,Syagrus romanzoffiana,124
+Puán,Buenos Aires,0.0306,0.052,0,Syagrus romanzoffiana,125
+Salliqueló,Buenos Aires,0.03,0.033,0,Syagrus romanzoffiana,126
+Patagones,Buenos Aires,0.029,0.076,662.44,Syagrus romanzoffiana,127
+Villarino,Buenos Aires,0.0288,0.095,727.24,Syagrus romanzoffiana,128
