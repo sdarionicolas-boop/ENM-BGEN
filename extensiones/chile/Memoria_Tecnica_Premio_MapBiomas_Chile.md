@@ -145,12 +145,32 @@ El detalle por área protegida (tabla completa en [`resultados/Col2_2024/fuego_p
 
 **"Palmar El Salto"** —una reserva creada específicamente para *Jubaea chilensis*— tuvo el **80% de su hábitat compatible quemado** en el período analizado. Es el hallazgo más urgente y accionable de este estudio: identifica un sitio puntual, pequeño y con nombre propio donde la intervención de manejo de fuego debería priorizarse de inmediato, en contraste con palmares como Fray Jorge o Monte Aranda que no registran quemas en el mismo período y podrían servir de referencia de buen manejo.
 
-### 6.6. Visualización de resultados
+### 6.6. Ranking de palmares por prioridad de conservación
+
+La literatura (PMC9370131) documenta seis poblaciones/palmares principales —Ocoa, Cocalán, Viña del Mar/Valparaíso, Candelaria, Petorca y Culimo— que concentran el 96% de los individuos, pero no publica sus coordenadas exactas en formato tabulado. Para construir un ranking accionable sin inventar límites administrativos, se agruparon los 2.091 registros de presencia mediante **clustering espacial (k-means, k=6)** y se calculó, para cada clúster, un índice de prioridad de conservación análogo al usado en `BLOQUE8_partidos_bonaerenses.R` (Argentina): combina hábitat compatible disponible (peso 50%), grado de desprotección (peso 30%) y exposición a incendios (peso 20%).
+
+Cada clúster se etiquetó con la población documentada más cercana, indicando explícitamente el nivel de confianza de esa identificación (por coincidencia con polígonos WDPA conocidos, o por toponimia regional cuando no hay una referencia espacial exacta):
+
+| Rango | Palmar (aprox.) | Confianza | Hábitat compatible | % Protegido | % Quemado | Índice prioridad |
+|---|---|---|---:|---:|---:|---:|
+| 1 | Cocalán | Media | 2.646 km² | 1,3% | 13,0% | 0,862 |
+| 2 | Petorca | Media | 2.798 km² | 0,3% | 0% | 0,799 |
+| 3 | Candelaria | Baja | 501 km² | 0% | 25,6% | 0,500 |
+| 4 | Viña del Mar/Valparaíso | Alta | 1.120 km² | 38,9% | 18,0% | 0,391 |
+| 5 | Culimo | Media | 581 km² | 0% | 0% | 0,317 |
+| 6 | Ocoa (La Campana) | Alta | 1.074 km² | 63,2% | 7,6% | 0,184 |
+
+**Ocoa queda en el último lugar de prioridad** precisamente porque ya está mayoritariamente protegida (63,2%, dentro del Parque Nacional La Campana-Peñuelas) — es la población que menos necesita intervención adicional. **Cocalán y Petorca encabezan el ranking**: concentran mucho hábitat compatible con protección casi nula, y deberían ser el foco de nuevas iniciativas de conservación formal. El clúster "Viña del Mar/Valparaíso" merece una salvedad: al coincidir con una zona urbana densamente muestreada por ciencia ciudadana (iNaturalist), su alto número de registros (1.422, el mayor de los seis) probablemente incluye ejemplares cultivados en plazas y jardines, no solo poblaciones silvestres — la misma limitación de sesgo de muestreo urbano discutida en la sección 5.1.
+
+Tabla completa con centroides y metodología de etiquetado en [`resultados/Col2_2024/ranking_palmares.csv`](./resultados/Col2_2024/ranking_palmares.csv).
+
+### 6.7. Visualización de resultados
 - Visor interactivo de idoneidad climática: [`resultados/mapa_interactivo_jubaea_chile.html`](./resultados/mapa_interactivo_jubaea_chile.html)
 - Visor interactivo del cruce, Colección 2 (oficial): [`resultados/Col2_2024/mapa_interactivo_cruce_chile.html`](./resultados/Col2_2024/mapa_interactivo_cruce_chile.html)
 - Visor interactivo del cruce, Colección 1 (anexo): [`resultados/Col1_2022/mapa_interactivo_cruce_chile.html`](./resultados/Col1_2022/mapa_interactivo_cruce_chile.html)
 - Brecha de protección (SNASPE/WDPA): [`resultados/Col2_2024/snaspe_proteccion_resumen.csv`](./resultados/Col2_2024/snaspe_proteccion_resumen.csv), [`resultados/Col2_2024/snaspe_detalle_por_area.csv`](./resultados/Col2_2024/snaspe_detalle_por_area.csv)
 - Incendios 2013-2025: [`resultados/Col2_2024/fuego_resumen.csv`](./resultados/Col2_2024/fuego_resumen.csv), [`resultados/Col2_2024/fuego_por_area_protegida.csv`](./resultados/Col2_2024/fuego_por_area_protegida.csv)
+- Ranking de palmares por prioridad: [`resultados/Col2_2024/ranking_palmares.csv`](./resultados/Col2_2024/ranking_palmares.csv)
 - Diagnósticos de colinealidad: [`resultados/correlacion_pearson.png`](./resultados/correlacion_pearson.png), [`resultados/vif_barplot.png`](./resultados/vif_barplot.png)
 
 ## 7. Conclusión
@@ -158,7 +178,7 @@ La integración de ensemble modeling con MapBiomas Chile Colección 2 permite ai
 
 El cruce adicional con el WDPA (sección 6.4) agrega el dato más accionable del estudio: de ese hábitat disponible, **solo el 12,6% está dentro de un área protegida** — el 87,4% restante no tiene ninguna figura de protección legal. El cruce con el Producto Fuego (sección 6.5) matiza además qué significa "protegido": las áreas protegidas se quemaron proporcionalmente más que las desprotegidas (12,4% vs 7,7%), y un palmar específico —**Palmar El Salto**— tuvo el 80% de su hábitat compatible quemado en 2013-2025, mientras otros palmares (Fray Jorge, Monte Aranda) no registraron quemas.
 
-La conservación de esta especie crítica requiere, por lo tanto, una estrategia en cuatro frentes: (1) ampliar la protección formal sobre el hábitat compatible hoy desprotegido, (2) frenar la conversión adicional a uso agrícola en las zonas de transición, (3) priorizar manejo activo de combustible y cortafuegos en palmares de alto riesgo de incendio como Palmar El Salto, y (4) intervenir directamente sobre la dinámica poblacional — protección de individuos adultos, control de depredadores exóticos de semillas y plántulas, y facilitación activa de la regeneración en los palmares relictos de Ocoa, Cocalán, Viña del Mar/Valparaíso, Candelaria, Petorca y Culimo.
+La conservación de esta especie crítica requiere, por lo tanto, una estrategia en cuatro frentes: (1) ampliar la protección formal sobre el hábitat compatible hoy desprotegido, priorizando **Cocalán y Petorca** según el ranking de la sección 6.6; (2) frenar la conversión adicional a uso agrícola en las zonas de transición; (3) priorizar manejo activo de combustible y cortafuegos en palmares de alto riesgo de incendio como Palmar El Salto; y (4) intervenir directamente sobre la dinámica poblacional — protección de individuos adultos, control de depredadores exóticos de semillas y plántulas, y facilitación activa de la regeneración en los seis palmares relictos identificados.
 
 ---
 > **Repositorio de Código Abierto:** El código fuente (R), la lógica de reclasificación de la leyenda MapBiomas Chile, el script de extracción vía Google Earth Engine y el pipeline de modelado están disponibles públicamente en este mismo repositorio: [`BLOQUE7_mapbiomas_chile.R`](./BLOQUE7_mapbiomas_chile.R), [`BLOQUE7b_snaspe_chile.R`](./BLOQUE7b_snaspe_chile.R), [`BLOQUE7c_fuego_chile.R`](./BLOQUE7c_fuego_chile.R).

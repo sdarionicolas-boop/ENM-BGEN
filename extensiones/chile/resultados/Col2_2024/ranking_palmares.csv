@@ -1,0 +1,7 @@
+rango_prioridad,cluster,nombre_tentativo,confianza,n_registros,km2_compatible,pct_protegido,pct_quemado,indice_prioridad
+1,6,Cocalán (aprox.),"Media (a ~30 km del centroide de Palmas de Cocalán, WDPA)",103,2645.9,1.3,13,0.862
+2,5,"Petorca (aprox., Petorca/La Ligua)","Media (zona de la provincia de Petorca, sin polígono exacto)",40,2798.3,0.3,0,0.799
+3,2,"Candelaria (aprox., costa O'Higgins sur)","Baja (zona sur del rango, sin polígono de referencia)",82,501.3,0,25.6,0.5
+4,1,Viña del Mar / Valparaíso (costero),"Alta (coincide con Lago Peñuelas, WDPA)",1422,1120.3,38.9,18,0.391
+5,4,"Culimo (aprox., límite norte Coquimbo)",Media (coincide con extremo norte del rango documentado),10,580.8,0,0,0.317
+6,3,"Ocoa (La Campana, sector inland)","Alta (coincide con centroide de La Campana-Peñuelas, WDPA)",434,1074.1,63.2,7.6,0.184
