@@ -8,6 +8,7 @@ Mismo núcleo de modelado que las versiones Argentina y Perú del repo; solo cam
 
 - [`BLOQUE7_mapbiomas_chile.R`](./BLOQUE7_mapbiomas_chile.R) — cruce de idoneidad climática × MapBiomas Chile, procesando **Colección 2 (2024, resultado oficial)** y **Colección 1 (2022, anexo comparativo)**.
 - [`BLOQUE7b_snaspe_chile.R`](./BLOQUE7b_snaspe_chile.R) — cruce del hábitat compatible con áreas protegidas (WDPA/SNASPE): ¿cuánto del hábitat disponible ya está protegido?
+- [`BLOQUE7c_fuego_chile.R`](./BLOQUE7c_fuego_chile.R) — cruce con el Producto Fuego de MapBiomas Chile: ¿cuánto del hábitat (protegido y desprotegido) ya se quemó?
 - [`Memoria_Tecnica_Premio_MapBiomas_Chile.md`](./Memoria_Tecnica_Premio_MapBiomas_Chile.md) — memoria técnica completa (introducción, objetivos, metodología, resultados, discusión, y análisis de sensibilidad metodológica entre colecciones).
 - [`resultados/`](./resultados/) — visores interactivos, métricas y diagnósticos:
   - [`mapa_interactivo_jubaea_chile.html`](./resultados/mapa_interactivo_jubaea_chile.html) — visor de idoneidad climática.
@@ -22,6 +23,8 @@ Mismo núcleo de modelado que las versiones Argentina y Perú del repo; solo cam
 Del hábitat de alta idoneidad climática para *Jubaea chilensis*: **77% persiste como vegetación natural o es restaurable, 22,9% fue convertido** (mayormente a agricultura). Un análisis de sensibilidad entre Colección 1 y Colección 2 muestra que el 95% de esa "pérdida" no es conversión real en 2 años, sino una reclasificación más granular de la antigua clase ambigua "mosaico agropecuario" — ver la Memoria Técnica, sección 6.3.
 
 De ese hábitat disponible, **solo el 12,6% está dentro de un área protegida (WDPA/SNASPE) — el 87,4% no tiene ninguna figura de protección legal**. Las áreas protegidas con más hábitat compatible son exactamente los palmares documentados en la literatura (La Campana-Peñuelas, Fray Jorge, Palmas de Cocalán), lo que valida independientemente el modelo — ver sección 6.4 de la Memoria Técnica.
+
+Un tercer cruce con el **Producto Fuego** de MapBiomas Chile agrega un matiz importante: las áreas protegidas se quemaron proporcionalmente **más** que las desprotegidas (12,4% vs 7,7%), y el palmar **"Palmar El Salto"** perdió el **80% de su hábitat compatible al fuego** entre 2013-2025 — ver sección 6.5.
 
 ## Nota sobre el acceso a datos
 
