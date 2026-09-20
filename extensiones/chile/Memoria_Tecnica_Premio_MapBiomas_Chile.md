@@ -91,14 +91,43 @@ El aumento neto de "hábitat perdido" entre colecciones es de 5.361 píxeles; **
 
 Esta comparación se documenta también como archivo de datos en [`resultados/crosstab_col1_col2_alta_idoneidad.csv`](./resultados/crosstab_col1_col2_alta_idoneidad.csv).
 
-### 6.4. Visualización de resultados
+### 6.4. Brecha de protección: ¿cuánto del hábitat disponible está protegido?
+
+El resultado de la sección 6.1 responde "cuánto hábitat hay disponible", pero no "cuánto de ese hábitat está legalmente resguardado de conversión futura". Para responder esto se cruzó la capa "Compatible × Alta idoneidad" (14.937 km²) con el **WDPA (World Database on Protected Areas, UNEP-WCMC/IUCN)**, filtrado a las 76 áreas protegidas de Chile que intersectan la AOI (Parques Nacionales, Reservas Nacionales y Monumentos Naturales del SNASPE/CONAF, Santuarios de la Naturaleza del MMA, sitios Ramsar y Reservas de la Biósfera UNESCO-MAB), obtenido vía Google Earth Engine.
+
+| Categoría | Superficie | % |
+|---|---:|---:|
+| Compatible, alta idoneidad — **protegido** | 1.889 km² | 12,6% |
+| Compatible, alta idoneidad — **desprotegido** | 13.048 km² | 87,4% |
+
+**Solo el 12,6% del hábitat climáticamente óptimo y aún disponible está dentro de un área protegida. El 87,4% restante no tiene ninguna figura de protección legal** y queda expuesto a la misma presión agrícola que ya convirtió el 22,9% del hábitat históricamente apto (sección 6.1).
+
+El detalle por área protegida (tabla completa en [`resultados/Col2_2024/snaspe_detalle_por_area.csv`](./resultados/Col2_2024/snaspe_detalle_por_area.csv)) confirma además la validez del modelo: las áreas que concentran más hábitat compatible son exactamente los sitios documentados en la literatura como palmares relictos —
+
+| Área protegida | Hábitat compatible |
+|---|---:|
+| Parque Nacional La Campana – Peñuelas | 1.358 km² |
+| Reserva de la Biósfera Bosque Fray Jorge | 397 km² |
+| Reserva Nacional Lago Peñuelas | 76 km² |
+| Palmas de Cocalán | 10 km² |
+| Área de Palma Chilena de Monte Aranda | 5 km² |
+| Palmar El Salto | 4 km² |
+
+— es decir, el modelo de idoneidad climática predice correctamente alta idoneidad justo donde existen áreas protegidas creadas específicamente para esta especie ("Palmas de Cocalán", "Área de Palma Chilena de Monte Aranda", "Palmar El Salto"), lo que funciona como una validación adicional independiente de las métricas estadísticas (AUCroc/TSS) de la sección 5.3.
+
+**Implicancia para gestión territorial:** la prioridad de conservación no es solo evitar más conversión de uso de suelo, sino ampliar la red de protección formal sobre el 87,4% de hábitat compatible que hoy no tiene ninguna figura legal — particularmente fuera de los núcleos ya protegidos de La Campana-Peñuelas y Fray Jorge.
+
+### 6.5. Visualización de resultados
 - Visor interactivo de idoneidad climática: [`resultados/mapa_interactivo_jubaea_chile.html`](./resultados/mapa_interactivo_jubaea_chile.html)
 - Visor interactivo del cruce, Colección 2 (oficial): [`resultados/Col2_2024/mapa_interactivo_cruce_chile.html`](./resultados/Col2_2024/mapa_interactivo_cruce_chile.html)
 - Visor interactivo del cruce, Colección 1 (anexo): [`resultados/Col1_2022/mapa_interactivo_cruce_chile.html`](./resultados/Col1_2022/mapa_interactivo_cruce_chile.html)
+- Brecha de protección (SNASPE/WDPA): [`resultados/Col2_2024/snaspe_proteccion_resumen.csv`](./resultados/Col2_2024/snaspe_proteccion_resumen.csv), [`resultados/Col2_2024/snaspe_detalle_por_area.csv`](./resultados/Col2_2024/snaspe_detalle_por_area.csv)
 - Diagnósticos de colinealidad: [`resultados/correlacion_pearson.png`](./resultados/correlacion_pearson.png), [`resultados/vif_barplot.png`](./resultados/vif_barplot.png)
 
 ## 7. Conclusión
-La integración de ensemble modeling con MapBiomas Chile Colección 2 permite aislar, por primera vez de forma cuantitativa, la disponibilidad real de hábitat climático para *Jubaea chilensis*. Los resultados indican que el 77% del hábitat climáticamente apto permanece disponible como vegetación natural o restaurable, mientras que el 22,9% ya fue convertido a usos incompatibles, mayormente agrícolas. El análisis de sensibilidad entre colecciones (sección 6.3) demuestra además que gran parte de la aparente diferencia frente a una primera exploración con Colección 1 no es conversión real sino una mejora en la resolución de clasificación de MapBiomas — un hallazgo metodológico relevante para cualquier estudio que combine series temporales de distintas colecciones de MapBiomas. La conservación de esta especie crítica requiere una estrategia combinada de protección del hábitat remanente (particularmente frente a la expansión agrícola) e intervención directa sobre la dinámica poblacional: protección de individuos adultos, control de depredadores exóticos de semillas y plántulas, y facilitación activa de la regeneración en los palmares relictos de Ocoa, Cocalán, Viña del Mar/Valparaíso, Candelaria, Petorca y Culimo.
+La integración de ensemble modeling con MapBiomas Chile Colección 2 permite aislar, por primera vez de forma cuantitativa, la disponibilidad real de hábitat climático para *Jubaea chilensis*. Los resultados indican que el 77% del hábitat climáticamente apto permanece disponible como vegetación natural o restaurable, mientras que el 22,9% ya fue convertido a usos incompatibles, mayormente agrícolas. El análisis de sensibilidad entre colecciones (sección 6.3) demuestra además que gran parte de la aparente diferencia frente a una primera exploración con Colección 1 no es conversión real sino una mejora en la resolución de clasificación de MapBiomas — un hallazgo metodológico relevante para cualquier estudio que combine series temporales de distintas colecciones de MapBiomas.
+
+El cruce adicional con el WDPA (sección 6.4) agrega el dato más accionable del estudio: de ese hábitat disponible, **solo el 12,6% está dentro de un área protegida** — el 87,4% restante no tiene ninguna figura de protección legal. La conservación de esta especie crítica requiere, por lo tanto, una estrategia en tres frentes: (1) ampliar la protección formal sobre el hábitat compatible hoy desprotegido, (2) frenar la conversión adicional a uso agrícola en las zonas de transición, y (3) intervenir directamente sobre la dinámica poblacional — protección de individuos adultos, control de depredadores exóticos de semillas y plántulas, y facilitación activa de la regeneración en los palmares relictos de Ocoa, Cocalán, Viña del Mar/Valparaíso, Candelaria, Petorca y Culimo.
 
 ---
 > **Repositorio de Código Abierto:** El código fuente (R), la lógica de reclasificación de la leyenda MapBiomas Chile, el script de extracción vía Google Earth Engine y el pipeline de modelado están disponibles públicamente en este mismo repositorio: [`BLOQUE7_mapbiomas_chile.R`](./BLOQUE7_mapbiomas_chile.R).
