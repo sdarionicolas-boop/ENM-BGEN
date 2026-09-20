@@ -1,7 +1,7 @@
 # Memoria Técnica - Premio MapBiomas Chile 2026 (1.ª Edición)
 
 ## 1. Título del Proyecto
-**Idoneidad climática y disponibilidad real de hábitat para *Jubaea chilensis* (Palma chilena) mediante la integración de modelado de nicho ecológico y MapBiomas Chile Colección 1.**
+**Idoneidad climática y disponibilidad real de hábitat para *Jubaea chilensis* (Palma chilena) mediante la integración de modelado de nicho ecológico y MapBiomas Chile Colección 2.**
 
 ## 2. Autor(es)
 Darío Nicolás Sánchez Leguizamón (Beca BIEI 2025 | Proyecto ARG/19/G24 | Red ARGENA)
@@ -9,7 +9,7 @@ Darío Nicolás Sánchez Leguizamón (Beca BIEI 2025 | Proyecto ARG/19/G24 | Red
 ## 3. Resumen Ejecutivo
 *Jubaea chilensis* (palma chilena) es una palmera endémica de Chile central catalogada como Vulnerable por la UICN, con estudios recientes (2024) que argumentan su reclasificación a En Peligro Crítico. De la población preколombina estimada, hoy solo subsisten ~121.284 individuos (2,5%), concentrados en seis palmares relictos entre La Serena y el Maule.
 
-Este trabajo aplica el mismo pipeline de ensemble modeling (biomod2) ya utilizado para 19 especies del BGEN-UNAJ en Argentina y para *Mauritia flexuosa* en Perú, ahora sobre *Jubaea chilensis*, cruzando la idoneidad climática resultante con **MapBiomas Chile Colección 1 (2022)** para cuantificar cuánto del hábitat climáticamente apto persiste como vegetación natural, cuánto es restaurable y cuánto fue efectivamente convertido por uso antrópico.
+Este trabajo aplica el mismo pipeline de ensemble modeling (biomod2) ya utilizado para 19 especies del BGEN-UNAJ en Argentina y para *Mauritia flexuosa* en Perú, ahora sobre *Jubaea chilensis*, cruzando la idoneidad climática resultante con **MapBiomas Chile Colección 2 (2024)** — el producto de land cover exigido por el requisito de elegibilidad N.º 1 del reglamento del Premio — para cuantificar cuánto del hábitat climáticamente apto persiste como vegetación natural, cuánto es restaurable y cuánto fue efectivamente convertido por uso antrópico. Como anexo comparativo se incluye el mismo cruce con la Colección 1 (2022), lo que permite además evaluar la sensibilidad metodológica del resultado entre versiones sucesivas del producto MapBiomas.
 
 ## 4. Problema que Resuelve (Relevancia)
 La literatura reciente atribuye el colapso poblacional de *Jubaea chilensis* a presión directa sobre los individuos (extracción de savia de palmeras decapitadas, sobrecosecha ilegal de semillas, depredación de semillas por *Rattus rattus* y de plántulas por conejos exóticos) más que a pérdida de hábitat por sí sola. Sin embargo, esta hipótesis no había sido contrastada cuantitativamente contra datos oficiales de cobertura de suelo.
@@ -34,8 +34,16 @@ Cinco algoritmos (GLM, GBM, RF, MAXNET, XGBoost) en R (`biomod2`), validación c
 
 Ambas muy por encima de los umbrales de calidad del pipeline (TSS ≥ 0,7, AUCroc ≥ 0,9).
 
-### 5.4. Integración con MapBiomas Chile Colección 1 (2022)
-La capa de cobertura y uso del suelo (`chile_coverage_2022.tif`, descarga directa desde `storage.googleapis.com/mapbiomas-public`) se reclasificó según la leyenda oficial de MapBiomas Chile en tres dimensiones operativas, siguiendo el mismo criterio ya aplicado a Argentina y Perú:
+### 5.4. Integración con MapBiomas Chile Colección 2 (2024)
+El reglamento del Premio MapBiomas Chile 2026 (requisito de elegibilidad N.º 1) exige el uso del **"Producto land cover colección 2"**. A diferencia de Argentina y Perú, la Colección 2 de Chile (publicada en 2025, serie 1999-2024) **no está disponible como descarga directa en el bucket público** de MapBiomas — su acceso oficial es exclusivamente vía **Google Earth Engine**, mediante el asset:
+
+```
+projects/mapbiomas-chile/assets/LULC/COLLECTION-02/CLASSIFICATIONS/classification-final/clasificacion-final-2
+```
+
+Se extrajo la banda `classification_2024` para el área de interés mediante la API de Python de Earth Engine (autenticación OAuth propia), exportada en 10 teselas (por límite de tamaño de descarga directa de GEE) y mosaicada con `terra::merge()` en R.
+
+La capa se reclasificó según la leyenda oficial de MapBiomas Chile en tres dimensiones operativas, siguiendo el mismo criterio ya aplicado a Argentina y Perú:
 
 | Categoría | Clases MapBiomas Chile | Códigos |
 |-----------|------------------------|---------|
@@ -46,36 +54,54 @@ La capa de cobertura y uso del suelo (`chile_coverage_2022.tif`, descarga direct
 
 La categoría *Excluido* agrupa superficies naturalmente no vegetadas (alta cordillera, cuerpos de agua) que quedan fuera del esquema de conversión antrópica y no se computan como "pérdida" — una precisión metodológica necesaria en un país con una fracción tan grande de su territorio en la criósfera y zonas áridas, a diferencia de Argentina o Perú.
 
-Luego se realizó el cruce algebraico con la capa de idoneidad climática reclasificada (Alta/Moderada/Baja), obteniendo 9 combinaciones posibles por celda.
+Luego se realizó el cruce algebraico con la capa de idoneidad climática reclasificada (Alta/Moderada/Baja), obteniendo 9 combinaciones posibles por celda. Como anexo, se repitió el mismo procedimiento con **Colección 1 (2022)** (descarga directa pública) para evaluar la estabilidad temporal/metodológica del resultado (ver sección 6.3).
 
 ## 6. Resultados
 
-### 6.1. Superficie de hábitat de Alta Idoneidad Climática
+### 6.1. Superficie de hábitat de Alta Idoneidad Climática — Colección 2 (2024, resultado oficial)
 
-| Categoría | Superficie |
-|-----------|-----------:|
-| Compatible (conservación) | 12.931 km² |
-| Restaurable (restauración) | 7.135 km² |
-| Incompatible (hábitat perdido) | 892 km² |
-| **Total idoneidad alta** | **20.958 km²** |
+| Categoría | Superficie | % |
+|-----------|-----------:|---:|
+| Compatible (conservación) | 14.937 km² | 71,9% |
+| Restaurable (restauración) | 1.058 km² | 5,1% |
+| Incompatible (hábitat perdido) | 4.765 km² | 22,9% |
+| **Total idoneidad alta** | **20.760 km²** | 100% |
 
-**El 92% del hábitat climáticamente óptimo para *Jubaea chilensis* persiste como vegetación natural o es restaurable; solo el 4,3% fue efectivamente convertido.**
+**El 77% del hábitat climáticamente óptimo para *Jubaea chilensis* persiste como vegetación natural o es restaurable; el 22,9% fue efectivamente convertido.**
 
 ### 6.2. Interpretación
-Este resultado es metodológicamente relevante porque **contradice la hipótesis de pérdida de hábitat como causa principal del colapso poblacional**. El hábitat climáticamente apto está mayormente disponible — la brecha entre 121.284 individuos actuales y el hábitat potencial disponible (miles de km²) señala que el factor limitante no es la disponibilidad de tierra, sino la presión directa documentada en la literatura: extracción de savia, sobrecosecha de semillas y depredación por fauna exótica que colapsa la dispersión y el reclutamiento de nuevos individuos.
+Este resultado es relevante porque, aun siendo más conservador que una primera exploración con datos de 2022 (ver 6.3), sigue indicando que **la mayor parte del hábitat climáticamente apto está disponible**. La brecha entre 121.284 individuos actuales y el hábitat potencial disponible (miles de km²) señala que el factor limitante no es únicamente la disponibilidad de tierra, sino también la presión directa documentada en la literatura: extracción de savia, sobrecosecha de semillas y depredación por fauna exótica que colapsa la dispersión y el reclutamiento de nuevos individuos. La conservación de esta especie requiere, por lo tanto, una estrategia combinada: proteger tanto el 22,9% de hábitat ya convertido de mayor conversión adicional como los individuos reproductivos remanentes.
 
-Esto reposiciona la prioridad de conservación: no se trata (únicamente) de proteger hábitat de la expansión agrícola, sino de proteger los individuos reproductivos y facilitar la regeneración natural en un hábitat que climática y territorialmente sigue siendo apto.
+### 6.3. Sensibilidad metodológica: comparación Colección 1 (2022) vs. Colección 2 (2024)
 
-### 6.3. Visualización de resultados
+Como control de robustez, se repitió el cruce con la Colección 1 (2022), obteniendo un resultado más optimista (92% disponible/restaurable, 4,3% perdido). Para entender esta diferencia se realizó un **cruce píxel a píxel** entre ambas colecciones dentro de la zona de alta idoneidad climática, en vez de asumir que se trata de conversión real de hábitat en dos años.
+
+**Hallazgo:** de los 8.646 píxeles clasificados como "Mosaico Agropecuario" (código 21, categoría Restaurable) en Colección 1, la Colección 2 —que discontinuó esa clase ambigua y reclasifica con mayor granularidad— asigna esos mismos píxeles físicos a:
+
+| Destino en Colección 2 | Píxeles | % | Categoría resultante |
+|---|---:|---:|---|
+| Agricultura (18) | 4.894 | 56,6% | Incompatible |
+| Matorral (66) | 2.785 | 32,2% | Compatible |
+| Pastizal (12) | 301 | 3,5% | Compatible |
+| Infraestructura (24) | 217 | 2,5% | Incompatible |
+| Pastura (15) | 172 | 2,0% | Restaurable |
+| Silvicultura (9) | 109 | 1,3% | Restaurable |
+
+El aumento neto de "hábitat perdido" entre colecciones es de 5.361 píxeles; **5.111 de ellos (95,3%) provienen directamente de esta reclasificación de la clase mosaico**, no de conversión real de uso de suelo ocurrida entre 2022 y 2024. Es decir: la Colección 2 no muestra que Chile perdió hábitat de palma en dos años — muestra que una fracción de lo que antes se veía como "uso mixto/restaurable" ambiguo es, con mayor resolución de clasificación, agricultura activa. Este es un resultado más preciso, no un empeoramiento del hábitat.
+
+Esta comparación se documenta también como archivo de datos en [`resultados/crosstab_col1_col2_alta_idoneidad.csv`](./resultados/crosstab_col1_col2_alta_idoneidad.csv).
+
+### 6.4. Visualización de resultados
 - Visor interactivo de idoneidad climática: [`resultados/mapa_interactivo_jubaea_chile.html`](./resultados/mapa_interactivo_jubaea_chile.html)
-- Visor interactivo del cruce con MapBiomas: [`resultados/mapa_interactivo_cruce_chile.html`](./resultados/mapa_interactivo_cruce_chile.html)
+- Visor interactivo del cruce, Colección 2 (oficial): [`resultados/Col2_2024/mapa_interactivo_cruce_chile.html`](./resultados/Col2_2024/mapa_interactivo_cruce_chile.html)
+- Visor interactivo del cruce, Colección 1 (anexo): [`resultados/Col1_2022/mapa_interactivo_cruce_chile.html`](./resultados/Col1_2022/mapa_interactivo_cruce_chile.html)
 - Diagnósticos de colinealidad: [`resultados/correlacion_pearson.png`](./resultados/correlacion_pearson.png), [`resultados/vif_barplot.png`](./resultados/vif_barplot.png)
 
 ## 7. Conclusión
-La integración de ensemble modeling con MapBiomas Chile Colección 1 permite aislar, por primera vez de forma cuantitativa, la disponibilidad real de hábitat climático para *Jubaea chilensis*. Los resultados indican que la conservación de esta especie crítica depende menos de la protección de hábitat frente a la conversión de uso de suelo — que ya está mayormente disponible — y más de intervenciones directas sobre la dinámica poblacional: protección de individuos adultos, control de depredadores exóticos de semillas y plántulas, y facilitación activa de la regeneración en los palmares relictos de Ocoa, Cocalán, Viña del Mar/Valparaíso, Candelaria, Petorca y Culimo.
+La integración de ensemble modeling con MapBiomas Chile Colección 2 permite aislar, por primera vez de forma cuantitativa, la disponibilidad real de hábitat climático para *Jubaea chilensis*. Los resultados indican que el 77% del hábitat climáticamente apto permanece disponible como vegetación natural o restaurable, mientras que el 22,9% ya fue convertido a usos incompatibles, mayormente agrícolas. El análisis de sensibilidad entre colecciones (sección 6.3) demuestra además que gran parte de la aparente diferencia frente a una primera exploración con Colección 1 no es conversión real sino una mejora en la resolución de clasificación de MapBiomas — un hallazgo metodológico relevante para cualquier estudio que combine series temporales de distintas colecciones de MapBiomas. La conservación de esta especie crítica requiere una estrategia combinada de protección del hábitat remanente (particularmente frente a la expansión agrícola) e intervención directa sobre la dinámica poblacional: protección de individuos adultos, control de depredadores exóticos de semillas y plántulas, y facilitación activa de la regeneración en los palmares relictos de Ocoa, Cocalán, Viña del Mar/Valparaíso, Candelaria, Petorca y Culimo.
 
 ---
-> **Repositorio de Código Abierto:** El código fuente (R), la lógica de reclasificación de la leyenda MapBiomas Chile y el pipeline de modelado están disponibles públicamente en este mismo repositorio: [`BLOQUE7_mapbiomas_chile.R`](./BLOQUE7_mapbiomas_chile.R).
+> **Repositorio de Código Abierto:** El código fuente (R), la lógica de reclasificación de la leyenda MapBiomas Chile, el script de extracción vía Google Earth Engine y el pipeline de modelado están disponibles públicamente en este mismo repositorio: [`BLOQUE7_mapbiomas_chile.R`](./BLOQUE7_mapbiomas_chile.R).
 
 ## Referencias
 - The iconic *Jubaea chilensis* teeters on the edge of local extinction: a plea for enhanced conservation policies. *Biodiversity and Conservation* (2024). https://link.springer.com/article/10.1007/s10531-024-02929-3
@@ -84,3 +110,4 @@ La integración de ensemble modeling con MapBiomas Chile Colección 1 permite ai
 - Distribución, tamaño y estructura poblacional de *Jubaea chilensis* en "Las Palmas", Petorca. *Bosque* (SciELO). https://www.scielo.cl/pdf/bosque/v37n3/art07.pdf
 - Ficha de clasificación de especies, Ministerio del Medio Ambiente de Chile. https://clasificacionespecies.mma.gob.cl/wp-content/uploads/2019/10/Jubaea_chilensis_14RCE_FINAL.pdf
 - MapBiomas Chile, Colección 1 y 2 — Códigos de leyenda. https://chile.mapbiomas.org/codigos-de-la-leyenda/
+- Premio MapBiomas Chile — 1.ª Edición, Bases del concurso (2026).
