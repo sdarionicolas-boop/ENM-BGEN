@@ -11,7 +11,7 @@ Darío Nicolás Sánchez Leguizamón (Beca BIEI 2025 | Proyecto ARG/19/G24 | Red
 
 Este trabajo aplica el mismo pipeline de ensemble modeling (biomod2) ya utilizado para 19 especies del BGEN-UNAJ en Argentina y para *Mauritia flexuosa* en Perú, ahora sobre *Jubaea chilensis*, integrando tres capas complementarias: **MapBiomas Chile Colección 2 (2024)** — el producto de land cover exigido por el requisito de elegibilidad N.º 1 del reglamento del Premio — para cuantificar disponibilidad real de hábitat; el **WDPA/SNASPE** para medir qué fracción de ese hábitat está formalmente protegida; y el **Producto Fuego Colección 1** de MapBiomas Chile para cuantificar exposición histórica a incendios. Como anexo comparativo se incluye además el mismo cruce de cobertura con la Colección 1 (2022), lo que permite evaluar la sensibilidad metodológica del resultado entre versiones sucesivas del producto MapBiomas.
 
-Los tres cruces convergen en un mensaje único: el 77% del hábitat climáticamente apto sigue disponible, pero solo el 12,6% está protegido, y ni siquiera la protección formal garantiza resguardo frente a incendios — un palmar protegido específicamente para la especie ("Palmar El Salto") perdió el 80% de su hábitat compatible al fuego entre 2013 y 2025.
+Los cruces convergen en un mensaje único: el 77% del hábitat climáticamente apto sigue disponible, pero solo el 12,6% está protegido, y ni siquiera la protección formal garantiza resguardo frente a incendios — un palmar protegido específicamente para la especie ("Palmar El Salto") perdió el 80% de su hábitat compatible al fuego entre 2013 y 2025. Una proyección a futuro (CMIP6, SSP2-4.5, 2041-2060) agrega la dimensión más urgente: ese hábitat se reduciría un 46,2% adicional por cambio climático, incluso bajo un escenario de emisiones moderado.
 
 ## 4. Problema que Resuelve (Relevancia)
 La literatura reciente atribuye el colapso poblacional de *Jubaea chilensis* a presión directa sobre los individuos (extracción de savia de palmeras decapitadas, sobrecosecha ilegal de semillas, depredación de semillas por *Rattus rattus* y de plántulas por conejos exóticos) más que a pérdida de hábitat por sí sola. Sin embargo, esta hipótesis no había sido contrastada cuantitativamente contra datos oficiales de cobertura de suelo.
@@ -193,7 +193,24 @@ Cada clúster se etiquetó con la población documentada más cercana, indicando
 
 Tabla completa con centroides y metodología de etiquetado en [`resultados/Col2_2024/ranking_palmares.csv`](./resultados/Col2_2024/ranking_palmares.csv).
 
-### 6.8. Visualización de resultados
+### 6.8. Proyección a futuro: cambio climático (CMIP6, 2050, SSP2-4.5)
+
+Todos los resultados anteriores describen el presente. Como último análisis, se proyectó el ensemble ya entrenado (sin reentrenar) sobre un escenario climático futuro: **CMIP6, modelo MPI-ESM1-2-HR, SSP2-4.5 (escenario de emisiones moderado), horizonte 2041-2060**, manteniendo fijas las variables topográficas (pendiente, orientación) y actualizando las 5 variables bioclimáticas retenidas por VIF (bio02, bio03, bio08, bio14, bio15) a sus valores proyectados por WorldClim.
+
+| Clase de idoneidad | Superficie actual | Superficie 2050 | Cambio |
+|---|---:|---:|---:|
+| Alto | 21.307 km² | 11.467 km² | **-46,2%** |
+| Moderado | 13.945 km² | 14.388 km² | +3,2% |
+| Bajo | 13.013 km² | 16.650 km² | +28,0% |
+| Insustentable | 74.553 km² | 80.311 km² | +7,7% |
+
+**La superficie de alta idoneidad climática caería un 46,2% para 2041-2060**, incluso bajo un escenario de emisiones moderado (SSP2-4.5, no el más pesimista). La idoneidad media de toda la AOI cae de 0,249 a 0,204 (-18,3%). Este es el hallazgo más severo del estudio: una especie que ya perdió el 97,5% de su población histórica, con solo 12,6% de su hábitat actual protegido, enfrenta además una contracción climática de casi la mitad de su hábitat óptimo en dos a tres décadas.
+
+Un cruce adicional entre los refugios climáticos que persistirían en 2050 y el uso de suelo **actual** matiza el panorama: del área que seguiría siendo de alta idoneidad en 2050, el 75,1% es hoy vegetación natural disponible, pero el **22,3% ya está convertido** — es decir, incluso antes de llegar a 2050, una porción significativa de los futuros refugios climáticos ya no sería utilizable por la especie. Esto refuerza la urgencia de proteger hábitat compatible *ahora*: parte de lo que el clima futuro seguiría permitiendo, el uso de suelo presente ya lo está descartando.
+
+Detalle completo en [`resultados/cambio_idoneidad_2050.csv`](./resultados/cambio_idoneidad_2050.csv) y [`resultados/refugios_2050_uso_actual.csv`](./resultados/refugios_2050_uso_actual.csv).
+
+### 6.9. Visualización de resultados
 - Visor interactivo de idoneidad climática: [`resultados/mapa_interactivo_jubaea_chile.html`](./resultados/mapa_interactivo_jubaea_chile.html)
 - Visor interactivo del cruce, Colección 2 (oficial): [`resultados/Col2_2024/mapa_interactivo_cruce_chile.html`](./resultados/Col2_2024/mapa_interactivo_cruce_chile.html)
 - Visor interactivo del cruce, Colección 1 (anexo): [`resultados/Col1_2022/mapa_interactivo_cruce_chile.html`](./resultados/Col1_2022/mapa_interactivo_cruce_chile.html)
@@ -203,16 +220,19 @@ Tabla completa con centroides y metodología de etiquetado en [`resultados/Col2_
 - Validación con sitios conocidos: [`resultados/Col2_2024/validacion_sitios_conocidos.csv`](./resultados/Col2_2024/validacion_sitios_conocidos.csv)
 - Importancia de variables: [`resultados/importancia_variables_jubaea.png`](./resultados/importancia_variables_jubaea.png), [`resultados/importancia_variables_jubaea.csv`](./resultados/importancia_variables_jubaea.csv)
 - Diagnósticos de colinealidad: [`resultados/correlacion_pearson.png`](./resultados/correlacion_pearson.png), [`resultados/vif_barplot.png`](./resultados/vif_barplot.png)
+- Proyección CMIP6 2050: [`resultados/cambio_idoneidad_2050.csv`](./resultados/cambio_idoneidad_2050.csv), [`resultados/refugios_2050_uso_actual.csv`](./resultados/refugios_2050_uso_actual.csv)
 
 ## 7. Conclusión
 La integración de ensemble modeling con MapBiomas Chile Colección 2 permite aislar, por primera vez de forma cuantitativa, la disponibilidad real de hábitat climático para *Jubaea chilensis*. Los resultados indican que el 77% del hábitat climáticamente apto permanece disponible como vegetación natural o restaurable, mientras que el 22,9% ya fue convertido a usos incompatibles, mayormente agrícolas. El análisis de sensibilidad entre colecciones (sección 6.4) demuestra además que gran parte de la aparente diferencia frente a una primera exploración con Colección 1 no es conversión real sino una mejora en la resolución de clasificación de MapBiomas — un hallazgo metodológico relevante para cualquier estudio que combine series temporales de distintas colecciones de MapBiomas.
 
 El cruce adicional con el WDPA (sección 6.5) agrega el dato más accionable del estudio: de ese hábitat disponible, **solo el 12,6% está dentro de un área protegida** — el 87,4% restante no tiene ninguna figura de protección legal. El cruce con el Producto Fuego (sección 6.6) matiza además qué significa "protegido": las áreas protegidas se quemaron proporcionalmente más que las desprotegidas (12,4% vs 7,7%), y un palmar específico —**Palmar El Salto**— tuvo el 80% de su hábitat compatible quemado en 2013-2025, mientras otros palmares (Fray Jorge, Monte Aranda) no registraron quemas.
 
-La conservación de esta especie crítica requiere, por lo tanto, una estrategia en cuatro frentes: (1) ampliar la protección formal sobre el hábitat compatible hoy desprotegido, priorizando **Cocalán y Petorca** según el ranking de la sección 6.7; (2) frenar la conversión adicional a uso agrícola en las zonas de transición; (3) priorizar manejo activo de combustible y cortafuegos en palmares de alto riesgo de incendio como Palmar El Salto; y (4) intervenir directamente sobre la dinámica poblacional — protección de individuos adultos, control de depredadores exóticos de semillas y plántulas, y facilitación activa de la regeneración en los seis palmares relictos identificados.
+Finalmente, la proyección a 2050 (sección 6.8) muestra que ninguna de estas medidas puede esperar: bajo un escenario de emisiones moderado (CMIP6, SSP2-4.5), el hábitat de alta idoneidad climática se reduciría **46,2%** para 2041-2060, y el 22,3% de los refugios climáticos que persistirían ya está convertido hoy. La ventana para actuar sobre el hábitat disponible actual se cierra en paralelo al propio cambio climático.
+
+La conservación de esta especie crítica requiere, por lo tanto, una estrategia en cinco frentes: (1) ampliar la protección formal sobre el hábitat compatible hoy desprotegido, priorizando **Cocalán y Petorca** según el ranking de la sección 6.7; (2) frenar la conversión adicional a uso agrícola en las zonas de transición; (3) priorizar manejo activo de combustible y cortafuegos en palmares de alto riesgo de incendio como Palmar El Salto; (4) intervenir directamente sobre la dinámica poblacional — protección de individuos adultos, control de depredadores exóticos de semillas y plántulas, y facilitación activa de la regeneración en los seis palmares relictos identificados; y (5) incorporar la contracción climática proyectada a 2050 en la planificación de nuevas áreas protegidas, priorizando zonas que retengan alta idoneidad bajo cambio climático y no solo en el presente.
 
 ---
-> **Repositorio de Código Abierto:** El código fuente (R), la lógica de reclasificación de la leyenda MapBiomas Chile, el script de extracción vía Google Earth Engine y el pipeline de modelado están disponibles públicamente en este mismo repositorio: [`BLOQUE7_mapbiomas_chile.R`](./BLOQUE7_mapbiomas_chile.R), [`BLOQUE7b_snaspe_chile.R`](./BLOQUE7b_snaspe_chile.R), [`BLOQUE7c_fuego_chile.R`](./BLOQUE7c_fuego_chile.R), [`BLOQUE8_ranking_palmares.R`](./BLOQUE8_ranking_palmares.R), [`BLOQUE9_importancia_variables.R`](./BLOQUE9_importancia_variables.R), [`BLOQUE10_validacion_sitios_conocidos.R`](./BLOQUE10_validacion_sitios_conocidos.R).
+> **Repositorio de Código Abierto:** El código fuente (R), la lógica de reclasificación de la leyenda MapBiomas Chile, el script de extracción vía Google Earth Engine y el pipeline de modelado están disponibles públicamente en este mismo repositorio: [`BLOQUE7_mapbiomas_chile.R`](./BLOQUE7_mapbiomas_chile.R), [`BLOQUE7b_snaspe_chile.R`](./BLOQUE7b_snaspe_chile.R), [`BLOQUE7c_fuego_chile.R`](./BLOQUE7c_fuego_chile.R), [`BLOQUE8_ranking_palmares.R`](./BLOQUE8_ranking_palmares.R), [`BLOQUE9_importancia_variables.R`](./BLOQUE9_importancia_variables.R), [`BLOQUE10_validacion_sitios_conocidos.R`](./BLOQUE10_validacion_sitios_conocidos.R), [`BLOQUE11_proyeccion_cmip6.R`](./BLOQUE11_proyeccion_cmip6.R), [`BLOQUE11b_refugios_2050.R`](./BLOQUE11b_refugios_2050.R).
 
 ## Referencias
 - The iconic *Jubaea chilensis* teeters on the edge of local extinction: a plea for enhanced conservation policies. *Biodiversity and Conservation* (2024). https://link.springer.com/article/10.1007/s10531-024-02929-3

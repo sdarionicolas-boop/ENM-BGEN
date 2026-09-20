@@ -12,6 +12,8 @@ Mismo núcleo de modelado que las versiones Argentina y Perú del repo; solo cam
 - [`BLOQUE8_ranking_palmares.R`](./BLOQUE8_ranking_palmares.R) — clustering espacial de los registros de presencia en 6 palmares y ranking de prioridad de conservación (hábitat × protección × riesgo de incendio).
 - [`BLOQUE9_importancia_variables.R`](./BLOQUE9_importancia_variables.R) — extrae la importancia de variables ya calculada por biomod2 (sin reentrenar).
 - [`BLOQUE10_validacion_sitios_conocidos.R`](./BLOQUE10_validacion_sitios_conocidos.R) — validación externa: idoneidad predicha en palmares documentados en la literatura.
+- [`BLOQUE11_proyeccion_cmip6.R`](./BLOQUE11_proyeccion_cmip6.R) — proyección del ensemble ya entrenado a 2050 (CMIP6, SSP2-4.5), sin reentrenar.
+- [`BLOQUE11b_refugios_2050.R`](./BLOQUE11b_refugios_2050.R) — cruza los refugios climáticos de 2050 con el uso de suelo actual.
 - [`Memoria_Tecnica_Premio_MapBiomas_Chile.md`](./Memoria_Tecnica_Premio_MapBiomas_Chile.md) — memoria técnica completa (introducción, objetivos, metodología, resultados, discusión, y análisis de sensibilidad metodológica entre colecciones).
 - [`resultados/`](./resultados/) — visores interactivos, métricas y diagnósticos:
   - [`mapa_interactivo_jubaea_chile.html`](./resultados/mapa_interactivo_jubaea_chile.html) — visor de idoneidad climática.
@@ -32,6 +34,8 @@ Un tercer cruce con el **Producto Fuego** de MapBiomas Chile agrega un matiz imp
 Un **ranking de los 6 palmares** (por clustering espacial de presencias) identifica a **Cocalán y Petorca como máxima prioridad de conservación** (mucho hábitat, casi nada protegido), mientras que Ocoa (dentro del Parque Nacional La Campana) ya está mayoritariamente resguardada — ver sección 6.7.
 
 La variable climática más importante es la **estacionalidad de la precipitación (bio15)**, coherente con el eje de megasequía que prioriza el comité evaluador. Y una **validación externa** con sitios documentados en la literatura confirma que el modelo predice correctamente alta idoneidad en los palmares reales (Palmar El Salto y Monte Aranda: 100% de su superficie en clase "Alta") — ver secciones 5.3 y 6.1.
+
+Una **proyección a 2050** (CMIP6, SSP2-4.5) muestra que el hábitat de alta idoneidad climática se reduciría **46,2%** para 2041-2060, incluso en un escenario de emisiones moderado — y el 22,3% de los refugios climáticos que persistirían ya está convertido hoy. Ver sección 6.8.
 
 ## Nota sobre el acceso a datos
 
