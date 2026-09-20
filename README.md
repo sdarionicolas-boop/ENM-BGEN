@@ -174,11 +174,12 @@ Cruza los rasters de idoneidad de hábitat con la Colección 2 de MapBiomas Arge
 
 ## 🌎 Extensiones del proyecto
 
-Este pipeline fue diseñado como un marco de trabajo reproducible y transfronterizo, no como un script aislado para una sola especie o país. La misma metodología (modelado de nicho ecológico + cruce algebraico con capas oficiales de uso de suelo MapBiomas) fue adaptada y validada en una segunda postulación:
+Este pipeline fue diseñado como un marco de trabajo reproducible y transfronterizo, no como un script aislado para una sola especie o país. La misma metodología (modelado de nicho ecológico + cruce algebraico con capas oficiales de uso de suelo MapBiomas) fue adaptada y validada en postulaciones adicionales:
 
 - 🇵🇪 **Perú — *Mauritia flexuosa* (Aguaje):** cruce de idoneidad climática con **MapBiomas Perú 2024 (Colección 3)**, postulado al Premio MapBiomas Perú 2026. Ver [`extensiones/peru/`](./extensiones/peru/).
+- 🇨🇱 **Chile — *Jubaea chilensis* (Palma chilena):** cruce de idoneidad climática con **MapBiomas Chile Colección 1 (2022)**, postulado al Premio MapBiomas Chile 2026 (1.ª Edición). El 92% del hábitat de alta idoneidad climática persiste como vegetación natural o restaurable. Ver [`extensiones/chile/`](./extensiones/chile/).
 
-La arquitectura modular permite escalar el pipeline a nuevos países reutilizando el mismo núcleo de modelado (`ENM_BGEN_pipeline.R`) y adaptando solo la leyenda de reclasificación MapBiomas de cada país.
+La arquitectura modular permite escalar el pipeline a nuevos países reutilizando el mismo núcleo de modelado (`ENM_BGEN_pipeline.R`) y adaptando solo la especie, el área de interés y la leyenda de reclasificación MapBiomas de cada país.
 
 ---
 

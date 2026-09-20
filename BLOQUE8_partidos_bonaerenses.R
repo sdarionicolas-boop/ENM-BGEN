@@ -262,7 +262,7 @@ pal <- colorNumeric(
 
 # Mapa Leaflet interactivo
 mapa <- leaflet(ba_sf_4326) %>%
-  addProviderTiles("CartoDB.Positron", group = "Mapa Base Claro") %>%
+  addProviderTiles("Esri.WorldGrayCanvas", group = "Mapa Base Claro") %>%
   addProviderTiles("Esri.WorldTopoMap", group = "Topográfico") %>%
   addPolygons(
     fillColor = ~pal(indice_prioridad),

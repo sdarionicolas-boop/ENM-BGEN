@@ -687,7 +687,7 @@ tabla_final %>%
 # la idoneidad de hábitat de las 19 especies como capas independientes.
 #
 # Características del mapa:
-#   - Tres fondos cartográficos: claro (CartoDB), topográfico (Esri), satelital
+#   - Tres fondos cartográficos: claro, topográfico y satelital (Esri)
 #   - Panel de capas: cada especie se puede activar/desactivar independientemente
 #   - Por defecto muestra Jacaranda mimosifolia al abrir
 #   - Leyenda con las 4 clases de idoneidad
@@ -726,7 +726,7 @@ pal <- colorFactor(
 
 # Mapa base
 m <- leaflet() %>%
-  addProviderTiles("CartoDB.Positron",   group = "Claro") %>%
+  addProviderTiles("Esri.WorldGrayCanvas",   group = "Claro") %>%
   addProviderTiles("Esri.WorldTopoMap",  group = "Topográfico") %>%
   addProviderTiles("Esri.WorldImagery",  group = "Satelital")
 
@@ -1187,7 +1187,7 @@ pal_cruce <- colorFactor(
 )
 
 m_cruce <- leaflet() %>%
-  addProviderTiles("CartoDB.Positron",  group = "Claro") %>%
+  addProviderTiles("Esri.WorldGrayCanvas",  group = "Claro") %>%
   addProviderTiles("Esri.WorldTopoMap", group = "Topográfico") %>%
   addProviderTiles("Esri.WorldImagery", group = "Satelital")
 

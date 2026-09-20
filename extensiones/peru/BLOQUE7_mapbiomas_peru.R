@@ -245,7 +245,7 @@ procesar_coleccion <- function(nombre_col, archivo_col, titulo_mapa_col) {
     levels = c(41, 42, 43, 31, 32, 33, 11, 12, 13), na.color = "transparent"
   )
   m_cruce <- leaflet() %>%
-    addProviderTiles("CartoDB.Positron", group = "Claro") %>%
+    addProviderTiles("Esri.WorldGrayCanvas", group = "Claro") %>%
     addProviderTiles("Esri.WorldTopoMap", group = "Topográfico") %>%
     addProviderTiles("Esri.WorldImagery", group = "Satelital")
   

@@ -1,0 +1,11 @@
+algo,metric.eval,calibration_media,validation_media,species
+GBM,AUCroc,0.951,0.944,Jubaea chilensis
+GBM,TSS,0.769,0.736,Jubaea chilensis
+GLM,AUCroc,0.925,0.925,Jubaea chilensis
+GLM,TSS,0.74,0.734,Jubaea chilensis
+MAXNET,AUCroc,0.953,0.949,Jubaea chilensis
+MAXNET,TSS,0.773,0.768,Jubaea chilensis
+RF,AUCroc,1,0.974,Jubaea chilensis
+RF,TSS,1,0.698,Jubaea chilensis
+XGBOOST,AUCroc,0.973,0.95,Jubaea chilensis
+XGBOOST,TSS,0.891,0.769,Jubaea chilensis

@@ -354,7 +354,7 @@ pal_cruce <- colorFactor(
 )
 
 m_cruce <- leaflet() %>%
-  addProviderTiles("CartoDB.Positron",  group = "Claro") %>%
+  addProviderTiles("Esri.WorldGrayCanvas",  group = "Claro") %>%
   addProviderTiles("Esri.WorldTopoMap", group = "Topográfico") %>%
   addProviderTiles("Esri.WorldImagery", group = "Satelital")
 
