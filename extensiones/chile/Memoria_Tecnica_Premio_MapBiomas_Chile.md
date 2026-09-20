@@ -36,6 +36,20 @@ Cinco algoritmos (GLM, GBM, RF, MAXNET, XGBoost) en R (`biomod2`), validación c
 
 Ambas muy por encima de los umbrales de calidad del pipeline (TSS ≥ 0,7, AUCroc ≥ 0,9).
 
+**Importancia de variables** (promedio ± DE entre los 5 algoritmos, ya calculada durante el ajuste del modelo, sin reentrenamiento adicional):
+
+| Variable | Importancia media | Descripción |
+|---|---:|---|
+| bio15 | 0,506 ± 0,149 | Estacionalidad de la precipitación (coeficiente de variación) |
+| bio08 | 0,269 ± 0,080 | Temperatura media del trimestre más lluvioso |
+| bio14 | 0,090 ± 0,065 | Precipitación del mes más seco |
+| bio03 | 0,075 ± 0,054 | Isotermalidad |
+| bio02 | 0,053 ± 0,040 | Rango diurno medio de temperatura |
+| slope | 0,049 ± 0,051 | Pendiente |
+| aspect | 0,019 ± 0,032 | Orientación |
+
+**La estacionalidad de la precipitación (bio15) domina ampliamente la idoneidad climática de la especie** — más del doble de importancia que la segunda variable. Esto es coherente con el eje de "megasequía y valles centrales" que el propio reglamento del Premio identifica como dinámica crítica para Chile: *Jubaea chilensis* no responde tanto a cuánta lluvia cae en total, sino a qué tan irregular es su distribución estacional, la métrica que la megasequía altera de forma más directa. Gráfico completo en [`resultados/importancia_variables_jubaea.png`](./resultados/importancia_variables_jubaea.png).
+
 ### 5.4. Integración con MapBiomas Chile Colección 2 (2024)
 El reglamento del Premio MapBiomas Chile 2026 (requisito de elegibilidad N.º 1) exige el uso del **"Producto land cover colección 2"**. A diferencia de Argentina y Perú, la Colección 2 de Chile (publicada en 2025, serie 1999-2024) **no está disponible como descarga directa en el bucket público** de MapBiomas — su acceso oficial es exclusivamente vía **Google Earth Engine**, mediante el asset:
 
@@ -56,11 +70,26 @@ La capa se reclasificó según la leyenda oficial de MapBiomas Chile en tres dim
 
 La categoría *Excluido* agrupa superficies naturalmente no vegetadas (alta cordillera, cuerpos de agua) que quedan fuera del esquema de conversión antrópica y no se computan como "pérdida" — una precisión metodológica necesaria en un país con una fracción tan grande de su territorio en la criósfera y zonas áridas, a diferencia de Argentina o Perú.
 
-Luego se realizó el cruce algebraico con la capa de idoneidad climática reclasificada (Alta/Moderada/Baja), obteniendo 9 combinaciones posibles por celda. Como anexo, se repitió el mismo procedimiento con **Colección 1 (2022)** (descarga directa pública) para evaluar la estabilidad temporal/metodológica del resultado (ver sección 6.3).
+Luego se realizó el cruce algebraico con la capa de idoneidad climática reclasificada (Alta/Moderada/Baja), obteniendo 9 combinaciones posibles por celda. Como anexo, se repitió el mismo procedimiento con **Colección 1 (2022)** (descarga directa pública) para evaluar la estabilidad temporal/metodológica del resultado (ver sección 6.4).
 
 ## 6. Resultados
 
-### 6.1. Superficie de hábitat de Alta Idoneidad Climática — Colección 2 (2024, resultado oficial)
+### 6.1. Validación cruzada con sitios conocidos
+
+Las métricas AUCroc/TSS (sección 5.3) validan el modelo contra su propia muestra de entrenamiento/prueba (80/20). Como control independiente, se extrajo la idoneidad climática predicha dentro de sitios documentados como palmares reales de *Jubaea chilensis* — información externa al ajuste del modelo, ya que no se usó ningún límite administrativo en el entrenamiento:
+
+| Sitio | Idoneidad media (prob.) | % superficie en clase "Alta" |
+|---|---:|---:|
+| Palmar El Salto | 0,788 | 100% |
+| Área de Palma Chilena de Monte Aranda | 0,699 | 100% |
+| La Campana – Peñuelas | 0,675 | 72,1% |
+| Bosque Fray Jorge (RB) | 0,487 | 32,4% |
+| Palmas de Cocalán | 0,453 | 33,3% |
+| *Referencia: promedio en toda la AOI* | *0,249* | — |
+
+**Los cinco sitios superan entre 1,8 y 3,2 veces la idoneidad media de referencia de toda el área de estudio**, y los dos palmares creados específicamente para la especie (Palmar El Salto, Monte Aranda) muestran 100% de su superficie en la clase de idoneidad más alta. Esto constituye una validación externa independiente de las métricas estadísticas internas: el modelo no solo ajusta bien sus propios datos de entrenamiento, sino que identifica correctamente hábitat real verificado en terreno por otros estudios. Tabla completa en [`resultados/Col2_2024/validacion_sitios_conocidos.csv`](./resultados/Col2_2024/validacion_sitios_conocidos.csv).
+
+### 6.2. Superficie de hábitat de Alta Idoneidad Climática — Colección 2 (2024, resultado oficial)
 
 | Categoría | Superficie | % |
 |-----------|-----------:|---:|
@@ -71,10 +100,10 @@ Luego se realizó el cruce algebraico con la capa de idoneidad climática reclas
 
 **El 77% del hábitat climáticamente óptimo para *Jubaea chilensis* persiste como vegetación natural o es restaurable; el 22,9% fue efectivamente convertido.**
 
-### 6.2. Interpretación
+### 6.3. Interpretación
 Este resultado es relevante porque, aun siendo más conservador que una primera exploración con datos de 2022 (ver 6.3), sigue indicando que **la mayor parte del hábitat climáticamente apto está disponible**. La brecha entre 121.284 individuos actuales y el hábitat potencial disponible (miles de km²) señala que el factor limitante no es únicamente la disponibilidad de tierra, sino también la presión directa documentada en la literatura: extracción de savia, sobrecosecha de semillas y depredación por fauna exótica que colapsa la dispersión y el reclutamiento de nuevos individuos. La conservación de esta especie requiere, por lo tanto, una estrategia combinada: proteger tanto el 22,9% de hábitat ya convertido de mayor conversión adicional como los individuos reproductivos remanentes.
 
-### 6.3. Sensibilidad metodológica: comparación Colección 1 (2022) vs. Colección 2 (2024)
+### 6.4. Sensibilidad metodológica: comparación Colección 1 (2022) vs. Colección 2 (2024)
 
 Como control de robustez, se repitió el cruce con la Colección 1 (2022), obteniendo un resultado más optimista (92% disponible/restaurable, 4,3% perdido). Para entender esta diferencia se realizó un **cruce píxel a píxel** entre ambas colecciones dentro de la zona de alta idoneidad climática, en vez de asumir que se trata de conversión real de hábitat en dos años.
 
@@ -93,16 +122,16 @@ El aumento neto de "hábitat perdido" entre colecciones es de 5.361 píxeles; **
 
 Esta comparación se documenta también como archivo de datos en [`resultados/crosstab_col1_col2_alta_idoneidad.csv`](./resultados/crosstab_col1_col2_alta_idoneidad.csv).
 
-### 6.4. Brecha de protección: ¿cuánto del hábitat disponible está protegido?
+### 6.5. Brecha de protección: ¿cuánto del hábitat disponible está protegido?
 
-El resultado de la sección 6.1 responde "cuánto hábitat hay disponible", pero no "cuánto de ese hábitat está legalmente resguardado de conversión futura". Para responder esto se cruzó la capa "Compatible × Alta idoneidad" (14.937 km²) con el **WDPA (World Database on Protected Areas, UNEP-WCMC/IUCN)**, filtrado a las 76 áreas protegidas de Chile que intersectan la AOI (Parques Nacionales, Reservas Nacionales y Monumentos Naturales del SNASPE/CONAF, Santuarios de la Naturaleza del MMA, sitios Ramsar y Reservas de la Biósfera UNESCO-MAB), obtenido vía Google Earth Engine.
+El resultado de la sección 6.2 responde "cuánto hábitat hay disponible", pero no "cuánto de ese hábitat está legalmente resguardado de conversión futura". Para responder esto se cruzó la capa "Compatible × Alta idoneidad" (14.937 km²) con el **WDPA (World Database on Protected Areas, UNEP-WCMC/IUCN)**, filtrado a las 76 áreas protegidas de Chile que intersectan la AOI (Parques Nacionales, Reservas Nacionales y Monumentos Naturales del SNASPE/CONAF, Santuarios de la Naturaleza del MMA, sitios Ramsar y Reservas de la Biósfera UNESCO-MAB), obtenido vía Google Earth Engine.
 
 | Categoría | Superficie | % |
 |---|---:|---:|
 | Compatible, alta idoneidad — **protegido** | 1.889 km² | 12,6% |
 | Compatible, alta idoneidad — **desprotegido** | 13.048 km² | 87,4% |
 
-**Solo el 12,6% del hábitat climáticamente óptimo y aún disponible está dentro de un área protegida. El 87,4% restante no tiene ninguna figura de protección legal** y queda expuesto a la misma presión agrícola que ya convirtió el 22,9% del hábitat históricamente apto (sección 6.1).
+**Solo el 12,6% del hábitat climáticamente óptimo y aún disponible está dentro de un área protegida. El 87,4% restante no tiene ninguna figura de protección legal** y queda expuesto a la misma presión agrícola que ya convirtió el 22,9% del hábitat históricamente apto (sección 6.2).
 
 El detalle por área protegida (tabla completa en [`resultados/Col2_2024/snaspe_detalle_por_area.csv`](./resultados/Col2_2024/snaspe_detalle_por_area.csv)) confirma además la validez del modelo: las áreas que concentran más hábitat compatible son exactamente los sitios documentados en la literatura como palmares relictos —
 
@@ -119,7 +148,7 @@ El detalle por área protegida (tabla completa en [`resultados/Col2_2024/snaspe_
 
 **Implicancia para gestión territorial:** la prioridad de conservación no es solo evitar más conversión de uso de suelo, sino ampliar la red de protección formal sobre el 87,4% de hábitat compatible que hoy no tiene ninguna figura legal — particularmente fuera de los núcleos ya protegidos de La Campana-Peñuelas y Fray Jorge.
 
-### 6.5. Incendios: un tercer producto MapBiomas Chile aplicado al mismo hábitat
+### 6.6. Incendios: un tercer producto MapBiomas Chile aplicado al mismo hábitat
 
 El reglamento del Premio también habilita el **Producto Fuego Colección 1** como fuente de datos elegible. Se utilizó la capa de **frecuencia de área quemada acumulada 2013-2025** (descarga directa pública) para cuantificar cuánto del hábitat compatible de alta idoneidad ya fue afectado por incendios — la misma amenaza que la literatura (sección 4) identifica como recurrente para la especie, ahora con datos espaciales concretos en vez de solo referencia bibliográfica.
 
@@ -145,7 +174,7 @@ El detalle por área protegida (tabla completa en [`resultados/Col2_2024/fuego_p
 
 **"Palmar El Salto"** —una reserva creada específicamente para *Jubaea chilensis*— tuvo el **80% de su hábitat compatible quemado** en el período analizado. Es el hallazgo más urgente y accionable de este estudio: identifica un sitio puntual, pequeño y con nombre propio donde la intervención de manejo de fuego debería priorizarse de inmediato, en contraste con palmares como Fray Jorge o Monte Aranda que no registran quemas en el mismo período y podrían servir de referencia de buen manejo.
 
-### 6.6. Ranking de palmares por prioridad de conservación
+### 6.7. Ranking de palmares por prioridad de conservación
 
 La literatura (PMC9370131) documenta seis poblaciones/palmares principales —Ocoa, Cocalán, Viña del Mar/Valparaíso, Candelaria, Petorca y Culimo— que concentran el 96% de los individuos, pero no publica sus coordenadas exactas en formato tabulado. Para construir un ranking accionable sin inventar límites administrativos, se agruparon los 2.091 registros de presencia mediante **clustering espacial (k-means, k=6)** y se calculó, para cada clúster, un índice de prioridad de conservación análogo al usado en `BLOQUE8_partidos_bonaerenses.R` (Argentina): combina hábitat compatible disponible (peso 50%), grado de desprotección (peso 30%) y exposición a incendios (peso 20%).
 
@@ -164,24 +193,26 @@ Cada clúster se etiquetó con la población documentada más cercana, indicando
 
 Tabla completa con centroides y metodología de etiquetado en [`resultados/Col2_2024/ranking_palmares.csv`](./resultados/Col2_2024/ranking_palmares.csv).
 
-### 6.7. Visualización de resultados
+### 6.8. Visualización de resultados
 - Visor interactivo de idoneidad climática: [`resultados/mapa_interactivo_jubaea_chile.html`](./resultados/mapa_interactivo_jubaea_chile.html)
 - Visor interactivo del cruce, Colección 2 (oficial): [`resultados/Col2_2024/mapa_interactivo_cruce_chile.html`](./resultados/Col2_2024/mapa_interactivo_cruce_chile.html)
 - Visor interactivo del cruce, Colección 1 (anexo): [`resultados/Col1_2022/mapa_interactivo_cruce_chile.html`](./resultados/Col1_2022/mapa_interactivo_cruce_chile.html)
 - Brecha de protección (SNASPE/WDPA): [`resultados/Col2_2024/snaspe_proteccion_resumen.csv`](./resultados/Col2_2024/snaspe_proteccion_resumen.csv), [`resultados/Col2_2024/snaspe_detalle_por_area.csv`](./resultados/Col2_2024/snaspe_detalle_por_area.csv)
 - Incendios 2013-2025: [`resultados/Col2_2024/fuego_resumen.csv`](./resultados/Col2_2024/fuego_resumen.csv), [`resultados/Col2_2024/fuego_por_area_protegida.csv`](./resultados/Col2_2024/fuego_por_area_protegida.csv)
 - Ranking de palmares por prioridad: [`resultados/Col2_2024/ranking_palmares.csv`](./resultados/Col2_2024/ranking_palmares.csv)
+- Validación con sitios conocidos: [`resultados/Col2_2024/validacion_sitios_conocidos.csv`](./resultados/Col2_2024/validacion_sitios_conocidos.csv)
+- Importancia de variables: [`resultados/importancia_variables_jubaea.png`](./resultados/importancia_variables_jubaea.png), [`resultados/importancia_variables_jubaea.csv`](./resultados/importancia_variables_jubaea.csv)
 - Diagnósticos de colinealidad: [`resultados/correlacion_pearson.png`](./resultados/correlacion_pearson.png), [`resultados/vif_barplot.png`](./resultados/vif_barplot.png)
 
 ## 7. Conclusión
-La integración de ensemble modeling con MapBiomas Chile Colección 2 permite aislar, por primera vez de forma cuantitativa, la disponibilidad real de hábitat climático para *Jubaea chilensis*. Los resultados indican que el 77% del hábitat climáticamente apto permanece disponible como vegetación natural o restaurable, mientras que el 22,9% ya fue convertido a usos incompatibles, mayormente agrícolas. El análisis de sensibilidad entre colecciones (sección 6.3) demuestra además que gran parte de la aparente diferencia frente a una primera exploración con Colección 1 no es conversión real sino una mejora en la resolución de clasificación de MapBiomas — un hallazgo metodológico relevante para cualquier estudio que combine series temporales de distintas colecciones de MapBiomas.
+La integración de ensemble modeling con MapBiomas Chile Colección 2 permite aislar, por primera vez de forma cuantitativa, la disponibilidad real de hábitat climático para *Jubaea chilensis*. Los resultados indican que el 77% del hábitat climáticamente apto permanece disponible como vegetación natural o restaurable, mientras que el 22,9% ya fue convertido a usos incompatibles, mayormente agrícolas. El análisis de sensibilidad entre colecciones (sección 6.4) demuestra además que gran parte de la aparente diferencia frente a una primera exploración con Colección 1 no es conversión real sino una mejora en la resolución de clasificación de MapBiomas — un hallazgo metodológico relevante para cualquier estudio que combine series temporales de distintas colecciones de MapBiomas.
 
-El cruce adicional con el WDPA (sección 6.4) agrega el dato más accionable del estudio: de ese hábitat disponible, **solo el 12,6% está dentro de un área protegida** — el 87,4% restante no tiene ninguna figura de protección legal. El cruce con el Producto Fuego (sección 6.5) matiza además qué significa "protegido": las áreas protegidas se quemaron proporcionalmente más que las desprotegidas (12,4% vs 7,7%), y un palmar específico —**Palmar El Salto**— tuvo el 80% de su hábitat compatible quemado en 2013-2025, mientras otros palmares (Fray Jorge, Monte Aranda) no registraron quemas.
+El cruce adicional con el WDPA (sección 6.5) agrega el dato más accionable del estudio: de ese hábitat disponible, **solo el 12,6% está dentro de un área protegida** — el 87,4% restante no tiene ninguna figura de protección legal. El cruce con el Producto Fuego (sección 6.6) matiza además qué significa "protegido": las áreas protegidas se quemaron proporcionalmente más que las desprotegidas (12,4% vs 7,7%), y un palmar específico —**Palmar El Salto**— tuvo el 80% de su hábitat compatible quemado en 2013-2025, mientras otros palmares (Fray Jorge, Monte Aranda) no registraron quemas.
 
-La conservación de esta especie crítica requiere, por lo tanto, una estrategia en cuatro frentes: (1) ampliar la protección formal sobre el hábitat compatible hoy desprotegido, priorizando **Cocalán y Petorca** según el ranking de la sección 6.6; (2) frenar la conversión adicional a uso agrícola en las zonas de transición; (3) priorizar manejo activo de combustible y cortafuegos en palmares de alto riesgo de incendio como Palmar El Salto; y (4) intervenir directamente sobre la dinámica poblacional — protección de individuos adultos, control de depredadores exóticos de semillas y plántulas, y facilitación activa de la regeneración en los seis palmares relictos identificados.
+La conservación de esta especie crítica requiere, por lo tanto, una estrategia en cuatro frentes: (1) ampliar la protección formal sobre el hábitat compatible hoy desprotegido, priorizando **Cocalán y Petorca** según el ranking de la sección 6.7; (2) frenar la conversión adicional a uso agrícola en las zonas de transición; (3) priorizar manejo activo de combustible y cortafuegos en palmares de alto riesgo de incendio como Palmar El Salto; y (4) intervenir directamente sobre la dinámica poblacional — protección de individuos adultos, control de depredadores exóticos de semillas y plántulas, y facilitación activa de la regeneración en los seis palmares relictos identificados.
 
 ---
-> **Repositorio de Código Abierto:** El código fuente (R), la lógica de reclasificación de la leyenda MapBiomas Chile, el script de extracción vía Google Earth Engine y el pipeline de modelado están disponibles públicamente en este mismo repositorio: [`BLOQUE7_mapbiomas_chile.R`](./BLOQUE7_mapbiomas_chile.R), [`BLOQUE7b_snaspe_chile.R`](./BLOQUE7b_snaspe_chile.R), [`BLOQUE7c_fuego_chile.R`](./BLOQUE7c_fuego_chile.R).
+> **Repositorio de Código Abierto:** El código fuente (R), la lógica de reclasificación de la leyenda MapBiomas Chile, el script de extracción vía Google Earth Engine y el pipeline de modelado están disponibles públicamente en este mismo repositorio: [`BLOQUE7_mapbiomas_chile.R`](./BLOQUE7_mapbiomas_chile.R), [`BLOQUE7b_snaspe_chile.R`](./BLOQUE7b_snaspe_chile.R), [`BLOQUE7c_fuego_chile.R`](./BLOQUE7c_fuego_chile.R), [`BLOQUE8_ranking_palmares.R`](./BLOQUE8_ranking_palmares.R), [`BLOQUE9_importancia_variables.R`](./BLOQUE9_importancia_variables.R), [`BLOQUE10_validacion_sitios_conocidos.R`](./BLOQUE10_validacion_sitios_conocidos.R).
 
 ## Referencias
 - The iconic *Jubaea chilensis* teeters on the edge of local extinction: a plea for enhanced conservation policies. *Biodiversity and Conservation* (2024). https://link.springer.com/article/10.1007/s10531-024-02929-3

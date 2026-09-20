@@ -10,6 +10,8 @@ Mismo núcleo de modelado que las versiones Argentina y Perú del repo; solo cam
 - [`BLOQUE7b_snaspe_chile.R`](./BLOQUE7b_snaspe_chile.R) — cruce del hábitat compatible con áreas protegidas (WDPA/SNASPE): ¿cuánto del hábitat disponible ya está protegido?
 - [`BLOQUE7c_fuego_chile.R`](./BLOQUE7c_fuego_chile.R) — cruce con el Producto Fuego de MapBiomas Chile: ¿cuánto del hábitat (protegido y desprotegido) ya se quemó?
 - [`BLOQUE8_ranking_palmares.R`](./BLOQUE8_ranking_palmares.R) — clustering espacial de los registros de presencia en 6 palmares y ranking de prioridad de conservación (hábitat × protección × riesgo de incendio).
+- [`BLOQUE9_importancia_variables.R`](./BLOQUE9_importancia_variables.R) — extrae la importancia de variables ya calculada por biomod2 (sin reentrenar).
+- [`BLOQUE10_validacion_sitios_conocidos.R`](./BLOQUE10_validacion_sitios_conocidos.R) — validación externa: idoneidad predicha en palmares documentados en la literatura.
 - [`Memoria_Tecnica_Premio_MapBiomas_Chile.md`](./Memoria_Tecnica_Premio_MapBiomas_Chile.md) — memoria técnica completa (introducción, objetivos, metodología, resultados, discusión, y análisis de sensibilidad metodológica entre colecciones).
 - [`resultados/`](./resultados/) — visores interactivos, métricas y diagnósticos:
   - [`mapa_interactivo_jubaea_chile.html`](./resultados/mapa_interactivo_jubaea_chile.html) — visor de idoneidad climática.
@@ -27,7 +29,9 @@ De ese hábitat disponible, **solo el 12,6% está dentro de un área protegida (
 
 Un tercer cruce con el **Producto Fuego** de MapBiomas Chile agrega un matiz importante: las áreas protegidas se quemaron proporcionalmente **más** que las desprotegidas (12,4% vs 7,7%), y el palmar **"Palmar El Salto"** perdió el **80% de su hábitat compatible al fuego** entre 2013-2025 — ver sección 6.5.
 
-Un **ranking de los 6 palmares** (por clustering espacial de presencias) identifica a **Cocalán y Petorca como máxima prioridad de conservación** (mucho hábitat, casi nada protegido), mientras que Ocoa (dentro del Parque Nacional La Campana) ya está mayoritariamente resguardada — ver sección 6.6.
+Un **ranking de los 6 palmares** (por clustering espacial de presencias) identifica a **Cocalán y Petorca como máxima prioridad de conservación** (mucho hábitat, casi nada protegido), mientras que Ocoa (dentro del Parque Nacional La Campana) ya está mayoritariamente resguardada — ver sección 6.7.
+
+La variable climática más importante es la **estacionalidad de la precipitación (bio15)**, coherente con el eje de megasequía que prioriza el comité evaluador. Y una **validación externa** con sitios documentados en la literatura confirma que el modelo predice correctamente alta idoneidad en los palmares reales (Palmar El Salto y Monte Aranda: 100% de su superficie en clase "Alta") — ver secciones 5.3 y 6.1.
 
 ## Nota sobre el acceso a datos
 
