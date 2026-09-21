@@ -6,8 +6,14 @@
 ## 2. Autor(es)
 Darío Nicolás Sánchez Leguizamón (Beca BIEI 2025 | Proyecto ARG/19/G24 | Red ARGENA)
 
+**Código fuente y ciencia abierta (requisito de elegibilidad N.º 8):** todo el código (R, Python, scripts de extracción vía Google Earth Engine) utilizado en este análisis es público, bajo licencia MIT, en:
+
+**[https://github.com/sdarionicolas-boop/ENM-BGEN/tree/main/extensiones/chile](https://github.com/sdarionicolas-boop/ENM-BGEN/tree/main/extensiones/chile)**
+
+(repositorio completo: [https://github.com/sdarionicolas-boop/ENM-BGEN](https://github.com/sdarionicolas-boop/ENM-BGEN))
+
 ## 3. Resumen Ejecutivo
-*Jubaea chilensis* (palma chilena) es una palmera endémica de Chile central catalogada como Vulnerable por la UICN, con estudios recientes (2024) que argumentan su reclasificación a En Peligro Crítico. De la población preколombina estimada, hoy solo subsisten ~121.284 individuos (2,5%), concentrados en seis palmares relictos entre La Serena y el Maule.
+*Jubaea chilensis* (palma chilena) es una palmera endémica de Chile central catalogada como Vulnerable por la UICN, con estudios recientes (2024) que argumentan su reclasificación a En Peligro Crítico. De la población precolombina estimada, hoy solo subsisten ~121.284 individuos (2,5%), concentrados en seis palmares relictos entre La Serena y el Maule.
 
 Este trabajo aplica el mismo pipeline de ensemble modeling (biomod2) ya utilizado para 19 especies del BGEN-UNAJ en Argentina y para *Mauritia flexuosa* en Perú, ahora sobre *Jubaea chilensis*, integrando tres capas complementarias: **MapBiomas Chile Colección 2 (2024)** — el producto de land cover exigido por el requisito de elegibilidad N.º 1 del reglamento del Premio — para cuantificar disponibilidad real de hábitat; el **WDPA/SNASPE** para medir qué fracción de ese hábitat está formalmente protegida; y el **Producto Fuego Colección 1** de MapBiomas Chile para cuantificar exposición histórica a incendios. Como anexo comparativo se incluye además el mismo cruce de cobertura con la Colección 1 (2022), lo que permite evaluar la sensibilidad metodológica del resultado entre versiones sucesivas del producto MapBiomas.
 
@@ -48,7 +54,15 @@ Ambas muy por encima de los umbrales de calidad del pipeline (TSS ≥ 0,7, AUCro
 | slope | 0,049 ± 0,051 | Pendiente |
 | aspect | 0,019 ± 0,032 | Orientación |
 
-**La estacionalidad de la precipitación (bio15) domina ampliamente la idoneidad climática de la especie** — más del doble de importancia que la segunda variable. Esto es coherente con el eje de "megasequía y valles centrales" que el propio reglamento del Premio identifica como dinámica crítica para Chile: *Jubaea chilensis* no responde tanto a cuánta lluvia cae en total, sino a qué tan irregular es su distribución estacional, la métrica que la megasequía altera de forma más directa. Gráfico completo en [`resultados/importancia_variables_jubaea.png`](./resultados/importancia_variables_jubaea.png).
+**La estacionalidad de la precipitación (bio15) domina ampliamente la idoneidad climática de la especie** — más del doble de importancia que la segunda variable. Esto es coherente con el eje de "megasequía y valles centrales" que el propio reglamento del Premio identifica como dinámica crítica para Chile: *Jubaea chilensis* no responde tanto a cuánta lluvia cae en total, sino a qué tan irregular es su distribución estacional, la métrica que la megasequía altera de forma más directa.
+
+![Importancia de variables ambientales](./resultados/importancia_variables_jubaea.png)
+
+*Diagnósticos adicionales de colinealidad (matriz de correlación de Pearson y VIF de las variables seleccionadas):*
+
+![Matriz de correlación de Pearson](./resultados/correlacion_pearson.png)
+
+![VIF de variables seleccionadas](./resultados/vif_barplot.png)
 
 ### 5.4. Integración con MapBiomas Chile Colección 2 (2024)
 El reglamento del Premio MapBiomas Chile 2026 (requisito de elegibilidad N.º 1) exige el uso del **"Producto land cover colección 2"**. A diferencia de Argentina y Perú, la Colección 2 de Chile (publicada en 2025, serie 1999-2024) **no está disponible como descarga directa en el bucket público** de MapBiomas — su acceso oficial es exclusivamente vía **Google Earth Engine**, mediante el asset:
@@ -91,6 +105,8 @@ Las métricas AUCroc/TSS (sección 5.3) validan el modelo contra su propia muest
 
 ### 6.2. Superficie de hábitat de Alta Idoneidad Climática — Colección 2 (2024, resultado oficial)
 
+![Mapa de idoneidad climática](./resultados/mapa_idoneidad_climatica.png)
+
 | Categoría | Superficie | % |
 |-----------|-----------:|---:|
 | Compatible (conservación) | 14.937 km² | 71,9% |
@@ -100,8 +116,10 @@ Las métricas AUCroc/TSS (sección 5.3) validan el modelo contra su propia muest
 
 **El 77% del hábitat climáticamente óptimo para *Jubaea chilensis* persiste como vegetación natural o es restaurable; el 22,9% fue efectivamente convertido.**
 
+![Idoneidad × Uso del suelo, MapBiomas Chile Colección 2](./resultados/mapa_cruce_mapbiomas.png)
+
 ### 6.3. Interpretación
-Este resultado es relevante porque, aun siendo más conservador que una primera exploración con datos de 2022 (ver 6.3), sigue indicando que **la mayor parte del hábitat climáticamente apto está disponible**. La brecha entre 121.284 individuos actuales y el hábitat potencial disponible (miles de km²) señala que el factor limitante no es únicamente la disponibilidad de tierra, sino también la presión directa documentada en la literatura: extracción de savia, sobrecosecha de semillas y depredación por fauna exótica que colapsa la dispersión y el reclutamiento de nuevos individuos. La conservación de esta especie requiere, por lo tanto, una estrategia combinada: proteger tanto el 22,9% de hábitat ya convertido de mayor conversión adicional como los individuos reproductivos remanentes.
+Este resultado es relevante porque, aun siendo más conservador que una primera exploración con datos de 2022 (ver sección 6.4), sigue indicando que **la mayor parte del hábitat climáticamente apto está disponible**. La brecha entre 121.284 individuos actuales y el hábitat potencial disponible (miles de km²) señala que el factor limitante no es únicamente la disponibilidad de tierra, sino también la presión directa documentada en la literatura: extracción de savia, sobrecosecha de semillas y depredación por fauna exótica que colapsa la dispersión y el reclutamiento de nuevos individuos. La conservación de esta especie requiere, por lo tanto, una estrategia combinada: proteger tanto el 22,9% de hábitat ya convertido de mayor conversión adicional como los individuos reproductivos remanentes.
 
 ### 6.4. Sensibilidad metodológica: comparación Colección 1 (2022) vs. Colección 2 (2024)
 
@@ -189,6 +207,8 @@ Cada clúster se etiquetó con la población documentada más cercana, indicando
 | 5 | Culimo | Media | 581 km² | 0% | 0% | 0,317 |
 | 6 | Ocoa (La Campana) | Alta | 1.074 km² | 63,2% | 7,6% | 0,184 |
 
+![Ranking de palmares por prioridad de conservación](./resultados/ranking_palmares.png)
+
 **Ocoa queda en el último lugar de prioridad** precisamente porque ya está mayoritariamente protegida (63,2%, dentro del Parque Nacional La Campana-Peñuelas) — es la población que menos necesita intervención adicional. **Cocalán y Petorca encabezan el ranking**: concentran mucho hábitat compatible con protección casi nula, y deberían ser el foco de nuevas iniciativas de conservación formal. El clúster "Viña del Mar/Valparaíso" merece una salvedad: al coincidir con una zona urbana densamente muestreada por ciencia ciudadana (iNaturalist), su alto número de registros (1.422, el mayor de los seis) probablemente incluye ejemplares cultivados en plazas y jardines, no solo poblaciones silvestres — la misma limitación de sesgo de muestreo urbano discutida en la sección 5.1.
 
 Tabla completa con centroides y metodología de etiquetado en [`resultados/Col2_2024/ranking_palmares.csv`](./resultados/Col2_2024/ranking_palmares.csv).
@@ -232,7 +252,7 @@ Finalmente, la proyección a 2050 (sección 6.8) muestra que ninguna de estas me
 La conservación de esta especie crítica requiere, por lo tanto, una estrategia en cinco frentes: (1) ampliar la protección formal sobre el hábitat compatible hoy desprotegido, priorizando **Cocalán y Petorca** según el ranking de la sección 6.7; (2) frenar la conversión adicional a uso agrícola en las zonas de transición; (3) priorizar manejo activo de combustible y cortafuegos en palmares de alto riesgo de incendio como Palmar El Salto; (4) intervenir directamente sobre la dinámica poblacional — protección de individuos adultos, control de depredadores exóticos de semillas y plántulas, y facilitación activa de la regeneración en los seis palmares relictos identificados; y (5) incorporar la contracción climática proyectada a 2050 en la planificación de nuevas áreas protegidas, priorizando zonas que retengan alta idoneidad bajo cambio climático y no solo en el presente.
 
 ---
-> **Repositorio de Código Abierto:** El código fuente (R), la lógica de reclasificación de la leyenda MapBiomas Chile, el script de extracción vía Google Earth Engine y el pipeline de modelado están disponibles públicamente en este mismo repositorio: [`BLOQUE7_mapbiomas_chile.R`](./BLOQUE7_mapbiomas_chile.R), [`BLOQUE7b_snaspe_chile.R`](./BLOQUE7b_snaspe_chile.R), [`BLOQUE7c_fuego_chile.R`](./BLOQUE7c_fuego_chile.R), [`BLOQUE8_ranking_palmares.R`](./BLOQUE8_ranking_palmares.R), [`BLOQUE9_importancia_variables.R`](./BLOQUE9_importancia_variables.R), [`BLOQUE10_validacion_sitios_conocidos.R`](./BLOQUE10_validacion_sitios_conocidos.R), [`BLOQUE11_proyeccion_cmip6.R`](./BLOQUE11_proyeccion_cmip6.R), [`BLOQUE11b_refugios_2050.R`](./BLOQUE11b_refugios_2050.R).
+> **Repositorio de Código Abierto:** El código fuente (R), la lógica de reclasificación de la leyenda MapBiomas Chile, el script de extracción vía Google Earth Engine y el pipeline de modelado están disponibles públicamente en este mismo repositorio: [`BLOQUE7_mapbiomas_chile.R`](./BLOQUE7_mapbiomas_chile.R), [`BLOQUE7b_snaspe_chile.R`](./BLOQUE7b_snaspe_chile.R), [`BLOQUE7c_fuego_chile.R`](./BLOQUE7c_fuego_chile.R), [`BLOQUE8_ranking_palmares.R`](./BLOQUE8_ranking_palmares.R), [`BLOQUE9_importancia_variables.R`](./BLOQUE9_importancia_variables.R), [`BLOQUE10_validacion_sitios_conocidos.R`](./BLOQUE10_validacion_sitios_conocidos.R), [`BLOQUE11_proyeccion_cmip6.R`](./BLOQUE11_proyeccion_cmip6.R), [`BLOQUE11b_refugios_2050.R`](./BLOQUE11b_refugios_2050.R), [`BLOQUE12_mapas_estaticos.R`](./BLOQUE12_mapas_estaticos.R).
 
 ## Referencias
 - The iconic *Jubaea chilensis* teeters on the edge of local extinction: a plea for enhanced conservation policies. *Biodiversity and Conservation* (2024). https://link.springer.com/article/10.1007/s10531-024-02929-3

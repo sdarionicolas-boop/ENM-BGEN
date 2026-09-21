@@ -14,9 +14,11 @@ Mismo núcleo de modelado que las versiones Argentina y Perú del repo; solo cam
 - [`BLOQUE10_validacion_sitios_conocidos.R`](./BLOQUE10_validacion_sitios_conocidos.R) — validación externa: idoneidad predicha en palmares documentados en la literatura.
 - [`BLOQUE11_proyeccion_cmip6.R`](./BLOQUE11_proyeccion_cmip6.R) — proyección del ensemble ya entrenado a 2050 (CMIP6, SSP2-4.5), sin reentrenar.
 - [`BLOQUE11b_refugios_2050.R`](./BLOQUE11b_refugios_2050.R) — cruza los refugios climáticos de 2050 con el uso de suelo actual.
-- [`Memoria_Tecnica_Premio_MapBiomas_Chile.md`](./Memoria_Tecnica_Premio_MapBiomas_Chile.md) — memoria técnica completa (introducción, objetivos, metodología, resultados, discusión, y análisis de sensibilidad metodológica entre colecciones).
-- [`resultados/`](./resultados/) — visores interactivos, métricas y diagnósticos:
-  - [`mapa_interactivo_jubaea_chile.html`](./resultados/mapa_interactivo_jubaea_chile.html) — visor de idoneidad climática.
+- [`BLOQUE12_mapas_estaticos.R`](./BLOQUE12_mapas_estaticos.R) — genera versiones estáticas (PNG) de los mapas y el ranking, para incrustar en el PDF de la memoria técnica.
+- [`Memoria_Tecnica_Premio_MapBiomas_Chile.md`](./Memoria_Tecnica_Premio_MapBiomas_Chile.md) / [`.pdf`](./Memoria_Tecnica_Premio_MapBiomas_Chile.pdf) — memoria técnica completa, con mapas y gráficos incrustados (introducción, objetivos, metodología, resultados, discusión, y análisis de sensibilidad metodológica entre colecciones). El PDF es el documento listo para postular.
+- [`resultados/`](./resultados/) — visores interactivos, mapas estáticos, métricas y diagnósticos:
+  - [`mapa_interactivo_jubaea_chile.html`](./resultados/mapa_interactivo_jubaea_chile.html) — visor interactivo de idoneidad climática.
+  - `mapa_idoneidad_climatica.png`, `mapa_cruce_mapbiomas.png`, `ranking_palmares.png` — versiones estáticas para el PDF.
   - [`Col2_2024/`](./resultados/Col2_2024/) — cruce oficial con MapBiomas Chile Colección 2 (2024).
   - [`Col1_2022/`](./resultados/Col1_2022/) — cruce con Colección 1 (2022), anexo comparativo.
   - `crosstab_col1_col2_alta_idoneidad.csv` — comparación píxel a píxel entre ambas colecciones.
@@ -25,11 +27,11 @@ Mismo núcleo de modelado que las versiones Argentina y Perú del repo; solo cam
 
 ## Resultado clave (Colección 2, oficial)
 
-Del hábitat de alta idoneidad climática para *Jubaea chilensis*: **77% persiste como vegetación natural o es restaurable, 22,9% fue convertido** (mayormente a agricultura). Un análisis de sensibilidad entre Colección 1 y Colección 2 muestra que el 95% de esa "pérdida" no es conversión real en 2 años, sino una reclasificación más granular de la antigua clase ambigua "mosaico agropecuario" — ver la Memoria Técnica, sección 6.3.
+Del hábitat de alta idoneidad climática para *Jubaea chilensis*: **77% persiste como vegetación natural o es restaurable, 22,9% fue convertido** (mayormente a agricultura). Un análisis de sensibilidad entre Colección 1 y Colección 2 muestra que el 95% de esa "pérdida" no es conversión real en 2 años, sino una reclasificación más granular de la antigua clase ambigua "mosaico agropecuario" — ver la Memoria Técnica, sección 6.4.
 
-De ese hábitat disponible, **solo el 12,6% está dentro de un área protegida (WDPA/SNASPE) — el 87,4% no tiene ninguna figura de protección legal**. Las áreas protegidas con más hábitat compatible son exactamente los palmares documentados en la literatura (La Campana-Peñuelas, Fray Jorge, Palmas de Cocalán), lo que valida independientemente el modelo — ver sección 6.4 de la Memoria Técnica.
+De ese hábitat disponible, **solo el 12,6% está dentro de un área protegida (WDPA/SNASPE) — el 87,4% no tiene ninguna figura de protección legal**. Las áreas protegidas con más hábitat compatible son exactamente los palmares documentados en la literatura (La Campana-Peñuelas, Fray Jorge, Palmas de Cocalán), lo que valida independientemente el modelo — ver sección 6.5 de la Memoria Técnica.
 
-Un tercer cruce con el **Producto Fuego** de MapBiomas Chile agrega un matiz importante: las áreas protegidas se quemaron proporcionalmente **más** que las desprotegidas (12,4% vs 7,7%), y el palmar **"Palmar El Salto"** perdió el **80% de su hábitat compatible al fuego** entre 2013-2025 — ver sección 6.5.
+Un tercer cruce con el **Producto Fuego** de MapBiomas Chile agrega un matiz importante: las áreas protegidas se quemaron proporcionalmente **más** que las desprotegidas (12,4% vs 7,7%), y el palmar **"Palmar El Salto"** perdió el **80% de su hábitat compatible al fuego** entre 2013-2025 — ver sección 6.6.
 
 Un **ranking de los 6 palmares** (por clustering espacial de presencias) identifica a **Cocalán y Petorca como máxima prioridad de conservación** (mucho hábitat, casi nada protegido), mientras que Ocoa (dentro del Parque Nacional La Campana) ya está mayoritariamente resguardada — ver sección 6.7.
 
