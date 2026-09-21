@@ -17,7 +17,7 @@ Darío Nicolás Sánchez Leguizamón (pipeline desarrollado originalmente bajo B
 
 Este trabajo aplica el mismo pipeline de ensemble modeling (biomod2) ya utilizado para 19 especies del BGEN-UNAJ en Argentina y para *Mauritia flexuosa* en Perú, ahora sobre *Jubaea chilensis*, integrando tres capas complementarias: **MapBiomas Chile Colección 2 (2024)** — el producto de land cover exigido por el requisito de elegibilidad N.º 1 del reglamento del Premio — para cuantificar disponibilidad real de hábitat; el **WDPA/SNASPE** para medir qué fracción de ese hábitat está formalmente protegida; y el **Producto Fuego Colección 1** de MapBiomas Chile para cuantificar exposición histórica a incendios. Como anexo comparativo se incluye además el mismo cruce de cobertura con la Colección 1 (2022), lo que permite evaluar la sensibilidad metodológica del resultado entre versiones sucesivas del producto MapBiomas.
 
-Los cruces convergen en un mensaje único: el 77% del hábitat climáticamente apto sigue disponible, pero solo el 12,6% está protegido, y ni siquiera la protección formal garantiza resguardo frente a incendios — un palmar protegido específicamente para la especie ("Palmar El Salto") perdió el 80% de su hábitat compatible al fuego entre 2013 y 2025. Una proyección a futuro (CMIP6, SSP2-4.5, 2041-2060) agrega la dimensión más urgente: ese hábitat se reduciría un 46,2% adicional por cambio climático, incluso bajo un escenario de emisiones moderado.
+Los cruces convergen en un mensaje único: el 77% del hábitat climáticamente apto sigue disponible, pero solo el 12,6% está protegido, y ni siquiera la protección formal garantiza resguardo frente a incendios — un palmar protegido específicamente para la especie ("Palmar El Salto") perdió el 80% de su hábitat compatible al fuego entre 2013 y 2025. Una proyección a futuro (CMIP6, SSP2-4.5, 2041-2060, un único modelo climático — ver limitaciones en la sección 7) agrega la dimensión más urgente: ese hábitat se reduciría un 46,2% adicional bajo ese escenario específico, incluso siendo un escenario de emisiones moderado. Las limitaciones metodológicas del modelo de nicho (*thinning* espacial y validación cruzada no espaciales) se declaran explícitamente en la sección 7.
 
 ## 4. Problema que Resuelve (Relevancia)
 La literatura reciente atribuye el colapso poblacional de *Jubaea chilensis* a presión directa sobre los individuos (extracción de savia de palmeras decapitadas, sobrecosecha ilegal de semillas, depredación de semillas por *Rattus rattus* y de plántulas por conejos exóticos) más que a pérdida de hábitat por sí sola. Sin embargo, esta hipótesis no había sido contrastada cuantitativamente contra datos oficiales de cobertura de suelo.
@@ -89,9 +89,9 @@ Luego se realizó el cruce algebraico con la capa de idoneidad climática reclas
 
 ## 6. Resultados
 
-### 6.1. Validación cruzada con sitios conocidos
+### 6.1. Consistencia con sitios documentados en la literatura (no es validación independiente)
 
-Las métricas AUCroc/TSS (sección 5.3) validan el modelo contra su propia muestra de entrenamiento/prueba (80/20). Como control independiente, se extrajo la idoneidad climática predicha dentro de sitios documentados como palmares reales de *Jubaea chilensis* — información externa al ajuste del modelo, ya que no se usó ningún límite administrativo en el entrenamiento:
+Se extrajo la idoneidad climática predicha dentro de cinco áreas protegidas asociadas a palmares reales de *Jubaea chilensis*, para verificar si el modelo reproduce alta idoneidad donde la especie está documentada:
 
 | Sitio | Idoneidad media (prob.) | % superficie en clase "Alta" |
 |---|---:|---:|
@@ -102,7 +102,9 @@ Las métricas AUCroc/TSS (sección 5.3) validan el modelo contra su propia muest
 | Palmas de Cocalán | 0,453 | 33,3% |
 | *Referencia: promedio en toda la AOI* | *0,249* | — |
 
-**Los cinco sitios superan entre 1,8 y 3,2 veces la idoneidad media de referencia de toda el área de estudio**, y los dos palmares creados específicamente para la especie (Palmar El Salto, Monte Aranda) muestran 100% de su superficie en la clase de idoneidad más alta. Esto constituye una validación externa independiente de las métricas estadísticas internas: el modelo no solo ajusta bien sus propios datos de entrenamiento, sino que identifica correctamente hábitat real verificado en terreno por otros estudios. Tabla completa en el archivo de resultados *validacion_sitios_conocidos.csv*.
+**Aclaración metodológica importante:** en una primera versión de este documento esta sección se presentó como "validación externa independiente". Una revisión posterior detectó que eso era incorrecto: al cruzar los 2.091 registros de presencia usados para *entrenar* el modelo contra estos mismos cinco polígonos, se encontró que **el 72,6% de los registros de entrenamiento (1.519 de 2.091) caen dentro de ellos** —1.514 solo dentro de La Campana-Peñuelas—. Es decir, el modelo vio presencias reales de estos sitios durante el ajuste, por lo que encontrar alta idoneidad ahí después no es una prueba independiente de capacidad predictiva: es, en gran medida, circular.
+
+Lo que esta tabla sí muestra honestamente es **consistencia interna**: el modelo no contradice la evidencia de terreno donde más presencias reales existen, lo cual es una condición necesaria (si el modelo predijera baja idoneidad exactamente donde sabemos que la especie vive y fue muestreada, eso sí sería una señal de alarma) pero no suficiente como evidencia de capacidad predictiva fuera de muestra. La validación estadística real de esa capacidad son las métricas de la sección 5.3 (AUCroc/TSS, validación cruzada 80/20) — que a su vez tienen su propia limitación, discutida en la sección 7.
 
 ### 6.2. Superficie de hábitat de Alta Idoneidad Climática — Colección 2 (2024, resultado oficial)
 
@@ -169,7 +171,7 @@ El detalle por área protegida (tabla completa en *snaspe_detalle_por_area.csv*)
 
 ### 6.6. Incendios: un tercer producto MapBiomas Chile aplicado al mismo hábitat
 
-El reglamento del Premio también habilita el **Producto Fuego Colección 1** como fuente de datos elegible. Se utilizó la capa de **frecuencia de área quemada acumulada 2013-2025** (descarga directa pública) para cuantificar cuánto del hábitat compatible de alta idoneidad ya fue afectado por incendios — la misma amenaza que la literatura (sección 4) identifica como recurrente para la especie, ahora con datos espaciales concretos en vez de solo referencia bibliográfica.
+El reglamento del Premio también habilita el **Producto Fuego Colección 1** como fuente de datos elegible. Se utilizó la capa de **frecuencia de área quemada acumulada 2013-2025** (`mapbiomas_fire_chile_col1_frequency_burned_2013_2025.tif`, descarga directa pública desde el bucket oficial de MapBiomas, descargada el 20 de septiembre de 2026) para cuantificar cuánto del hábitat compatible de alta idoneidad ya fue afectado por incendios — la misma amenaza que la literatura (sección 4) identifica como recurrente para la especie, ahora con datos espaciales concretos en vez de solo referencia bibliográfica. El período 2013-2025 es el rango acumulado que provee la Colección 1 de este producto al momento de la descarga; no se verificó de forma independiente si el año 2025 está completo en la fuente original, lo que podría introducir un sesgo menor a la baja en el año más reciente.
 
 | Estado de protección | Hábitat compatible | Quemado alguna vez (2013-2025) | % quemado |
 |---|---:|---:|---:|
@@ -197,6 +199,8 @@ El detalle por área protegida (tabla completa en *fuego_por_area_protegida.csv*
 
 La literatura (PMC9370131) documenta seis poblaciones/palmares principales —Ocoa, Cocalán, Viña del Mar/Valparaíso, Candelaria, Petorca y Culimo— que concentran el 96% de los individuos, pero no publica sus coordenadas exactas en formato tabulado. Para construir un ranking accionable sin inventar límites administrativos, se agruparon los 2.091 registros de presencia mediante **clustering espacial (k-means, k=6)** y se calculó, para cada clúster, un índice de prioridad de conservación análogo al usado en `BLOQUE8_partidos_bonaerenses.R` (Argentina): combina hábitat compatible disponible (peso 50%), grado de desprotección (peso 30%) y exposición a incendios (peso 20%).
 
+**Advertencia metodológica:** el valor k=6 se fijó porque la literatura reporta seis poblaciones, no porque un criterio estadístico independiente (p. ej. silueta, gap statistic) haya indicado que 6 es el número óptimo de agrupamientos en los datos. Esto es circular en sentido estricto: se usa el resultado esperado para fijar un parámetro del método. Además, k-means no respeta necesariamente la estructura ecológica real (dos palmares cercanos pueden fusionarse en un clúster, uno extenso puede partirse en dos). Por lo tanto, **los seis "palmares" de esta sección son agrupamientos espaciales operativos, no unidades poblacionales validadas genéticamente** — de ahí que cada uno se etiquete con un nivel de confianza explícito (Alta/Media/Baja) en vez de asumirse como identificación certera.
+
 Cada clúster se etiquetó con la población documentada más cercana, indicando explícitamente el nivel de confianza de esa identificación (por coincidencia con polígonos WDPA conocidos, o por toponimia regional cuando no hay una referencia espacial exacta):
 
 | Rango | Palmar (aprox.) | Confianza | Hábitat compatible | % Protegido | % Quemado | Índice prioridad |
@@ -213,6 +217,19 @@ Cada clúster se etiquetó con la población documentada más cercana, indicando
 **Ocoa queda en el último lugar de prioridad** precisamente porque ya está mayoritariamente protegida (63,2%, dentro del Parque Nacional La Campana-Peñuelas) — es la población que menos necesita intervención adicional. **Cocalán y Petorca encabezan el ranking**: concentran mucho hábitat compatible con protección casi nula, y deberían ser el foco de nuevas iniciativas de conservación formal. El clúster "Viña del Mar/Valparaíso" merece una salvedad: al coincidir con una zona urbana densamente muestreada por ciencia ciudadana (iNaturalist), su alto número de registros (1.422, el mayor de los seis) probablemente incluye ejemplares cultivados en plazas y jardines, no solo poblaciones silvestres — la misma limitación de sesgo de muestreo urbano discutida en la sección 5.1.
 
 Tabla completa con centroides y metodología de etiquetado en *ranking_palmares.csv*.
+
+**Sensibilidad a los pesos del índice.** Los pesos 50/30/20 no tienen una justificación teórica externa — son una elección razonable pero arbitraria. Para probar si el ranking depende de esa elección específica, se recalculó el índice con cuatro esquemas alternativos de ponderación:
+
+| Palmar | 50/30/20 (original) | 40/40/20 | 60/20/20 | 33/33/33 (igual) | 70/15/15 (solo hábitat) |
+|---|---:|---:|---:|---:|---:|
+| Cocalán | 1 | 1 | 1 | 1 | 1 |
+| Petorca | 2 | 2 | 2 | 3 | 2 |
+| Candelaria | 3 | 3 | 3 | 2 | 4 |
+| Viña del Mar/Valparaíso | 4 | 5 | 4 | 4 | 3 |
+| Culimo | 5 | 4 | 5 | 5 | 6 |
+| Ocoa (La Campana) | 6 | 6 | 6 | 6 | 5 |
+
+**El resultado es robusto donde más importa: Cocalán es el #1 y Ocoa es el #6 (última prioridad) bajo los cinco esquemas de ponderación probados, sin excepción.** El único lugar donde el ranking cambia es el #2: Petorca lo ocupa en 4 de 5 esquemas, pero bajo ponderación estrictamente igualitaria (33/33/33) Candelaria lo desplaza. Las posiciones intermedias (4ª-5ª) muestran algo más de variación. En síntesis: la recomendación de máxima prioridad (Cocalán) y la de menor prioridad (Ocoa) no dependen de la elección de pesos; la recomendación secundaria (Petorca vs. Candelaria) sí tiene algo de sensibilidad y debe leerse con ese margen de incertidumbre. Detalle completo en *sensibilidad_pesos_ranking.csv*.
 
 ### 6.8. Proyección a futuro: cambio climático (CMIP6, 2050, SSP2-4.5)
 
@@ -248,8 +265,24 @@ Todos los mapas y gráficos de este documento tienen su versión interactiva y s
 | Diagnósticos de colinealidad | `correlacion_pearson.png`, `vif_barplot.png` |
 | Proyección CMIP6 2050 | `cambio_idoneidad_2050.csv`, `refugios_2050_uso_actual.csv` |
 
-## 7. Conclusión
-La integración de ensemble modeling con MapBiomas Chile Colección 2 permite aislar, por primera vez de forma cuantitativa, la disponibilidad real de hábitat climático para *Jubaea chilensis*. Los resultados indican que el 77% del hábitat climáticamente apto permanece disponible como vegetación natural o restaurable, mientras que el 22,9% ya fue convertido a usos incompatibles, mayormente agrícolas. El análisis de sensibilidad entre colecciones (sección 6.4) demuestra además que gran parte de la aparente diferencia frente a una primera exploración con Colección 1 no es conversión real sino una mejora en la resolución de clasificación de MapBiomas — un hallazgo metodológico relevante para cualquier estudio que combine series temporales de distintas colecciones de MapBiomas.
+## 7. Limitaciones
+
+Este trabajo tiene limitaciones metodológicas que se declaran explícitamente para que los resultados se interpreten con el alcance correcto:
+
+**1. Thinning espacial a resolución de píxel (~1 km), no a distancia mínima.** El *thinning* aplicado (sección 5.1) conserva un registro por píxel de WorldClim (~1 km). Esto elimina duplicados exactos, pero **no aborda la autocorrelación espacial** de las presencias: registros separados por unos pocos km comparten condiciones ambientales casi idénticas y siguen sobrerrepresentados. El estándar más riguroso en modelado de nicho es *thinning* a una distancia mínima mayor (típicamente 10-50 km, p. ej. con el paquete `spThin`) o, alternativamente, validación cruzada con bloques espaciales. No se aplicó ninguna de las dos.
+
+**2. Validación cruzada aleatoria (80/20), no espacial.** Consecuencia directa del punto anterior: con presencias espacialmente autocorrelacionadas, una partición aleatoria entrenamiento/prueba permite que puntos de prueba tengan "vecinos" casi idénticos en el set de entrenamiento, lo que **puede inflar las métricas de validación**. Los valores reportados (AUCroc 0,948, TSS 0,741; sección 5.3) son plausibles y superan ampliamente los umbrales mínimos de calidad, pero no son necesariamente representativos de la capacidad predictiva del modelo en zonas realmente independientes. Un esquema más riguroso usaría validación cruzada por bloques espaciales (p. ej. paquetes `blockCV` o `ENMeval`), que típicamente produce métricas más conservadoras pero más defendibles.
+
+**3. Proyección a 2050 basada en un único modelo climático global (GCM).** La proyección CMIP6 (sección 6.8) usa un solo GCM (MPI-ESM1-2-HR, SSP2-4.5). Esto **no permite separar la señal climática de la variabilidad entre modelos**: distintos GCMs pueden proyectar cambios de magnitud, e incluso signo, distintos para la misma región y variable. La práctica estándar en estudios de impacto climático es usar un ensamble de al menos 3-5 GCMs y reportar el rango o la mediana. La cifra de **-46,2% de hábitat de alta idoneidad para 2050 debe leerse como el resultado bajo el escenario MPI-ESM1-2-HR específicamente, no como una proyección consensuada** del cambio climático esperado para la especie.
+
+**4. Supuesto de conservación de nicho.** La proyección a futuro (sección 6.8) reutiliza el ensemble ya ajustado sin reentrenar, lo cual es la práctica estándar y metodológicamente correcta para evitar el uso de "información futura" en el ajuste. Pero esto **asume implícitamente que la relación entre la especie y el clima (el nicho climático) permanece constante** entre el presente y 2041-2060. Es un supuesto habitual en SDM, aunque conviene señalarlo explícitamente aquí porque la variable dominante del modelo es la estacionalidad de la precipitación (bio15, sección 5.3) — precisamente la métrica que la megasequía altera de forma más marcada y potencialmente no lineal, lo que podría hacer que la relación especie-clima estimada con el clima histórico no se sostenga igual bajo condiciones futuras más extremas.
+
+**5. Los "seis palmares" del ranking (sección 6.7) son agrupamientos espaciales operativos**, no unidades poblacionales confirmadas genéticamente — ver la advertencia metodológica específica en esa sección sobre la elección de k=6.
+
+Ninguna de estas limitaciones invalida los hallazgos centrales de este trabajo (la disponibilidad real de hábitat, la brecha de protección, el riesgo de incendio y la reducción proyectada a futuro son consistentes entre sí y con la literatura), pero sí acotan la certeza con la que deben interpretarse las cifras puntuales, particularmente las métricas de validación del modelo y el porcentaje exacto de contracción climática a 2050.
+
+## 8. Conclusión
+La integración de ensemble modeling con MapBiomas Chile Colección 2 permite aislar, de forma cuantitativa, la disponibilidad real de hábitat climático para *Jubaea chilensis* — hasta donde pudimos identificar en la literatura consultada (sección "Referencias"), es la primera vez que se combinan explícitamente modelado de nicho ecológico para esta especie con datos oficiales de uso de suelo de MapBiomas, aunque no se descarta la existencia de trabajos no publicados o no indexados en las fuentes revisadas. Los resultados indican que el 77% del hábitat climáticamente apto permanece disponible como vegetación natural o restaurable, mientras que el 22,9% ya fue convertido a usos incompatibles, mayormente agrícolas. El análisis de sensibilidad entre colecciones (sección 6.4) demuestra además que gran parte de la aparente diferencia frente a una primera exploración con Colección 1 no es conversión real sino una mejora en la resolución de clasificación de MapBiomas — un hallazgo metodológico relevante para cualquier estudio que combine series temporales de distintas colecciones de MapBiomas.
 
 El cruce adicional con el WDPA (sección 6.5) agrega el dato más accionable del estudio: de ese hábitat disponible, **solo el 12,6% está dentro de un área protegida** — el 87,4% restante no tiene ninguna figura de protección legal. El cruce con el Producto Fuego (sección 6.6) matiza además qué significa "protegido": las áreas protegidas se quemaron proporcionalmente más que las desprotegidas (12,4% vs 7,7%), y un palmar específico —**Palmar El Salto**— tuvo el 80% de su hábitat compatible quemado en 2013-2025, mientras otros palmares (Fray Jorge, Monte Aranda) no registraron quemas.
 
