@@ -38,7 +38,7 @@ Un **ranking de los 6 palmares** (por clustering espacial de presencias) identif
 
 La variable climática más importante es la **estacionalidad de la precipitación (bio15)**, coherente con el eje de megasequía que prioriza el comité evaluador. El modelo predice correctamente alta idoneidad en los palmares reales (Palmar El Salto y Monte Aranda: 100% de su superficie en clase "Alta"), aunque esto se reporta como control de **consistencia**, no como validación independiente — la mayoría de esos sitios aportaron registros al entrenamiento (ver sección 6.1, con la aclaración metodológica correspondiente).
 
-Una **proyección a 2050** (CMIP6, SSP2-4.5) muestra que el hábitat de alta idoneidad climática se reduciría **46,2%** para 2041-2060, incluso en un escenario de emisiones moderado — y el 22,3% de los refugios climáticos que persistirían ya está convertido hoy. Ver sección 6.8.
+Una **proyección a 2050** (CMIP6, SSP2-4.5, ensamble de 6 GCMs) muestra alta incertidumbre inter-modelo: la mediana del ensamble es prácticamente neutra (**-0,2%**, IQR -3,5% a +4,8%, rango -46,2% a +17,0%) — un primer análisis con un único GCM había sugerido -46,2%, pero resultó ser un caso atípico dentro del ensamble. Esa incertidumbre climática es en sí misma el argumento para proteger ahora lo que hoy es cierto: el 22,3% de los refugios climáticos que persistirían incluso bajo el escenario más pesimista ya está convertido. Ver sección 6.8.
 
 ## Nota sobre el acceso a datos
 
