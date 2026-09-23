@@ -75,7 +75,7 @@ ENM-BGEN/
 - Pseudo-ausencias: estrategia SRE, 2 sets × 3.000 puntos
 - Algoritmos: GLM, GBM, RF, MAXNET, XGBOOST
 - Validación cruzada: 3 repeticiones, 80/20
-- Ensemble: EMwmeanByTSS (ponderado por TSS de validación)
+- Ensemble: **EMmean** (media simple, no ponderada). *Se cambió desde `EMwmeanByTSS`: una prueba de robustez con thinning espacial + validación cruzada por bloques mostró que ponderar por TSS de validación aleatoria sobrepondera a Random Forest, el algoritmo que peor generaliza espacialmente (calibración perfecta = 1,0, firma clásica de sobreajuste). Detalle completo en `extensiones/argentina/BLOQUE_ROBUSTEZ_A-D` (diagnóstico sobre 4 especies) y `BLOQUE_F-H` (corrección aplicada a las 19 especies oficiales: mediana −0,71 % en área de hábitat, sin cambios en el Top 15 del ranking Ipc).*
 - Umbrales de calidad: TSS ≥ 0.7 y AUCroc ≥ 0.9
 
 ### Desempeño (validación)
@@ -141,6 +141,28 @@ BLOQUE 0  →  BLOQUE 2  →  BLOQUE 1 (thinning)
           →  BLOQUE 3  →  BLOQUE 4
           →  BLOQUE 5  →  BLOQUE 6
 ```
+
+---
+
+## Adaptar el pipeline a otra región o a otras variables ambientales
+
+El pipeline está escrito para WorldClim + SRTM, pero está pensado para poder sumar otras fuentes de variables ambientales (por ejemplo ENVIREM) o aplicarse a otra región. Las dos preguntas que más aparecen al adaptarlo:
+
+### 1. "Al unir capas de distintas fuentes me quedan píxeles en NoData en los bordes (zona costera, por ejemplo)"
+
+Esto pasa porque cada fuente de variables (WorldClim, ENVIREM, capas topográficas) suele tener su propia máscara de tierra/agua, y no siempre coinciden exactamente en el borde costero o en los límites del área de estudio. Al recortar cada stack por separado con su propia máscara y después unirlos (`c()` en terra), los píxeles donde una fuente tiene dato y la otra no quedan en NoData.
+
+**Solución recomendada:**
+1. Generá **una única máscara** de tierra para tu área de estudio (por ejemplo, a partir de una sola capa de referencia, como el DEM o una bio de WorldClim).
+2. Recortá y alineá **todos** los stacks (WorldClim, ENVIREM, topografía, uso de suelo) a esa misma máscara y a la misma grilla (`resample()`) **antes** de unirlos con `c()`. Esto evita bordes desfasados entre capas de distinta fuente/resolución.
+3. Si aun así quedan huecos puntuales (por ejemplo, un solo pixel aislado sin dato en alguna variable), podés rellenarlos con la media de la variable en el área de estudio (`focal()` con una ventana pequeña, o simplemente `values(r)[is.na(values(r))] <- mean(values(r), na.rm = TRUE)`).
+4. **Si rellenás con la media, declaralo explícitamente en la metodología del trabajo final** — es una decisión metodológica, no un detalle técnico invisible: cuántos píxeles se rellenaron y con qué criterio.
+
+Este es el mismo enfoque que usa `BLOQUE7_mapbiomas.R` para alinear MapBiomas (remuestreado a la resolución del stack de idoneidad) antes de cruzarlo — la lógica es la misma para cualquier par de capas de distinta fuente.
+
+### 2. "Quiero correr el pipeline para varias especies, no solo una"
+
+El pipeline ya está armado para eso: el loop de los BLOQUES 3 y 4 (entrenamiento y ensemble) recorre automáticamente todas las especies presentes en `data/presencias_thin.csv` (columna `species`) — no hace falta tocar el código para agregar especies, solo agregar sus registros de presencia al CSV de entrada con el mismo formato (`especie`, `lat`, `lon`). Cada especie se entrena y proyecta de forma independiente, y los resultados se guardan en `outputs/{especie}/`.
 
 ## BLOQUE 7: Cruce con MapBiomas Argentina 2024
 

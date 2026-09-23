@@ -463,10 +463,19 @@ cat("Siguiente: BLOQUE 4 – Ensemble y proyección\n")
 # Toma los modelos entrenados en BLOQUE 3, los combina en un ensemble
 # ponderado por TSS y proyecta la idoneidad sobre Argentina.
 #
-# Ensemble elegido: EMwmeanByTSS
-#   Pondera cada modelo según su TSS de validación. Los modelos con mejor
-#   desempeño tienen más peso en el resultado final. Más robusto que
-#   la media simple (EMmean) porque penaliza los modelos con sobreajuste.
+# Ensemble elegido: EMmean (media simple, no ponderada)
+#   Se cambió desde EMwmeanByTSS (media ponderada por TSS de validación
+#   aleatoria) tras una prueba de robustez con thinning espacial + block CV
+#   (ver extensiones/argentina/BLOQUE_ROBUSTEZ_A-D, BLOQUE_F-H, y
+#   extensiones/chile/BLOQUE14a-d): Random Forest tiene calibración perfecta (1,0) bajo el
+#   esquema oficial pero es de los peores algoritmos bajo validación
+#   espacial rigurosa -- la firma clásica de sobreajuste. EMwmeanByTSS
+#   pondera por el TSS de validación aleatoria, que está inflado
+#   precisamente para el modelo que peor generaliza espacialmente, así que
+#   termina dándole MÁS peso al algoritmo menos confiable. EMmean no
+#   depende de esa métrica inflada. Sigue sin corregir la autocorrelación
+#   espacial de base; esto solo elimina el mecanismo que premia al modelo
+#   más sobreajustado dentro del ensemble.
 #
 # Entrada:  MODELS_DIR/{especie}/...models.out
 #           variables/env_stack_vif5.tif
@@ -540,15 +549,14 @@ for (sp in especies) {
     )
 
     # -----------------------------------------------------------------------
-    # 4d. Extraer predicción EMwmeanByTSS
-    #     Se prefiere el ensemble ponderado por TSS sobre la media simple,
-    #     por su mayor robustez ante modelos con sobreajuste (ej: RF).
+    # 4d. Extraer predicción EMmean (media simple, no ponderada por TSS)
     # -----------------------------------------------------------------------
 
     ens_preds <- get_predictions(bm_proj)
 
-    idx <- grep("EMwmeanByTSS", names(ens_preds))
-    if (length(idx) == 0) idx <- grep("EMwmean", names(ens_preds))[1]
+    idx <- grep("EMmean", names(ens_preds))
+    if (length(idx) == 0) stop("No se encontró EMmean en las predicciones -- revisar em.algo en BIOMOD_EnsembleModeling")
+    idx <- idx[1]
 
     ens_wmean <- ens_preds[[idx]]
 

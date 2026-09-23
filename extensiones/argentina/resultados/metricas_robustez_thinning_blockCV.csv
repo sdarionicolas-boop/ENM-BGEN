@@ -1,0 +1,21 @@
+algo,metric.eval,calibration_media,validation_media,species
+GBM,TSS,0.963,0.328,Celtis tala
+GLM,TSS,0.939,0.61,Celtis tala
+MAXNET,TSS,0.913,0.356,Celtis tala
+RF,TSS,1,0.462,Celtis tala
+XGBOOST,TSS,0.993,0.278,Celtis tala
+GBM,TSS,0.811,0.261,Schinus molle
+GLM,TSS,0.751,0.31,Schinus molle
+MAXNET,TSS,0.788,0.312,Schinus molle
+RF,TSS,1,0.219,Schinus molle
+XGBOOST,TSS,0.96,0.373,Schinus molle
+GBM,TSS,0.813,0.412,Solanum pseudocapsicum
+GLM,TSS,0.795,0.466,Solanum pseudocapsicum
+MAXNET,TSS,0.797,0.464,Solanum pseudocapsicum
+RF,TSS,1,0.324,Solanum pseudocapsicum
+XGBOOST,TSS,0.953,0.43,Solanum pseudocapsicum
+GBM,TSS,0.791,0.223,Cortaderia selloana
+GLM,TSS,0.742,0.17,Cortaderia selloana
+MAXNET,TSS,0.787,0.233,Cortaderia selloana
+RF,TSS,1,0.164,Cortaderia selloana
+XGBOOST,TSS,0.951,0.399,Cortaderia selloana

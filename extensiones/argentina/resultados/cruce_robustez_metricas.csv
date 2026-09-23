@@ -1,0 +1,21 @@
+species,algo,metric.eval,calibration_oficial,validation_oficial,calibration_robustez,validation_robustez,diferencia_validation
+Celtis tala,GBM,TSS,0.94,0.91,0.963,0.328,-0.582
+Celtis tala,GLM,TSS,0.932,0.901,0.939,0.61,-0.291
+Celtis tala,MAXNET,TSS,0.911,0.89,0.913,0.356,-0.534
+Celtis tala,RF,TSS,1,0.799,1,0.462,-0.337
+Celtis tala,XGBOOST,TSS,0.992,0.776,0.993,0.278,-0.498
+Cortaderia selloana,GBM,TSS,0.789,0.756,0.791,0.223,-0.533
+Cortaderia selloana,GLM,TSS,0.751,0.743,0.742,0.17,-0.573
+Cortaderia selloana,MAXNET,TSS,0.789,0.77,0.787,0.233,-0.537
+Cortaderia selloana,RF,TSS,1,0.638,1,0.164,-0.474
+Cortaderia selloana,XGBOOST,TSS,0.94,0.783,0.951,0.399,-0.384
+Schinus molle,GBM,TSS,0.803,0.756,0.811,0.261,-0.495
+Schinus molle,GLM,TSS,0.768,0.769,0.751,0.31,-0.459
+Schinus molle,MAXNET,TSS,0.797,0.778,0.788,0.312,-0.466
+Schinus molle,RF,TSS,1,0.691,1,0.219,-0.472
+Schinus molle,XGBOOST,TSS,0.943,0.762,0.96,0.373,-0.389
+Solanum pseudocapsicum,GBM,TSS,0.79,0.75,0.813,0.412,-0.338
+Solanum pseudocapsicum,GLM,TSS,0.784,0.754,0.795,0.466,-0.288
+Solanum pseudocapsicum,MAXNET,TSS,0.809,0.762,0.797,0.464,-0.298
+Solanum pseudocapsicum,RF,TSS,1,0.6,1,0.324,-0.276
+Solanum pseudocapsicum,XGBOOST,TSS,0.93,0.738,0.953,0.43,-0.308

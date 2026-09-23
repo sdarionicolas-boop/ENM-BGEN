@@ -1,0 +1,129 @@
+partido,indice_prioridad_emmean,rango_emmean,indice_prioridad_oficial,rango_oficial,cambio_rango
+Quilmes,0.9224,1,0.9219,1,0
+Vicente López,0.9182,2,0.9176,2,0
+San Isidro,0.9177,3,0.9172,3,0
+General San Martín,0.9164,4,0.916,4,0
+San Fernando (2),0.9105,5,0.9101,5,0
+Tres de Febrero,0.9093,6,0.9088,6,0
+Lomas de Zamora,0.9089,7,0.9083,7,0
+Lanús,0.9082,8,0.9077,8,0
+Avellaneda,0.9061,9,0.9056,9,0
+Berazategui,0.9038,10,0.9033,10,0
+Morón,0.9012,11,0.9006,11,0
+Almirante Brown,0.9002,12,0.8996,12,0
+General Sarmiento,0.893,13,0.8923,13,0
+Ensenada,0.8922,14,0.8916,14,0
+Tigre,0.8915,15,0.891,15,0
+Florencio Varela,0.8899,16,0.8893,16,0
+Berisso,0.878,17,0.8775,17,0
+La Plata,0.8774,18,0.8769,18,0
+San Fernando (1),0.8707,19,0.8706,19,0
+Escobar,0.8699,20,0.8695,20,0
+Moreno,0.8621,21,0.8619,21,0
+La Matanza,0.8618,22,0.8618,22,0
+Merlo,0.8556,23,0.8554,23,0
+Esteban Echeverría,0.8514,24,0.8513,24,0
+Pilar,0.84,25,0.8398,25,0
+Campana,0.8307,26,0.8307,26,0
+San Vicente,0.8216,27,0.8216,27,0
+Brandsen,0.8209,28,0.8211,28,0
+Magdalena,0.785,29,0.7855,29,0
+Zárate,0.7736,30,0.7739,30,0
+Marcos Paz,0.7621,31,0.7625,31,0
+General Rodríguez,0.7549,32,0.7553,32,0
+Exaltación de la Cruz,0.7446,33,0.745,33,0
+Cañuelas,0.7411,34,0.7416,34,0
+Pinamar,0.7213,35,0.722,35,0
+Chascomús,0.7187,36,0.7196,36,0
+General Paz,0.7177,37,0.7186,37,0
+Baradero,0.714,38,0.7146,38,0
+Luján,0.7125,39,0.713,39,0
+San Pedro,0.6893,40,0.6902,40,0
+General Las Heras,0.6853,41,0.686,41,0
+Ramallo,0.6808,42,0.6817,42,0
+Monte,0.6648,44,0.6659,43,-1
+San Antonio de Areco,0.6652,43,0.6658,44,1
+San Nicolás,0.658,45,0.659,45,0
+Castelli,0.657,46,0.6579,46,0
+Nueve de Julio,0.6237,49,0.6406,47,-2
+Villa Gesell,0.6364,47,0.637,48,1
+Bragado,0.6295,48,0.6304,49,1
+General Viamonte,0.6177,50,0.6185,50,0
+Arrecifes,0.6138,51,0.6147,51,0
+Capitán Sarmiento,0.6032,52,0.6041,52,0
+Carlos Casares,0.5956,53,0.5964,53,0
+Pergamino,0.5927,54,0.5934,54,0
+Lobos,0.5921,56,0.5931,55,-1
+Junín,0.5922,55,0.5929,56,1
+Dolores,0.5896,57,0.5902,57,0
+San Andrés de Giles,0.5894,58,0.5901,58,0
+General Juan Madariaga,0.5772,59,0.578,59,0
+Pila,0.5762,60,0.5773,60,0
+Tordillo,0.5564,65,0.5729,61,-4
+Navarro,0.5591,61,0.56,62,1
+Mercedes,0.5575,62,0.5583,63,1
+Carmen de Areco,0.5569,63,0.5578,64,1
+General Belgrano,0.5566,64,0.5577,65,1
+Colón,0.5541,66,0.5546,66,0
+Salto,0.5524,67,0.5531,67,0
+Alberti,0.5475,68,0.5482,68,0
+Lincoln,0.5445,69,0.545,69,0
+Veinticinco de Mayo,0.5432,70,0.5441,70,0
+General Arenales,0.5331,72,0.5338,71,-1
+General Pinto,0.5305,74,0.531,72,-2
+Chivilcoy,0.5281,75,0.5289,73,-2
+Suipacha,0.522,76,0.5229,74,-2
+Chacabuco,0.5215,77,0.5221,75,-2
+Leandro N. Alem,0.5367,71,0.5215,76,5
+General Alvear,0.5146,78,0.5156,77,-1
+La Costa,0.5306,73,0.5145,78,5
+Rojas,0.5116,79,0.5123,79,0
+Tapalqué,0.4956,80,0.4967,80,0
+Maipú,0.4953,81,0.4961,81,0
+Roque Pérez,0.49370000000000003,82,0.4947,82,0
+Ameghino,0.4759,88,0.4918,83,-5
+General Pueyrredón,0.4836,83,0.4842,84,1
+Saladillo,0.4829,84,0.4838,85,1
+General Guido,0.4822,85,0.483,86,1
+Las Flores,0.4808,86,0.4816,87,1
+Bolívar,0.4775,87,0.4782,88,1
+General Lavalle,0.4676,89,0.4677,89,0
+Rauch,0.4642,90,0.4651,90,0
+Lobería,0.4525,91,0.4532,91,0
+Mar Chiquita,0.4502,92,0.4509,92,0
+Necochea,0.4465,93,0.4472,93,0
+General Alvarado,0.4414,94,0.4423,94,0
+Olavarría,0.4232,95,0.424,95,0
+Azul,0.4217,96,0.4225,96,0
+Carlos Tejedor,0.4033,97,0.4035,97,0
+San Cayetano,0.3869,98,0.3878,98,0
+General Villegas,0.3704,101,0.3863,99,-2
+Ayacucho,0.3772,99,0.3779,100,1
+Laprida,0.3726,100,0.373,101,1
+Pehuajó,0.3688,102,0.369,102,0
+Adolfo Gonzales Chaves,0.3612,103,0.3618,103,0
+Hipólito Yrigoyen,0.3495,104,0.3498,104,0
+General La Madrid,0.346,105,0.3464,105,0
+Rivadavia,0.34,106,0.34,106,0
+Tandil,0.3377,107,0.3381,107,0
+Balcarce,0.333,108,0.3335,108,0
+Benito Juárez,0.3325,109,0.333,109,0
+Coronel Pringles,0.3307,110,0.3311,110,0
+Tres Arroyos,0.3274,111,0.3282,111,0
+Coronel de Marina Leonardo Rosal,0.3226,112,0.323,112,0
+Daireaux,0.3003,113,0.3004,113,0
+Coronel Dorrego,0.2979,114,0.2983,114,0
+Trenque Lauquen,0.2971,115,0.2973,115,0
+Bahía Blanca,0.2751,116,0.2753,116,0
+Monte Hermoso,0.239,117,0.2392,117,0
+Coronel Suárez,0.231,118,0.2312,118,0
+Tornquist,0.2278,119,0.2279,119,0
+Guaminí,0.2003,120,0.2003,120,0
+Saavedra,0.1716,121,0.1717,121,0
+Tres Lomas,0.1523,122,0.1523,122,0
+Pellegrini,0.1506,123,0.1504,123,0
+Adolfo Alsina,0.1309,124,0.131,124,0
+Puán,0.1145,125,0.1145,125,0
+Salliqueló,0.1014,126,0.1014,126,0
+Villarino,0.0937,127,0.0936,127,0
+Patagones,0.0859,128,0.0858,128,0
