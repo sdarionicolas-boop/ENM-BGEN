@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Si usás este software, por favor citalo como se indica a continuación."
+authors:
+  - family-names: Sánchez Leguizamón
+    given-names: Darío Nicolás
+    orcid: "https://orcid.org/0009-0002-4228-2950"
+    affiliation: "Universidad Nacional Arturo Jauretche"
+title: "ENM-BGEN: Pipeline de Modelado de Nicho Ecológico para Especies Nativas de Argentina, Perú y Chile"
+version: 1.0.0
+doi: 10.5281/zenodo.23149296
+date-released: 2026-10-05
+license: MIT
+repository-code: "https://github.com/sdarionicolas-boop/ENM-BGEN"
+keywords:
+  - ecological niche modeling
+  - ensemble modeling
+  - biomod2
+  - species distribution modeling
+  - native species
+  - germplasm bank
+  - conservation
+  - MapBiomas
+  - Argentina
+  - Peru
+  - Chile
