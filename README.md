@@ -11,6 +11,8 @@ Estima la distribución potencial de **19 especies nativas de Argentina** de int
 
 El pipeline cubre el flujo completo: desde registros de biodiversidad crudos hasta mapas listos para análisis de conservación.
 
+> **Este repositorio es también un laboratorio:** el mismo pipeline aplicado en Argentina, Perú y Chile, auditado contra sí mismo, con el rastro de lo que falló y se corrigió. Leé [`LABORATORIO.md`](./LABORATORIO.md) para el recorrido y el **estado de cada resultado** (oficial, diagnóstico o desactualizado) antes de reutilizar una cifra.
+
 ---
 
 ## Especies modeladas
@@ -37,6 +39,7 @@ ENM-BGEN/
 ├── API_GBIF1.ipynb                 ← descarga de registros de presencia desde GBIF
 ├── convert_to_pdf.py               ← conversión del reporte técnico a PDF
 ├── .Renviron.example               ← variables de entorno con las rutas (ver "Configuración de rutas")
+├── LABORATORIO.md                  ← recorrido del arco Argentina → Perú → Chile, lecciones y estado de cada resultado
 ├── ejemplo_minimo/                 ← una especie de punta a punta en ~1 min, con datos de muestra (ver "Probalo en un minuto")
 ├── README.md · LICENSE
 │
