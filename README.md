@@ -37,6 +37,7 @@ ENM-BGEN/
 ├── API_GBIF1.ipynb                 ← descarga de registros de presencia desde GBIF
 ├── convert_to_pdf.py               ← conversión del reporte técnico a PDF
 ├── .Renviron.example               ← variables de entorno con las rutas (ver "Configuración de rutas")
+├── ejemplo_minimo/                 ← una especie de punta a punta en ~1 min, con datos de muestra (ver "Probalo en un minuto")
 ├── README.md · LICENSE
 │
 ├── extensiones/                    ← el mismo pipeline aplicado y puesto a prueba en otros contextos
@@ -143,6 +144,16 @@ Ejecutá el script bloque por bloque en RStudio en este orden:
 BLOQUE 0  →  BLOQUE 2  →  BLOQUE 1 (thinning)
           →  BLOQUE 3  →  BLOQUE 4
           →  BLOQUE 5  →  BLOQUE 6
+```
+
+---
+
+## Probalo en un minuto
+
+[`ejemplo_minimo/`](./ejemplo_minimo/) corre el núcleo del pipeline sobre una sola especie (*Celtis tala*) con datos de muestra incluidos y capas de WorldClim que se descargan solas. No requiere configurar rutas. Además de generar el mapa de idoneidad, compara la validación cruzada aleatoria con la de bloques espaciales, así que podés ver el efecto que documentan las pruebas de robustez (TSS medio ≈ 0,63 → 0,40).
+
+```bash
+Rscript ejemplo_minimo/ejemplo_una_especie.R
 ```
 
 ---
