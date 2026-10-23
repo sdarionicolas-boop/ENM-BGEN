@@ -5,13 +5,24 @@ Beca BIEI 2025 | Proyecto ARG/19/G24 (GEF/PNUD) | Red ARGENA
 
 ---
 
+## La historia de este repositorio
+
+**Agosto de 2025.** Empieza una Beca de Iniciación a la Investigación (BIEI) de la Universidad Nacional Arturo Jauretche, dirigida por la Ing. Andrea Quinteros, en el Banco de Germoplasma de Especies Nativas (BGEN-Noreste; proyecto ARG/19/G24, GEF/PNUD; red ARGENA). El plan original no era este: era *"Especies nativas, a un click"*, una plataforma colaborativa para cargar datos fenológicos en campo. Esa primera meta se cumplió en la primera mitad de la beca.
+
+**El giro.** Un banco de germoplasma necesita saber adónde ir a colectar semillas ahora, y una base fenológica propia necesita años de monitoreo. De común acuerdo con la dirección, la beca sumó datos históricos abiertos (GBIF, iNaturalist) y pasó al modelado de nicho ecológico: 19 especies nativas, un cruce con MapBiomas para saber cuánto hábitat sigue en pie y un índice para ordenar los 128 partidos bonaerenses según su prioridad de colecta. De esa pregunta práctica nació este pipeline (marzo de 2026). Se presentó en la UNAJ (Mes de la Ciencia), en un congreso internacional (UNASAM, mayo de 2026) y se postuló al Premio MapBiomas Argentina. El visor público está en [enm-bgen.lovable.app](https://enm-bgen.lovable.app).
+
+**Agosto de 2026.** La beca terminó, con sus objetivos cumplidos. El trabajo no. Siguió por cuenta propia: el pipeline se aplicó a *Mauritia flexuosa* en Perú y a *Jubaea chilensis* en Chile, y esa tercera aplicación obligó a preguntarse qué tan sólido era lo hecho. El informe de la beca daba por controlada la autocorrelación espacial con el thinning por píxel; las pruebas de Chile mostraron que no alcanzaba. Esas pruebas volvieron a Argentina, cambiaron el ensemble del pipeline y los resultados se recalcularon. Además, este pipeline es la base del Trabajo Final de Grado.
+
+Lo que sigue es ese recorrido entero, con sus errores a la vista. El mapa del camino, las lecciones y el **estado de cada resultado** están en [`LABORATORIO.md`](./LABORATORIO.md).
+
+---
+
 ## ¿Qué hace este pipeline?
 
 Estima la distribución potencial de **19 especies nativas de Argentina** de interés para un banco de germoplasma, usando ensemble modeling con cinco algoritmos de aprendizaje automático. El resultado es un mapa de idoneidad de hábitat por especie, exportado como raster GeoTIFF y como visor web interactivo.
 
 El pipeline cubre el flujo completo: desde registros de biodiversidad crudos hasta mapas listos para análisis de conservación.
 
-> **Este repositorio es también un laboratorio:** el mismo pipeline aplicado en Argentina, Perú y Chile, auditado contra sí mismo, con el rastro de lo que falló y se corrigió. Leé [`LABORATORIO.md`](./LABORATORIO.md) para el recorrido y el **estado de cada resultado** (oficial, diagnóstico o desactualizado) antes de reutilizar una cifra.
 
 ---
 
