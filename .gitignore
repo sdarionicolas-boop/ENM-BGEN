@@ -7,6 +7,12 @@ outputs/*
 # Modelos biomod2 (pueden pesar varios GB)
 *.models.out
 *.ensemble.models.out
+biomod2/
+
+# Salidas de corridas alternativas / pruebas de robustez (pesadas, regenerables)
+outputs_*/
+*.qgz
+__pycache__/
 
 # Archivos temporales de R
 .Rhistory

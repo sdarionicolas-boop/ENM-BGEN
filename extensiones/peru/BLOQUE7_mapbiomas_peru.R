@@ -52,8 +52,9 @@ library(leaflet)
 library(leaflet.extras)
 library(htmlwidgets)
 
-# Rutas — ajustá BASE_DIR si es necesario
-BASE_DIR <- "C:/Users/sdari/Desktop/ENM-BGEN-main"
+# Rutas — vienen de ENM_PERU_DIR (ver .Renviron.example)
+if (Sys.getenv("ENM_PERU_DIR") == "") stop("Definí ENM_PERU_DIR (ver README, sección 'Configuración de rutas')")
+BASE_DIR <- Sys.getenv("ENM_PERU_DIR")
 VAR_DIR <- file.path(BASE_DIR, "variables")
 OUT_DIR <- file.path(BASE_DIR, "outputs")
 MB_DIR <- file.path(OUT_DIR, "mapbiomas")

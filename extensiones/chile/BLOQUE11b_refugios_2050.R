@@ -2,7 +2,8 @@ library(terra)
 library(dplyr)
 library(readr)
 
-OUT_DIR <- "C:/Users/sdari/Desktop/ENM_jubaea_chile/outputs"
+if (Sys.getenv("ENM_CHILE_DIR") == "") stop("Definí ENM_CHILE_DIR (ver README, sección 'Configuración de rutas')")
+OUT_DIR <- file.path(Sys.getenv("ENM_CHILE_DIR"), "outputs")
 MB_DIR  <- file.path(OUT_DIR, "mapbiomas")
 
 clase_future <- rast(file.path(OUT_DIR, "cmip6", "Jubaea_chilensis_idoneidad_clase_2050.tif"))

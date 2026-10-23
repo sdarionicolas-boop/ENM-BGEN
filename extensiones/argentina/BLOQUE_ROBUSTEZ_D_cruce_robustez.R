@@ -20,11 +20,13 @@ library(terra)
 library(dplyr)
 library(readr)
 
-BASE_DIR   <- "C:/Users/sdari/Desktop/BGEN/ENM_jacaranda"
+if (Sys.getenv("ENM_ARG_DIR") == "") stop("Definí ENM_ARG_DIR (ver README, sección 'Configuración de rutas')")
+BASE_DIR   <- Sys.getenv("ENM_ARG_DIR")
 VAR_DIR    <- file.path(BASE_DIR, "variables")
 OUT_DIR_OFICIAL  <- file.path(BASE_DIR, "outputs")
 OUT_DIR    <- file.path(BASE_DIR, "outputs_robustez")
-MODELS_DIR <- "C:/Users/sdari/Documents"
+if (Sys.getenv("ENM_MODELS_DIR") == "") stop("Definí ENM_MODELS_DIR (ver README, sección 'Configuración de rutas')")
+MODELS_DIR <- Sys.getenv("ENM_MODELS_DIR")
 
 # Umbral 0: a diferencia del pipeline oficial (TSS>=0.7, AUCroc>=0.9), acá se
 # incluyen todos los modelos sin filtrar por calidad, igual que en

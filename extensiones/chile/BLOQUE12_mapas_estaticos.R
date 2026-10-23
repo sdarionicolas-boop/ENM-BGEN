@@ -3,9 +3,11 @@ library(dplyr)
 library(readr)
 library(ggplot2)
 
-OUT_DIR <- "C:/Users/sdari/Desktop/ENM_jubaea_chile/outputs"
+if (Sys.getenv("ENM_CHILE_DIR") == "") stop("Definí ENM_CHILE_DIR (ver README, sección 'Configuración de rutas')")
+OUT_DIR <- file.path(Sys.getenv("ENM_CHILE_DIR"), "outputs")
 MB_DIR  <- file.path(OUT_DIR, "mapbiomas")
-DEST    <- "C:/Users/sdari/Desktop/ENM-BGEN/extensiones/chile/resultados"
+if (Sys.getenv("ENM_REPO_DIR") == "") stop("Definí ENM_REPO_DIR (ver README, sección 'Configuración de rutas')")
+DEST    <- file.path(Sys.getenv("ENM_REPO_DIR"), "extensiones/chile/resultados")
 
 # -----------------------------------------------------------------------------
 # 1. Mapa estático: idoneidad climática

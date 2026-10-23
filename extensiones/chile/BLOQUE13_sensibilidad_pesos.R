@@ -14,8 +14,9 @@
 library(dplyr)
 library(readr)
 
+if (Sys.getenv("ENM_CHILE_DIR") == "") stop("Definí ENM_CHILE_DIR (ver README, sección 'Configuración de rutas')")
 ranking <- read_csv(
-  "C:/Users/sdari/Desktop/ENM_jubaea_chile/outputs/mapbiomas/Col2_2024/ranking_palmares.csv",
+  file.path(Sys.getenv("ENM_CHILE_DIR"), "outputs/mapbiomas/Col2_2024/ranking_palmares.csv"),
   show_col_types = FALSE
 )
 
@@ -48,7 +49,7 @@ for (nombre_esq in names(esquemas)) {
 cat("=== Rango de cada palmar bajo distintos esquemas de ponderación ===\n\n")
 print(as.data.frame(resultado), row.names = FALSE)
 
-write_csv(resultado, "C:/Users/sdari/Desktop/ENM_jubaea_chile/outputs/mapbiomas/Col2_2024/sensibilidad_pesos_ranking.csv")
+write_csv(resultado, file.path(Sys.getenv("ENM_CHILE_DIR"), "outputs/mapbiomas/Col2_2024/sensibilidad_pesos_ranking.csv"))
 
 cat("\n=== Top-2 bajo cada esquema ===\n")
 for (nombre_esq in names(esquemas)) {

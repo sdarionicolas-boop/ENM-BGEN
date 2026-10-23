@@ -21,7 +21,8 @@ library(dplyr)
 library(readr)
 library(sf)
 
-BASE_DIR       <- "C:/Users/sdari/Desktop/BGEN/ENM_jacaranda"
+if (Sys.getenv("ENM_ARG_DIR") == "") stop("Definí ENM_ARG_DIR (ver README, sección 'Configuración de rutas')")
+BASE_DIR       <- Sys.getenv("ENM_ARG_DIR")
 VAR_DIR        <- file.path(BASE_DIR, "variables")
 OUT_DIR_OFICIAL <- file.path(BASE_DIR, "outputs")
 OUT_DIR_ROBUST  <- file.path(BASE_DIR, "outputs_robustez")
@@ -132,7 +133,7 @@ correlacion <- cor(comparacion$rango_oficial, comparacion$rango_robustez, method
 cat("\nSolapamiento Top 10 (oficial vs. corregido):", overlap_top10, "de 10\n")
 cat("Correlación de Spearman entre ambos rankings:", round(correlacion, 3), "\n")
 
-write_csv(comparacion, file.path("C:/Users/sdari/Desktop/BGEN/ENM_jacaranda/outputs_robustez",
+write_csv(comparacion, file.path(BASE_DIR, "outputs_robustez",
                                   "ipc_sensibilidad_comparacion.csv"))
 
 cat("\nBLOQUE ROBUSTEZ E completado.\n")

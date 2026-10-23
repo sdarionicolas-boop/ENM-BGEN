@@ -18,12 +18,14 @@ library(terra)
 library(readr)
 library(dplyr)
 
-BASE_DIR   <- "C:/Users/sdari/Desktop/BGEN/ENM_jacaranda"
+if (Sys.getenv("ENM_ARG_DIR") == "") stop("Definí ENM_ARG_DIR (ver README, sección 'Configuración de rutas')")
+BASE_DIR   <- Sys.getenv("ENM_ARG_DIR")
 DATA_DIR   <- file.path(BASE_DIR, "data")
 ROBUST_DIR <- file.path(DATA_DIR, "robustez")
 VAR_DIR    <- file.path(BASE_DIR, "variables")
 OUT_DIR    <- file.path(BASE_DIR, "outputs_robustez")
-MODELS_DIR <- "C:/Users/sdari/Documents"
+if (Sys.getenv("ENM_MODELS_DIR") == "") stop("Definí ENM_MODELS_DIR (ver README, sección 'Configuración de rutas')")
+MODELS_DIR <- Sys.getenv("ENM_MODELS_DIR")
 
 dir.create(OUT_DIR, showWarnings = FALSE, recursive = TRUE)
 

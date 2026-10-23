@@ -33,7 +33,7 @@
 #     Ver BLOQUE 0 para lista de paquetes
 #
 #   Uso:
-#     1. Editá BASE_DIR en el BLOQUE 0 con tu ruta local
+#     1. Definí ENM_ARG_DIR y ENM_MODELS_DIR (ver .Renviron.example y el README)
 #     2. Colocá el CSV de presencias en BASE_DIR/data/
 #     3. Corré el script bloque por bloque
 #
@@ -69,11 +69,13 @@ library(leaflet.extras)
 library(htmlwidgets)
 
 # -----------------------------------------------------------------------------
-# Rutas  ←  EDITÁ SOLO ESTA SECCIÓN
+# Rutas  ←  se leen de variables de entorno (ver .Renviron.example)
 # -----------------------------------------------------------------------------
 
-BASE_DIR  <- "C:/Users/sdari/Desktop/ENM_jacaranda"   # raíz del proyecto
-MODELS_DIR <- "C:/Users/sdari/Documents"               # donde biomod2 guarda modelos
+if (Sys.getenv("ENM_ARG_DIR") == "") stop("Definí ENM_ARG_DIR (ver README, sección 'Configuración de rutas')")
+BASE_DIR  <- Sys.getenv("ENM_ARG_DIR")   # raíz del proyecto
+if (Sys.getenv("ENM_MODELS_DIR") == "") stop("Definí ENM_MODELS_DIR (ver README, sección 'Configuración de rutas')")
+MODELS_DIR <- Sys.getenv("ENM_MODELS_DIR")               # donde biomod2 guarda modelos
                                                         # (el working dir al modelar)
 
 # Subcarpetas (se crean automáticamente)
@@ -805,11 +807,11 @@ cat("Abrilo en cualquier navegador.\n")
 #       {especie}_idoneidad_prob.tif  – probabilidad continua 0-1
 #       {especie}_idoneidad_clase.tif – categorías 1 a 4
 #
-#   MODELS_DIR (ej: C:/Users/sdari/Documents)
+#   MODELS_DIR (ej: la carpeta definida en ENM_MODELS_DIR)
 #     {Especie.nombre}/               – modelos biomod2 (uno por especie)
 #
 # Para reproducir el análisis:
-#   1. Editá BASE_DIR y MODELS_DIR en BLOQUE 0
+#   1. Definí ENM_ARG_DIR y ENM_MODELS_DIR (ver .Renviron.example)
 #   2. Colocá el CSV de presencias en data/
 #   3. Corré BLOQUE 0, BLOQUE 2, BLOQUE 1 (sección thinning)
 #   4. Corré BLOQUE 3, BLOQUE 4, BLOQUE 5, BLOQUE 6
@@ -818,7 +820,7 @@ cat("Abrilo en cualquier navegador.\n")
 library(terra)
 
 # Cargar raster
-mb <- rast("C:/Users/sdari/Desktop/ENM_jacaranda/variables/argentina_coverage_2024.tif")
+mb <- rast(file.path(BASE_DIR, "variables", "argentina_coverage_2024.tif"))
 
 # Función para analizar raster de forma segura
 analizar_raster <- function(r) {
@@ -889,8 +891,8 @@ library(leaflet)
 library(leaflet.extras)
 library(htmlwidgets)
 
-# Rutas — ajustá BASE_DIR si es necesario
-BASE_DIR  <- "C:/Users/sdari/Desktop/ENM_jacaranda"
+# Rutas — vienen de ENM_ARG_DIR (ver .Renviron.example)
+BASE_DIR  <- Sys.getenv("ENM_ARG_DIR")
 VAR_DIR   <- file.path(BASE_DIR, "variables")
 OUT_DIR   <- file.path(BASE_DIR, "outputs")
 MB_DIR    <- file.path(OUT_DIR, "mapbiomas")

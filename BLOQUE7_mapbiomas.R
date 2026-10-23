@@ -43,8 +43,9 @@ library(leaflet)
 library(leaflet.extras)
 library(htmlwidgets)
 
-# Rutas — ajustá BASE_DIR si es necesario
-BASE_DIR  <- "C:/Users/sdari/Desktop/ENM_jacaranda"
+# Rutas — vienen de ENM_ARG_DIR (ver .Renviron.example)
+if (Sys.getenv("ENM_ARG_DIR") == "") stop("Definí ENM_ARG_DIR (ver README, sección 'Configuración de rutas')")
+BASE_DIR  <- Sys.getenv("ENM_ARG_DIR")
 VAR_DIR   <- file.path(BASE_DIR, "variables")
 OUT_DIR   <- file.path(BASE_DIR, "outputs")
 MB_DIR    <- file.path(OUT_DIR, "mapbiomas")

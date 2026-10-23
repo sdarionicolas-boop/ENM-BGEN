@@ -25,7 +25,8 @@ library(terra)
 library(dplyr)
 library(readr)
 
-BASE_DIR <- "C:/Users/sdari/Desktop/ENM_jubaea_chile"
+if (Sys.getenv("ENM_CHILE_DIR") == "") stop("Definí ENM_CHILE_DIR (ver README, sección 'Configuración de rutas')")
+BASE_DIR <- Sys.getenv("ENM_CHILE_DIR")
 VAR_DIR  <- file.path(BASE_DIR, "variables")
 OUT_DIR  <- file.path(BASE_DIR, "outputs")
 MB_DIR   <- file.path(OUT_DIR, "mapbiomas")

@@ -14,7 +14,8 @@ library(geodata)
 library(dplyr)
 library(readr)
 
-BASE_DIR   <- "C:/Users/sdari/Desktop/BGEN/ENM_jacaranda"
+if (Sys.getenv("ENM_ARG_DIR") == "") stop("Definí ENM_ARG_DIR (ver README, sección 'Configuración de rutas')")
+BASE_DIR   <- Sys.getenv("ENM_ARG_DIR")
 VAR_DIR    <- file.path(BASE_DIR, "variables")
 OUT_DIR    <- file.path(BASE_DIR, "outputs_emmean")
 RANK_DIR   <- file.path(OUT_DIR, "ranking_partidos_emmean")

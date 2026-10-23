@@ -2,7 +2,8 @@ library(terra)
 library(dplyr)
 library(readr)
 
-VAR_DIR <- "C:/Users/sdari/Desktop/ENM_jubaea_chile/variables"
+if (Sys.getenv("ENM_CHILE_DIR") == "") stop("Definí ENM_CHILE_DIR (ver README, sección 'Configuración de rutas')")
+VAR_DIR <- file.path(Sys.getenv("ENM_CHILE_DIR"), "variables")
 FIRE_DIR <- file.path(VAR_DIR, "fire_annual")
 dir.create(FIRE_DIR, showWarnings = FALSE, recursive = TRUE)
 
@@ -39,4 +40,4 @@ cat(sprintf("\nMedia 2018-2024: %.1f km2/anio\n", media_2018_2024))
 cat(sprintf("2025:            %.1f km2\n", df$km2_quemados_AOI[df$anio == 2025]))
 cat(sprintf("Ratio 2025/media histórica: %.2f\n", df$km2_quemados_AOI[df$anio == 2025] / media_2018_2024))
 
-write_csv(df, "C:/Users/sdari/Desktop/ENM_jubaea_chile/outputs/mapbiomas/Col2_2024/verificacion_fuego_anual.csv")
+write_csv(df, file.path(Sys.getenv("ENM_CHILE_DIR"), "outputs/mapbiomas/Col2_2024/verificacion_fuego_anual.csv"))

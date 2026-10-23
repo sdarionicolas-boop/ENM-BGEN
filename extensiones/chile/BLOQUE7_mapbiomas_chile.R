@@ -80,7 +80,8 @@ library(leaflet)
 library(leaflet.extras)
 library(htmlwidgets)
 
-BASE_DIR <- "C:/Users/sdari/Desktop/ENM_jubaea_chile"
+if (Sys.getenv("ENM_CHILE_DIR") == "") stop("Definí ENM_CHILE_DIR (ver README, sección 'Configuración de rutas')")
+BASE_DIR <- Sys.getenv("ENM_CHILE_DIR")
 VAR_DIR  <- file.path(BASE_DIR, "variables")
 OUT_DIR  <- file.path(BASE_DIR, "outputs")
 MB_DIR   <- file.path(OUT_DIR, "mapbiomas")
@@ -266,7 +267,7 @@ procesar_coleccion <- function(nombre_col, archivo_col, titulo_mapa_col) {
     addScaleBar(position = "bottomleft") %>%
     addMiniMap(toggleDisplay = TRUE)
 
-  Sys.setenv(RSTUDIO_PANDOC = "C:/Users/sdari/AppData/Local/Programs/Quarto/bin/tools")
+  if (Sys.getenv("ENM_PANDOC_DIR") != "") Sys.setenv(RSTUDIO_PANDOC = Sys.getenv("ENM_PANDOC_DIR"))
   ruta_html_cruce <- file.path(MB_COL_DIR, "mapa_interactivo_cruce_chile.html")
   htmlwidgets::saveWidget(m_cruce, file = ruta_html_cruce, selfcontained = TRUE)
   cat("\nMapa de cruce guardado en:", ruta_html_cruce, "\n")

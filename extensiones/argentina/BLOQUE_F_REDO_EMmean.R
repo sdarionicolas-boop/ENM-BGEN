@@ -24,8 +24,10 @@ library(readr)
 library(terra)
 library(biomod2)
 
-BASE_DIR       <- "C:/Users/sdari/Desktop/BGEN/ENM_jacaranda"
-MODELS_DIR     <- "C:/Users/sdari/Documents"
+if (Sys.getenv("ENM_ARG_DIR") == "") stop("Definí ENM_ARG_DIR (ver README, sección 'Configuración de rutas')")
+BASE_DIR       <- Sys.getenv("ENM_ARG_DIR")
+if (Sys.getenv("ENM_MODELS_DIR") == "") stop("Definí ENM_MODELS_DIR (ver README, sección 'Configuración de rutas')")
+MODELS_DIR     <- Sys.getenv("ENM_MODELS_DIR")
 VAR_DIR        <- file.path(BASE_DIR, "variables")
 OUT_DIR_EMMEAN <- file.path(BASE_DIR, "outputs_emmean")
 dir.create(OUT_DIR_EMMEAN, showWarnings = FALSE, recursive = TRUE)

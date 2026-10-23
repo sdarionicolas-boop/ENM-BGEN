@@ -1,0 +1,21 @@
+# Copiá estas líneas a tu archivo ~/.Renviron (en R: usethis::edit_r_environ())
+# y reemplazá las rutas por las de tu máquina. Reiniciá R después de guardar.
+# Usá barras "/" también en Windows.
+
+# Proyecto Argentina / BGEN (carpeta con data/, variables/, outputs/)
+ENM_ARG_DIR=C:/ruta/a/tu/proyecto/argentina
+
+# Proyecto Chile (Jubaea chilensis)
+ENM_CHILE_DIR=C:/ruta/a/tu/proyecto/chile
+
+# Proyecto Perú (Mauritia flexuosa)
+ENM_PERU_DIR=C:/ruta/a/tu/proyecto/peru
+
+# Carpeta donde biomod2 guarda los modelos (el working dir al modelar)
+ENM_MODELS_DIR=C:/ruta/donde/biomod2/guarda/modelos
+
+# Raíz de este repositorio clonado (solo la usan los scripts que escriben dentro de extensiones/)
+ENM_REPO_DIR=C:/ruta/a/tu/clon/ENM-BGEN
+
+# Opcional: carpeta de pandoc (p. ej. la que viene con Quarto) para guardar los mapas HTML autocontenidos
+# ENM_PANDOC_DIR=C:/ruta/a/quarto/bin/tools

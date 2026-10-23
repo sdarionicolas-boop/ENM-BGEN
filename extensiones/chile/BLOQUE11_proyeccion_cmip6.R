@@ -21,10 +21,12 @@ library(biomod2)
 library(dplyr)
 library(readr)
 
-BASE_DIR   <- "C:/Users/sdari/Desktop/ENM_jubaea_chile"
+if (Sys.getenv("ENM_CHILE_DIR") == "") stop("Definí ENM_CHILE_DIR (ver README, sección 'Configuración de rutas')")
+BASE_DIR   <- Sys.getenv("ENM_CHILE_DIR")
 VAR_DIR    <- file.path(BASE_DIR, "variables")
 OUT_DIR    <- file.path(BASE_DIR, "outputs")
-MODELS_DIR <- "C:/Users/sdari/Documents"
+if (Sys.getenv("ENM_MODELS_DIR") == "") stop("Definí ENM_MODELS_DIR (ver README, sección 'Configuración de rutas')")
+MODELS_DIR <- Sys.getenv("ENM_MODELS_DIR")
 
 # -----------------------------------------------------------------------------
 # 1. Construir el stack ambiental futuro (mismas 7 variables, misma AOI)

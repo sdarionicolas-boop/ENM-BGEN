@@ -29,11 +29,13 @@ library(biomod2)
 library(dplyr)
 library(readr)
 
-BASE_DIR   <- "C:/Users/sdari/Desktop/ENM_jubaea_chile"
+if (Sys.getenv("ENM_CHILE_DIR") == "") stop("Definí ENM_CHILE_DIR (ver README, sección 'Configuración de rutas')")
+BASE_DIR   <- Sys.getenv("ENM_CHILE_DIR")
 VAR_DIR    <- file.path(BASE_DIR, "variables")
 OUT_DIR    <- file.path(BASE_DIR, "outputs")
 CMIP6_DIR  <- file.path(VAR_DIR, "cmip6_multi")
-MODELS_DIR <- "C:/Users/sdari/Documents"
+if (Sys.getenv("ENM_MODELS_DIR") == "") stop("Definí ENM_MODELS_DIR (ver README, sección 'Configuración de rutas')")
+MODELS_DIR <- Sys.getenv("ENM_MODELS_DIR")
 
 dir.create(CMIP6_DIR, showWarnings = FALSE, recursive = TRUE)
 
@@ -233,7 +235,8 @@ p <- ggplot(tabla_plot, aes(x = reorder(GCM_lab, cambio_pct), y = cambio_pct)) +
   theme_minimal(base_size = 12) +
   theme(plot.subtitle = element_text(size = 10))
 
-ggsave("C:/Users/sdari/Desktop/ENM-BGEN/extensiones/chile/resultados/cambio_idoneidad_2050_multiGCM.png",
+if (Sys.getenv("ENM_REPO_DIR") == "") stop("Definí ENM_REPO_DIR (ver README, sección 'Configuración de rutas')")
+ggsave(file.path(Sys.getenv("ENM_REPO_DIR"), "extensiones/chile/resultados/cambio_idoneidad_2050_multiGCM.png"),
        p, width = 9, height = 4.5, dpi = 150)
 cat("\nGrafico guardado en resultados/cambio_idoneidad_2050_multiGCM.png\n")
 
