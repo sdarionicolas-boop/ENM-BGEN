@@ -11,7 +11,7 @@ Beca BIEI 2025 | Proyecto ARG/19/G24 (GEF/PNUD) | Red ARGENA
 
 **El giro.** Un banco de germoplasma necesita saber adónde ir a colectar semillas ahora, y una base fenológica propia necesita años de monitoreo. De común acuerdo con la dirección, la beca sumó datos históricos abiertos (GBIF, iNaturalist) y pasó al modelado de nicho ecológico: 19 especies nativas, un cruce con MapBiomas para saber cuánto hábitat sigue en pie y un índice para ordenar los 128 partidos bonaerenses según su prioridad de colecta. De esa pregunta práctica nació este pipeline (marzo de 2026). Se presentó en la UNAJ (Mes de la Ciencia), en un congreso internacional (UNASAM, mayo de 2026) y se postuló al Premio MapBiomas Argentina. El visor público está en [enm-bgen.lovable.app](https://enm-bgen.lovable.app).
 
-**Agosto de 2026.** La beca terminó, con sus objetivos cumplidos. El trabajo no. Siguió por cuenta propia: el pipeline se aplicó a *Mauritia flexuosa* en Perú y a *Jubaea chilensis* en Chile, y esa tercera aplicación obligó a preguntarse qué tan sólido era lo hecho. El informe de la beca daba por controlada la autocorrelación espacial con el thinning por píxel; las pruebas de Chile mostraron que no alcanzaba. Esas pruebas volvieron a Argentina, cambiaron el ensemble del pipeline y los resultados se recalcularon. Además, este pipeline es la base del Trabajo Final de Grado.
+**Agosto de 2026.** La beca terminó, con sus objetivos cumplidos. El trabajo no. Siguió por cuenta propia: el pipeline se aplicó a *Mauritia flexuosa* en Perú (en coautoría con Martín E. Cano, sumando una proyección climática y un módulo de potencial de cosecha para 382 comunidades nativas con visor web) y a *Jubaea chilensis* en Chile, y esa tercera aplicación obligó a preguntarse qué tan sólido era lo hecho. El informe de la beca daba por controlada la autocorrelación espacial con el thinning por píxel; las pruebas de Chile mostraron que no alcanzaba. Esas pruebas volvieron a Argentina, cambiaron el ensemble del pipeline y los resultados se recalcularon. Además, este pipeline es la base del Trabajo Final de Grado.
 
 Lo que sigue es ese recorrido entero, con sus errores a la vista. El mapa del camino, las lecciones y el **estado de cada resultado** están en [`LABORATORIO.md`](./LABORATORIO.md).
 
@@ -64,7 +64,6 @@ ENM-BGEN/
 
 Las carpetas de trabajo (no versionadas, se generan al correr el pipeline) son `data/` (presencias), `variables/` (capas ambientales) y `outputs/` (rasters y mapas), más los modelos de biomod2. Contienen archivos pesados (varios GB), por eso están en `.gitignore`: en el repo se versionan los scripts, los resultados tabulares y las pruebas de robustez.
 
-> **Pendiente conocido:** `mapa_interactivo_ENM.html` (BLOQUE 6) no se regeneró tras el cambio de ensemble a EMmean; los números del ranking Ipc y el visor de prioridades de partidos (BLOQUE 8) sí están al día.
 
 ---
 
