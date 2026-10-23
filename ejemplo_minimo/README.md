@@ -24,13 +24,13 @@ Rscript ejemplo_una_especie.R
 
 ## Qué deberías ver
 
-La validación aleatoria cambia un poco de una corrida a otra (reparte los registros al azar); la de bloques es determinista. Los números exactos también dependen de la versión de los paquetes, pero el patrón es siempre el mismo. En dos corridas de referencia:
+La validación aleatoria **cambia bastante de una corrida a otra** (reparte los 61 registros al azar y biomod2 no respeta la semilla en ese paso); la de bloques es determinista. En 5 corridas seguidas el TSS medio fue:
 
 | | Validación aleatoria | Validación por bloques |
 |---|---:|---:|
-| TSS medio de validación (5 algoritmos) | 0,63 – 0,65 | 0,403 |
+| TSS medio de validación (5 algoritmos) | 0,45 – 0,65 (0,63 · 0,65 · 0,45 · 0,57 · 0,60) | 0,403 en las 5 |
 
-Y Random Forest muestra calibración 1,000 en ambos esquemas: la firma de sobreajuste que motivó reemplazar el ensemble ponderado por TSS (`EMwmeanByTSS`) por `EMmean` en el pipeline.
+La validación por bloques fue menor que la aleatoria en las 5 corridas, pero el tamaño de la brecha depende del azar de cada partición: con tan pocos registros, la propia estimación aleatoria es ruidosa. El AUCroc cae menos que el TSS (por bloques ≈ 0,78–0,82). Random Forest muestra calibración 1,000 en ambos esquemas: la firma de sobreajuste que motivó reemplazar el ensemble ponderado por TSS (`EMwmeanByTSS`) por `EMmean` en el pipeline.
 
 Salidas, en `salida/` (ignorada por git): `metricas_random_vs_block.csv`, `celtis_tala_idoneidad_prob.tif`, `celtis_tala_idoneidad_clase.tif` y `celtis_tala_idoneidad.png`.
 

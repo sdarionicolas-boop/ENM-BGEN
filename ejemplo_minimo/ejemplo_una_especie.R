@@ -106,7 +106,7 @@ for (est in c("random", "block")) {
   cat("\n=== Validación cruzada:", est, "===\n")
   resultados[[est]] <- modelar(est)
   metricas[[est]] <- get_evaluations(resultados[[est]]) %>%
-    filter(metric.eval %in% c("TSS", "ROC")) %>%
+    filter(metric.eval %in% c("TSS", "ROC", "AUCroc")) %>%
     mutate(metric.eval = ifelse(metric.eval == "ROC", "AUCroc", metric.eval)) %>%
     group_by(algo, metric.eval) %>%
     summarise(calibracion = round(mean(calibration, na.rm = TRUE), 3),
