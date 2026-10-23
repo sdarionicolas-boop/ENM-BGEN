@@ -1,129 +1,129 @@
 partido,provincia,idoneidad_media_bgen,idoneidad_max_bgen,area_alta_total_km2,riqueza_especies_aptas,indice_prioridad,rango_prioridad
-Quilmes,Buenos Aires,0.8884,0.934,1823.05,19,0.9219,1
-Vicente López,Buenos Aires,0.8823,0.932,698.82,19,0.9176,2
-San Isidro,Buenos Aires,0.8817,0.935,1008.33,19,0.9172,3
-General San Martín,Buenos Aires,0.88,0.931,1088.13,19,0.916,4
-San Fernando (2),Buenos Aires,0.8716,0.928,497.61,19,0.9101,5
-Tres de Febrero,Buenos Aires,0.8697,0.921,832.39,19,0.9088,6
-Lomas de Zamora,Buenos Aires,0.869,0.922,1675.23,19,0.9083,7
-Lanús,Buenos Aires,0.8682,0.919,911.81,19,0.9077,8
-Avellaneda,Buenos Aires,0.8652,0.928,1140.19,19,0.9056,9
-Berazategui,Buenos Aires,0.8618,0.934,4252.85,19,0.9033,10
-Morón,Buenos Aires,0.858,0.923,2482.92,19,0.9006,11
-Almirante Brown,Buenos Aires,0.8565,0.924,2419.74,19,0.8996,12
-General Sarmiento,Buenos Aires,0.8462,0.928,3861.99,19,0.8923,13
-Ensenada,Buenos Aires,0.8452,0.921,2074.47,19,0.8916,14
-Tigre,Buenos Aires,0.8443,0.932,7635.51,19,0.891,15
-Florencio Varela,Buenos Aires,0.8419,0.925,3865.86,19,0.8893,16
-Berisso,Buenos Aires,0.825,0.92,2852.88,19,0.8775,17
-La Plata,Buenos Aires,0.8242,0.927,16442.56,19,0.8769,18
-San Fernando (1),Buenos Aires,0.8152,0.917,19034.13,19,0.8706,19
-Escobar,Buenos Aires,0.8136,0.912,5512.15,19,0.8695,20
-Moreno,Buenos Aires,0.8027,0.91,3421.7,19,0.8619,21
-La Matanza,Buenos Aires,0.8025,0.918,5846.36,19,0.8618,22
-Merlo,Buenos Aires,0.7935,0.905,3097.35,19,0.8554,23
-Esteban Echeverría,Buenos Aires,0.7876,0.913,7219.6,19,0.8513,24
-Pilar,Buenos Aires,0.7712,0.907,6768.89,19,0.8398,25
-Campana,Buenos Aires,0.7582,0.898,17404.67,19,0.8307,26
-San Vicente,Buenos Aires,0.7451,0.883,12648.26,19,0.8216,27
-Brandsen,Buenos Aires,0.7444,0.91,18868.76,19,0.8211,28
-Magdalena,Buenos Aires,0.6936,0.915,51265.26,19,0.7855,29
-Zárate,Buenos Aires,0.677,0.89,17818.34,19,0.7739,30
-Marcos Paz,Buenos Aires,0.6607,0.87,5805.09,19,0.7625,31
-General Rodríguez,Buenos Aires,0.6504,0.871,4909.19,19,0.7553,32
-Exaltación de la Cruz,Buenos Aires,0.6357,0.871,8203.15,19,0.745,33
-Cañuelas,Buenos Aires,0.6309,0.857,13740.71,19,0.7416,34
-Pinamar,Buenos Aires,0.6028,0.886,917.22,19,0.722,35
-Chascomús,Buenos Aires,0.5995,0.916,42104.64,19,0.7196,36
-General Paz,Buenos Aires,0.598,0.871,12732.57,19,0.7186,37
-Baradero,Buenos Aires,0.5923,0.871,15348.35,19,0.7146,38
-Luján,Buenos Aires,0.59,0.854,7719.28,19,0.713,39
-San Pedro,Buenos Aires,0.5575,0.877,12226.57,19,0.6902,40
-General Las Heras,Buenos Aires,0.5514,0.85,6426.82,19,0.686,41
-Ramallo,Buenos Aires,0.5453,0.881,9403.13,19,0.6817,42
-Monte,Buenos Aires,0.5227,0.87,15171.7,19,0.6659,43
-San Antonio de Areco,Buenos Aires,0.5225,0.803,5425.66,19,0.6658,44
-San Nicolás,Buenos Aires,0.5128,0.867,4948.99,19,0.659,45
-Castelli,Buenos Aires,0.5113,0.876,15122.3,19,0.6579,46
-Nueve de Julio,Buenos Aires,0.4865,0.864,23918.51,19,0.6406,47
-Villa Gesell,Buenos Aires,0.4814,0.863,1424.16,19,0.637,48
-Bragado,Buenos Aires,0.472,0.848,12418.27,19,0.6304,49
-General Viamonte,Buenos Aires,0.4776,0.851,12657.87,18,0.6185,50
-Arrecifes,Buenos Aires,0.4721,0.789,6370.68,18,0.6147,51
-Capitán Sarmiento,Buenos Aires,0.457,0.754,1954.12,18,0.6041,52
-Carlos Casares,Buenos Aires,0.446,0.86,12646.62,18,0.5964,53
-Pergamino,Buenos Aires,0.4642,0.82,18683.12,17,0.5934,54
-Lobos,Buenos Aires,0.4638,0.856,9128.47,17,0.5931,55
-Junín,Buenos Aires,0.4636,0.885,14034.3,17,0.5929,56
-Dolores,Buenos Aires,0.4371,0.851,8689.79,18,0.5902,57
-San Andrés de Giles,Buenos Aires,0.4596,0.796,4260.01,17,0.5901,58
-General Juan Madariaga,Buenos Aires,0.4197,0.885,7725.03,18,0.578,59
-Pila,Buenos Aires,0.4413,0.87,17136.51,17,0.5773,60
-Tordillo,Buenos Aires,0.3899,0.833,3136.06,19,0.5729,61
-Navarro,Buenos Aires,0.4166,0.814,4681.88,17,0.56,62
-Mercedes,Buenos Aires,0.4141,0.793,2571.91,17,0.5583,63
-Carmen de Areco,Buenos Aires,0.4134,0.802,2168.38,17,0.5578,64
-General Belgrano,Buenos Aires,0.4358,0.855,9218.99,16,0.5577,65
-Colón,Buenos Aires,0.4314,0.825,5705.34,16,0.5546,66
-Salto,Buenos Aires,0.4292,0.798,5970.12,16,0.5531,67
-Alberti,Buenos Aires,0.3997,0.837,3459.04,17,0.5482,68
-Lincoln,Buenos Aires,0.4177,0.84,28766.37,16,0.545,69
-Veinticinco de Mayo,Buenos Aires,0.4164,0.851,18500.45,16,0.5441,70
-General Arenales,Buenos Aires,0.4242,0.867,8460.87,15,0.5338,71
-General Pinto,Buenos Aires,0.3976,0.862,12026.82,16,0.531,72
-Chivilcoy,Buenos Aires,0.3721,0.817,3604.62,17,0.5289,73
-Suipacha,Buenos Aires,0.3636,0.783,1227.43,17,0.5229,74
-Chacabuco,Buenos Aires,0.385,0.807,6622.22,16,0.5221,75
-Leandro N. Alem,Buenos Aires,0.4066,0.83,8225.69,15,0.5215,76
-General Alvear,Buenos Aires,0.3982,0.827,11915.38,15,0.5156,77
-La Costa,Buenos Aires,0.3966,0.837,2558.36,15,0.5145,78
-Rojas,Buenos Aires,0.416,0.812,9952.4,14,0.5123,79
-Tapalqué,Buenos Aires,0.3712,0.827,10576.13,15,0.4967,80
-Maipú,Buenos Aires,0.3704,0.838,4575.21,15,0.4961,81
-Roque Pérez,Buenos Aires,0.3684,0.841,3923.37,15,0.4947,82
-Ameghino,Buenos Aires,0.3642,0.813,6928.72,15,0.4918,83
-General Pueyrredón,Buenos Aires,0.3534,0.886,5483.36,15,0.4842,84
-Saladillo,Buenos Aires,0.3754,0.834,7722.98,14,0.4838,85
-General Guido,Buenos Aires,0.3742,0.844,6332.97,14,0.483,86
-Las Flores,Buenos Aires,0.3722,0.818,9293.07,14,0.4816,87
-Bolívar,Buenos Aires,0.3673,0.839,15071.15,14,0.4782,88
-General Lavalle,Buenos Aires,0.3523,0.868,7019.11,14,0.4677,89
-Rauch,Buenos Aires,0.3486,0.816,9377.49,14,0.4651,90
-Lobería,Buenos Aires,0.3091,0.866,7675.32,15,0.4532,91
-Mar Chiquita,Buenos Aires,0.3283,0.849,7646.95,14,0.4509,92
-Necochea,Buenos Aires,0.3231,0.86,10026.67,14,0.4472,93
-General Alvarado,Buenos Aires,0.316,0.844,3104.4,14,0.4423,94
-Olavarría,Buenos Aires,0.3351,0.881,14838.41,12,0.424,95
-Azul,Buenos Aires,0.3103,0.872,10141.91,13,0.4225,96
-Carlos Tejedor,Buenos Aires,0.3283,0.819,12086.6,11,0.4035,97
-San Cayetano,Buenos Aires,0.2833,0.844,5391.01,12,0.3878,98
-General Villegas,Buenos Aires,0.3037,0.855,14193.03,11,0.3863,99
-Ayacucho,Buenos Aires,0.2917,0.815,9736.19,11,0.3779,100
-Laprida,Buenos Aires,0.2848,0.845,3511.01,11,0.373,101
-Pehuajó,Buenos Aires,0.3016,0.821,11325.62,10,0.369,102
-Adolfo Gonzales Chaves,Buenos Aires,0.2688,0.854,3803.95,11,0.3618,103
-Hipólito Yrigoyen,Buenos Aires,0.2742,0.807,3038.33,10,0.3498,104
-General La Madrid,Buenos Aires,0.2468,0.828,4987.44,11,0.3464,105
-Rivadavia,Buenos Aires,0.2602,0.824,7642.43,10,0.34,106
-Tandil,Buenos Aires,0.2574,0.888,4990.9,10,0.3381,107
-Balcarce,Buenos Aires,0.2508,0.866,4488.13,10,0.3335,108
-Benito Juárez,Buenos Aires,0.2501,0.874,5444.99,10,0.333,109
-Coronel Pringles,Buenos Aires,0.2474,0.89,6243.53,10,0.3311,110
-Tres Arroyos,Buenos Aires,0.2433,0.862,8069.36,10,0.3282,111
-Coronel de Marina Leonardo Rosal,Buenos Aires,0.2358,0.845,3130.84,10,0.323,112
-Daireaux,Buenos Aires,0.2262,0.86,4371.07,9,0.3004,113
-Coronel Dorrego,Buenos Aires,0.2231,0.853,7173.32,9,0.2983,114
-Trenque Lauquen,Buenos Aires,0.2217,0.87,7105.95,9,0.2973,115
-Bahía Blanca,Buenos Aires,0.2128,0.851,3435.94,8,0.2753,116
-Monte Hermoso,Buenos Aires,0.1838,0.834,787.59,7,0.2392,117
-Coronel Suárez,Buenos Aires,0.1949,0.894,6248.42,6,0.2312,118
-Tornquist,Buenos Aires,0.1903,0.892,5100.12,6,0.2279,119
-Guaminí,Buenos Aires,0.1734,0.876,4589.17,5,0.2003,120
-Saavedra,Buenos Aires,0.1551,0.894,3504.76,4,0.1717,121
-Tres Lomas,Buenos Aires,0.1273,0.759,494.9,4,0.1523,122
-Pellegrini,Buenos Aires,0.1247,0.686,4.86,4,0.1504,123
-Adolfo Alsina,Buenos Aires,0.1195,0.833,1995.19,3,0.131,124
-Puán,Buenos Aires,0.1185,0.81,2426.12,2,0.1145,125
-Salliqueló,Buenos Aires,0.0997,0.722,56.47,2,0.1014,126
-Villarino,Buenos Aires,0.0886,0.843,14341.19,2,0.0936,127
-Patagones,Buenos Aires,0.0775,0.771,12652.8,2,0.0858,128
+Quilmes,Buenos Aires,0.8892,0.933,1823.05,19,0.9224,1
+Vicente López,Buenos Aires,0.8831,0.932,698.82,19,0.9182,2
+San Isidro,Buenos Aires,0.8825,0.934,1008.33,19,0.9177,3
+General San Martín,Buenos Aires,0.8806,0.93,1088.13,19,0.9164,4
+San Fernando (2),Buenos Aires,0.8722,0.926,497.61,19,0.9105,5
+Tres de Febrero,Buenos Aires,0.8704,0.92,832.39,19,0.9093,6
+Lomas de Zamora,Buenos Aires,0.8699,0.921,1675.23,19,0.9089,7
+Lanús,Buenos Aires,0.8689,0.919,911.81,19,0.9082,8
+Avellaneda,Buenos Aires,0.8659,0.927,1140.19,19,0.9061,9
+Berazategui,Buenos Aires,0.8626,0.934,4252.85,19,0.9038,10
+Morón,Buenos Aires,0.8589,0.922,2481.5,19,0.9012,11
+Almirante Brown,Buenos Aires,0.8575,0.923,2419.74,19,0.9002,12
+General Sarmiento,Buenos Aires,0.8471,0.927,3862.7,19,0.893,13
+Ensenada,Buenos Aires,0.846,0.919,2074.47,19,0.8922,14
+Tigre,Buenos Aires,0.845,0.93,7635.51,19,0.8915,15
+Florencio Varela,Buenos Aires,0.8427,0.925,3865.86,19,0.8899,16
+Berisso,Buenos Aires,0.8257,0.919,2852.18,19,0.878,17
+La Plata,Buenos Aires,0.8248,0.926,16452.4,19,0.8774,18
+San Fernando (1),Buenos Aires,0.8153,0.916,19049.06,19,0.8707,19
+Escobar,Buenos Aires,0.8141,0.911,5514.28,19,0.8699,20
+Moreno,Buenos Aires,0.803,0.908,3427.34,19,0.8621,21
+La Matanza,Buenos Aires,0.8025,0.918,5842.12,19,0.8618,22
+Merlo,Buenos Aires,0.7937,0.903,3092.41,19,0.8556,23
+Esteban Echeverría,Buenos Aires,0.7877,0.914,7202.72,19,0.8514,24
+Pilar,Buenos Aires,0.7715,0.905,6768.89,19,0.84,25
+Campana,Buenos Aires,0.7581,0.897,17418.86,19,0.8307,26
+San Vicente,Buenos Aires,0.7451,0.882,12637.71,19,0.8216,27
+Brandsen,Buenos Aires,0.7442,0.908,18865.28,19,0.8209,28
+Magdalena,Buenos Aires,0.6928,0.912,51125.91,19,0.785,29
+Zárate,Buenos Aires,0.6765,0.89,17761.34,19,0.7736,30
+Marcos Paz,Buenos Aires,0.6601,0.87,5777.58,19,0.7621,31
+General Rodríguez,Buenos Aires,0.6499,0.871,4892.95,19,0.7549,32
+Exaltación de la Cruz,Buenos Aires,0.6351,0.871,8186.12,19,0.7446,33
+Cañuelas,Buenos Aires,0.6301,0.856,13670.51,19,0.7411,34
+Pinamar,Buenos Aires,0.6019,0.885,919.28,19,0.7213,35
+Chascomús,Buenos Aires,0.5982,0.914,41938.68,19,0.7187,36
+General Paz,Buenos Aires,0.5967,0.871,12667.52,19,0.7177,37
+Baradero,Buenos Aires,0.5914,0.872,15267.19,19,0.714,38
+Luján,Buenos Aires,0.5893,0.854,7696.65,19,0.7125,39
+San Pedro,Buenos Aires,0.5561,0.876,12126.72,19,0.6893,40
+General Las Heras,Buenos Aires,0.5504,0.85,6390.23,19,0.6853,41
+Ramallo,Buenos Aires,0.544,0.88,9299.4,19,0.6808,42
+San Antonio de Areco,Buenos Aires,0.5217,0.802,5393.02,19,0.6652,43
+Monte,Buenos Aires,0.5212,0.87,15106.02,19,0.6648,44
+San Nicolás,Buenos Aires,0.5115,0.865,4875.23,19,0.658,45
+Castelli,Buenos Aires,0.51,0.875,15013.25,19,0.657,46
+Villa Gesell,Buenos Aires,0.4806,0.862,1426.22,19,0.6364,47
+Bragado,Buenos Aires,0.4707,0.848,12355.73,19,0.6295,48
+Nueve de Julio,Buenos Aires,0.485,0.863,23886.99,18,0.6237,49
+General Viamonte,Buenos Aires,0.4764,0.849,12632.57,18,0.6177,50
+Arrecifes,Buenos Aires,0.4708,0.787,6286.7,18,0.6138,51
+Capitán Sarmiento,Buenos Aires,0.4557,0.752,1938.47,18,0.6032,52
+Carlos Casares,Buenos Aires,0.4448,0.859,12659.86,18,0.5956,53
+Pergamino,Buenos Aires,0.4633,0.82,18513.31,17,0.5927,54
+Junín,Buenos Aires,0.4625,0.884,14003.89,17,0.5922,55
+Lobos,Buenos Aires,0.4624,0.856,9077.29,17,0.5921,56
+Dolores,Buenos Aires,0.4363,0.85,8606.23,18,0.5896,57
+San Andrés de Giles,Buenos Aires,0.4585,0.795,4217.53,17,0.5894,58
+General Juan Madariaga,Buenos Aires,0.4186,0.885,7597.72,18,0.5772,59
+Pila,Buenos Aires,0.4397,0.87,16741.28,17,0.5762,60
+Navarro,Buenos Aires,0.4153,0.813,4605.29,17,0.5591,61
+Mercedes,Buenos Aires,0.413,0.792,2563.4,17,0.5575,62
+Carmen de Areco,Buenos Aires,0.4121,0.801,2166.96,17,0.5569,63
+General Belgrano,Buenos Aires,0.4343,0.855,8983.86,16,0.5566,64
+Tordillo,Buenos Aires,0.3889,0.831,3078.65,18,0.5564,65
+Colón,Buenos Aires,0.4306,0.823,5701.06,16,0.5541,66
+Salto,Buenos Aires,0.4282,0.796,5923.98,16,0.5524,67
+Alberti,Buenos Aires,0.3987,0.836,3450.6,17,0.5475,68
+Lincoln,Buenos Aires,0.4169,0.838,28819.72,16,0.5445,69
+Veinticinco de Mayo,Buenos Aires,0.4151,0.85,18490.62,16,0.5432,70
+Leandro N. Alem,Buenos Aires,0.4058,0.828,8232.04,16,0.5367,71
+General Arenales,Buenos Aires,0.4232,0.866,8443.11,15,0.5331,72
+La Costa,Buenos Aires,0.3971,0.834,2554.26,16,0.5306,73
+General Pinto,Buenos Aires,0.397,0.86,12076.22,16,0.5305,74
+Chivilcoy,Buenos Aires,0.371,0.816,3621.52,17,0.5281,75
+Suipacha,Buenos Aires,0.3623,0.781,1236.6,17,0.522,76
+Chacabuco,Buenos Aires,0.3841,0.805,6618.69,16,0.5215,77
+General Alvear,Buenos Aires,0.3968,0.826,11870.23,15,0.5146,78
+Rojas,Buenos Aires,0.4151,0.809,9926.15,14,0.5116,79
+Tapalqué,Buenos Aires,0.3697,0.826,10529.02,15,0.4956,80
+Maipú,Buenos Aires,0.3692,0.837,4424.15,15,0.4953,81
+Roque Pérez,Buenos Aires,0.367,0.84,3876.51,15,0.49370000000000003,82
+General Pueyrredón,Buenos Aires,0.3525,0.885,5387.94,15,0.4836,83
+Saladillo,Buenos Aires,0.3741,0.832,7671.38,14,0.4829,84
+General Guido,Buenos Aires,0.3731,0.844,6205.91,14,0.4822,85
+Las Flores,Buenos Aires,0.371,0.817,9094.21,14,0.4808,86
+Bolívar,Buenos Aires,0.3663,0.838,15060.19,14,0.4775,87
+Ameghino,Buenos Aires,0.364,0.811,6992.81,14,0.4759,88
+General Lavalle,Buenos Aires,0.3522,0.867,7003.28,14,0.4676,89
+Rauch,Buenos Aires,0.3473,0.815,9347.11,14,0.4642,90
+Lobería,Buenos Aires,0.3081,0.865,7567.94,15,0.4525,91
+Mar Chiquita,Buenos Aires,0.3273,0.848,7552.19,14,0.4502,92
+Necochea,Buenos Aires,0.322,0.859,9952.63,14,0.4465,93
+General Alvarado,Buenos Aires,0.3148,0.843,2920.76,14,0.4414,94
+Olavarría,Buenos Aires,0.3339,0.88,14742.23,12,0.4232,95
+Azul,Buenos Aires,0.3092,0.87,10110.98,13,0.4217,96
+Carlos Tejedor,Buenos Aires,0.328,0.818,12217.58,11,0.4033,97
+San Cayetano,Buenos Aires,0.2821,0.843,5361.39,12,0.3869,98
+Ayacucho,Buenos Aires,0.2907,0.814,9699.34,11,0.3772,99
+Laprida,Buenos Aires,0.2841,0.844,3513.06,11,0.3726,100
+General Villegas,Buenos Aires,0.3036,0.854,14295.2,10,0.3704,101
+Pehuajó,Buenos Aires,0.3013,0.82,11329.85,10,0.3688,102
+Adolfo Gonzales Chaves,Buenos Aires,0.2679,0.853,3802.6,11,0.3612,103
+Hipólito Yrigoyen,Buenos Aires,0.2737,0.805,3035.56,10,0.3495,104
+General La Madrid,Buenos Aires,0.2462,0.827,4966.9,11,0.346,105
+Rivadavia,Buenos Aires,0.2601,0.824,7660,10,0.34,106
+Tandil,Buenos Aires,0.2569,0.887,4991.6,10,0.3377,107
+Balcarce,Buenos Aires,0.2502,0.865,4473.86,10,0.333,108
+Benito Juárez,Buenos Aires,0.2495,0.873,5436.16,10,0.3325,109
+Coronel Pringles,Buenos Aires,0.2468,0.89,6205.68,10,0.3307,110
+Tres Arroyos,Buenos Aires,0.2422,0.862,8056.58,10,0.3274,111
+Coronel de Marina Leonardo Rosal,Buenos Aires,0.2353,0.845,3126.83,10,0.3226,112
+Daireaux,Buenos Aires,0.226,0.86,4304.38,9,0.3003,113
+Coronel Dorrego,Buenos Aires,0.2225,0.852,7163.93,9,0.2979,114
+Trenque Lauquen,Buenos Aires,0.2214,0.869,7100.43,9,0.2971,115
+Bahía Blanca,Buenos Aires,0.2126,0.85,3425.87,8,0.2751,116
+Monte Hermoso,Buenos Aires,0.1835,0.834,787.59,7,0.239,117
+Coronel Suárez,Buenos Aires,0.1946,0.893,6268.25,6,0.231,118
+Tornquist,Buenos Aires,0.1901,0.892,5074.49,6,0.2278,119
+Guaminí,Buenos Aires,0.1733,0.875,4591.23,5,0.2003,120
+Saavedra,Buenos Aires,0.1549,0.894,3500.7,4,0.1716,121
+Tres Lomas,Buenos Aires,0.1273,0.758,495.59,4,0.1523,122
+Pellegrini,Buenos Aires,0.1249,0.684,4.86,4,0.1506,123
+Adolfo Alsina,Buenos Aires,0.1194,0.833,1998.62,3,0.1309,124
+Puán,Buenos Aires,0.1184,0.809,2411.95,2,0.1145,125
+Salliqueló,Buenos Aires,0.0998,0.721,55.78,2,0.1014,126
+Villarino,Buenos Aires,0.0888,0.843,14333.81,2,0.0937,127
+Patagones,Buenos Aires,0.0776,0.77,12648.88,2,0.0859,128

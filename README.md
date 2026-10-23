@@ -30,30 +30,26 @@ El pipeline cubre el flujo completo: desde registros de biodiversidad crudos has
 ## Estructura del repositorio
 ```
 ENM-BGEN/
-├── ENM_BGEN_pipeline.R     ← script maestro (todo el pipeline)
-├── README.md
-├── LICENSE
+├── ENM_BGEN_pipeline.R             ← script maestro (BLOQUES 0-7: presencias → modelos → ensemble → mapas)
+├── BLOQUE7_mapbiomas.R             ← cruce idoneidad × MapBiomas Argentina 2024
+├── BLOQUE8_partidos_bonaerenses.R  ← ranking Ipc de los 128 partidos bonaerenses
+├── Reporte_Tecnico_Ranking_Partidos.md / .pdf   ← reporte técnico del ranking Ipc
+├── API_GBIF1.ipynb                 ← descarga de registros de presencia desde GBIF
+├── convert_to_pdf.py               ← conversión del reporte técnico a PDF
+├── .Renviron.example               ← variables de entorno con las rutas (ver "Configuración de rutas")
+├── README.md · LICENSE
 │
-├── data/                   ← datos de presencia (no incluidos en el repo)
-│   ├── registros_unificados_geocod.csv   ← archivo de entrada
-│   ├── presencias_limpias.csv            ← generado por BLOQUE 1
-│   └── presencias_thin.csv               ← generado por BLOQUE 1
+├── extensiones/                    ← el mismo pipeline aplicado y puesto a prueba en otros contextos
+│   ├── argentina/                  ← pruebas de robustez (BLOQUE_ROBUSTEZ_A-E) y corrección EMmean (BLOQUE_F-H)
+│   ├── chile/                      ← Jubaea chilensis: MapBiomas Chile + WDPA + fuego + CMIP6 (BLOQUE7-15)
+│   └── peru/                       ← Mauritia flexuosa: MapBiomas Perú
 │
-├── variables/              ← variables ambientales (generadas por BLOQUE 2)
-│   ├── bio_AOI.tif
-│   ├── topo_AOI.tif
-│   ├── env_stack.tif
-│   └── env_stack_vif5.tif
-│
-└── outputs/                ← resultados (generados por BLOQUES 4-6)
-    ├── metricas_todas_especies.csv
-    ├── mapa_interactivo_ENM.html
-    └── {especie}/
-        ├── {especie}_idoneidad_prob.tif
-        └── {especie}_idoneidad_clase.tif
+└── outputs/ranking_partidos/       ← único resultado versionado: ranking Ipc (CSV) con ensemble EMmean
 ```
 
-> **Nota:** Las carpetas `data/`, `variables/` y `outputs/` están en `.gitignore` porque contienen archivos pesados (rasters de varios GB). Solo se versiona el script.
+Las carpetas de trabajo (no versionadas, se generan al correr el pipeline) son `data/` (presencias), `variables/` (capas ambientales) y `outputs/` (rasters y mapas), más los modelos de biomod2. Contienen archivos pesados (varios GB), por eso están en `.gitignore`: en el repo se versionan los scripts, los resultados tabulares y las pruebas de robustez.
+
+> **Pendiente conocido:** `mapa_interactivo_ENM.html` (BLOQUE 6) no se regeneró tras el cambio de ensemble a EMmean; los números del ranking Ipc y el visor de prioridades de partidos (BLOQUE 8) sí están al día.
 
 ---
 
@@ -120,13 +116,20 @@ git clone https://github.com/sdarionicolas-boop/ENM-BGEN.git
 cd ENM-BGEN
 ```
 
-### 2. Configurar rutas
+### 2. Configuración de rutas
 
-Editá las primeras líneas del BLOQUE 0 en `ENM_BGEN_pipeline.R`:
-```r
-BASE_DIR   <- "ruta/a/tu/carpeta/proyecto"
-MODELS_DIR <- "ruta/donde/biomd2/guardara/modelos"
-```
+Los scripts no tienen rutas fijas: leen las carpetas desde variables de entorno, así que no hace falta editar el código. Copiá el contenido de [`.Renviron.example`](./.Renviron.example) a tu `~/.Renviron` (en R: `usethis::edit_r_environ()`), reemplazá las rutas por las tuyas y reiniciá R:
+
+| Variable | Qué es | La usan |
+|---|---|---|
+| `ENM_ARG_DIR` | carpeta del proyecto Argentina/BGEN (con `data/`, `variables/`, `outputs/`) | pipeline, BLOQUE7/8, `extensiones/argentina/` |
+| `ENM_CHILE_DIR` | carpeta del proyecto Chile | `extensiones/chile/` |
+| `ENM_PERU_DIR` | carpeta del proyecto Perú | `extensiones/peru/` |
+| `ENM_MODELS_DIR` | carpeta donde biomod2 guarda los modelos (el *working directory* al modelar) | scripts que cargan modelos |
+| `ENM_REPO_DIR` | raíz de tu clon de este repo | scripts que escriben dentro de `extensiones/` |
+| `ENM_PANDOC_DIR` | (opcional) carpeta de pandoc, p. ej. la de Quarto | mapas HTML autocontenidos de Chile |
+
+Si falta una variable, el script se detiene al inicio con un mensaje que dice cuál definir.
 
 ### 3. Colocar el archivo de presencias
 
