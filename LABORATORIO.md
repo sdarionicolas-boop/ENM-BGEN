@@ -20,7 +20,7 @@ Para recorrerlo en orden: [`ejemplo_minimo/`](./ejemplo_minimo/) (un minuto, una
 3. **Una corrección puede importar poco, y eso también es un resultado.** Cambiar a `EMmean` movió el área de alta idoneidad una mediana de −0,71 % y no cambió ni un puesto del Top 15 del Ipc.
 4. **Una validación "externa" puede ser circular.** En Chile, el 72,6 % de los registros de entrenamiento caía dentro de los polígonos usados para "validar", así que se reformuló como control de consistencia, no como validación independiente.
 5. **Un solo modelo climático engaña.** Con uno, el hábitat de alta idoneidad de *Jubaea chilensis* caía 46,2 % a 2050; con seis, la mediana es −0,2 % (rango −46,2 % a +17,0 %). El hallazgo pasó a ser la incertidumbre.
-6. **Cambiar de colección de MapBiomas no es conversión real.** El 95,3 % del aumento aparente de hábitat perdido entre las Colecciones 1 y 2 de Chile es reclasificación de una clase.
+6. **Cambiar de colección de MapBiomas no es conversión real.** El 95,3 % del aumento aparente de hábitat perdido entre las Colecciones 1 y 2 de Chile es reclasificación de una clase. En Perú, dos productos de cobertura (Amazonia Colección 6.0 y Perú Colección 3) dan 3.095 y 811 km² de hábitat perdido para la misma especie.
 7. **Con pocos registros, hasta la estimación aleatoria es ruidosa.** En el ejemplo mínimo, el TSS aleatorio fue de 0,45 a 0,65 según la corrida; el de bloques, 0,403 siempre.
 
 ## Estado de cada resultado

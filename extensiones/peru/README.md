@@ -22,10 +22,21 @@ Es la primera expansión del pipeline fuera de Argentina, y la más amplia en al
 ## Qué hay en este repositorio
 
 - [`BLOQUE7_mapbiomas_peru.R`](./BLOQUE7_mapbiomas_peru.R): cruce de idoneidad × MapBiomas Perú 2024 (Compatible / Restaurable / Incompatible).
-- [`resultados/`](./resultados/): visor HTML del cruce, resúmenes de superficie por categoría y capturas de la cartografía.
-- [`Memoria_Tecnica_Premio_MapBiomas.md`](./Memoria_Tecnica_Premio_MapBiomas.md): una **versión preliminar** de una sola autoría. La versión postulada (v4b, con coautoría y los resultados de arriba) no está en el repositorio.
+- [`resultados/`](./resultados/): visor HTML del cruce, resúmenes de superficie por categoría y el detalle del módulo de cosecha. **Los resúmenes corresponden a MapBiomas Perú 2024 (Colección 3), el producto que usa el trabajo.**
+- [`Premio_MapBiomas_Peru_v4b.pdf`](./Premio_MapBiomas_Peru_v4b.pdf): **el trabajo postulado** (versión v4b, 8 páginas, coautoría con M. E. Cano).
 
 Los modelos y rasters de idoneidad (actual y futuro) existen en el proyecto local pero no se versionan por su peso. El código del módulo de cosecha por comunidad y el del visor web **no están en este repositorio**. El procedimiento está descrito en el trabajo: zonas inundables aptas (elevación < 300 m, pendiente < 5° y buffer de 1 km de ríos principales) intersectadas con el territorio de cada comunidad, y la fórmula `potencial (t/año) = área inundable (ha) × 0,13 t/ha × idoneidad media (0-1) × factor de accesibilidad`, con la accesibilidad por rangos de distancia a la red vial nacional (< 5, 5-10, 10-20, 20-50 y > 50 km; el trabajo no detalla los valores numéricos de cada rango). Los datos del visor (`mapa_data.js`, 13 de mayo de 2026) permiten verificar los resultados: **reproducen exactamente 382 comunidades con potencial positivo y 4.090 t/año (4.089,8)**, encabezadas por Matsés (172 t/año) y Puerto Elvira (135 t/año); el detalle por comunidad está en [`resultados/potencial_cosecha_comunidades.csv`](./resultados/potencial_cosecha_comunidades.csv). La verificación también mostró tres diferencias con los textos: (1) el tercer puesto del trabajo ("Santa María de Fátima", 98 t/año) no figura en esos datos, donde el tercero es Fray Pedro – Río Yavarí (123 t/año); (2) un borrador del trabajo menciona 94 comunidades con más de 10 t/año y 22 con más de 50 t/año, mientras que los datos dan 121 y 7; (3) 71 de los 2.002 registros de origen son duplicados exactos (23 con potencial positivo, unas 190 t/año contadas dos veces): sin ellos quedan 359 comunidades y ~3.900 t/año. El script que generó estos datos sigue sin estar disponible. El coeficiente de 0,13 t/ha se atribuye en el trabajo a "literatura y datos de campo de la región Loreto" sin citas; un informe técnico de mayo de 2026 para Pachamama / CCPP lo ubica en Pacaya Samiria.
+
+## Sensibilidad al producto de cobertura
+
+El script cruza la idoneidad con dos productos de MapBiomas. Para la alta idoneidad climática de *Mauritia flexuosa* los resultados difieren bastante:
+
+| Producto de cobertura | Compatible | Restaurable | Incompatible (perdido) |
+|---|---:|---:|---:|
+| MapBiomas Perú 2024, Colección 3 (el del trabajo) | 178.949 km² | 9.286 km² | 811 km² |
+| MapBiomas Amazonia 2023, Colección 6.0 | 179.496 km² | 6.349 km² | 3.095 km² |
+
+El hábitat perdido es unas 3,8 veces mayor con el producto de la Amazonia. Son productos distintos (regional frente a nacional, y años distintos), así que la diferencia no es solo conversión real: es la misma lección que en Chile con las colecciones de MapBiomas. El trabajo reporta únicamente la primera fila.
 
 ## Limitaciones conocidas (a la luz de las pruebas del laboratorio)
 

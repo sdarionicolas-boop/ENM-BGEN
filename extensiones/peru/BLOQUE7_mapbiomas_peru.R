@@ -1,14 +1,16 @@
 # =============================================================================
 #
-#   BLOQUE 7 (Perú): Cruce con MapBiomas Perú 2024 (Colección 3)
+#   BLOQUE 7 (Perú): Cruce con MapBiomas — Perú 2024 (Colección 3) y Amazonia 2023 (Colección 6.0)
 #   Idoneidad climática × Uso del suelo — Mauritia flexuosa (Aguaje)
 #
 #   Autor:    Darío Nicolás Sánchez Leguizamón
 #   Proyecto: Beca BIEI 2025 – BGEN/UNAJ | Premio MapBiomas Perú 2026
 #   Versión:  2.0.0  |  Mayo 2026
 #
-#   Adaptación del BLOQUE7_mapbiomas.R (versión Argentina) a la leyenda
-#   de MapBiomas Perú / Amazonia Colección 6.0.
+#   Adaptación del BLOQUE7_mapbiomas.R (versión Argentina) a las leyendas
+#   de MapBiomas Perú y Amazonia. Se aplica la misma reclasificación a los dos
+#   productos y se generan resultados por separado (outputs/mapbiomas/Peru_2024
+#   y outputs/mapbiomas/Amazonia_2023). El trabajo postulado usa Perú 2024.
 #
 #   CORRECCIÓN v2.0: Reemplazada leyenda de MapBiomas Argentina Col.2
 #   por leyenda de MapBiomas Amazonia Col.6.0 (códigos distintos).
@@ -21,10 +23,12 @@
 #
 #   Fuentes:
 #   - Rasters de idoneidad: ENM_BGEN_pipeline.R (BLOQUES 3-4)
+#   - MapBiomas Perú, año 2024 (Colección 3, 30m, EPSG:4326)
+#     Fuente: peru.mapbiomas.org
 #   - MapBiomas Amazonia Colección 6.0, año 2023 (30m, EPSG:4326)
 #     Fuente: amazon.mapbiomas.org
 #
-#   Clasificación de uso del suelo (Amazonia Col. 6.0):
+#   Clasificación de uso del suelo (códigos de MapBiomas Perú / Amazonia):
 #   Compatible   (3,4,6,11,12,13,68) – vegetación natural (bosque, humedal, pastizal)
 #   Restaurable  (9,15,21,35)        – silvicultura, pasturas, mosaico agropecuario
 #   Incompatible (18,24,25,30)       – cultivos, urbano, no vegetado, minería
