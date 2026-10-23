@@ -112,8 +112,11 @@ rcl_mb <- rbind(
   cbind(cod_excluido,     NA)
 )
 
-# Formato requerido por classify(): matriz de 3 columnas (from, to, becomes)
-rcl_mb_matrix <- cbind(rcl_mb[, 1], rcl_mb[, 1], rcl_mb[, 2])
+# Matriz de 2 columnas (valor exacto -> categoría). Antes se usaba una de 3
+# columnas con from == to, que en versiones recientes de terra (verificado en
+# 1.9.27) se interpreta como un intervalo vacío y deja todo el raster en NA
+# sin dar error.
+rcl_mb_matrix <- rcl_mb
 
 mb_cat <- classify(mb_raw, rcl_mb_matrix, others = NA)
 names(mb_cat) <- "uso_suelo"
