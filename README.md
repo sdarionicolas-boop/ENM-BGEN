@@ -208,11 +208,17 @@ La arquitectura modular permite escalar el pipeline a nuevos países reutilizand
 
 ---
 
-## Referencia
+## Cómo citar
 
-Si usás este pipeline en tu trabajo, podés citar:
+Si usás este pipeline en tu trabajo, podés citar el software:
 
-> Sánchez Leguizamón, D.N. (2026). *Idoneidad de hábitat potencial para 19 especies de interés para un banco de germoplasma en Argentina: un enfoque de ensemble modeling.* Beca BIEI 2025 – BGEN/UNAJ. Proyecto ARG/19/G24 (GEF/PNUD).
+> Sánchez Leguizamón, Darío Nicolás (2026). *ENM-BGEN: Pipeline de Modelado de Nicho Ecológico para Especies Nativas de Argentina, Perú y Chile* [Software]. Zenodo. https://doi.org/10.5281/zenodo.23149296
+
+Ese DOI representa **todas las versiones** y siempre resuelve a la más reciente. Para citar una versión puntual (por ejemplo v1.1.0, `10.5281/zenodo.23598500`), usá el DOI que figura en la página de ese release en Zenodo. GitHub también arma la cita a partir de [`CITATION.cff`](./CITATION.cff) (botón "Cite this repository").
+
+Trabajo de origen del pipeline:
+
+> Sánchez Leguizamón, Darío Nicolás (2026). *Idoneidad de hábitat potencial para 19 especies de interés para un banco de germoplasma en Argentina: un enfoque de ensemble modeling.* Beca BIEI 2025 – BGEN/UNAJ. Proyecto ARG/19/G24 (GEF/PNUD).
 
 ---
 
